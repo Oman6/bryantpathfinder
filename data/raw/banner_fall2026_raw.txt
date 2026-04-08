@@ -1,0 +1,4854 @@
+Bryant University Fall 2026 Course Catalog
+Term: Fall 2026
+Total Sections: 291
+
+Format: Each section is a block with Subject, Course Number, Title, Section, Credits, CRN, Instructor, Meeting Times, and Seat Info.
+================================================================================
+
+Subject: SOAN
+Course Number: 242
+Title: Principles of Anthropology
+Section: B
+Hours: 3
+CRN: 1425
+Instructor: Dygert, Holly
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 4 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SOAN
+Course Number: 243
+Title: Honors: The Anthropology of Globalization
+Section: HN
+Hours: 3
+CRN: 1427
+Instructor: Perullo, Alex
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 15 of 20 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SOAN
+Course Number: 251
+Title: Principles of Sociology
+Section: A
+Hours: 3
+CRN: 1430
+Instructor: Taylor-Costello, Kristin
+Meeting Days: Monday,Wednesday,Thursday
+Meeting Time: 08:00 AM - 08:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 2 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SOAN
+Course Number: 251
+Title: Principles of Sociology
+Section: C
+Hours: 3
+CRN: 1431
+Instructor: Taylor-Costello, Kristin
+Meeting Days: Monday,Wednesday,Thursday
+Meeting Time: 09:35 AM - 10:25 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 2 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SOAN
+Course Number: 251
+Title: Principles of Sociology
+Section: D
+Hours: 3
+CRN: 1433
+Instructor: Bell, Jocelyn
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 6 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SOAN
+Course Number: 251
+Title: Principles of Sociology
+Section: F
+Hours: 3
+CRN: 1432
+Instructor: TBA
+Meeting Days: Tuesday,Friday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 3 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SOAN
+Course Number: 251
+Title: Principles of Sociology
+Section: I
+Hours: 3
+CRN: 1435
+Instructor: Fontaine, Amanda
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 7 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SOAN
+Course Number: 251
+Title: Principles of Sociology
+Section: L
+Hours: 3
+CRN: 1436
+Instructor: Fontaine, Amanda
+Meeting Days: Monday,Thursday
+Meeting Time: 05:30 PM - 06:45 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 3 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SOAN
+Course Number: 302
+Title: Global Perspectives on Community Development
+Section: A
+Hours: 3
+CRN: 1429
+Instructor: Dygert, Holly
+Meeting Days: Monday,Thursday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 30 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SOAN
+Course Number: 356
+Title: Sociology of Family
+Section: A
+Hours: 3
+CRN: 1437
+Instructor: Taylor-Costello, Kristin
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 25 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SOAN
+Course Number: 360
+Title: Sociology of Sport
+Section: A
+Hours: 3
+CRN: 1838
+Instructor: Langley, Keylantra
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 25 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SOAN
+Course Number: 370
+Title: Crime and Justice
+Section: A
+Hours: 3
+CRN: 1438
+Instructor: Bell, Jocelyn
+Meeting Days: Tuesday
+Meeting Time: 02:20 PM - 05:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 29 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SOAN
+Course Number: 389
+Title: Fieldwork in Local Communities
+Section: A
+Hours: 3
+CRN: 1428
+Instructor: Perullo, Alex
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 19 of 20 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SOAN
+Course Number: 454
+Title: Social Theory: The Study of Isms and Phobias
+Section: A
+Hours: 3
+CRN: 1439
+Instructor: Taylor-Costello, Kristin
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 27 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 203
+Title: Principles of Financial Accounting
+Section: A
+Hours: 3
+CRN: 1212
+Instructor: TBA
+Meeting Days: Tuesday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 23 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 203
+Title: Principles of Financial Accounting
+Section: B
+Hours: 3
+CRN: 1213
+Instructor: Diaz, Carlos
+Meeting Days: Monday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 22 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 203
+Title: Principles of Financial Accounting
+Section: C
+Hours: 3
+CRN: 1214
+Instructor: Hughes, Nia
+Meeting Days: Wednesday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 16 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 203
+Title: Principles of Financial Accounting
+Section: D
+Hours: 3
+CRN: 1215
+Instructor: Leandres, Angelina
+Meeting Days: Tuesday,Friday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 20 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 203
+Title: Principles of Financial Accounting
+Section: E
+Hours: 3
+CRN: 1216
+Instructor: Hughes, Nia
+Meeting Days: Tuesday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 203
+Title: Principles of Financial Accounting
+Section: F
+Hours: 3
+CRN: 1217
+Instructor: Terranova, Natalie
+Meeting Days: Monday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 30 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 203
+Title: Principles of Financial Accounting
+Section: G
+Hours: 3
+CRN: 1218
+Instructor: Beausejour, David
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 203
+Title: Principles of Financial Accounting
+Section: H
+Hours: 3
+CRN: 1219
+Instructor: Beausejour, David
+Meeting Days: Monday,Thursday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 22 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 203
+Title: Principles of Financial Accounting
+Section: I
+Hours: 3
+CRN: 1220
+Instructor: Beausejour, David
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 22 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 203
+Title: Principles of Financial Accounting
+Section: J
+Hours: 3
+CRN: 1221
+Instructor: Precourt, Elena
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 21 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 203
+Title: Principles of Financial Accounting
+Section: K
+Hours: 3
+CRN: 1222
+Instructor: Precourt, Elena
+Meeting Days: Monday,Thursday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 25 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 203
+Title: Principles of Financial Accounting
+Section: L
+Hours: 3
+CRN: 1223
+Instructor: Andre, Christina
+Meeting Days: Wednesday
+Meeting Time: 11:10 AM - 01:50 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 26 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 203
+Title: Principles of Financial Accounting
+Section: M
+Hours: 3
+CRN: 1224
+Instructor: Andre, Christina
+Meeting Days: Thursday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 30 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 204
+Title: Principles of Managerial Accounting
+Section: A
+Hours: 3
+CRN: 1225
+Instructor: Pencek, Anthony
+Meeting Days: Wednesday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 27 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 204
+Title: Principles of Managerial Accounting
+Section: B
+Hours: 3
+CRN: 1226
+Instructor: Kelly, Muni
+Meeting Days: Monday,Thursday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 204
+Title: Principles of Managerial Accounting
+Section: C
+Hours: 3
+CRN: 1227
+Instructor: Kelly, Muni
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 16 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 204
+Title: Principles of Managerial Accounting
+Section: D
+Hours: 3
+CRN: 1228
+Instructor: McNally, Daniel
+Meeting Days: Thursday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 204
+Title: Principles of Managerial Accounting
+Section: E
+Hours: 3
+CRN: 1229
+Instructor: Mier, Jennifer
+Meeting Days: Tuesday,Friday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 26 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 204
+Title: Principles of Managerial Accounting
+Section: F
+Hours: 3
+CRN: 1230
+Instructor: Mier, Jennifer
+Meeting Days: Tuesday,Friday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 28 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 204
+Title: Principles of Managerial Accounting
+Section: G
+Hours: 3
+CRN: 1231
+Instructor: Mier, Jennifer
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 22 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 204
+Title: Principles of Managerial Accounting
+Section: H
+Hours: 3
+CRN: 1232
+Instructor: Asare, Kwadwo
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 20 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 204
+Title: Principles of Managerial Accounting
+Section: I
+Hours: 3
+CRN: 1233
+Instructor: Asare, Kwadwo
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 19 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 204
+Title: Principles of Managerial Accounting
+Section: J
+Hours: 3
+CRN: 1234
+Instructor: Asare, Kwadwo
+Meeting Days: Monday,Thursday
+Meeting Time: 03:55 PM - 05:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 25 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 204
+Title: Principles of Managerial Accounting
+Section: K
+Hours: 3
+CRN: 1235
+Instructor: Martino, Peter
+Meeting Days: Monday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 204
+Title: Principles of Managerial Accounting
+Section: L
+Hours: 3
+CRN: 1236
+Instructor: Gertje, Marie
+Meeting Days: Monday,Thursday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 23 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 301
+Title: Financial Reporting I
+Section: A
+Hours: 3
+CRN: 1237
+Instructor: Upama, Tanzila
+Meeting Days: Tuesday,Friday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 30 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 301
+Title: Financial Reporting I
+Section: B
+Hours: 3
+CRN: 1238
+Instructor: TBA
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 27 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 301
+Title: Financial Reporting I
+Section: C
+Hours: 3
+CRN: 1239
+Instructor: TBA
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 22 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 302
+Title: Financial Reporting II
+Section: A
+Hours: 3
+CRN: 1240
+Instructor: Zheng, Xiaochuan
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 16 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 302
+Title: Financial Reporting II
+Section: B
+Hours: 3
+CRN: 1241
+Instructor: Zheng, Xiaochuan
+Meeting Days: Monday,Thursday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 14 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 311
+Title: Cost Management
+Section: A
+Hours: 3
+CRN: 1242
+Instructor: Ma, Paul
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 25 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 311
+Title: Cost Management
+Section: B
+Hours: 3
+CRN: 1243
+Instructor: Ma, Paul
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 20 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 311
+Title: Cost Management
+Section: C
+Hours: 3
+CRN: 1244
+Instructor: Ma, Paul
+Meeting Days: Tuesday,Friday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 23 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 345
+Title: Accounting Information Systems
+Section: A
+Hours: 3
+CRN: 1245
+Instructor: Upama, Tanzila
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 20 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 345
+Title: Accounting Information Systems
+Section: B
+Hours: 3
+CRN: 1246
+Instructor: Upama, Tanzila
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 17 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 351
+Title: Corporate Taxation
+Section: A
+Hours: 3
+CRN: 1247
+Instructor: Noga, Tracy
+Meeting Days: Wednesday
+Meeting Time: 11:10 AM - 01:50 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 12 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 352
+Title: Individual Taxation
+Section: A
+Hours: 3
+CRN: 1248
+Instructor: Yoon, Sae Young
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 16 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 352
+Title: Individual Taxation
+Section: B
+Hours: 3
+CRN: 1249
+Instructor: Yoon, Sae Young
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 21 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 381
+Title: Information Systems Controls and Audit
+Section: A
+Hours: 3
+CRN: 1250
+Instructor: Mier, Jennifer
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 21 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 442
+Title: Auditing Concepts & Applications
+Section: A
+Hours: 3
+CRN: 1251
+Instructor: Cullinan, Charles
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 26 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 442
+Title: Auditing Concepts & Applications
+Section: B
+Hours: 3
+CRN: 1252
+Instructor: Cullinan, Charles
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 17 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ACG
+Course Number: 461
+Title: Financial Reporting III
+Section: A
+Hours: 3
+CRN: 1253
+Instructor: Precourt, Elena
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 25 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 201
+Title: Financial Management
+Section: A
+Hours: 3
+CRN: 1029
+Instructor: Inci, A. Can
+Meeting Days: Tuesday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 25 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 201
+Title: Financial Management
+Section: B
+Hours: 3
+CRN: 1030
+Instructor: Grigelevich, Ray
+Meeting Days: Thursday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 21 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 201
+Title: Financial Management
+Section: C
+Hours: 3
+CRN: 1031
+Instructor: Patel, Poojan
+Meeting Days: Monday,Thursday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 201
+Title: Financial Management
+Section: D
+Hours: 3
+CRN: 1032
+Instructor: Derderian, Mara
+Meeting Days: Monday,Thursday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 22 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 201
+Title: Financial Management
+Section: E
+Hours: 3
+CRN: 1033
+Instructor: Patel, Poojan
+Meeting Days: Monday,Thursday
+Meeting Time: 03:55 PM - 05:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 22 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 201
+Title: Financial Management
+Section: F
+Hours: 3
+CRN: 1034
+Instructor: TBA
+Meeting Days: Tuesday,Friday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 26 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 201
+Title: Financial Management
+Section: G
+Hours: 3
+CRN: 1035
+Instructor: Kuang, Huan
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 17 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 201
+Title: Financial Management
+Section: H
+Hours: 3
+CRN: 1036
+Instructor: Dowling, Maura
+Meeting Days: Monday,Wednesday,Thursday
+Meeting Time: 11:10 AM - 12:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 28 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 201
+Title: Financial Management
+Section: I
+Hours: 3
+CRN: 1037
+Instructor: Dowling, Maura
+Meeting Days: Monday,Wednesday,Thursday
+Meeting Time: 09:35 AM - 10:25 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 29 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 201
+Title: Financial Management
+Section: K
+Hours: 3
+CRN: 1038
+Instructor: Koplik, Jeffrey
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 20 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 201
+Title: Financial Management
+Section: M
+Hours: 3
+CRN: 1040
+Instructor: Koplik, Jeffrey
+Meeting Days: Tuesday,Friday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 27 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 201
+Title: Financial Management
+Section: N
+Hours: 3
+CRN: 1041
+Instructor: Koplik, Jeffrey
+Meeting Days: Wednesday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 29 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 201
+Title: Financial Management
+Section: O
+Hours: 3
+CRN: 1042
+Instructor: Derderian, Mara
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 21 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 310
+Title: Intermediate Corporate Finance
+Section: A
+Hours: 3
+CRN: 1045
+Instructor: Kumar, Sonal
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 310
+Title: Intermediate Corporate Finance
+Section: B
+Hours: 3
+CRN: 1046
+Instructor: Kumar, Sonal
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 16 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 310
+Title: Intermediate Corporate Finance
+Section: C
+Hours: 3
+CRN: 1047
+Instructor: TBA
+Meeting Days: Monday,Thursday
+Meeting Time: 03:55 PM - 05:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 22 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 312
+Title: Investments
+Section: A
+Hours: 3
+CRN: 1049
+Instructor: Dowling, Maura
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: Bus Entr Leadership Ctr
+Room: 215
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 22 of 25 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 312
+Title: Investments
+Section: B
+Hours: 3
+CRN: 1050
+Instructor: Fellingham, John
+Meeting Days: Monday,Thursday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: Bus Entr Leadership Ctr
+Room: 215
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 13 of 25 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 312
+Title: Investments
+Section: C
+Hours: 3
+CRN: 1051
+Instructor: Ascioglu, Asli
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: Bus Entr Leadership Ctr
+Room: 215
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 17 of 25 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 312
+Title: Investments
+Section: D
+Hours: 3
+CRN: 1052
+Instructor: Ascioglu, Asli
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: Bus Entr Leadership Ctr
+Room: 215
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 17 of 25 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 312
+Title: Investments
+Section: E
+Hours: 3
+CRN: 1053
+Instructor: Dowling, Maura
+Meeting Days: Monday,Thursday
+Meeting Time: 03:55 PM - 05:10 PM
+Building: Bus Entr Leadership Ctr
+Room: 215
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 25 of 25 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 312
+Title: Investments
+Section: F
+Hours: 3
+CRN: 1054
+Instructor: Fellingham, John
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: Bus Entr Leadership Ctr
+Room: 215
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 12 of 25 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 312
+Title: Investments
+Section: G
+Hours: 3
+CRN: 1055
+Instructor: Coutinho, Carlos
+Meeting Days: Tuesday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 23 of 25 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 315
+Title: Financial Institutions and Markets
+Section: A
+Hours: 3
+CRN: 1056
+Instructor: Koplik, Jeffrey
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 21 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 315
+Title: Financial Institutions and Markets
+Section: B
+Hours: 3
+CRN: 1057
+Instructor: Cerutti, Jeffrey
+Meeting Days: Monday,Thursday
+Meeting Time: 03:55 PM - 05:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 20 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 315
+Title: Financial Institutions and Markets
+Section: C
+Hours: 3
+CRN: 1058
+Instructor: Cerutti, Jeffrey
+Meeting Days: Monday,Thursday
+Meeting Time: 05:30 PM - 06:45 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 24 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 315
+Title: Financial Institutions and Markets
+Section: D
+Hours: 3
+CRN: 1059
+Instructor: Nigro, Peter
+Meeting Days: Monday,Thursday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 20 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 315
+Title: Financial Institutions and Markets
+Section: E
+Hours: 3
+CRN: 1060
+Instructor: Goolgasian, Christopher
+Meeting Days: Monday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 23 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 368
+Title: Multinational Finance
+Section: A
+Hours: 3
+CRN: 1061
+Instructor: Ramirez, Andres
+Meeting Days: Wednesday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 27 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 370
+Title: Financial Statement Analysis
+Section: A
+Hours: 3
+CRN: 1062
+Instructor: Zbib, Leila
+Meeting Days: Wednesday
+Meeting Time: 11:10 AM - 01:50 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 25 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 370
+Title: Financial Statement Analysis
+Section: B
+Hours: 3
+CRN: 1063
+Instructor: Zbib, Leila
+Meeting Days: Wednesday
+Meeting Time: 08:00 AM - 10:40 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 22 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 370
+Title: Financial Statement Analysis
+Section: C
+Hours: 3
+CRN: 1064
+Instructor: Cerutti, Jeffrey
+Meeting Days: Monday,Thursday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 16 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 370
+Title: Financial Statement Analysis
+Section: D
+Hours: 3
+CRN: 1065
+Instructor: Fellingham, John
+Meeting Days: Monday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: Bus Entr Leadership Ctr
+Room: 215
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 17 of 25 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 380
+Title: Financial Modeling
+Section: A
+Hours: 3
+CRN: 1068
+Instructor: Ramirez, Andres
+Meeting Days: Wednesday
+Meeting Time: 08:00 AM - 10:40 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 29 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 380
+Title: Financial Modeling
+Section: B
+Hours: 3
+CRN: 1069
+Instructor: Ramirez, Andres
+Meeting Days: Wednesday
+Meeting Time: 11:10 AM - 01:50 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 21 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 381
+Title: Risk Management and Insurance
+Section: A
+Hours: 3
+CRN: 1070
+Instructor: Derderian, Mara
+Meeting Days: Monday,Wednesday,Thursday
+Meeting Time: 09:35 AM - 10:25 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 21 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 384
+Title: Credit Essentials
+Section: A
+Hours: 3
+CRN: 1071
+Instructor: Grigelevich, Ray
+Meeting Days: Tuesday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 22 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 412
+Title: Introduction to Fintech and Digital Innovation
+Section: A
+Hours: 3
+CRN: 1072
+Instructor: Zbib, Leila
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 11 of 25 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 414
+Title: AI Applications in Finance
+Section: A
+Hours: 3
+CRN: 1073
+Instructor: Kuang, Huan
+Meeting Days: Tuesday
+Meeting Time: 02:20 PM - 05:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 10 of 25 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 458
+Title: Debt Securities, Derivatives and Investing
+Section: A
+Hours: 3
+CRN: 1075
+Instructor: Maloney, Kevin
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 20 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 460
+Title: Merger and Acquisition Finance Theory and Practice
+Section: A
+Hours: 3
+CRN: 1076
+Instructor: Kumar, Sonal
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 28 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 465
+Title: Innovations in Contemporary Finance
+Section: A
+Hours: 3
+CRN: 1077
+Instructor: Inci, A. Can
+Meeting Days: Tuesday
+Meeting Time: 02:20 PM - 05:00 PM
+Building: Bus Entr Leadership Ctr
+Room: 215
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 25 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 465
+Title: Innovations in Contemporary Finance
+Section: B
+Hours: 3
+CRN: 1078
+Instructor: Inci, A. Can
+Meeting Days: Wednesday
+Meeting Time: 11:10 AM - 01:50 PM
+Building: Bus Entr Leadership Ctr
+Room: 215
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 19 of 25 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 466
+Title: Data Analysis for Finance
+Section: A
+Hours: 3
+CRN: 1079
+Instructor: Patel, Poojan
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 8 of 25 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: FIN
+Course Number: 475
+Title: Management of Banking Institutions
+Section: A
+Hours: 3
+CRN: 1080
+Instructor: Nigro, Peter
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 23 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 113
+Title: Microeconomic Principles
+Section: A
+Hours: 3
+CRN: 1698
+Instructor: Kim, Jongsung
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 27 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 113
+Title: Microeconomic Principles
+Section: B
+Hours: 3
+CRN: 1699
+Instructor: TBA
+Meeting Days: Monday,Thursday
+Meeting Time: 05:30 PM - 06:45 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 30 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 113
+Title: Microeconomic Principles
+Section: D
+Hours: 3
+CRN: 1701
+Instructor: Mohan, Ramesh
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 28 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 113
+Title: Microeconomic Principles
+Section: E
+Hours: 3
+CRN: 1702
+Instructor: Kim, Jongsung
+Meeting Days: Monday,Thursday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 28 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 113
+Title: Microeconomic Principles
+Section: F
+Hours: 3
+CRN: 1703
+Instructor: TBA
+Meeting Days: Monday,Thursday
+Meeting Time: 03:55 PM - 05:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 27 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 113
+Title: Microeconomic Principles
+Section: G
+Hours: 3
+CRN: 1704
+Instructor: TBA
+Meeting Days: Tuesday,Friday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 30 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 113
+Title: Microeconomic Principles
+Section: I
+Hours: 3
+CRN: 1708
+Instructor: Pan, Xiaofei
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 28 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 113
+Title: Microeconomic Principles
+Section: J
+Hours: 3
+CRN: 1709
+Instructor: Rice, Liam
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 25 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 113
+Title: Microeconomic Principles
+Section: P
+Hours: 3
+CRN: 1713
+Instructor: Pan, Xiaofei
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 28 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 113
+Title: Microeconomic Principles
+Section: Q
+Hours: 3
+CRN: 1714
+Instructor: Rice, Liam
+Meeting Days: Tuesday,Friday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 28 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 113
+Title: Microeconomic Principles
+Section: S
+Hours: 3
+CRN: 1715
+Instructor: Mohan, Ramesh
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 29 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 113
+Title: Microeconomic Principles
+Section: T
+Hours: 3
+CRN: 1716
+Instructor: TBA
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 30 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 113
+Title: Microeconomic Principles
+Section: V
+Hours: 3
+CRN: 1717
+Instructor: TBA
+Meeting Days: Monday,Thursday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 29 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 114
+Title: Macroeconomic Principles
+Section: C
+Hours: 3
+CRN: 1720
+Instructor: Mirmirani, Sam
+Meeting Days: Monday,Thursday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 27 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 114
+Title: Macroeconomic Principles
+Section: D
+Hours: 3
+CRN: 1721
+Instructor: Mirmirani, Sam
+Meeting Days: Monday,Thursday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 26 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 114
+Title: Macroeconomic Principles
+Section: E
+Hours: 3
+CRN: 1722
+Instructor: Mirmirani, Sam
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 25 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 201
+Title: Money and Banking
+Section: A
+Hours: 3
+CRN: 1723
+Instructor: TBA
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 21 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 313
+Title: Intermediate Microeconomics
+Section: A
+Hours: 3
+CRN: 1724
+Instructor: Deng, Mengqi
+Meeting Days: Monday,Thursday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 16 of 25 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 313
+Title: Intermediate Microeconomics
+Section: B
+Hours: 3
+CRN: 1725
+Instructor: Deng, Mengqi
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 15 of 25 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 314
+Title: Intermediate Macroeconomics
+Section: A
+Hours: 3
+CRN: 1726
+Instructor: Berdiev, Aziz
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 17 of 25 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 314
+Title: Intermediate Macroeconomics
+Section: B
+Hours: 3
+CRN: 1727
+Instructor: Berdiev, Aziz
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 16 of 25 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 314
+Title: Intermediate Macroeconomics
+Section: C
+Hours: 3
+CRN: 1728
+Instructor: Berdiev, Aziz
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 17 of 25 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 315
+Title: Econometrics
+Section: A
+Hours: 3
+CRN: 1729
+Instructor: Kim, Jongsung
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 25 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 316
+Title: Strategic Game Theory and Applications
+Section: A
+Hours: 3
+CRN: 1730
+Instructor: Pan, Xiaofei
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 22 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 350
+Title: America and the Free Market
+Section: A
+Hours: 3
+CRN: 1731
+Instructor: Mohan, Ramesh
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 28 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 440
+Title: Machine Learning Applied to Economics
+Section: A
+Hours: 3
+CRN: 1732
+Instructor: Deng, Mengqi
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 27 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 473
+Title: Economics of Health and Medical Care
+Section: A
+Hours: 3
+CRN: 1734
+Instructor: Rice, Liam
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 21 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ECO
+Course Number: 481
+Title: The Fed Challenge
+Section: A
+Hours: 3
+CRN: 1735
+Instructor: Kaminaga, Allison
+Meeting Days: Wednesday
+Meeting Time: 11:10 AM - 01:50 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 20 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 103
+Title: Career Launch
+Section: A
+Hours: 1
+CRN: 1858
+Instructor: Potvin, Nicolle
+Meeting Days: Tuesday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 21 of 25 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 103
+Title: Career Launch
+Section: B
+Hours: 1
+CRN: 1859
+Instructor: Wisnewski, Michael
+Meeting Days: Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 21 of 25 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 106
+Title: Writing Workshop
+Section: A
+Hours: 3
+CRN: 1362
+Instructor: TBA
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 8 of 13 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 106
+Title: Writing Workshop
+Section: B
+Hours: 3
+CRN: 1363
+Instructor: Liao, David
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 12 of 13 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 106
+Title: Writing Workshop
+Section: I
+Hours: 3
+CRN: 1371
+Instructor: Howard, John
+Meeting Days: Monday,Thursday
+Meeting Time: 03:55 PM - 05:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 13 of 13 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 201
+Title: Intercultural Communication
+Section: B
+Hours: 3
+CRN: 1686
+Instructor: Robins, Mary
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 17 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 201
+Title: Intercultural Communication
+Section: C
+Hours: 3
+CRN: 1687
+Instructor: Pearce, Kevin
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 20 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 201
+Title: Intercultural Communication
+Section: D
+Hours: 3
+CRN: 1688
+Instructor: Zammarelli, Thomas
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 201
+Title: Intercultural Communication
+Section: E
+Hours: 3
+CRN: 1689
+Instructor: Gallo, Mary Ann
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 19 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 201
+Title: Intercultural Communication
+Section: F
+Hours: 3
+CRN: 1690
+Instructor: Kanemoto, Emi
+Meeting Days: Tuesday,Friday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 201
+Title: Intercultural Communication
+Section: G
+Hours: 3
+CRN: 1691
+Instructor: Kanemoto, Emi
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 17 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 201
+Title: Intercultural Communication
+Section: H
+Hours: 3
+CRN: 1692
+Instructor: Zdravkovic, Cindy
+Meeting Days: Tuesday,Friday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 17 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 201
+Title: Intercultural Communication
+Section: I
+Hours: 3
+CRN: 1693
+Instructor: Zammarelli, Thomas
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 17 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 201
+Title: Intercultural Communication
+Section: J
+Hours: 3
+CRN: 1694
+Instructor: Williams, Zhongyuan
+Meeting Days: Monday,Thursday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 22 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 201
+Title: Intercultural Communication
+Section: K
+Hours: 3
+CRN: 1695
+Instructor: Williams, Zhongyuan
+Meeting Days: Monday,Thursday
+Meeting Time: 03:55 PM - 05:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 20 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 201
+Title: Intercultural Communication
+Section: L
+Hours: 3
+CRN: 1696
+Instructor: Williams, Zhongyuan
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 19 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 201
+Title: Intercultural Communication
+Section: M
+Hours: 3
+CRN: 1697
+Instructor: Zdravkovic, Cindy
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 17 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 390
+Title: Gen Ed Capstone - Good Health and Well Being
+Section: A
+Hours: 3
+CRN: 1829
+Instructor: O'Leary, Mary-Kate
+Meeting Days: Monday,Thursday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 7 of 20 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 390
+Title: General Education Capstone
+Section: B
+Hours: 3
+CRN: 1634
+Instructor: Horan, Jennifer
+Meeting Days: Wednesday
+Meeting Time: 11:10 AM - 01:50 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 7 of 20 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 390
+Title: Gen Ed Capstone - Creative Engagement
+Section: D
+Hours: 3
+CRN: 1636
+Instructor: Falso-Capaldi, Kristen
+Meeting Days: Monday,Thursday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 9 of 20 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 390
+Title: Gen Ed Capstone - Beyond the Ballot
+Section: E
+Hours: 3
+CRN: 1637
+Instructor: Bell, Jocelyn
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 10 of 20 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 390
+Title: General Education Capstone
+Section: F
+Hours: 3
+CRN: 1638
+Instructor: Dygert, Holly
+Meeting Days: Tuesday
+Meeting Time: 02:20 PM - 05:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 12 of 20 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 390
+Title: General Education Capstone
+Section: G
+Hours: 3
+CRN: 1639
+Instructor: Dygert, Holly
+Meeting Days: Wednesday
+Meeting Time: 11:10 AM - 01:50 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 13 of 20 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 390
+Title: Gen Ed Capstone - Reducing Recidivism
+Section: J
+Hours: 3
+CRN: 1831
+Instructor: Washburn, Ronald
+Meeting Days: Wednesday
+Meeting Time: 08:00 AM - 10:40 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 12 of 20 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 390
+Title: Gen Ed Capstone - Public Art & Community Impact
+Section: K
+Hours: 3
+CRN: 1832
+Instructor: Hardesty, Sarah
+Meeting Days: Wednesday
+Meeting Time: 11:10 AM - 01:50 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 16 of 20 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 390
+Title: Gen Ed Capstone - Renewable Energy
+Section: L
+Hours: 3
+CRN: 1833
+Instructor: Presley, Kenneth
+Meeting Days: Wednesday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 16 of 20 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 390
+Title: Gen Ed Capstone - Fast Fashion
+Section: M
+Hours: 3
+CRN: 1834
+Instructor: Roselli, Paul
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 11 of 20 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: GEN
+Course Number: 390
+Title: Gen Ed Capstone - Aging Health and Wellness
+Section: O
+Hours: 3
+CRN: 1835
+Instructor: Pereira, Michelle
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 16 of 20 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: HIS
+Course Number: 250
+Title: Emergence of Europe (1000-1600)
+Section: B
+Hours: 3
+CRN: 1295
+Instructor: Shinn, Beth
+Meeting Days: Monday,Thursday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 3 of 4 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: HIS
+Course Number: 252
+Title: Europe 1500 to 1815
+Section: A
+Hours: 3
+CRN: 1297
+Instructor: Bobroff, Ron
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 3 of 6 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: HIS
+Course Number: 252
+Title: Europe 1500 to 1815
+Section: B
+Hours: 3
+CRN: 1298
+Instructor: Bobroff, Ron
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 7 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: HIS
+Course Number: 261
+Title: History of the United States to 1877
+Section: A
+Hours: 3
+CRN: 1299
+Instructor: Ward, Monica
+Meeting Days: Tuesday,Friday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 3 of 5 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: HIS
+Course Number: 261
+Title: History of the United States to 1877
+Section: B
+Hours: 3
+CRN: 1300
+Instructor: Ward, Monica
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 3 of 5 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: HIS
+Course Number: 262
+Title: History of the United States Since 1865
+Section: A
+Hours: 3
+CRN: 1301
+Instructor: Daly, Kathleen
+Meeting Days: Monday,Thursday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 3 of 5 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: HIS
+Course Number: 262
+Title: History of the United States Since 1865
+Section: B
+Hours: 3
+CRN: 1302
+Instructor: Daly, Kathleen
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 5 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: HIS
+Course Number: 263
+Title: American Womens History
+Section: A
+Hours: 3
+CRN: 1306
+Instructor: Daly, Kathleen
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 12 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: HIS
+Course Number: 270
+Title: World History to 1500
+Section: A
+Hours: 3
+CRN: 1307
+Instructor: Pearson, Jeremy
+Meeting Days: Monday,Wednesday,Thursday
+Meeting Time: 08:00 AM - 08:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 3 of 4 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: HIS
+Course Number: 270
+Title: World History to 1500
+Section: B
+Hours: 3
+CRN: 1308
+Instructor: Lescault, Meghan
+Meeting Days: Tuesday,Friday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 3 of 4 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: HIS
+Course Number: 271
+Title: World History Since 1500
+Section: A
+Hours: 3
+CRN: 1310
+Instructor: Clinker, Conor
+Meeting Days: Monday,Thursday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 3 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: HIS
+Course Number: 351
+Title: History of Modern Europe 1815 to Present
+Section: A
+Hours: 3
+CRN: 1317
+Instructor: Pearson, Jeremy
+Meeting Days: Monday,Wednesday,Thursday
+Meeting Time: 12:45 PM - 01:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 27 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: HIS
+Course Number: 361
+Title: Gender and World War II
+Section: A
+Hours: 3
+CRN: 1318
+Instructor: Knapp, Bryan
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 28 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: HIS
+Course Number: 367
+Title: History of American Popular Culture
+Section: A
+Hours: 3
+CRN: 1319
+Instructor: Daly, Kathleen
+Meeting Days: Wednesday
+Meeting Time: 11:10 AM - 01:50 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 25 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: HIS
+Course Number: 371
+Title: History of Russia
+Section: A
+Hours: 3
+CRN: 1320
+Instructor: Bobroff, Ron
+Meeting Days: Tuesday,Friday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 27 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: HIS
+Course Number: 451
+Title: The World Since 1945
+Section: A
+Hours: 3
+CRN: 1321
+Instructor: Knapp, Bryan
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 20 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ISA
+Course Number: 201
+Title: Introduction to Information Technology and Analytics
+Section: A
+Hours: 3
+CRN: 1140
+Instructor: Ryan, Riazat
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 14 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ISA
+Course Number: 201
+Title: Introduction to Information Technology and Analytics
+Section: B
+Hours: 3
+CRN: 1141
+Instructor: Prichard, Janet
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 21 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ISA
+Course Number: 201
+Title: Introduction to Information Technology and Analytics
+Section: C
+Hours: 3
+CRN: 1142
+Instructor: Varin, Francis
+Meeting Days: Tuesday,Friday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 19 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ISA
+Course Number: 201
+Title: Introduction to Information Technology and Analytics
+Section: D
+Hours: 3
+CRN: 1143
+Instructor: TBA
+Meeting Days: Thursday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 30 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ISA
+Course Number: 201
+Title: Introduction to Information Technology and Analytics
+Section: E
+Hours: 3
+CRN: 1144
+Instructor: Varin, Francis
+Meeting Days: Tuesday,Friday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: Bus Entr Leadership Ctr
+Room: S243
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 22 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ISA
+Course Number: 201
+Title: Introduction to Information Technology and Analytics
+Section: F
+Hours: 3
+CRN: 1145
+Instructor: Varin, Francis
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: Bus Entr Leadership Ctr
+Room: S243
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 21 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ISA
+Course Number: 201
+Title: Introduction to Information Technology and Analytics
+Section: H
+Hours: 3
+CRN: 1147
+Instructor: Chaudhury, Abhijit
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 24 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ISA
+Course Number: 201
+Title: Introduction to Information Technology and Analytics
+Section: I
+Hours: 3
+CRN: 1148
+Instructor: Sousa, Kenneth
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 22 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: ISA
+Course Number: 201
+Title: Introduction to Information Technology and Analytics
+Section: K
+Hours: 3
+CRN: 1150
+Instructor: Chaudhury, Abhijit
+Meeting Days: Monday,Thursday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: Bus Entr Leadership Ctr
+Room: S243
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 26 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: LGLS
+Course Number: 211
+Title: The Legal Environment of Business
+Section: A
+Hours: 3
+CRN: 1389
+Instructor: Bornstein, Ilisabeth
+Meeting Days: Monday,Wednesday,Thursday
+Meeting Time: 08:00 AM - 08:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 26 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: LGLS
+Course Number: 211
+Title: The Legal Environment of Business
+Section: B
+Hours: 3
+CRN: 1390
+Instructor: Washburn, Ronald
+Meeting Days: Tuesday,Friday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 22 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: LGLS
+Course Number: 211
+Title: The Legal Environment of Business
+Section: C
+Hours: 3
+CRN: 1391
+Instructor: Washburn, Ronald
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 17 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: LGLS
+Course Number: 211
+Title: The Legal Environment of Business
+Section: D
+Hours: 3
+CRN: 1392
+Instructor: TBA
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 21 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: LGLS
+Course Number: 211
+Title: The Legal Environment of Business
+Section: E
+Hours: 3
+CRN: 1393
+Instructor: Boggio, Andrea
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: LGLS
+Course Number: 211
+Title: The Legal Environment of Business
+Section: F
+Hours: 3
+CRN: 1394
+Instructor: TBA
+Meeting Days: Monday,Thursday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 24 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: LGLS
+Course Number: 211
+Title: The Legal Environment of Business
+Section: J
+Hours: 3
+CRN: 1396
+Instructor: TBA
+Meeting Days: Monday,Thursday
+Meeting Time: 03:55 PM - 05:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 29 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: LGLS
+Course Number: 340
+Title: The Legal and Ethical Aspects of Generative AI
+Section: A
+Hours: 3
+CRN: 1408
+Instructor: Washburn, Ronald
+Meeting Days: Tuesday,Friday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 25 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MKT
+Course Number: 201
+Title: Foundations of Marketing Management
+Section: A
+Hours: 3
+CRN: 1093
+Instructor: Bell-Lombardo, Hannah
+Meeting Days: Wednesday
+Meeting Time: 08:00 AM - 10:40 AM
+Building: Bus Entr Leadership Ctr
+Room: S173
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 27 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MKT
+Course Number: 201
+Title: Foundations of Marketing Management
+Section: B
+Hours: 3
+CRN: 1094
+Instructor: Gulidanan, Donna
+Meeting Days: Wednesday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 24 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MKT
+Course Number: 201
+Title: Foundations of Marketing Management
+Section: C
+Hours: 3
+CRN: 1095
+Instructor: Jayaraman, Jay
+Meeting Days: Tuesday,Friday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: Bus Entr Leadership Ctr
+Room: S165
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 26 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MKT
+Course Number: 201
+Title: Foundations of Marketing Management
+Section: D
+Hours: 3
+CRN: 1096
+Instructor: Jayaraman, Jay
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: Bus Entr Leadership Ctr
+Room: S165
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 20 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MKT
+Course Number: 201
+Title: Foundations of Marketing Management
+Section: E
+Hours: 3
+CRN: 1097
+Instructor: Lenz, Michael
+Meeting Days: Wednesday
+Meeting Time: 11:10 AM - 01:50 PM
+Building: Bus Entr Leadership Ctr
+Room: N173
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 21 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MKT
+Course Number: 201
+Title: Foundations of Marketing Management
+Section: H
+Hours: 3
+CRN: 1100
+Instructor: Pasha, Mehreen
+Meeting Days: Monday,Thursday
+Meeting Time: 05:30 PM - 06:45 PM
+Building: Bus Entr Leadership Ctr
+Room: S165
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MKT
+Course Number: 311
+Title: Consumer Behavior
+Section: A
+Hours: 3
+CRN: 1109
+Instructor: Kang, Eun
+Meeting Days: Monday,Thursday
+Meeting Time: 05:30 PM - 06:45 PM
+Building: Bus Entr Leadership Ctr
+Room: N173
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 28 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MKT
+Course Number: 311
+Title: Consumer Behavior
+Section: B
+Hours: 3
+CRN: 1110
+Instructor: Kang, Eun
+Meeting Days: Monday,Thursday
+Meeting Time: 03:55 PM - 05:10 PM
+Building: Bus Entr Leadership Ctr
+Room: N173
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 22 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MKT
+Course Number: 381
+Title: Digital Marketing
+Section: A
+Hours: 3
+CRN: 1124
+Instructor: Attaran, Sharmin
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: Bus Entr Leadership Ctr
+Room: N173
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 13 of 20 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MKT
+Course Number: 381
+Title: Digital Marketing
+Section: B
+Hours: 3
+CRN: 1125
+Instructor: Attaran, Sharmin
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: Bus Entr Leadership Ctr
+Room: N173
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 20 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MGT
+Course Number: 200
+Title: Management Principles and Practice
+Section: A
+Hours: 3
+CRN: 1594
+Instructor: Kim, Gihyun
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MGT
+Course Number: 200
+Title: Management Principles and Practice
+Section: B
+Hours: 3
+CRN: 1595
+Instructor: Kim, Gihyun
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 16 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MGT
+Course Number: 200
+Title: Management Principles and Practice
+Section: D
+Hours: 3
+CRN: 1597
+Instructor: Leduc, Valerie
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 22 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MGT
+Course Number: 200
+Title: Management Principles and Practice
+Section: F
+Hours: 3
+CRN: 1598
+Instructor: Heroux, John
+Meeting Days: Monday,Thursday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MGT
+Course Number: 200
+Title: Management Principles and Practice
+Section: G
+Hours: 3
+CRN: 1600
+Instructor: Leduc, Valerie
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 23 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MGT
+Course Number: 200
+Title: Management Principles and Practice
+Section: H
+Hours: 3
+CRN: 1601
+Instructor: Ostermeier, Kathryn
+Meeting Days: Tuesday,Friday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 20 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MGT
+Course Number: 201
+Title: Operations Management
+Section: A
+Hours: 3
+CRN: 1604
+Instructor: Vincelette, Noah
+Meeting Days: Monday,Thursday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 23 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MGT
+Course Number: 201
+Title: Operations Management
+Section: B
+Hours: 3
+CRN: 1606
+Instructor: Visich, John
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MGT
+Course Number: 201
+Title: Operations Management
+Section: C
+Hours: 3
+CRN: 1607
+Instructor: Vincelette, Noah
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 25 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MGT
+Course Number: 201
+Title: Operations Management
+Section: D
+Hours: 3
+CRN: 1608
+Instructor: Vincelette, Noah
+Meeting Days: Monday,Thursday
+Meeting Time: 03:55 PM - 05:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 21 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MGT
+Course Number: 201
+Title: Operations Management
+Section: E
+Hours: 3
+CRN: 1609
+Instructor: Roethlein, Christopher
+Meeting Days: Tuesday,Friday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 22 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MGT
+Course Number: 201
+Title: Operations Management
+Section: F
+Hours: 3
+CRN: 1610
+Instructor: Ergene, Erim
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 24 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MGT
+Course Number: 201
+Title: Operations Management
+Section: G
+Hours: 3
+CRN: 1611
+Instructor: Ergene, Erim
+Meeting Days: Monday,Thursday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 23 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MGT
+Course Number: 201
+Title: Operations Management
+Section: H
+Hours: 3
+CRN: 1613
+Instructor: Vincelette, Noah
+Meeting Days: Wednesday
+Meeting Time: 11:10 AM - 01:50 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 24 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MGT
+Course Number: 302
+Title: Organizational Behavior
+Section: A
+Hours: 3
+CRN: 1617
+Instructor: Coakley, Lori
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 15 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MGT
+Course Number: 312
+Title: Human Resources Management
+Section: A
+Hours: 3
+CRN: 1619
+Instructor: Heydarifard, Zahra
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 17 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MGT
+Course Number: 312
+Title: Human Resources Management
+Section: B
+Hours: 3
+CRN: 1620
+Instructor: Heydarifard, Zahra
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 17 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MGT
+Course Number: 462
+Title: Project Management I
+Section: A
+Hours: 3
+CRN: 1625
+Instructor: Massoud, Robert
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 16 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MGT
+Course Number: 462
+Title: Project Management I
+Section: B
+Hours: 3
+CRN: 1626
+Instructor: Massoud, Robert
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MATH
+Course Number: 110
+Title: Mathematical Analysis
+Section: A
+Hours: 3
+CRN: 1752
+Instructor: Hughes, Kaitlyn
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 24 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MATH
+Course Number: 110
+Title: Mathematical Analysis
+Section: B
+Hours: 3
+CRN: 1753
+Instructor: Hughes, Kaitlyn
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 27 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MATH
+Course Number: 110
+Title: Mathematical Analysis
+Section: C
+Hours: 3
+CRN: 1754
+Instructor: Hughes, Kaitlyn
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 25 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MATH
+Course Number: 110
+Title: Mathematical Analysis
+Section: D
+Hours: 3
+CRN: 1755
+Instructor: Hughes, Kaitlyn
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 29 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MATH
+Course Number: 110
+Title: Mathematical Analysis
+Section: E
+Hours: 3
+CRN: 1756
+Instructor: Czyrklis, Eileen
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 29 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MATH
+Course Number: 110
+Title: Mathematical Analysis
+Section: F
+Hours: 3
+CRN: 1757
+Instructor: Czyrklis, Eileen
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 30 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MATH
+Course Number: 201
+Title: Statistics I
+Section: J
+Hours: 3
+CRN: 1770
+Instructor: TBA
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 29 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MATH
+Course Number: 201
+Title: Statistics I
+Section: L
+Hours: 3
+CRN: 1772
+Instructor: TBA
+Meeting Days: Tuesday,Friday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 30 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MATH
+Course Number: 201
+Title: Statistics I
+Section: M
+Hours: 3
+CRN: 1773
+Instructor: TBA
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 30 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: MATH
+Course Number: 201
+Title: Statistics I
+Section: N
+Hours: 3
+CRN: 1774
+Instructor: TBA
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 28 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: LCS
+Course Number: 221
+Title: Studies in Fiction
+Section: A
+Hours: 3
+CRN: 1325
+Instructor: Sonder, Ryan
+Meeting Days: Monday,Thursday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 12 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: LCS
+Course Number: 221
+Title: Studies in Fiction
+Section: C
+Hours: 3
+CRN: 1327
+Instructor: TBA
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 11 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: LCS
+Course Number: 223
+Title: Studies in Poetry
+Section: A
+Hours: 3
+CRN: 1330
+Instructor: Dean, Janet
+Meeting Days: Tuesday,Friday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 3 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: LCS
+Course Number: 223
+Title: Studies in Poetry
+Section: B
+Hours: 3
+CRN: 1331
+Instructor: Dean, Janet
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 11 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: LCS
+Course Number: 223
+Title: Studies in Poetry
+Section: C
+Hours: 3
+CRN: 1332
+Instructor: TBA
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 7 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: LCS
+Course Number: 250
+Title: Women Gender and Sexuality Studies
+Section: A
+Hours: 3
+CRN: 1336
+Instructor: Roach, Tom
+Meeting Days: Monday,Thursday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 1 of 5 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: LCS
+Course Number: 250
+Title: Women Gender and Sexuality Studies
+Section: B
+Hours: 3
+CRN: 1337
+Instructor: Roach, Tom
+Meeting Days: Monday,Thursday
+Meeting Time: 03:55 PM - 05:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 4 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: LCS
+Course Number: 251
+Title: Studies in Drama
+Section: A
+Hours: 3
+CRN: 1338
+Instructor: Day, Amber
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 3 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: LCS
+Course Number: 260
+Title: Introduction to Philosophy
+Section: A
+Hours: 3
+CRN: 1340
+Instructor: Horan, Jennifer
+Meeting Days: Monday,Thursday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 1 of 9 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: LCS
+Course Number: 270
+Title: Introduction to Cultural Studies
+Section: A
+Hours: 3
+CRN: 1342
+Instructor: Macon, Danielle
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 12 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: LCS
+Course Number: 270
+Title: Introduction to Cultural Studies
+Section: B
+Hours: 3
+CRN: 1343
+Instructor: Lawrence, Heather
+Meeting Days: Monday,Thursday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 6 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: LCS
+Course Number: 270
+Title: Introduction to Cultural Studies
+Section: C
+Hours: 3
+CRN: 1344
+Instructor: Macon, Danielle
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 14 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: COM
+Course Number: 230
+Title: Introduction to Film Studies
+Section: A
+Hours: 3
+CRN: 1335
+Instructor: Falso-Capaldi, Kristen
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: FULL: 0 of 7 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: COM
+Course Number: 203
+Title: Introduction to Communication
+Section: B
+Hours: 3
+CRN: 1657
+Instructor: Robins, Mary
+Meeting Days: Tuesday,Friday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 6 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: COM
+Course Number: 203
+Title: Introduction to Communication
+Section: C
+Hours: 3
+CRN: 1658
+Instructor: Gallo, Mary Ann
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 1 of 10 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: COM
+Course Number: 260
+Title: Media Literacy
+Section: A
+Hours: 3
+CRN: 1666
+Instructor: Pearce, Kevin
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 5 of 5 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: COM
+Course Number: 272
+Title: Mass Communication
+Section: A
+Hours: 3
+CRN: 1667
+Instructor: Pearce, Kevin
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 9 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: COM
+Course Number: 280
+Title: Introduction to Health Communication
+Section: A
+Hours: 3
+CRN: 1668
+Instructor: Volkman, Julie
+Meeting Days: Tuesday,Friday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 6 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: POLS
+Course Number: 241
+Title: Introduction to International Politics
+Section: A
+Hours: 3
+CRN: 1410
+Instructor: Freiner, Nicole
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 2 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: POLS
+Course Number: 241
+Title: Introduction to International Politics
+Section: B
+Hours: 3
+CRN: 1411
+Instructor: Freiner, Nicole
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 6 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: POLS
+Course Number: 256
+Title: Introduction to US Politics
+Section: A
+Hours: 3
+CRN: 1415
+Instructor: Holtzman, Richard
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 2 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: POLS
+Course Number: 256
+Title: Introduction to US Politics
+Section: B
+Hours: 3
+CRN: 1416
+Instructor: Holtzman, Richard
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 6 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: POLS
+Course Number: 353
+Title: Campaigns Elections and Voting in the US
+Section: A
+Hours: 3
+CRN: 1420
+Instructor: Hightower, Tristan
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 20 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: POLS
+Course Number: 462
+Title: International Security
+Section: A
+Hours: 3
+CRN: 1422
+Instructor: Dietrich, John
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 22 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: PSY
+Course Number: 260
+Title: Introduction to Psychology
+Section: A
+Hours: 3
+CRN: 1527
+Instructor: Lancellotta, Domenic
+Meeting Days: Monday,Thursday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 26 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: PSY
+Course Number: 353
+Title: Psychology of Personality
+Section: A
+Hours: 3
+CRN: 1535
+Instructor: Crowe, Michael
+Meeting Days: Monday
+Meeting Time: 06:30 PM - 09:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 21 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: PSY
+Course Number: 355
+Title: Introduction to Psychopathology
+Section: A
+Hours: 3
+CRN: 1867
+Instructor: TBA
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 27 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: PSY
+Course Number: 372
+Title: Positive Psychology
+Section: A
+Hours: 3
+CRN: 1538
+Instructor: Deluga, Ronald
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 17 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: PSY
+Course Number: 373
+Title: Cognitive Psychology
+Section: A
+Hours: 3
+CRN: 1539
+Instructor: Lacey, Heather Pond
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 15 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: PSY
+Course Number: 402
+Title: Intersection of AI and Human Intelligence
+Section: A
+Hours: 3
+CRN: 1866
+Instructor: Lacey, Heather Pond
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 21 of 25 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: 251
+Title: Biology I Principles of Biology
+Section: A
+Hours: 3
+CRN: 1440
+Instructor: Weicksel, Steven
+Meeting Days: Monday,Thursday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 14 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: 251
+Title: Biology I Principles of Biology
+Section: B
+Hours: 3
+CRN: 1441
+Instructor: TBA
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 6 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: 251
+Title: Biology I Principles of Biology
+Section: E
+Hours: 3
+CRN: 1444
+Instructor: TBA
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 16 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: 251
+Title: Biology I Principles of Biology
+Section: F
+Hours: 3
+CRN: 1445
+Instructor: Weicksel, Steven
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 16 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: 262
+Title: Physical Geology
+Section: A
+Hours: 3
+CRN: 1453
+Instructor: Anwar, Mah-Rukh
+Meeting Days: Monday,Thursday
+Meeting Time: 03:55 PM - 05:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 11 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: 264
+Title: Physics I Introductory Physics
+Section: A
+Hours: 3
+CRN: 1454
+Instructor: Blais, Brian
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 16 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: 265
+Title: Introductory Chemistry I
+Section: A
+Hours: 3
+CRN: 1455
+Instructor: Reid, Christopher
+Meeting Days: Monday,Thursday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 5 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: 265
+Title: Introductory Chemistry I
+Section: B
+Hours: 3
+CRN: 1456
+Instructor: Reid, Christopher
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 11 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: 269
+Title: Climate Change
+Section: A
+Hours: 3
+CRN: 1459
+Instructor: TBA
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 14 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: 269
+Title: Climate Change
+Section: B
+Hours: 3
+CRN: 1460
+Instructor: TBA
+Meeting Days: Tuesday,Friday
+Meeting Time: 09:35 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 14 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: 351
+Title: Ecology
+Section: A
+Hours: 3
+CRN: 1462
+Instructor: Patalano, Robert
+Meeting Days: Wednesday
+Meeting Time: 11:10 AM - 01:50 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 28 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: 352
+Title: Exercise Physiology
+Section: A
+Hours: 3
+CRN: 1463
+Instructor: Fry, Benjamin
+Meeting Days: Tuesday,Friday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 30 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: 352
+Title: Exercise Physiology
+Section: B
+Hours: 3
+CRN: 1464
+Instructor: Fry, Benjamin
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 19 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: 355
+Title: Energy Strategies for a Sustainable World
+Section: A
+Hours: 3
+CRN: 1467
+Instructor: Pietraszek, Alyssa
+Meeting Days: Monday,Thursday
+Meeting Time: 02:20 PM - 03:35 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 28 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: 371
+Title: Human Impact on the Global Environment
+Section: A
+Hours: 3
+CRN: 1473
+Instructor: Patalano, Robert
+Meeting Days: Tuesday,Friday
+Meeting Time: 12:45 PM - 02:00 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 29 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: L251
+Title: Biology I Laboratory
+Section: B
+Hours: 1
+CRN: 1483
+Instructor: TBA
+Meeting Days: Thursday
+Meeting Time: 01:20 PM - 03:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 9 seats remain.
+Schedule Type: Lab
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: L251
+Title: Biology I Laboratory
+Section: C
+Hours: 1
+CRN: 1484
+Instructor: TBA
+Meeting Days: Thursday
+Meeting Time: 09:00 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 9 seats remain.
+Schedule Type: Lab
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: L251
+Title: Biology I Laboratory
+Section: E
+Hours: 1
+CRN: 1486
+Instructor: TBA
+Meeting Days: Wednesday
+Meeting Time: 09:00 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 16 seats remain.
+Schedule Type: Lab
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: L262
+Title: Physical Geology Laboratory
+Section: A
+Hours: 1
+CRN: 1498
+Instructor: Pietraszek, Alyssa
+Meeting Days: Monday
+Meeting Time: 10:55 AM - 12:45 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 1 of 8 seats remain.
+Schedule Type: Lab
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: L264
+Title: Physics I Laboratory
+Section: A
+Hours: 1
+CRN: 1499
+Instructor: Blais, Brian
+Meeting Days: Wednesday
+Meeting Time: 09:00 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 1 of 13 seats remain.
+Schedule Type: Lab
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: L265
+Title: Introductory Chemistry I Laboratory
+Section: A
+Hours: 1
+CRN: 1501
+Instructor: Wishart, Adam
+Meeting Days: Tuesday
+Meeting Time: 09:00 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 10 seats remain.
+Schedule Type: Lab
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: L269
+Title: Climate Change Laboratory
+Section: C
+Hours: 1
+CRN: 1508
+Instructor: Archetto, Glenn
+Meeting Days: Thursday
+Meeting Time: 01:20 PM - 03:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 2 of 9 seats remain.
+Schedule Type: Lab
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: L351
+Title: Ecology Laboratory
+Section: A
+Hours: 1
+CRN: 1509
+Instructor: Archetto, Glenn
+Meeting Days: Wednesday
+Meeting Time: 09:00 AM - 10:50 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 10 of 11 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lab
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: L352
+Title: Exercise Physiology Laboratory
+Section: A
+Hours: 1
+CRN: 1510
+Instructor: Sawyer, Jason
+Meeting Days: Monday
+Meeting Time: 05:30 PM - 07:20 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 12 of 19 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lab
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: L355
+Title: Energy Strategies Lab
+Section: A
+Hours: 1
+CRN: 1511
+Instructor: Roselli, Paul
+Meeting Days: Tuesday
+Meeting Time: 05:55 PM - 07:45 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 18 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lab
+--------------------------------------------------------------------------------
+Subject: SCI
+Course Number: L371
+Title: Human Impact on the Global Environment Lab
+Section: A
+Hours: 1
+CRN: 1518
+Instructor: TBA
+Meeting Days: Monday
+Meeting Time: 05:55 PM - 07:45 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 18 of 18 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lab
+--------------------------------------------------------------------------------
+Subject: BUS
+Course Number: 100
+Title: Introduction to Business
+Section: A
+Hours: 3
+CRN: 1548
+Instructor: Vozella, Mark
+Meeting Days: Monday,Thursday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 30 of 30 seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: BUS
+Course Number: 400
+Title: Business Policy
+Section: A
+Hours: 3
+CRN: 1573
+Instructor: TBA
+Meeting Days: Monday,Thursday
+Meeting Time: 08:00 AM - 09:15 AM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 28 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: BUS
+Course Number: 400
+Title: Business Policy
+Section: B
+Hours: 3
+CRN: 1575
+Instructor: TBA
+Meeting Days: Wednesday
+Meeting Time: 11:10 AM - 01:50 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 21 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: BUS
+Course Number: 400
+Title: Business Policy
+Section: C
+Hours: 3
+CRN: 1576
+Instructor: TBA
+Meeting Days: Monday,Thursday
+Meeting Time: 03:55 PM - 05:10 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 25 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: BUS
+Course Number: 400
+Title: Business Policy
+Section: D
+Hours: 3
+CRN: 1577
+Instructor: Roberto, Michael
+Meeting Days: Tuesday,Friday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 15 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+Subject: BUS
+Course Number: 400
+Title: Business Policy
+Section: E
+Hours: 3
+CRN: 1578
+Instructor: Rustambekov, Elzotbek
+Meeting Days: Monday,Thursday
+Meeting Time: 11:10 AM - 12:25 PM
+Building: None
+Room: None
+Start Date: 08/31/2026
+End Date: 12/18/2026
+Status: 14 of 30 seats remain.
+Waitlist: 10 of 10 waitlist seats remain.
+Schedule Type: Lecture
+--------------------------------------------------------------------------------
+
+END OF CATALOG

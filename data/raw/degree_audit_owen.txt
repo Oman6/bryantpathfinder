@@ -1,0 +1,228 @@
+Degree Evaluation
+Student ID: 001118725
+Name: Ash, Owen Maxwell
+Degree: Bach. of Sci. in Bus. Admin.
+Level: Undergraduate
+Classification: Freshman Semester 2
+Major: Bus. Admin: Finance
+Minor: No Minor declared
+Program: Finance-Undergrad
+College: College of Business
+Advisor: Kristina Anthony
+Holds: None
+Expected Graduation Date: 2029
+Format: WEB31
+Degree progress: 45%
+Requirements: 35%
+Cumulative GPA: 3.78
+Audit date: 03/30/2026 11:18 AM
+
+
+================================================================
+BACHELOR OF SCIENCE IN BUSINESS ADMINISTRATION
+================================================================
+
+Minimum Total Credits Required
+Still needed: You currently have 42 credits including both earned and in-progress courses. To graduate, you need to successfully complete a minimum of 78 additional credits and all graduation requirements.
+
+Last 30 Credits Earned at Bryant University - Requirement is complete
+Minimum 2.0 Overall GPA met - Requirement is complete
+
+General Education Requirements - Not complete
+Still needed: See General Education section
+
+Business Core Requirements - Not complete
+Still needed: See Business Core section
+
+Major Requirements - Not complete
+Still needed: See Finance Concentration section
+
+Courses Included in Finance Concentration Major GPA - Not complete
+Still needed: See Finance Concentration GPA section
+
+Liberal Arts Minor Requirement - Not complete
+Still needed: A Liberal Arts or School of Health MINOR is required
+
+
+================================================================
+GENERAL EDUCATION
+================================================================
+
+Minimum General Education Credits Required
+Still needed: You currently have 30 credits including both earned and in-progress courses. To graduate, you need to successfully complete a minimum of 12 additional credits and all general education requirements.
+
+Student Success at Bryant Univ - Requirement is complete
+  GEN 100 | Student Success at Bryant Univ | Grade: A | Credits: 1 | Fall 2025
+
+Career Launch - When the in-progress classes are completed this requirement should be complete
+  GEN 103 | Career Launch | Grade: REG | Credits: (1) | Spring 2026
+
+Bryant IDEA - Requirement is complete
+  IDEA 101 | Bryant IDEA | Grade: A | Credits: 1 | Spring 2026
+
+Intro Arts & Creative Industr - Requirement is complete
+  ACI 220 | Intro Arts & Creative Industr | Grade: A | Credits: 3 | Fall 2025
+
+Introduction to Business - Requirement is complete
+  BUS 100 | Introduction to Business | Grade: A | Credits: 3 | Fall 2025
+
+Microeconomic Principles - When the in-progress classes are completed this requirement should be complete
+  ECO 113 | Microeconomic Principles | Grade: REG | Credits: (3) | Undergraduate Summer 2026
+
+Macroeconomic Principles - When the in-progress classes are completed this requirement should be complete
+  ECO 114 | Macroeconomic Principles | Grade: REG | Credits: (3) | Spring 2026
+
+Writing Workshop - When the in-progress classes are completed this requirement should be complete
+  GEN 106 | Writing Workshop | Grade: REG | Credits: (3) | Spring 2026
+
+Intercultural Communication - Not complete
+Still needed: 1 Class in GEN 201
+
+History Course - When the in-progress classes are completed this requirement should be complete
+  HIS 262 | History of the US Since 1865 | Grade: REG | Credits: (3) | Spring 2026
+
+Literary and Cultural Studies Course - Not complete
+Still needed: 1 Class in LCS 2@ with attribute = GELI or COM 230
+
+Mathematical Analysis - When the in-progress classes are completed this requirement should be complete
+  MATH 110 | Mathematical Analysis | Grade: REG | Credits: (3) | Spring 2026
+
+Statistics I - Requirement is complete
+  MATH 201 | Statistics I | Grade: A | Credits: 3 | Fall 2025
+
+SCIENCE AND LAB REQUIREMENT - Not complete
+Still needed: Choose from 1 of the following:
+  - Biology I Principles of Biology and Lab: 2 Classes in SCI 251 and L251
+  - Physical Geology and Lab: 2 Classes in SCI 262 and L262
+  - Physics I Introductory Physics and Lab: 2 Classes in SCI 264 and L264
+  - Introductory Chemistry I and Lab: 2 Classes in SCI 265 and L265
+  - Climate Change and Lab: 2 Classes in SCI 269 and L269
+  - Ecology and Lab: 2 Classes in SCI 351 and L351
+  - Exercise Physiology and Lab: 2 Classes in SCI 352 and L352
+  - Energy Strategies Sustainable World and Lab: 2 Classes in SCI 355 and L355
+  - Introduction to Biotechnology and Lab: 2 Classes in SCI 356 and L356
+  - Human Impact on Global Environment and Lab: 2 Classes in SCI 371 and L371
+
+Social Science Requirement - Requirement is complete
+  POLS 241 | Intro. International Politics | Grade: B | Credits: 3 | Fall 2025
+
+General Education Capstone - Not complete
+Still needed: 1 Class in GEN 390
+
+
+================================================================
+BUSINESS CORE
+================================================================
+
+Minimum Business Core Credits Required
+Still needed: You currently have 9 credits including both earned and in-progress courses. To graduate, you need to successfully complete a minimum of 18 additional credits and all business core requirements.
+
+Prin. of Financial Accounting - Not complete
+Still needed: 1 Class in ACG 203
+
+Prin. of Managerial Accounting - Not complete
+Still needed: 1 Class in ACG 204
+
+Business Policy - Not complete
+Still needed: 1 Class in BUS 400
+
+Financial Management - When the in-progress classes are completed this requirement should be complete
+  FIN 201 | Financial Management | Grade: REG | Credits: (3) | Spring 2026
+
+Intro to Information Tech and Analytics - Not complete
+Still needed: 1 Class in ISA 201
+
+The Legal Environment of Business - Not complete
+Still needed: 1 Class in LGLS 211
+
+Management Principles and Practice - When the in-progress classes are completed this requirement should be complete
+  MGT 200 | Management Principles and Practice | Grade: REG | Credits: (3) | Undergraduate Summer 2026
+
+Operations Management - When the in-progress classes are completed this requirement should be complete
+  MGT 201 | Operations Management | Grade: REG | Credits: (3) | Spring 2026
+
+Foundations of Marketing Management - Not complete
+Still needed: 1 Class in MKT 201
+
+
+================================================================
+FINANCE CONCENTRATION
+================================================================
+
+Concentration GPA: 0.00
+
+Minimum Concentration Credits Required
+Still needed: You currently have 0 credits including both earned and in-progress courses. To graduate, you need to successfully complete a minimum of 18 additional credits and all concentration requirements.
+
+Minimum Concentration GPA of 2.0 Required
+Still needed: Your concentration GPA is 0.00
+
+Minimum Credits Earned at Bryant University
+Still needed: You currently have 0 concentration credits earned at Bryant University. You still need a minimum of 9 additional credits earned at Bryant University.
+
+Intermediate Corporate Finance - Not complete
+Still needed: 1 Class in FIN 310
+
+Investments - Not complete
+Still needed: 1 Class in FIN 312
+
+Financial Inst. and Markets - Not complete
+Still needed: 1 Class in FIN 315
+
+Financial Electives - Not complete
+Still needed: 1 Class in FIN 370 or 371 or 380 or 465 or 466
+
+400 Level Finance - Not complete
+Still needed: 1 Class in @ 4@ with attribute = FIN or ST4@ with attribute = FIN
+
+Finance Electives - Not complete
+Still needed: 1 Class in @ @ with attribute = FIN or ST@ with attribute = FIN Except FIN 201
+
+
+================================================================
+FINANCE CONCENTRATION GPA
+================================================================
+
+Concentration GPA: 0.00
+
+Minimum Concentration GPA of 2.0 Required
+Still needed: Your concentration GPA is 0.00
+
+Additional Concentration Courses Included in Concentration GPA - Not complete
+  FIN 2XX | Personal Finance | Grade: T | Credits: 3 | Fall 2025
+  Satisfied by: BF232 - Personal Finance - Massachusetts Bay Comm College
+
+
+================================================================
+INSUFFICIENT
+================================================================
+
+  COM 203 | Introduction to Communication | Grade: W | Credits: 0 | Fall 2025
+
+
+================================================================
+IN-PROGRESS AND PREREGISTERED
+================================================================
+
+  ECO 114 | Macroeconomic Principles | REG | (3) | Spring 2026
+  FIN 201 | Financial Management | REG | (3) | Spring 2026
+  GEN 103 | Career Launch | REG | (1) | Spring 2026
+  GEN 106 | Writing Workshop | REG | (3) | Spring 2026
+  HIS 262 | History of the US Since 1865 | REG | (3) | Spring 2026
+  MATH 110 | Mathematical Analysis | REG | (3) | Spring 2026
+  MGT 201 | Operations Management | REG | (3) | Spring 2026
+  ECO 113 | Microeconomic Principles | REG | (3) | Undergraduate Summer 2026
+  MGT 200 | Management Principles and Practice | REG | (3) | Undergraduate Summer 2026
+
+
+================================================================
+LEGEND
+================================================================
+
+Complete
+Not complete
+Complete (with classes in-progress or preregistered)
+Nearly complete - see advisor
+Prerequisite
+@ = Any class number
+(R) = Repeated class

@@ -1,0 +1,354 @@
+{
+  "student_id": "001118725",
+  "name": "Owen Ash",
+  "major": "Finance",
+  "expected_graduation": "May 2029",
+  "credits_earned_or_inprogress": 42,
+  "credits_required": 120,
+  "completed_requirements": [
+    {
+      "requirement": "Student Success at Bryant Univ",
+      "course": "GEN 100",
+      "grade": "A",
+      "credits": 1.0,
+      "term": "Fall 2025"
+    },
+    {
+      "requirement": "Bryant IDEA",
+      "course": "IDEA 101",
+      "grade": "A",
+      "credits": 1.0,
+      "term": "Spring 2026"
+    },
+    {
+      "requirement": "Intro Arts & Creative Industr",
+      "course": "ACI 220",
+      "grade": "A",
+      "credits": 3.0,
+      "term": "Fall 2025"
+    },
+    {
+      "requirement": "Introduction to Business",
+      "course": "BUS 100",
+      "grade": "A",
+      "credits": 3.0,
+      "term": "Fall 2025"
+    },
+    {
+      "requirement": "Statistics I",
+      "course": "MATH 201",
+      "grade": "A",
+      "credits": 3.0,
+      "term": "Fall 2025"
+    },
+    {
+      "requirement": "Intro. International Politics",
+      "course": "POLS 241",
+      "grade": "B",
+      "credits": 3.0,
+      "term": "Fall 2025"
+    }
+  ],
+  "in_progress_requirements": [
+    {
+      "requirement": "Career Launch",
+      "course": "GEN 103",
+      "grade": "REG",
+      "credits": 1.0,
+      "term": "Spring 2026"
+    },
+    {
+      "requirement": "Microeconomic Principles",
+      "course": "ECO 113",
+      "grade": "REG",
+      "credits": 3.0,
+      "term": "Undergraduate Summer 2026"
+    },
+    {
+      "requirement": "Macroeconomic Principles",
+      "course": "ECO 114",
+      "grade": "REG",
+      "credits": 3.0,
+      "term": "Spring 2026"
+    },
+    {
+      "requirement": "Writing Workshop",
+      "course": "GEN 106",
+      "grade": "REG",
+      "credits": 3.0,
+      "term": "Spring 2026"
+    },
+    {
+      "requirement": "History of the US Since 1865",
+      "course": "HIS 262",
+      "grade": "REG",
+      "credits": 3.0,
+      "term": "Spring 2026"
+    },
+    {
+      "requirement": "Mathematical Analysis",
+      "course": "MATH 110",
+      "grade": "REG",
+      "credits": 3.0,
+      "term": "Spring 2026"
+    },
+    {
+      "requirement": "Financial Management",
+      "course": "FIN 201",
+      "grade": "REG",
+      "credits": 3.0,
+      "term": "Spring 2026"
+    },
+    {
+      "requirement": "Management Principles and Practice",
+      "course": "MGT 200",
+      "grade": "REG",
+      "credits": 3.0,
+      "term": "Undergraduate Summer 2026"
+    },
+    {
+      "requirement": "Operations Management",
+      "course": "MGT 201",
+      "grade": "REG",
+      "credits": 3.0,
+      "term": "Spring 2026"
+    }
+  ],
+  "outstanding_requirements": [
+    {
+      "id": "gen_201",
+      "requirement": "Intercultural Communication",
+      "rule_type": "specific_course",
+      "options": [
+        "GEN 201"
+      ],
+      "pattern": null,
+      "credits_needed": 3.0,
+      "category": "general_education"
+    },
+    {
+      "id": "lcs_course",
+      "requirement": "Literary and Cultural Studies Course",
+      "rule_type": "choose_one_of",
+      "options": [
+        "LCS 200",
+        "LCS 201",
+        "LCS 202",
+        "LCS 203",
+        "LCS 204",
+        "LCS 205",
+        "LCS 206",
+        "LCS 207",
+        "LCS 208",
+        "LCS 209",
+        "LCS 210",
+        "LCS 211",
+        "LCS 212",
+        "LCS 213",
+        "LCS 250",
+        "LCS 260",
+        "LCS 270",
+        "LCS 280",
+        "LCS 290",
+        "COM 230"
+      ],
+      "pattern": null,
+      "credits_needed": 3.0,
+      "category": "general_education"
+    },
+    {
+      "id": "science_lab",
+      "requirement": "Science and Lab Requirement",
+      "rule_type": "course_with_lab",
+      "options": [],
+      "pairs": [
+        [
+          "SCI 251",
+          "SCI L251"
+        ],
+        [
+          "SCI 262",
+          "SCI L262"
+        ],
+        [
+          "SCI 264",
+          "SCI L264"
+        ],
+        [
+          "SCI 265",
+          "SCI L265"
+        ],
+        [
+          "SCI 269",
+          "SCI L269"
+        ],
+        [
+          "SCI 351",
+          "SCI L351"
+        ],
+        [
+          "SCI 352",
+          "SCI L352"
+        ],
+        [
+          "SCI 355",
+          "SCI L355"
+        ],
+        [
+          "SCI 356",
+          "SCI L356"
+        ],
+        [
+          "SCI 371",
+          "SCI L371"
+        ]
+      ],
+      "pattern": null,
+      "credits_needed": 4.0,
+      "category": "general_education"
+    },
+    {
+      "id": "gen_390_capstone",
+      "requirement": "General Education Capstone",
+      "rule_type": "specific_course",
+      "options": [
+        "GEN 390"
+      ],
+      "pattern": null,
+      "credits_needed": 3.0,
+      "category": "general_education"
+    },
+    {
+      "id": "acg_203",
+      "requirement": "Prin. of Financial Accounting",
+      "rule_type": "specific_course",
+      "options": [
+        "ACG 203"
+      ],
+      "pattern": null,
+      "credits_needed": 3.0,
+      "category": "business_core"
+    },
+    {
+      "id": "acg_204",
+      "requirement": "Prin. of Managerial Accounting",
+      "rule_type": "specific_course",
+      "options": [
+        "ACG 204"
+      ],
+      "pattern": null,
+      "credits_needed": 3.0,
+      "category": "business_core"
+    },
+    {
+      "id": "bus_400",
+      "requirement": "Business Policy",
+      "rule_type": "specific_course",
+      "options": [
+        "BUS 400"
+      ],
+      "pattern": null,
+      "credits_needed": 3.0,
+      "category": "business_core"
+    },
+    {
+      "id": "isa_201",
+      "requirement": "Intro to Information Tech and Analytics",
+      "rule_type": "specific_course",
+      "options": [
+        "ISA 201"
+      ],
+      "pattern": null,
+      "credits_needed": 3.0,
+      "category": "business_core"
+    },
+    {
+      "id": "lgls_211",
+      "requirement": "The Legal Environment of Business",
+      "rule_type": "specific_course",
+      "options": [
+        "LGLS 211"
+      ],
+      "pattern": null,
+      "credits_needed": 3.0,
+      "category": "business_core"
+    },
+    {
+      "id": "mkt_201",
+      "requirement": "Foundations of Marketing Management",
+      "rule_type": "specific_course",
+      "options": [
+        "MKT 201"
+      ],
+      "pattern": null,
+      "credits_needed": 3.0,
+      "category": "business_core"
+    },
+    {
+      "id": "fin_310",
+      "requirement": "Intermediate Corporate Finance",
+      "rule_type": "specific_course",
+      "options": [
+        "FIN 310"
+      ],
+      "pattern": null,
+      "credits_needed": 3.0,
+      "category": "major"
+    },
+    {
+      "id": "fin_312",
+      "requirement": "Investments",
+      "rule_type": "specific_course",
+      "options": [
+        "FIN 312"
+      ],
+      "pattern": null,
+      "credits_needed": 3.0,
+      "category": "major"
+    },
+    {
+      "id": "fin_315",
+      "requirement": "Financial Inst. and Markets",
+      "rule_type": "specific_course",
+      "options": [
+        "FIN 315"
+      ],
+      "pattern": null,
+      "credits_needed": 3.0,
+      "category": "major"
+    },
+    {
+      "id": "fin_elective",
+      "requirement": "Financial Electives",
+      "rule_type": "choose_one_of",
+      "options": [
+        "FIN 370",
+        "FIN 371",
+        "FIN 380",
+        "FIN 465",
+        "FIN 466"
+      ],
+      "pattern": null,
+      "credits_needed": 3.0,
+      "category": "major"
+    },
+    {
+      "id": "fin_400_level",
+      "requirement": "400 Level Finance",
+      "rule_type": "wildcard",
+      "options": [],
+      "pattern": "FIN 4XX",
+      "credits_needed": 3.0,
+      "category": "major"
+    },
+    {
+      "id": "fin_general_elective",
+      "requirement": "Finance Electives",
+      "rule_type": "wildcard",
+      "options": [],
+      "pattern": "FIN XXX",
+      "credits_needed": 3.0,
+      "category": "major"
+    }
+  ]
+}

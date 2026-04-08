@@ -1,0 +1,728 @@
+{
+  "Andre, Christina": {
+    "quality": 1.0,
+    "difficulty": 3.0,
+    "num_ratings": 1,
+    "would_take_again": 0
+  },
+  "Archetto, Glenn": {
+    "quality": 4.6,
+    "difficulty": 2.8,
+    "num_ratings": 12,
+    "would_take_again": 92
+  },
+  "Asare, Kwadwo": {
+    "quality": 3.7,
+    "difficulty": 2.8,
+    "num_ratings": 39,
+    "would_take_again": 41
+  },
+  "Ascioglu, Asli": {
+    "quality": 3.0,
+    "difficulty": 3.3,
+    "num_ratings": 51,
+    "would_take_again": 75
+  },
+  "Attaran, Sharmin": {
+    "quality": 2.4,
+    "difficulty": 3.1,
+    "num_ratings": 33,
+    "would_take_again": 25
+  },
+  "Beausejour, David": {
+    "quality": 3.7,
+    "difficulty": 3.2,
+    "num_ratings": 60,
+    "would_take_again": 59
+  },
+  "Bell, Jocelyn": {
+    "quality": 2.0,
+    "difficulty": 4.0,
+    "num_ratings": 4,
+    "would_take_again": 0
+  },
+  "Berdiev, Aziz": {
+    "quality": 3.7,
+    "difficulty": 3.5,
+    "num_ratings": 31,
+    "would_take_again": 67
+  },
+  "Blais, Brian": {
+    "quality": 3.3,
+    "difficulty": 3.5,
+    "num_ratings": 110,
+    "would_take_again": 34
+  },
+  "Bobroff, Ron": {
+    "quality": 4.8,
+    "difficulty": 2.6,
+    "num_ratings": 24,
+    "would_take_again": 100
+  },
+  "Boggio, Andrea": {
+    "quality": 3.4,
+    "difficulty": 2.8,
+    "num_ratings": 49,
+    "would_take_again": 61
+  },
+  "Bornstein, Ilisabeth": {
+    "quality": 3.6,
+    "difficulty": 3.8,
+    "num_ratings": 36,
+    "would_take_again": 64
+  },
+  "Cerutti, Jeffrey": {
+    "quality": 5.0,
+    "difficulty": 2.8,
+    "num_ratings": 17,
+    "would_take_again": 100
+  },
+  "Chaudhury, Abhijit": {
+    "quality": 2.7,
+    "difficulty": 2.4,
+    "num_ratings": 54,
+    "would_take_again": 45
+  },
+  "Clinker, Conor": {
+    "quality": 5.0,
+    "difficulty": 1.5,
+    "num_ratings": 11,
+    "would_take_again": 100
+  },
+  "Coakley, Lori": {
+    "quality": 3.4,
+    "difficulty": 3.9,
+    "num_ratings": 80,
+    "would_take_again": 51
+  },
+  "Coutinho, Carlos": {
+    "quality": 1.9,
+    "difficulty": 3.9,
+    "num_ratings": 8,
+    "would_take_again": 12
+  },
+  "Crowe, Michael": {
+    "quality": 1.1,
+    "difficulty": 3.6,
+    "num_ratings": 11,
+    "would_take_again": 0
+  },
+  "Cullinan, Charles": {
+    "quality": 4.4,
+    "difficulty": 3.3,
+    "num_ratings": 40,
+    "would_take_again": 86
+  },
+  "Czyrklis, Eileen": {
+    "quality": 3.8,
+    "difficulty": 2.5,
+    "num_ratings": 8,
+    "would_take_again": 75
+  },
+  "Daly, Kathleen": {
+    "quality": 4.6,
+    "difficulty": 2.1,
+    "num_ratings": 41,
+    "would_take_again": 98
+  },
+  "Day, Amber": {
+    "quality": 3.3,
+    "difficulty": 2.8,
+    "num_ratings": 34,
+    "would_take_again": 52
+  },
+  "Dean, Janet": {
+    "quality": 4.4,
+    "difficulty": 2.7,
+    "num_ratings": 69,
+    "would_take_again": 78
+  },
+  "Deluga, Ronald": {
+    "quality": 4.8,
+    "difficulty": 2.0,
+    "num_ratings": 57,
+    "would_take_again": 96
+  },
+  "Deng, Mengqi": {
+    "quality": 4.3,
+    "difficulty": 2.6,
+    "num_ratings": 9,
+    "would_take_again": 67
+  },
+  "Derderian, Mara": {
+    "quality": 4.1,
+    "difficulty": 3.3,
+    "num_ratings": 14,
+    "would_take_again": 71
+  },
+  "Diaz, Carlos": {
+    "quality": 4.0,
+    "difficulty": 1.0,
+    "num_ratings": 1,
+    "would_take_again": 100
+  },
+  "Dietrich, John": {
+    "quality": 4.3,
+    "difficulty": 3.0,
+    "num_ratings": 92,
+    "would_take_again": 79
+  },
+  "Dowling, Maura": {
+    "quality": 1.2,
+    "difficulty": 4.2,
+    "num_ratings": 6,
+    "would_take_again": 0
+  },
+  "Dygert, Holly": {
+    "quality": 3.1,
+    "difficulty": 3.1,
+    "num_ratings": 23,
+    "would_take_again": 57
+  },
+  "Ergene, Erim": {
+    "quality": 3.4,
+    "difficulty": 3.2,
+    "num_ratings": 10,
+    "would_take_again": 70
+  },
+  "Fellingham, John": {
+    "quality": 4.3,
+    "difficulty": 3.2,
+    "num_ratings": 30,
+    "would_take_again": 73
+  },
+  "Fontaine, Amanda": {
+    "quality": 2.3,
+    "difficulty": 4.2,
+    "num_ratings": 11,
+    "would_take_again": 36
+  },
+  "Freiner, Nicole": {
+    "quality": 4.4,
+    "difficulty": 2.6,
+    "num_ratings": 36,
+    "would_take_again": 88
+  },
+  "Gallo, Mary Ann": {
+    "quality": 2.2,
+    "difficulty": 2.7,
+    "num_ratings": 23,
+    "would_take_again": 35
+  },
+  "Goolgasian, Christopher": {
+    "quality": 4.6,
+    "difficulty": 3.2,
+    "num_ratings": 9,
+    "would_take_again": -1
+  },
+  "Grigelevich, Ray": {
+    "quality": 4.6,
+    "difficulty": 2.3,
+    "num_ratings": 11,
+    "would_take_again": 91
+  },
+  "Gulidanan, Donna": {
+    "quality": 5.0,
+    "difficulty": 2.0,
+    "num_ratings": 2,
+    "would_take_again": 100
+  },
+  "Hardesty, Sarah": {
+    "quality": 3.4,
+    "difficulty": 2.7,
+    "num_ratings": 49,
+    "would_take_again": 55
+  },
+  "Heroux, John": {
+    "quality": 5.0,
+    "difficulty": 2.0,
+    "num_ratings": 4,
+    "would_take_again": 100
+  },
+  "Heydarifard, Zahra": {
+    "quality": 4.7,
+    "difficulty": 2.5,
+    "num_ratings": 13,
+    "would_take_again": 92
+  },
+  "Hightower, Tristan": {
+    "quality": 5.0,
+    "difficulty": 3.6,
+    "num_ratings": 25,
+    "would_take_again": 100
+  },
+  "Holtzman, Richard": {
+    "quality": 4.8,
+    "difficulty": 2.4,
+    "num_ratings": 103,
+    "would_take_again": 98
+  },
+  "Horan, Jennifer": {
+    "quality": 3.9,
+    "difficulty": 2.6,
+    "num_ratings": 33,
+    "would_take_again": 72
+  },
+  "Howard, John": {
+    "quality": 2.0,
+    "difficulty": 4.1,
+    "num_ratings": 13,
+    "would_take_again": 23
+  },
+  "Hughes, Kaitlyn": {
+    "quality": 5.0,
+    "difficulty": 1.9,
+    "num_ratings": 16,
+    "would_take_again": 100
+  },
+  "Hughes, Nia": {
+    "quality": 5.0,
+    "difficulty": 1.9,
+    "num_ratings": 16,
+    "would_take_again": 100
+  },
+  "Inci, A. Can": {
+    "quality": 3.9,
+    "difficulty": 2.5,
+    "num_ratings": 29,
+    "would_take_again": 69
+  },
+  "Jayaraman, Jay": {
+    "quality": 3.4,
+    "difficulty": 3.1,
+    "num_ratings": 37,
+    "would_take_again": 62
+  },
+  "Kaminaga, Allison": {
+    "quality": 4.7,
+    "difficulty": 2.5,
+    "num_ratings": 68,
+    "would_take_again": 98
+  },
+  "Kanemoto, Emi": {
+    "quality": 5.0,
+    "difficulty": 1.7,
+    "num_ratings": 7,
+    "would_take_again": 100
+  },
+  "Kang, Eun": {
+    "quality": 3.5,
+    "difficulty": 3.9,
+    "num_ratings": 13,
+    "would_take_again": 46
+  },
+  "Kelly, Muni": {
+    "quality": 3.8,
+    "difficulty": 3.4,
+    "num_ratings": 11,
+    "would_take_again": 91
+  },
+  "Kim, Gihyun": {
+    "quality": 2.2,
+    "difficulty": 4.3,
+    "num_ratings": 15,
+    "would_take_again": 33
+  },
+  "Kim, Jongsung": {
+    "quality": 2.2,
+    "difficulty": 4.3,
+    "num_ratings": 15,
+    "would_take_again": 33
+  },
+  "Knapp, Bryan": {
+    "quality": 4.3,
+    "difficulty": 3.0,
+    "num_ratings": 38,
+    "would_take_again": 76
+  },
+  "Koplik, Jeffrey": {
+    "quality": 2.9,
+    "difficulty": 3.5,
+    "num_ratings": 30,
+    "would_take_again": 52
+  },
+  "Kuang, Huan": {
+    "quality": 5.0,
+    "difficulty": 1.9,
+    "num_ratings": 8,
+    "would_take_again": 100
+  },
+  "Kumar, Sonal": {
+    "quality": 3.9,
+    "difficulty": 2.9,
+    "num_ratings": 18,
+    "would_take_again": 72
+  },
+  "Lacey, Heather Pond": {
+    "quality": 4.8,
+    "difficulty": 2.8,
+    "num_ratings": 35,
+    "would_take_again": 94
+  },
+  "Lancellotta, Domenic": {
+    "quality": 4.7,
+    "difficulty": 2.1,
+    "num_ratings": 10,
+    "would_take_again": 90
+  },
+  "Langley, Keylantra": {
+    "quality": 1.0,
+    "difficulty": 5.0,
+    "num_ratings": 3,
+    "would_take_again": 0
+  },
+  "Leduc, Valerie": {
+    "quality": 2.3,
+    "difficulty": 3.5,
+    "num_ratings": 12,
+    "would_take_again": 33
+  },
+  "Lenz, Michael": {
+    "quality": 0.0,
+    "difficulty": 0.0,
+    "num_ratings": 0,
+    "would_take_again": -1
+  },
+  "Lescault, Meghan": {
+    "quality": 5.0,
+    "difficulty": 2.0,
+    "num_ratings": 1,
+    "would_take_again": 100
+  },
+  "Liao, David": {
+    "quality": 4.8,
+    "difficulty": 2.1,
+    "num_ratings": 30,
+    "would_take_again": 100
+  },
+  "Macon, Danielle": {
+    "quality": 4.2,
+    "difficulty": 2.7,
+    "num_ratings": 6,
+    "would_take_again": 100
+  },
+  "Maloney, Kevin": {
+    "quality": 4.2,
+    "difficulty": 4.6,
+    "num_ratings": 5,
+    "would_take_again": 80
+  },
+  "Martino, Peter": {
+    "quality": 4.8,
+    "difficulty": 2.5,
+    "num_ratings": 13,
+    "would_take_again": 100
+  },
+  "Massoud, Robert": {
+    "quality": 5.0,
+    "difficulty": 1.9,
+    "num_ratings": 16,
+    "would_take_again": 100
+  },
+  "McNally, Daniel": {
+    "quality": 4.0,
+    "difficulty": 2.7,
+    "num_ratings": 43,
+    "would_take_again": 78
+  },
+  "Mier, Jennifer": {
+    "quality": 2.2,
+    "difficulty": 4.1,
+    "num_ratings": 71,
+    "would_take_again": 31
+  },
+  "Mirmirani, Sam": {
+    "quality": 2.1,
+    "difficulty": 3.8,
+    "num_ratings": 105,
+    "would_take_again": 21
+  },
+  "Mohan, Ramesh": {
+    "quality": 4.2,
+    "difficulty": 3.1,
+    "num_ratings": 111,
+    "would_take_again": 69
+  },
+  "Nigro, Peter": {
+    "quality": 4.6,
+    "difficulty": 3.6,
+    "num_ratings": 30,
+    "would_take_again": 100
+  },
+  "Noga, Tracy": {
+    "quality": 3.9,
+    "difficulty": 3.8,
+    "num_ratings": 132,
+    "would_take_again": 73
+  },
+  "Ostermeier, Kathryn": {
+    "quality": 4.5,
+    "difficulty": 2.7,
+    "num_ratings": 23,
+    "would_take_again": 87
+  },
+  "Pan, Xiaofei": {
+    "quality": 3.7,
+    "difficulty": 2.5,
+    "num_ratings": 26,
+    "would_take_again": 69
+  },
+  "Pasha, Mehreen": {
+    "quality": 4.8,
+    "difficulty": 2.1,
+    "num_ratings": 36,
+    "would_take_again": 94
+  },
+  "Patalano, Robert": {
+    "quality": 4.8,
+    "difficulty": 2.2,
+    "num_ratings": 12,
+    "would_take_again": 100
+  },
+  "Patel, Poojan": {
+    "quality": 5.0,
+    "difficulty": 2.0,
+    "num_ratings": 5,
+    "would_take_again": 100
+  },
+  "Pearce, Kevin": {
+    "quality": 3.3,
+    "difficulty": 3.5,
+    "num_ratings": 97,
+    "would_take_again": 56
+  },
+  "Pearson, Jeremy": {
+    "quality": 4.9,
+    "difficulty": 2.1,
+    "num_ratings": 44,
+    "would_take_again": 100
+  },
+  "Pencek, Anthony": {
+    "quality": 2.5,
+    "difficulty": 3.1,
+    "num_ratings": 36,
+    "would_take_again": 25
+  },
+  "Pereira, Michelle": {
+    "quality": 3.5,
+    "difficulty": 3.5,
+    "num_ratings": 45,
+    "would_take_again": 60
+  },
+  "Perullo, Alex": {
+    "quality": 3.9,
+    "difficulty": 3.3,
+    "num_ratings": 76,
+    "would_take_again": 68
+  },
+  "Pietraszek, Alyssa": {
+    "quality": 0.0,
+    "difficulty": 0.0,
+    "num_ratings": 0,
+    "would_take_again": -1
+  },
+  "Potvin, Nicolle": {
+    "quality": 3.3,
+    "difficulty": 3.0,
+    "num_ratings": 19,
+    "would_take_again": 38
+  },
+  "Precourt, Elena": {
+    "quality": 2.9,
+    "difficulty": 4.0,
+    "num_ratings": 28,
+    "would_take_again": 54
+  },
+  "Presley, Kenneth": {
+    "quality": 3.4,
+    "difficulty": 1.7,
+    "num_ratings": 7,
+    "would_take_again": 57
+  },
+  "Prichard, Janet": {
+    "quality": 2.4,
+    "difficulty": 4.0,
+    "num_ratings": 66,
+    "would_take_again": 6
+  },
+  "Ramirez, Andres": {
+    "quality": 3.0,
+    "difficulty": 3.6,
+    "num_ratings": 42,
+    "would_take_again": 30
+  },
+  "Reid, Christopher": {
+    "quality": 2.2,
+    "difficulty": 4.7,
+    "num_ratings": 37,
+    "would_take_again": 24
+  },
+  "Rice, Liam": {
+    "quality": 5.0,
+    "difficulty": 2.7,
+    "num_ratings": 20,
+    "would_take_again": 100
+  },
+  "Roach, Tom": {
+    "quality": 3.8,
+    "difficulty": 3.6,
+    "num_ratings": 48,
+    "would_take_again": 47
+  },
+  "Roberto, Michael": {
+    "quality": 4.0,
+    "difficulty": 4.0,
+    "num_ratings": 27,
+    "would_take_again": 83
+  },
+  "Robins, Mary": {
+    "quality": 3.6,
+    "difficulty": 3.4,
+    "num_ratings": 57,
+    "would_take_again": 65
+  },
+  "Roethlein, Christopher": {
+    "quality": 4.5,
+    "difficulty": 3.0,
+    "num_ratings": 57,
+    "would_take_again": 95
+  },
+  "Roselli, Paul": {
+    "quality": 4.2,
+    "difficulty": 2.9,
+    "num_ratings": 17,
+    "would_take_again": 80
+  },
+  "Rustambekov, Elzotbek": {
+    "quality": 4.3,
+    "difficulty": 3.5,
+    "num_ratings": 49,
+    "would_take_again": 86
+  },
+  "Ryan, Riazat": {
+    "quality": 5.0,
+    "difficulty": 1.5,
+    "num_ratings": 2,
+    "would_take_again": 100
+  },
+  "Sawyer, Jason": {
+    "quality": 2.8,
+    "difficulty": 3.7,
+    "num_ratings": 9,
+    "would_take_again": 44
+  },
+  "Shinn, Beth": {
+    "quality": 5.0,
+    "difficulty": 1.7,
+    "num_ratings": 6,
+    "would_take_again": 100
+  },
+  "Sonder, Ryan": {
+    "quality": 5.0,
+    "difficulty": 2.5,
+    "num_ratings": 2,
+    "would_take_again": 100
+  },
+  "Sousa, Kenneth": {
+    "quality": 3.1,
+    "difficulty": 4.4,
+    "num_ratings": 156,
+    "would_take_again": 32
+  },
+  "Upama, Tanzila": {
+    "quality": 2.0,
+    "difficulty": 3.7,
+    "num_ratings": 3,
+    "would_take_again": 0
+  },
+  "Varin, Francis": {
+    "quality": 3.4,
+    "difficulty": 3.4,
+    "num_ratings": 28,
+    "would_take_again": 54
+  },
+  "Vincelette, Noah": {
+    "quality": 3.0,
+    "difficulty": 3.5,
+    "num_ratings": 2,
+    "would_take_again": 0
+  },
+  "Visich, John": {
+    "quality": 4.1,
+    "difficulty": 2.4,
+    "num_ratings": 64,
+    "would_take_again": 89
+  },
+  "Volkman, Julie": {
+    "quality": 5.0,
+    "difficulty": 2.3,
+    "num_ratings": 15,
+    "would_take_again": 100
+  },
+  "Vozella, Mark": {
+    "quality": 4.7,
+    "difficulty": 1.8,
+    "num_ratings": 84,
+    "would_take_again": 91
+  },
+  "Ward, Monica": {
+    "quality": 5.0,
+    "difficulty": 2.6,
+    "num_ratings": 20,
+    "would_take_again": 100
+  },
+  "Washburn, Ronald": {
+    "quality": 3.8,
+    "difficulty": 3.0,
+    "num_ratings": 111,
+    "would_take_again": 59
+  },
+  "Weicksel, Steven": {
+    "quality": 4.5,
+    "difficulty": 2.6,
+    "num_ratings": 14,
+    "would_take_again": 86
+  },
+  "Williams, Zhongyuan": {
+    "quality": 5.0,
+    "difficulty": 1.6,
+    "num_ratings": 8,
+    "would_take_again": 100
+  },
+  "Wishart, Adam": {
+    "quality": 4.9,
+    "difficulty": 2.3,
+    "num_ratings": 18,
+    "would_take_again": 100
+  },
+  "Yoon, Sae Young": {
+    "quality": 3.5,
+    "difficulty": 2.3,
+    "num_ratings": 21,
+    "would_take_again": 62
+  },
+  "Zammarelli, Thomas": {
+    "quality": 4.7,
+    "difficulty": 1.8,
+    "num_ratings": 25,
+    "would_take_again": 95
+  },
+  "Zbib, Leila": {
+    "quality": 3.5,
+    "difficulty": 2.8,
+    "num_ratings": 4,
+    "would_take_again": 75
+  },
+  "Zdravkovic, Cindy": {
+    "quality": 2.4,
+    "difficulty": 4.2,
+    "num_ratings": 56,
+    "would_take_again": 16
+  },
+  "Zheng, Xiaochuan": {
+    "quality": 4.1,
+    "difficulty": 2.9,
+    "num_ratings": 29,
+    "would_take_again": 81
+  }
+}
