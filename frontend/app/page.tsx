@@ -7,21 +7,24 @@ import { UploadZone } from "@/components/UploadZone";
 const steps = [
   {
     icon: Upload,
-    title: "Upload your audit",
+    number: "1",
+    title: "Paste your requirements",
     description:
-      "Drop a screenshot of your Degree Works page. Claude Vision reads it and extracts every outstanding requirement.",
+      "Go to Degree Works, find your outstanding courses, and paste them into the text box above. Or click 'Use sample audit' to try it with demo data.",
   },
   {
     icon: SlidersHorizontal,
-    title: "Set preferences",
+    number: "2",
+    title: "Set your preferences",
     description:
-      "Block off Fridays, avoid early mornings, pick which requirements to tackle this semester.",
+      "Choose which days you want off, set your target credit hours, and tell us if you want to avoid early mornings or evening classes.",
   },
   {
     icon: Calendar,
-    title: "Get schedules",
+    number: "3",
+    title: "Pick your schedule",
     description:
-      "Three conflict-free schedules in under two seconds. Pick one, copy the CRNs, register in Banner.",
+      "We generate three conflict-free schedules instantly. Compare professors, workloads, and time slots. Copy the CRNs and register in Banner.",
   },
 ];
 
@@ -66,8 +69,16 @@ export default function HomePage() {
               style={{ animationDelay: `${(i + 1) * 100}ms` }}
             >
               <div className="flex h-full flex-col gap-4 rounded-[calc(2rem-0.375rem)] bg-white p-8">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#FAFAF7]">
-                  <step.icon size={20} weight="light" className="text-[#787774]" />
+                <div className="flex items-center gap-3">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#FAFAF7]">
+                    <step.icon size={20} weight="light" className="text-[#787774]" />
+                  </div>
+                  <span
+                    className="text-[10px] font-medium text-[#787774]"
+                    style={{ fontFamily: "var(--font-geist-mono), monospace" }}
+                  >
+                    Step {step.number}
+                  </span>
                 </div>
                 <h3 className="text-sm font-medium text-[#1A1A1A]">
                   {step.title}

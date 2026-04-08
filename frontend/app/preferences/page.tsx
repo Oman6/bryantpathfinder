@@ -21,13 +21,13 @@ const CATEGORY_LABELS: Record<string, string> = {
 export default function PreferencesPage() {
   const router = useRouter();
   const {
-    audit, setPreferences, setSchedules, setSolverStats,
+    audit, setAudit, setPreferences, setSchedules, setSolverStats,
     setProfessorData, setWorkloadData, setNegotiation, setAgentsRun,
   } = useStore();
 
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
   const [targetCredits, setTargetCredits] = useState(15);
-  const [noFriday, setNoFriday] = useState(false);
+  const [blockedDays, setBlockedDays] = useState<Set<string>>(new Set());
   const [noBefore10, setNoBefore10] = useState(false);
   const [noEvening, setNoEvening] = useState(false);
   const [freeText, setFreeText] = useState("");
@@ -68,7 +68,7 @@ export default function PreferencesPage() {
 
     const prefs: SchedulePreferences = {
       target_credits: targetCredits,
-      blocked_days: noFriday ? ["F"] : [],
+      blocked_days: Array.from(blockedDays) as ("M" | "T" | "W" | "R" | "F")[],
       no_earlier_than: noBefore10 ? "10:00" : null,
       no_later_than: noEvening ? "17:30" : null,
       preferred_instructors: [],
@@ -144,9 +144,26 @@ export default function PreferencesPage() {
               Outstanding requirements
             </h2>
             <p className="mt-1 text-xs text-[#787774]">
-              Uncheck any you don't want to schedule this semester.
+              {audit.outstanding_requirements.length > 0
+                ? "Uncheck any you don't want to schedule this semester."
+                : "No outstanding requirements were found in your audit. Try uploading a clearer screenshot, or use the sample audit."}
             </p>
           </div>
+
+          {audit.outstanding_requirements.length === 0 && (
+            <button
+              onClick={async () => {
+                try {
+                  const { getSampleAudit } = await import("@/lib/api");
+                  const sample = await getSampleAudit();
+                  setAudit(sample);
+                } catch {}
+              }}
+              className="rounded-full bg-[#FAFAF7] px-4 py-2 text-xs text-[#787774] ring-1 ring-black/5 transition-colors hover:text-[#1A1A1A]"
+            >
+              Load sample audit instead
+            </button>
+          )}
 
           {categoryOrder.map((cat) => {
             const reqs = grouped[cat];
@@ -230,10 +247,41 @@ export default function PreferencesPage() {
             </div>
           </div>
 
+          {/* Days off selector */}
+          <div className="space-y-2">
+            <label className="text-xs text-[#787774]">Days off</label>
+            <div className="flex gap-2">
+              {([["M", "Mon"], ["T", "Tue"], ["W", "Wed"], ["R", "Thu"], ["F", "Fri"]] as const).map(([code, label]) => {
+                const isBlocked = blockedDays.has(code);
+                return (
+                  <button
+                    key={code}
+                    type="button"
+                    onClick={() => {
+                      setBlockedDays((prev) => {
+                        const next = new Set(prev);
+                        if (next.has(code)) next.delete(code);
+                        else next.add(code);
+                        return next;
+                      });
+                    }}
+                    className={`flex h-11 w-14 items-center justify-center rounded-xl text-xs font-medium transition-all duration-300 ${
+                      isBlocked
+                        ? "bg-[#1A1A1A] text-white"
+                        : "bg-[#FAFAF7] text-[#787774] ring-1 ring-black/5 hover:ring-black/10"
+                    }`}
+                    style={{ transitionTimingFunction: "cubic-bezier(0.32, 0.72, 0, 1)" }}
+                  >
+                    {label}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
           {/* Toggle switches */}
           <div className="space-y-3">
             {[
-              { label: "No Friday classes", checked: noFriday, toggle: () => setNoFriday(!noFriday) },
               { label: "No classes before 10 AM", checked: noBefore10, toggle: () => setNoBefore10(!noBefore10) },
               { label: "No evening classes (after 5:30 PM)", checked: noEvening, toggle: () => setNoEvening(!noEvening) },
             ].map((pref) => (

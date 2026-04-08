@@ -2,17 +2,21 @@
 
 import { useCallback, useState } from "react";
 import { useRouter } from "next/navigation";
-import { Upload, Warning, ArrowClockwise } from "@phosphor-icons/react";
-import { parseAudit, getSampleAudit } from "@/lib/api";
+import { Upload, Warning, TextT, ClipboardText } from "@phosphor-icons/react";
+import { parseAudit, parseAuditText, getSampleAudit } from "@/lib/api";
 import { useStore } from "@/lib/store";
 import { Skeleton } from "@/components/ui/skeleton";
 
+type Tab = "upload" | "paste";
+
 export function UploadZone() {
   const router = useRouter();
-  const { setAudit, setLoading, setError } = useStore();
+  const { setAudit, setLoading } = useStore();
+  const [tab, setTab] = useState<Tab>("paste");
   const [dragging, setDragging] = useState(false);
   const [parsing, setParsing] = useState(false);
   const [localError, setLocalError] = useState<string | null>(null);
+  const [pasteText, setPasteText] = useState("");
 
   const handleFile = useCallback(
     async (file: File) => {
@@ -39,6 +43,27 @@ export function UploadZone() {
     },
     [setAudit, router]
   );
+
+  const handlePasteSubmit = useCallback(async () => {
+    if (!pasteText.trim()) {
+      setLocalError("Paste your requirements first.");
+      return;
+    }
+
+    setParsing(true);
+    setLocalError(null);
+
+    try {
+      const audit = await parseAuditText(pasteText);
+      setAudit(audit);
+      router.push("/preferences");
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "Failed to parse";
+      setLocalError(message);
+    } finally {
+      setParsing(false);
+    }
+  }, [pasteText, setAudit, router]);
 
   const handleSampleAudit = useCallback(async () => {
     setLoading(true);
@@ -86,7 +111,7 @@ export function UploadZone() {
             className="text-xs text-[#787774]"
             style={{ fontFamily: "var(--font-geist-mono), monospace" }}
           >
-            Claude Vision is reading your audit...
+            Claude is reading your requirements...
           </p>
         </div>
       </div>
@@ -97,51 +122,92 @@ export function UploadZone() {
     <div className="space-y-4">
       {/* Double-bezel card */}
       <div className="rounded-[2rem] bg-black/[0.03] p-1.5 ring-1 ring-black/5">
-        <div
-          className={`relative flex flex-col items-center justify-center gap-5 rounded-[calc(2rem-0.375rem)] bg-white p-12 transition-all duration-300 ${
-            dragging ? "ring-2 ring-[#B8985A]/40" : ""
-          }`}
-          onDragOver={(e) => {
-            e.preventDefault();
-            setDragging(true);
-          }}
-          onDragLeave={() => setDragging(false)}
-          onDrop={handleDrop}
-          style={{ transitionTimingFunction: "cubic-bezier(0.32, 0.72, 0, 1)" }}
-        >
-          <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#FAFAF7]">
-            <Upload size={24} weight="light" className="text-[#787774]" />
+        <div className="rounded-[calc(2rem-0.375rem)] bg-white p-6">
+          {/* Tab switcher */}
+          <div className="mb-5 flex gap-1 rounded-full bg-[#FAFAF7] p-1">
+            <button
+              onClick={() => setTab("paste")}
+              className={`flex flex-1 items-center justify-center gap-1.5 rounded-full py-2 text-xs font-medium transition-all duration-300 ${
+                tab === "paste"
+                  ? "bg-white text-[#1A1A1A] shadow-sm"
+                  : "text-[#787774] hover:text-[#1A1A1A]"
+              }`}
+              style={{ transitionTimingFunction: "cubic-bezier(0.32, 0.72, 0, 1)" }}
+            >
+              <ClipboardText size={14} weight="light" />
+              Paste text
+            </button>
+            <button
+              onClick={() => setTab("upload")}
+              className={`flex flex-1 items-center justify-center gap-1.5 rounded-full py-2 text-xs font-medium transition-all duration-300 ${
+                tab === "upload"
+                  ? "bg-white text-[#1A1A1A] shadow-sm"
+                  : "text-[#787774] hover:text-[#1A1A1A]"
+              }`}
+              style={{ transitionTimingFunction: "cubic-bezier(0.32, 0.72, 0, 1)" }}
+            >
+              <Upload size={14} weight="light" />
+              Upload image
+            </button>
           </div>
 
-          <div className="text-center">
-            <p className="text-sm font-medium text-[#1A1A1A]">
-              Drop your Degree Works screenshot
-            </p>
-            <p className="mt-1 text-xs text-[#787774]">
-              PNG, JPEG, or PDF
-            </p>
-          </div>
+          {/* Paste tab */}
+          {tab === "paste" && (
+            <div className="space-y-3">
+              <p className="text-xs text-[#787774]">
+                Paste your advisor notes, requirement list, or any text describing what courses you still need.
+              </p>
+              <textarea
+                value={pasteText}
+                onChange={(e) => setPasteText(e.target.value)}
+                placeholder={"e.g. FIN 310, GEN 201, SCI + matching lab from approved list, LCS 200 level from approved list, ACG 203, ACG 204, ISA 201, MKT 201, LGLS 211, BUS 400, GEN 390 capstone"}
+                rows={5}
+                className="w-full resize-none rounded-xl border border-black/5 bg-[#FAFAF7] px-4 py-3 text-sm text-[#1A1A1A] placeholder:text-[#787774]/40 focus:border-[#B8985A]/30 focus:bg-white focus:outline-none focus:ring-1 focus:ring-[#B8985A]/20"
+                style={{ fontFamily: "var(--font-geist-mono), monospace" }}
+              />
+              <button
+                onClick={handlePasteSubmit}
+                disabled={!pasteText.trim()}
+                className="flex w-full items-center justify-center gap-2 rounded-full bg-[#1A1A1A] py-2.5 text-xs font-medium text-white transition-colors hover:bg-[#2a2a2a] disabled:opacity-30"
+              >
+                <TextT size={14} weight="light" />
+                Parse requirements
+              </button>
+            </div>
+          )}
 
-          <label className="cursor-pointer rounded-full bg-[#FAFAF7] px-5 py-2 text-xs font-medium text-[#787774] ring-1 ring-black/5 transition-colors hover:bg-black/[0.04] hover:text-[#1A1A1A]">
-            Browse files
-            <input
-              type="file"
-              accept=".png,.jpg,.jpeg,.pdf"
-              className="hidden"
-              onChange={handleInputChange}
-            />
-          </label>
+          {/* Upload tab */}
+          {tab === "upload" && (
+            <div
+              className={`flex flex-col items-center justify-center gap-5 rounded-xl p-8 transition-all duration-300 ${
+                dragging ? "ring-2 ring-[#B8985A]/40 bg-[#FAFAF7]" : ""
+              }`}
+              onDragOver={(e) => { e.preventDefault(); setDragging(true); }}
+              onDragLeave={() => setDragging(false)}
+              onDrop={handleDrop}
+            >
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#FAFAF7]">
+                <Upload size={24} weight="light" className="text-[#787774]" />
+              </div>
+              <div className="text-center">
+                <p className="text-sm font-medium text-[#1A1A1A]">
+                  Drop your Degree Works screenshot
+                </p>
+                <p className="mt-1 text-xs text-[#787774]">PNG, JPEG, or PDF</p>
+              </div>
+              <label className="cursor-pointer rounded-full bg-[#FAFAF7] px-5 py-2 text-xs font-medium text-[#787774] ring-1 ring-black/5 transition-colors hover:bg-black/[0.04] hover:text-[#1A1A1A]">
+                Browse files
+                <input type="file" accept=".png,.jpg,.jpeg,.pdf" className="hidden" onChange={handleInputChange} />
+              </label>
+            </div>
+          )}
 
+          {/* Error */}
           {localError && (
-            <div className="flex items-center gap-2 rounded-full bg-red-50 px-4 py-2 text-xs text-red-700">
+            <div className="mt-3 flex items-center gap-2 rounded-full bg-red-50 px-4 py-2 text-xs text-red-700">
               <Warning size={14} weight="light" />
               <span>{localError}</span>
-              <button
-                onClick={() => setLocalError(null)}
-                className="ml-1 underline hover:no-underline"
-              >
-                Dismiss
-              </button>
+              <button onClick={() => setLocalError(null)} className="ml-1 underline hover:no-underline">Dismiss</button>
             </div>
           )}
         </div>
@@ -162,10 +228,7 @@ export function UploadZone() {
 function fileToBase64(file: File): Promise<string> {
   return new Promise((resolve, reject) => {
     const reader = new FileReader();
-    reader.onload = () => {
-      const result = reader.result as string;
-      resolve(result);
-    };
+    reader.onload = () => resolve(reader.result as string);
     reader.onerror = reject;
     reader.readAsDataURL(file);
   });

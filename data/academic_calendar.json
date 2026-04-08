@@ -1,0 +1,291 @@
+{
+  "_metadata": {
+    "source": "Bryant University Registrar, Academic Calendar 2026-2027",
+    "source_url": "https://info.bryant.edu/sites/info/files/docs/Academic%20Calendar%2026%2027.pdf",
+    "last_updated_by_source": "2025-12-17",
+    "generated": "2026-04-08",
+    "notes": "Official undergraduate academic calendar. Registration dates from events.bryant.edu. Block schedule derived from Fall 2026 Banner section data (291 sections)."
+  },
+
+  "fall_2026": {
+    "term": "Fall 2026",
+    "semester_start": "2026-08-31",
+    "semester_end": "2026-12-18",
+
+    "move_in": {
+      "transfer_and_first_year": "2026-08-27",
+      "returning_students": "2026-08-30"
+    },
+    "orientation": {
+      "transfer_orientation_and_commuter_welcome": "2026-08-27",
+      "new_student_welcome_week": {
+        "start": "2026-08-27",
+        "end": "2026-08-30"
+      }
+    },
+
+    "classes_begin": "2026-08-31",
+    "classes_end": "2026-12-11",
+
+    "registration": {
+      "registration_opens_all_students": "2026-04-16",
+      "first_year_scheduling_closes": "2026-05-15",
+      "registration_reopens": "2026-07-01",
+      "registration_final_deadline": "2026-09-02",
+      "add_period_ends": "2026-09-04",
+      "drop_period_ends": "2026-09-11",
+      "last_day_for_W_grade": "2026-11-10"
+    },
+
+    "exams": {
+      "examination_period_start": "2026-12-12",
+      "examination_period_end": "2026-12-18",
+      "exam_time_slots": [
+        "08:30-11:00",
+        "12:00-14:30",
+        "15:00-17:30",
+        "18:15-20:45"
+      ]
+    },
+
+    "holidays_and_breaks": [
+      {
+        "name": "Labor Day",
+        "date": "2026-09-07",
+        "no_classes": true
+      },
+      {
+        "name": "Columbus/Indigenous Peoples' Day",
+        "date": "2026-10-12",
+        "no_classes": true
+      },
+      {
+        "name": "Monday schedule for all courses (makeup day)",
+        "date": "2026-10-13",
+        "no_classes": false,
+        "note": "Tuesday classes follow Monday schedule"
+      },
+      {
+        "name": "Day of Understanding",
+        "date": "2026-10-21",
+        "no_classes": true,
+        "note": "Students complete DOU activities in lieu of formal in-class meetings. Evening classes meet as regularly scheduled."
+      },
+      {
+        "name": "Thanksgiving Recess",
+        "start": "2026-11-24",
+        "end": "2026-11-29",
+        "no_classes": true,
+        "note": "Begins Tuesday evening after last class on Nov 24"
+      }
+    ],
+
+    "grading": {
+      "convocation": "2026-09-02",
+      "first_year_transfer_midterm_grades_due": "2026-10-20"
+    }
+  },
+
+  "winter_2026_2027": {
+    "term": "Winter 2026-2027",
+    "format": "REMOTE",
+    "classes_begin": "2026-12-28",
+    "classes_end": "2027-01-12",
+    "class_meeting_dates": [
+      "2026-12-28",
+      "2026-12-29",
+      "2026-12-30",
+      "2027-01-04",
+      "2027-01-05",
+      "2027-01-06",
+      "2027-01-07",
+      "2027-01-08",
+      "2027-01-09",
+      "2027-01-11",
+      "2027-01-12"
+    ]
+  },
+
+  "spring_2027": {
+    "term": "Spring 2027",
+    "semester_start": "2027-01-19",
+    "semester_end": "2027-05-11",
+
+    "move_in": {
+      "first_year_and_transfer": "2027-01-12",
+      "returning_students": "2027-01-17"
+    },
+    "orientation": {
+      "bryant_idea_first_year_transfer": {
+        "start": "2027-01-13",
+        "end": "2027-01-15"
+      }
+    },
+
+    "classes_begin": "2027-01-19",
+    "classes_end": "2027-05-04",
+
+    "registration": {
+      "add_period_ends": "2027-01-25",
+      "last_day_for_W_grade": "2027-04-06"
+    },
+
+    "exams": {
+      "examination_period_start": "2027-05-05",
+      "examination_period_end": "2027-05-11",
+      "exam_time_slots": [
+        "08:30-11:00",
+        "12:00-14:30",
+        "15:00-17:30",
+        "18:15-20:45"
+      ]
+    },
+
+    "holidays_and_breaks": [
+      {
+        "name": "Martin Luther King Jr. Day",
+        "date": "2027-01-18",
+        "no_classes": true
+      },
+      {
+        "name": "Presidents' Day",
+        "date": "2027-02-15",
+        "no_classes": true
+      },
+      {
+        "name": "Monday schedule for all courses (makeup day)",
+        "date": "2027-02-16",
+        "no_classes": false,
+        "note": "Tuesday classes follow Monday schedule"
+      },
+      {
+        "name": "Spring Break",
+        "start": "2027-03-15",
+        "end": "2027-03-21",
+        "no_classes": true
+      },
+      {
+        "name": "Research and Engagement Day (REDay)",
+        "date": "2027-04-07",
+        "no_classes": true,
+        "note": "REDay activities assigned in lieu of formal in-class meetings. Evening classes meet as regularly scheduled."
+      }
+    ],
+
+    "grading": {
+      "first_year_transfer_midterm_grades_due": "2027-03-09"
+    },
+
+    "commencement": {
+      "graduate": "2027-05-13",
+      "undergraduate": "2027-05-15"
+    }
+  },
+
+  "summer_2027": {
+    "term": "Summer 2027",
+    "format": "REMOTE",
+    "session_1": {
+      "classes_begin": "2027-05-18",
+      "day_classes_end": "2027-06-23",
+      "evening_classes_end_mw": "2027-07-12",
+      "evening_classes_end_tr": "2027-07-08"
+    },
+    "session_2": {
+      "classes_begin": "2027-06-24",
+      "classes_end": "2027-07-30"
+    },
+    "holidays": [
+      {
+        "name": "Memorial Day",
+        "date": "2027-05-31",
+        "no_classes": true
+      },
+      {
+        "name": "Juneteenth",
+        "date": "2027-06-19",
+        "no_classes": true
+      }
+    ]
+  },
+
+  "block_schedule": {
+    "description": "Bryant University uses a block scheduling system with 75-minute class periods on two-day patterns (MR = Monday/Thursday, TF = Tuesday/Friday) and 50-minute periods on three-day patterns (MWR = Monday/Wednesday/Thursday). Wednesday is used for labs, studios, and supplemental sessions. Evening classes run longer (typically 2h40m). This data is derived from 291 Fall 2026 Banner sections.",
+
+    "standard_blocks": {
+      "75_minute_MR": {
+        "pattern": "MR (Monday/Thursday)",
+        "note": "Primary two-day block pattern. Most popular scheduling option.",
+        "slots": [
+          {"start": "08:00", "end": "09:15", "sections_count": 15},
+          {"start": "09:35", "end": "10:50", "sections_count": 25},
+          {"start": "11:10", "end": "12:25", "sections_count": 25},
+          {"start": "12:45", "end": "14:00", "sections_count": 22},
+          {"start": "14:20", "end": "15:35", "sections_count": 20},
+          {"start": "15:55", "end": "17:10", "sections_count": 14},
+          {"start": "17:30", "end": "18:45", "sections_count": 5}
+        ]
+      },
+      "75_minute_TF": {
+        "pattern": "TF (Tuesday/Friday)",
+        "note": "Secondary two-day block pattern. Mirrors MR slots exactly.",
+        "slots": [
+          {"start": "08:00", "end": "09:15", "sections_count": 13},
+          {"start": "09:35", "end": "10:50", "sections_count": 29},
+          {"start": "11:10", "end": "12:25", "sections_count": 24},
+          {"start": "12:45", "end": "14:00", "sections_count": 21},
+          {"start": "14:20", "end": "15:35", "sections_count": 14}
+        ]
+      },
+      "50_minute_MWR": {
+        "pattern": "MWR (Monday/Wednesday/Thursday)",
+        "note": "Three-day block pattern with shorter 50-minute periods. Used for fewer sections.",
+        "slots": [
+          {"start": "08:00", "end": "08:50", "sections_count": 3},
+          {"start": "09:35", "end": "10:25", "sections_count": 3},
+          {"start": "11:10", "end": "12:00", "sections_count": 1},
+          {"start": "12:45", "end": "13:35", "sections_count": 1}
+        ]
+      }
+    },
+
+    "wednesday_blocks": {
+      "pattern": "W (Wednesday only)",
+      "note": "Used for labs, studios, recitations, and supplemental meetings. Longer durations (typically 110-160 minutes).",
+      "slots": [
+        {"start": "08:00", "end": "10:40", "duration_minutes": 160, "sections_count": 4},
+        {"start": "09:00", "end": "10:50", "duration_minutes": 110, "sections_count": 3},
+        {"start": "11:10", "end": "13:50", "duration_minutes": 160, "sections_count": 14},
+        {"start": "18:30", "end": "21:10", "duration_minutes": 160, "sections_count": 6}
+      ]
+    },
+
+    "evening_blocks": {
+      "note": "Evening classes run 75 to 160 minutes. Scheduled on single days (M, T, R, W).",
+      "slots": [
+        {"days": "M", "start": "17:30", "end": "19:20", "duration_minutes": 110, "sections_count": 1},
+        {"days": "M", "start": "17:55", "end": "19:45", "duration_minutes": 110, "sections_count": 1},
+        {"days": "M", "start": "18:30", "end": "21:10", "duration_minutes": 160, "sections_count": 6},
+        {"days": "T", "start": "17:55", "end": "19:45", "duration_minutes": 110, "sections_count": 1},
+        {"days": "T", "start": "18:30", "end": "21:10", "duration_minutes": 160, "sections_count": 5},
+        {"days": "R", "start": "18:30", "end": "21:10", "duration_minutes": 160, "sections_count": 4}
+      ]
+    },
+
+    "special_blocks": {
+      "note": "One-day sessions used for labs, practicums, or unique scheduling. Found on T and R.",
+      "slots": [
+        {"days": "T", "start": "09:00", "end": "10:50", "sections_count": 1},
+        {"days": "T", "start": "11:10", "end": "12:25", "sections_count": 1},
+        {"days": "T", "start": "14:20", "end": "17:00", "sections_count": 4},
+        {"days": "R", "start": "09:00", "end": "10:50", "sections_count": 1},
+        {"days": "R", "start": "12:45", "end": "14:00", "sections_count": 1},
+        {"days": "R", "start": "13:20", "end": "15:10", "sections_count": 2},
+        {"days": "M", "start": "10:55", "end": "12:45", "sections_count": 1}
+      ]
+    },
+
+    "gap_between_blocks_minutes": 20,
+    "note_on_back_to_back": "Blocks are separated by 20-minute gaps (e.g., 09:15 to 09:35, 10:50 to 11:10). This allows transit between buildings. Back-to-back sections ending and starting at the same minute (e.g., 10:50 end / 10:50 start) do NOT conflict — this is by design."
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "_meta": {
+    "description": "Bryant University campus buildings and estimated walk times for schedule transition analysis.",
+    "campus": "Bryant University, 1150 Douglas Pike, Smithfield, RI 02917",
+    "notes": [
+      "Walk times are rough estimates in minutes based on campus layout research.",
+      "Bryant's core academic campus is compact — most buildings are within 2-4 minutes of each other.",
+      "The BELC is the major outlier, located across Douglas Pike (Route 7) from the main campus.",
+      "A shuttle (Bulldog Express) connects the BELC to the main campus.",
+      "The Unistructure and Koffler are physically connected (Koffler is the lower level / rotunda wing).",
+      "Building codes in Banner data: 'Bus Entr Leadership Ctr' = BELC. Most sections currently show null for building.",
+      "Room number prefixes may indicate building: e.g., Bello 102, Unistructure 278, BELC S165."
+    ],
+    "sources": [
+      "https://campusmap.bryant.edu/",
+      "https://is.bryant.edu/services/communication-and-collaboration/web-services/campus-maps",
+      "https://en.wikipedia.org/wiki/Bryant_University",
+      "https://news.bryant.edu/bryant-30-transformational-master-plan-takes-shape",
+      "https://info.bryant.edu/business-entrepreneurship-leadership-center-belc",
+      "https://cte.bryant.edu/academic-innovation-center/"
+    ],
+    "last_updated": "2026-04-08"
+  },
+  "buildings": [
+    {
+      "code": "UNI",
+      "name": "Unistructure",
+      "full_name": "Unistructure Academic Hall",
+      "type": "academic",
+      "banner_name": null,
+      "description": "Main academic building (330,000 sq ft). Houses the College of Arts and Sciences and the School of Health and Behavioral Sciences. Contains classrooms, faculty offices, auditorium, and administrative offices. Central campus location.",
+      "departments": ["College of Arts and Sciences", "School of Health and Behavioral Sciences"],
+      "notable_rooms": ["278", "279", "370", "371", "380"]
+    },
+    {
+      "code": "KOF",
+      "name": "Koffler",
+      "full_name": "Koffler Communications Complex",
+      "type": "academic",
+      "banner_name": null,
+      "description": "Lower level of the Unistructure complex. Contains the Koffler Rotunda (central gathering space) and the Communications Complex with digital multimedia studios. Physically connected to the Unistructure.",
+      "departments": ["Communications"],
+      "notable_rooms": []
+    },
+    {
+      "code": "BELC",
+      "name": "BELC",
+      "full_name": "Business Entrepreneurship Leadership Center",
+      "type": "academic",
+      "banner_name": "Bus Entr Leadership Ctr",
+      "description": "250,000 sq ft former Fidelity Investments building, opened Fall 2024. Houses the College of Business. Located at 100 Salem St, across Douglas Pike (Route 7) from the main campus. Contains classrooms, labs for AI, data analytics, design thinking, and sales. Shuttle service (Bulldog Express) connects to main campus.",
+      "departments": ["College of Business", "Sprague Center for Entrepreneurship"],
+      "notable_rooms": ["215", "N173", "S165", "S173", "S243"]
+    },
+    {
+      "code": "BELLO",
+      "name": "Bello Center",
+      "full_name": "George E. Bello Center for Information and Technology",
+      "type": "academic",
+      "banner_name": null,
+      "description": "72,000 sq ft facility (opened 2002) housing the Douglas and Judith Krupp Library, C.V. Starr Financial Markets Center, Data Visualization Lab, and study/breakout rooms. Glass-enclosed pavilion oriented toward the campus quad.",
+      "departments": ["Library", "Information Technology"],
+      "notable_rooms": ["102", "103", "214"]
+    },
+    {
+      "code": "AIC",
+      "name": "Academic Innovation Center",
+      "full_name": "Quinlan/Brown Academic Innovation Center",
+      "type": "academic",
+      "banner_name": null,
+      "description": "50,000 sq ft building at the campus gateway. Contains tiered and flat classrooms, breakout rooms, Innovation Forum, admissions center, and cafe. Serves both College of Business and College of Arts and Sciences.",
+      "departments": [],
+      "notable_rooms": []
+    },
+    {
+      "code": "FSC",
+      "name": "Fisher Student Center",
+      "full_name": "Fisher Student Center",
+      "type": "student_life",
+      "banner_name": null,
+      "description": "Student center with dining facilities, meeting rooms, and student organization offices. Located on the main campus near the Unistructure.",
+      "departments": [],
+      "notable_rooms": []
+    },
+    {
+      "code": "CHACE",
+      "name": "Chace Wellness Center",
+      "full_name": "Elizabeth and Malcolm Chace Wellness and Athletic Center",
+      "type": "athletics",
+      "banner_name": null,
+      "description": "Athletic and wellness facility (opened 2001). Six-lane pool, 9,000 sq ft fitness center, aerobics studio, squash/racquetball courts, Sports Medicine and Training Center. Used for some physical education classes.",
+      "departments": ["Athletics and Recreation"],
+      "notable_rooms": []
+    },
+    {
+      "code": "BC",
+      "name": "Bryant Center",
+      "full_name": "Bryant Center",
+      "type": "student_life",
+      "banner_name": null,
+      "description": "Student life and administrative building on the main campus. Houses student services, meeting spaces, and gathering areas.",
+      "departments": [],
+      "notable_rooms": []
+    }
+  ],
+  "walk_times": {
+    "_unit": "minutes",
+    "_notes": "Estimates based on campus layout. Bryant's core academic area is compact. The BELC across Douglas Pike is the only significant walk. Koffler is inside the Unistructure complex so walk time is internal transit only.",
+    "UNI-KOF": 1,
+    "UNI-BELLO": 3,
+    "UNI-AIC": 4,
+    "UNI-FSC": 2,
+    "UNI-CHACE": 4,
+    "UNI-BC": 3,
+    "UNI-BELC": 7,
+    "KOF-BELLO": 3,
+    "KOF-AIC": 4,
+    "KOF-FSC": 2,
+    "KOF-CHACE": 4,
+    "KOF-BC": 3,
+    "KOF-BELC": 7,
+    "BELLO-AIC": 3,
+    "BELLO-FSC": 3,
+    "BELLO-CHACE": 5,
+    "BELLO-BC": 4,
+    "BELLO-BELC": 8,
+    "AIC-FSC": 4,
+    "AIC-CHACE": 5,
+    "AIC-BC": 4,
+    "AIC-BELC": 8,
+    "FSC-CHACE": 3,
+    "FSC-BC": 2,
+    "FSC-BELC": 7,
+    "CHACE-BC": 3,
+    "CHACE-BELC": 9,
+    "BC-BELC": 7
+  },
+  "transition_thresholds": {
+    "_description": "Thresholds for flagging tight transitions between back-to-back classes.",
+    "comfortable_minutes": 10,
+    "tight_minutes": 5,
+    "risky_minutes": 3,
+    "notes": "Bryant uses a block schedule where most classes end 10 minutes before the next block starts. A transition is only risky if the gap between class end and next class start is less than the walk time. The BELC is the main concern — a 7+ minute walk with only a 10-minute gap leaves very little buffer."
+  }
+}

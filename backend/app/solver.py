@@ -167,13 +167,15 @@ def score_combination(
     """
     score = 0.0
 
-    # 1. Credit match
+    # 1. Credit match — strongly prefer being close to target
     total_credits = sum(s.credits for s in sections)
     credit_diff = abs(total_credits - preferences.target_credits)
-    if credit_diff <= 1:
-        score += 10.0
+    if credit_diff == 0:
+        score += 15.0
+    elif credit_diff <= 1:
+        score += 12.0
     else:
-        score += max(0.0, 10.0 - credit_diff * 2)
+        score += max(0.0, 12.0 - credit_diff * 3)
 
     # 2. Instructor preferences
     for section in sections:
@@ -260,6 +262,19 @@ def solve(
         logger.warning("solver.no_requirements", extra={"selected_ids": list(selected_ids)})
         return []
 
+    # Build a set of courses already completed or in progress to exclude from wildcards
+    # This prevents the solver from scheduling FIN 201 when the student is already taking it
+    exclude_courses: set[str] = set()
+    # The audit is not directly available here, but we can infer from the sections
+    # that wildcard matches should exclude courses whose code appears in specific_course
+    # requirements that are NOT in the outstanding list (i.e., already satisfied).
+    # For now, we filter at a simpler level: if a course appears in the options of
+    # another outstanding requirement, don't double-count it via wildcards.
+    specific_courses: set[str] = set()
+    for r in requirements:
+        if r.rule_type == "specific_course":
+            specific_courses.update(r.options)
+
     # Step 1 & 2: Expand and filter candidates for each requirement
     candidate_pools: list[list[list[Section]]] = []
     pool_requirements: list[OutstandingRequirement] = []
@@ -289,6 +304,10 @@ def solve(
                 pool_requirements.append(req)
         else:
             filtered = filter_candidates_by_preferences(expanded, preferences)
+            # For wildcard rules, exclude sections that are already covered
+            # by a specific_course requirement to avoid double-scheduling
+            if req.rule_type == "wildcard" and specific_courses:
+                filtered = [s for s in filtered if s.course_code not in specific_courses]
             if filtered:
                 # Each candidate is a single-section list for uniform handling
                 candidate_pools.append([[s] for s in filtered])
@@ -299,9 +318,8 @@ def solve(
         return []
 
     # Step 3: Pick subsets of requirements whose credits are within target ± 3.
-    # If all requirements together exceed the credit window, we generate
-    # subsets that fit. This is the key step that makes the solver work
-    # when many requirements are selected.
+    # Priority order: major > business_core > general_education > elective > minor.
+    # This ensures FIN courses appear in results, not just gen eds.
     req_credits = [r.credits_needed for r in pool_requirements]
     total_all = sum(req_credits)
     target = preferences.target_credits
@@ -312,32 +330,58 @@ def solve(
         # All requirements fit in the credit window — use them all
         requirement_subsets = [tuple(range(len(pool_requirements)))]
     else:
-        # Generate subsets whose total credits fall within the window.
-        # Use itertools.combinations with increasing subset sizes.
+        # Generate subsets that fit the credit window, prioritizing major courses.
         requirement_subsets_list: list[tuple[int, ...]] = []
         n = len(pool_requirements)
-        # Try subset sizes from largest that could fit down to smallest
-        max_courses = min(n, int(credit_high // 1) + 1)  # generous upper bound
-        min_courses = max(1, int(credit_low // 4))  # at least this many 3-credit courses
 
-        for size in range(max_courses, min_courses - 1, -1):
+        # Score each subset by category priority and credit closeness to target
+        CATEGORY_PRIORITY = {"major": 4, "business_core": 3, "general_education": 2, "elective": 1, "minor": 1}
+
+        def _subset_score(indices: tuple[int, ...]) -> float:
+            """Score a subset: prioritize major courses, then closeness to target."""
+            cats = sum(CATEGORY_PRIORITY.get(pool_requirements[i].category, 0) for i in indices)
+            credits = sum(req_credits[i] for i in indices)
+            closeness = 10 - abs(credits - target)
+            distinct_cats = len({pool_requirements[i].category for i in indices})
+            return cats * 2 + closeness + distinct_cats * 3
+
+        # Target the ideal subset size (target_credits / avg_credits_per_req)
+        avg_credits = sum(req_credits) / len(req_credits) if req_credits else 3
+        ideal_size = max(1, round(target / avg_credits))
+        sizes_to_try = sorted(
+            range(max(1, ideal_size - 2), min(n + 1, ideal_size + 3)),
+            key=lambda s: abs(s - ideal_size),
+        )
+
+        all_candidates: list[tuple[float, tuple[int, ...]]] = []
+        for size in sizes_to_try:
             if size > n:
                 continue
             for subset in itertools.combinations(range(n), size):
                 subset_credits = sum(req_credits[i] for i in subset)
                 if credit_low <= subset_credits <= credit_high:
-                    requirement_subsets_list.append(subset)
-            # Cap the number of subsets to keep runtime bounded
-            if len(requirement_subsets_list) >= 50:
-                break
+                    score = _subset_score(subset)
+                    all_candidates.append((score, subset))
 
-        if not requirement_subsets_list:
+        if not all_candidates:
             logger.warning("solver.no_valid_subsets", extra={
                 "total_credits": total_all,
                 "target": target,
                 "num_requirements": n,
             })
             return []
+
+        # Sort by score descending, take top subsets, and ensure diversity
+        # by picking subsets that cover different requirement combinations
+        all_candidates.sort(key=lambda x: x[0], reverse=True)
+        seen_req_sets: list[frozenset[str]] = []
+        for _, subset in all_candidates:
+            req_set = frozenset(pool_requirements[i].id for i in subset)
+            if req_set not in seen_req_sets:
+                requirement_subsets_list.append(subset)
+                seen_req_sets.append(req_set)
+            if len(requirement_subsets_list) >= 30:
+                break
 
         requirement_subsets = requirement_subsets_list
 

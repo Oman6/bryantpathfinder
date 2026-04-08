@@ -21,7 +21,7 @@ load_dotenv()
 
 logger = logging.getLogger(__name__)
 
-MODEL = "claude-sonnet-4-5-20250514"
+MODEL = "claude-sonnet-4-20250514"
 
 
 def _get_client() -> anthropic.Anthropic:
@@ -94,6 +94,7 @@ def parse_audit_vision(image_base64: str, media_type: str = "image/png") -> Degr
             )
 
             response_text = message.content[0].text
+            logger.info("claude.vision_response_length", extra={"length": len(response_text)})
             parsed = _parse_json_response(response_text)
             audit = DegreeAudit(**parsed)
             logger.info("claude.vision_parse_success", extra={"requirements": len(audit.outstanding_requirements)})
@@ -101,7 +102,12 @@ def parse_audit_vision(image_base64: str, media_type: str = "image/png") -> Degr
 
         except (json.JSONDecodeError, KeyError, TypeError) as e:
             last_error = e
-            logger.warning("claude.vision_parse_malformed_json", extra={"attempt": attempt + 1, "error": str(e)})
+            preview = ""
+            try:
+                preview = response_text[:500]
+            except Exception:
+                pass
+            logger.warning("claude.vision_parse_malformed_json: attempt=%d error=%s response=%s", attempt + 1, str(e), preview)
             if attempt == 0:
                 continue
         except anthropic.AuthenticationError:
@@ -110,6 +116,76 @@ def parse_audit_vision(image_base64: str, media_type: str = "image/png") -> Degr
         except anthropic.RateLimitError:
             logger.error("claude.rate_limit")
             raise
+        except anthropic.APIError as e:
+            logger.error("claude.api_error", extra={"error": str(e)})
+            raise ValueError(f"Claude API error: {e}")
+
+    raise ValueError(f"Claude returned malformed JSON after 2 attempts: {last_error}")
+
+
+def parse_audit_text(text: str) -> DegreeAudit:
+    """Parse a pasted text description of degree requirements using Claude.
+
+    Students can paste advisor notes, requirement lists, or any text describing
+    what courses they need. Claude interprets it and returns a structured DegreeAudit.
+    """
+    client = _get_client()
+
+    prompt = f"""A Bryant University student pasted the following text describing their degree requirements.
+Parse this into a structured DegreeAudit JSON object.
+
+The student's text:
+---
+{text}
+---
+
+For any courses mentioned, create outstanding_requirements entries. Use your best judgment for rule_type:
+- If a specific course like "FIN 310" is mentioned -> rule_type: "specific_course", options: ["FIN 310"]
+- If "SCI + matching lab" or similar -> rule_type: "course_with_lab" with appropriate pairs
+- If "LCS 200 level" or "400 level finance" -> rule_type: "wildcard" with pattern like "LCS 2XX" or "FIN 4XX"
+- If multiple options like "FIN 370 or 371 or 380" -> rule_type: "choose_one_of"
+
+For fields you can't determine from the text, use reasonable defaults:
+- student_id: "000000000"
+- name: "Student"
+- major: "Business Administration"
+- expected_graduation: "May 2029"
+- credits_earned_or_inprogress: 42
+- credits_required: 120
+- completed_requirements: []
+- in_progress_requirements: []
+
+Assign categories based on course prefix:
+- FIN -> "major"
+- ACG, ISA, LGLS, MKT, MGT, BUS -> "business_core"
+- GEN, LCS, SCI, HIS, POLS, SOAN, COM, MATH, ECO -> "general_education"
+
+Generate stable snake_case IDs like "fin_310", "sci_lab", "lcs_200_level".
+
+Return ONLY valid JSON matching the DegreeAudit schema. No markdown fences."""
+
+    last_error = None
+    for attempt in range(2):
+        try:
+            message = client.messages.create(
+                model=MODEL,
+                max_tokens=4096,
+                temperature=0,
+                system=VISION_AUDIT_PROMPT,
+                messages=[{"role": "user", "content": prompt}],
+            )
+            response_text = message.content[0].text
+            parsed = _parse_json_response(response_text)
+            audit = DegreeAudit(**parsed)
+            logger.info("claude.text_parse_success", extra={"requirements": len(audit.outstanding_requirements)})
+            return audit
+        except (json.JSONDecodeError, KeyError, TypeError) as e:
+            last_error = e
+            logger.warning("claude.text_parse_malformed: attempt=%d error=%s", attempt + 1, str(e))
+            if attempt == 0:
+                continue
+        except anthropic.APIError as e:
+            raise ValueError(f"Claude API error: {e}")
 
     raise ValueError(f"Claude returned malformed JSON after 2 attempts: {last_error}")
 

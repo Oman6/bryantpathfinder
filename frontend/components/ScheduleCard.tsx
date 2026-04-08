@@ -1,12 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { Copy, Check } from "@phosphor-icons/react";
-import type { ScheduleOption } from "@/lib/types";
+import { Copy, Check, PencilSimple, ArrowsLeftRight } from "@phosphor-icons/react";
+import type { ScheduleOption, Section } from "@/lib/types";
 import { useStore } from "@/lib/store";
 import { to12h } from "@/lib/utils";
 import { WeeklyCalendar } from "./WeeklyCalendar";
 import { ProfessorTooltip } from "./ProfessorTooltip";
+import { SectionSwap } from "./SectionSwap";
 import { PillButton } from "./PillButton";
 import {
   Dialog,
@@ -34,8 +35,20 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
   const { professorRatings } = useStore();
   const [crnDialogOpen, setCrnDialogOpen] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [editing, setEditing] = useState(false);
+  const [swappingSection, setSwappingSection] = useState<Section | null>(null);
+  const [localSections, setLocalSections] = useState(schedule.sections);
 
-  const crns = schedule.sections.map((s) => s.crn).join(", ");
+  const handleSwap = (newSection: Section) => {
+    setLocalSections((prev) =>
+      prev.map((s) => (s.crn === swappingSection?.crn ? newSection : s))
+    );
+    setSwappingSection(null);
+  };
+
+  const displaySections = editing ? localSections : schedule.sections;
+
+  const crns = displaySections.map((s) => s.crn).join(", ");
 
   const handleCopy = async () => {
     await navigator.clipboard.writeText(crns);
@@ -61,20 +74,36 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
                 {schedule.rank === 1 ? "Top pick" : schedule.rank === 2 ? "Alternative" : "Option"}
               </span>
             </div>
-            <span
-              className="text-xs text-[#787774]"
-              style={{ fontFamily: "var(--font-geist-mono), monospace" }}
-            >
-              {schedule.total_credits} credits
-            </span>
+            <div className="flex items-center gap-2">
+              <span
+                className="text-xs text-[#787774]"
+                style={{ fontFamily: "var(--font-geist-mono), monospace" }}
+              >
+                {editing
+                  ? `${localSections.reduce((s, sec) => s + sec.credits, 0)} credits`
+                  : `${schedule.total_credits} credits`}
+              </span>
+              <button
+                onClick={() => setEditing(!editing)}
+                className={`flex items-center gap-1 rounded-full px-2 py-0.5 text-[9px] transition-colors ${
+                  editing
+                    ? "bg-[#B8985A] text-white"
+                    : "bg-black/[0.04] text-[#787774] hover:text-[#1A1A1A]"
+                }`}
+                style={{ fontFamily: "var(--font-geist-mono), monospace" }}
+              >
+                <PencilSimple size={9} weight="light" />
+                {editing ? "Editing" : "Edit"}
+              </button>
+            </div>
           </div>
 
           {/* Weekly calendar */}
-          <WeeklyCalendar sections={schedule.sections} />
+          <WeeklyCalendar sections={displaySections} />
 
           {/* Course list */}
           <div className="mt-4 space-y-1.5">
-            {schedule.sections.map((section) => {
+            {displaySections.map((section) => {
               const meetingStr = section.meetings
                 .map(
                   (m) =>
@@ -84,7 +113,12 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
               return (
                 <div
                   key={section.crn}
-                  className="flex items-baseline justify-between gap-2 py-1"
+                  className={`flex items-baseline justify-between gap-2 py-1 ${
+                    editing
+                      ? "cursor-pointer rounded-lg px-2 -mx-2 transition-colors hover:bg-[#FAFAF7]"
+                      : ""
+                  }`}
+                  onClick={editing ? () => setSwappingSection(section) : undefined}
                 >
                   <div className="flex items-baseline gap-2">
                     <span
@@ -98,6 +132,9 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
                       rating={section.instructor ? professorRatings[section.instructor] : undefined}
                       className="text-xs text-[#787774]"
                     />
+                    {editing && (
+                      <ArrowsLeftRight size={10} weight="light" className="text-[#B8985A]" />
+                    )}
                   </div>
                   <div className="flex items-baseline gap-3">
                     <span
@@ -170,7 +207,7 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
           </DialogHeader>
 
           <div className="mt-2 space-y-3">
-            {schedule.sections.map((s) => (
+            {displaySections.map((s) => (
               <div
                 key={s.crn}
                 className="flex items-center justify-between rounded-lg bg-[#FAFAF7] px-4 py-2.5"
@@ -202,8 +239,25 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
               </>
             )}
           </button>
+
+          <button
+            onClick={() => setCrnDialogOpen(false)}
+            className="mt-2 flex w-full items-center justify-center rounded-full py-2.5 text-xs text-[#787774] transition-colors hover:text-[#1A1A1A]"
+          >
+            Done
+          </button>
         </DialogContent>
       </Dialog>
+
+      {/* Section swap modal */}
+      {swappingSection && (
+        <SectionSwap
+          currentSection={swappingSection}
+          otherSections={localSections.filter((s) => s.crn !== swappingSection.crn)}
+          onSwap={handleSwap}
+          onClose={() => setSwappingSection(null)}
+        />
+      )}
     </>
   );
 }

@@ -3,6 +3,7 @@ import type {
   GenerateSchedulesResponse,
   MultiSemesterResult,
   SchedulePreferences,
+  Section,
 } from "./types";
 
 const API_BASE = "http://localhost:8000";
@@ -48,6 +49,27 @@ export async function getMultiSemesterPlan(
   if (!res.ok) {
     const error = await res.json().catch(() => ({ detail: "Failed to generate plan" }));
     throw new Error(error.detail || `Planning failed (${res.status})`);
+  }
+  return res.json();
+}
+
+export async function parseAuditText(text: string): Promise<DegreeAudit> {
+  const res = await fetch(`${API_BASE}/api/parse-audit-text`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ text }),
+  });
+  if (!res.ok) {
+    const error = await res.json().catch(() => ({ detail: "Failed to parse" }));
+    throw new Error(error.detail || `Parse failed (${res.status})`);
+  }
+  return res.json();
+}
+
+export async function getAlternateSections(courseCode: string): Promise<Section[]> {
+  const res = await fetch(`${API_BASE}/api/sections?course_code=${encodeURIComponent(courseCode)}`);
+  if (!res.ok) {
+    throw new Error("Failed to load sections");
   }
   return res.json();
 }

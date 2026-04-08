@@ -18,6 +18,7 @@ from pathlib import Path
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
+from pydantic import BaseModel as PydanticBaseModel
 from .claude_client import explain_schedule, parse_audit_vision
 from .models import (
     DegreeAudit,
@@ -68,10 +69,11 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
+    max_age=0,
 )
 
 
@@ -84,6 +86,25 @@ async def health() -> HealthResponse:
         term="Fall 2026",
         anthropic_api="reachable",
     )
+
+
+class ParseAuditTextRequest(PydanticBaseModel):
+    text: str
+
+
+@app.post("/api/parse-audit-text", response_model=DegreeAudit)
+async def parse_audit_text(request: ParseAuditTextRequest) -> DegreeAudit:
+    """Parse a pasted text description of degree requirements using Claude."""
+    from .claude_client import parse_audit_text as _parse_text
+    if not request.text.strip():
+        raise HTTPException(status_code=400, detail="Text is required.")
+    try:
+        audit = _parse_text(request.text)
+        return audit
+    except ValueError as e:
+        raise HTTPException(status_code=422, detail=str(e))
+    except RuntimeError as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 @app.post("/api/parse-audit", response_model=DegreeAudit)
@@ -189,6 +210,14 @@ async def sample_audit() -> DegreeAudit:
         raise HTTPException(status_code=500, detail="Sample audit fixture not found")
     raw = json.loads(FIXTURE_PATH.read_text(encoding="utf-8"))
     return DegreeAudit(**raw)
+
+
+@app.get("/api/sections")
+async def get_sections(course_code: str) -> list[dict]:
+    """Return all sections for a given course code (e.g., ?course_code=FIN 310)."""
+    sections: list[Section] = app.state.sections
+    matches = [s.model_dump() for s in sections if s.course_code == course_code]
+    return matches
 
 
 @app.post("/api/multi-semester")

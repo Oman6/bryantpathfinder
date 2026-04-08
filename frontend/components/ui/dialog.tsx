@@ -1,7 +1,6 @@
 "use client"
 
 import * as React from "react"
-import { X } from "@phosphor-icons/react"
 import { cn } from "@/lib/utils"
 
 interface DialogProps {
@@ -12,29 +11,31 @@ interface DialogProps {
 
 function Dialog({ open, onOpenChange, children }: DialogProps) {
   if (!open) return null
-  return <>{children}</>
+
+  return (
+    <DialogContext.Provider value={{ onOpenChange }}>
+      {children}
+    </DialogContext.Provider>
+  )
 }
+
+const DialogContext = React.createContext<{ onOpenChange: (open: boolean) => void }>({
+  onOpenChange: () => {},
+})
 
 function DialogContent({
   className,
   children,
   ...props
 }: React.ComponentProps<"div"> & { className?: string }) {
+  const { onOpenChange } = React.useContext(DialogContext)
+
   return (
     <>
-      {/* Backdrop */}
       <div
         className="fixed inset-0 z-50 bg-black/10 backdrop-blur-[2px]"
-        onClick={(e) => {
-          const dialog = (e.target as HTMLElement).closest("[data-slot='dialog']")
-          if (!dialog) {
-            const parent = (e.target as HTMLElement).parentElement
-            const onOpenChange = parent?.querySelector("[data-dismiss]")
-            onOpenChange?.dispatchEvent(new Event("click"))
-          }
-        }}
+        onClick={() => onOpenChange(false)}
       />
-      {/* Content */}
       <div
         data-slot="dialog-content"
         className={cn(
