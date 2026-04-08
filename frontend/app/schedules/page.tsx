@@ -189,12 +189,15 @@ export default function SchedulesPage() {
         </div>
 
         {/* Footer */}
-        <div className="animate-fade-up delay-500 mt-12 flex items-center justify-between">
+        <div className="animate-fade-up delay-500 mt-12 flex flex-wrap items-center gap-3">
           <PillButton variant="secondary" onClick={() => router.push("/preferences")}>
             Try different preferences
           </PillButton>
+          <PillButton onClick={() => router.push("/planner")}>
+            View 4-semester plan
+          </PillButton>
           <p
-            className="text-[10px] text-[#787774]"
+            className="ml-auto text-[10px] text-[#787774]"
             style={{ fontFamily: "var(--font-geist-mono), monospace" }}
           >
             Pathfinder by NovaWealth

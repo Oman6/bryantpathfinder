@@ -19,7 +19,6 @@ const DEFAULT_COLOR = { bg: "bg-gray-50/60", text: "text-gray-800/70", border: "
 
 interface CourseBlockProps {
   section: Section;
-  dayIndex: number;
   startMinutes: number;
   endMinutes: number;
   calendarStartHour: number;
@@ -28,7 +27,6 @@ interface CourseBlockProps {
 
 export function CourseBlock({
   section,
-  dayIndex,
   startMinutes,
   endMinutes,
   calendarStartHour,

@@ -1,0 +1,587 @@
+{
+  "ACG 203": {
+    "description": "Explores how fundamental Generally Accepted Accounting Principles drive the creation of financial information and how both internal and external decision-makers use this data for evaluation.",
+    "prerequisites": ["BUS 100"],
+    "credits": 3
+  },
+  "ACG 204": {
+    "description": "Students learn how management uses accounting information to determine product and service costs, understand cost behavior, plan and control operations, and support business decisions.",
+    "prerequisites": ["ACG 203"],
+    "credits": 3
+  },
+  "ACG 301": {
+    "description": "Addresses financial reporting for creditors, investors, and regulatory agencies, emphasizing conceptual development and application of reporting alternatives.",
+    "prerequisites": ["ACG 203", "FIN 201"],
+    "credits": 3
+  },
+  "ACG 302": {
+    "description": "Covers advanced topics in financial reporting including pensions, leases, long-term debt, and stockholders' equity for external stakeholders.",
+    "prerequisites": ["ACG 301"],
+    "credits": 3
+  },
+  "ACG 311": {
+    "description": "Reinforces management accounting concepts, teaching methods to identify, collect, and classify cost information for product costing, planning, control, and decision-making.",
+    "prerequisites": ["ACG 204"],
+    "credits": 3
+  },
+  "ACG 345": {
+    "description": "Provides understanding of accounting information systems theory, new information technologies, database management, and exposure to business and accounting software packages.",
+    "prerequisites": ["ACG 301"],
+    "credits": 3
+  },
+  "ACG 351": {
+    "description": "Introduces accounting majors to corporation taxation topics, examining taxation of corporations and their shareholders through problem-solving and tax law interpretation.",
+    "prerequisites": ["ACG 203"],
+    "credits": 3
+  },
+  "ACG 352": {
+    "description": "Examines federal tax structure emphasizing individual taxation, covering income determination, exemptions, deductions, property transactions, accounting methods, and tax planning.",
+    "prerequisites": ["ACG 203"],
+    "credits": 3
+  },
+  "ACG 381": {
+    "description": "Covers IT auditing concepts including IT environments, digital evidence gathering, IT risk and controls, and regulatory compliance relevant to financial audits.",
+    "prerequisites": ["ACG 204", "ISA 201"],
+    "credits": 3
+  },
+  "ACG 442": {
+    "description": "Presents basic concepts and procedures for financial statement audits, including auditors' professional responsibilities, risk analysis, audit evidence, and data analytics.",
+    "prerequisites": ["ACG 302", "ACG 345"],
+    "credits": 3
+  },
+  "ACG 461": {
+    "description": "Addresses financial reporting for external stakeholders, emphasizing business combinations and consolidation topics relevant to creditors and investors.",
+    "prerequisites": ["ACG 302"],
+    "credits": 3
+  },
+  "BUS 100": {
+    "description": "An introductory course exposing students to various business types and navigation of local and global environments. Covers ethical, political, social, cultural, and economic factors shaping competitive landscapes.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "BUS 400": {
+    "description": "Capstone course integrating knowledge from various business disciplines with focus on general manager perspectives. Covers analytical frameworks for industry evaluation, competitive advantage assessment, and strategy implementation through case studies.",
+    "prerequisites": ["ACG 203", "ACG 204", "FIN 201", "ISA 201", "LGLS 211", "MGT 200", "MGT 201", "MKT 201"],
+    "credits": 3
+  },
+  "COM 203": {
+    "description": "Explores communication definitions, research methodology, communication theories, and field areas including interpersonal, mass, health, intercultural, and small group communication. Develops critical thinking and career exploration skills.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "COM 230": {
+    "description": "Investigates filmmaking language, cinema-culture relationships, and film as art and social practice. Examines cinematography, production design, editing, music, sound design, narrative structure, and cultural representations including gender and race.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "COM 260": {
+    "description": "Develops critical media examination tools across print, television, advertising, reality programming, news, films, internet, video games, and print media. Addresses misinformation impacts and media's macro-level cultural ramifications.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "COM 272": {
+    "description": "Familiarizes students with media industry structures, trends, economics, and content and cultural impacts across television, radio, advertising, public relations, internet, print, and gaming. Addresses ownership concentration, convergence, media effects, and ethical issues.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "COM 280": {
+    "description": "Foundational health communication topics including patient-provider interactions, social support, health literacy, health campaigns, technology's health influence, and cultural health roles.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "ECO 113": {
+    "description": "Introduces fundamental microeconomic concepts including the nature and method of economics and the role of the private and government sectors. Focus areas include firm behavior, market structures, and resource allocation.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "ECO 114": {
+    "description": "Covers core macroeconomic principles including national income accounting, business cycles, income determination, and monetary and fiscal policy. Topics also address international economics including trade, comparative advantage, and exchange rates.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "ECO 201": {
+    "description": "Examines the financial system's role in modern economies, covering ways to transfer economic resources through time, across geographic regions, and among industries. Topics include money principles, credit, banking, Federal Reserve operations, and monetary policy.",
+    "prerequisites": ["ECO 114"],
+    "credits": 3
+  },
+  "ECO 313": {
+    "description": "Investigates firm behavior through demand, supply and equilibrium under conditions of perfect and imperfect competition. Analyzes efficient factor of production allocation using similar analytical techniques.",
+    "prerequisites": ["ECO 113"],
+    "credits": 3
+  },
+  "ECO 314": {
+    "description": "Examines how aggregate demand and supply respond to changes in employment, inflation, national output, and international trade. Analyzes macroeconomic policies using classical and Keynesian frameworks.",
+    "prerequisites": ["ECO 114"],
+    "credits": 3
+  },
+  "ECO 315": {
+    "description": "Introduces econometric techniques with emphasis on statistical applications to economic theories. Students learn to analyze consumption-income-price relationships and production functions using Stata and R.",
+    "prerequisites": ["ECO 113", "MATH 110", "MATH 201"],
+    "credits": 3
+  },
+  "ECO 316": {
+    "description": "Applies game theory concepts to economic and strategic decision-making, analyzing how individuals and firms interact in competitive and cooperative settings.",
+    "prerequisites": ["ECO 113"],
+    "credits": 3
+  },
+  "ECO 350": {
+    "description": "Examines free market philosophy's influence on U.S. society across the economy, political economy, politics, socio-economic policies, education, culture, and media. Emphasizes the relationship between market ideals and democracy.",
+    "prerequisites": ["ECO 113"],
+    "credits": 3
+  },
+  "ECO 440": {
+    "description": "Introduces economics of machine learning and AI applications for predictions and improved decision-making. Covers how machine learning makes prediction better and off-the-shelf applications for analyzing text and images.",
+    "prerequisites": ["ECO 113", "ECO 114"],
+    "credits": 3
+  },
+  "ECO 473": {
+    "description": "Examines U.S. healthcare industry economic processes and how decisions are made by providers, consumers, and third party payers. Topics include market mechanism and structures, government intervention, health care reform and insurance.",
+    "prerequisites": ["ECO 113", "ECO 114"],
+    "credits": 3
+  },
+  "ECO 481": {
+    "description": "Prepares students for College Fed Challenge competition. Students research and analyze economic and financial conditions then present and defend their analyses with recommendations for monetary policy.",
+    "prerequisites": ["ECO 113", "ECO 114"],
+    "credits": 3
+  },
+  "FIN 201": {
+    "description": "Deals with the financial management of the business enterprise and the role of the financial manager in value creation, covering time value of money, risk and return, security valuation, capital budgeting, cash management, dividend policy, and financing methods.",
+    "prerequisites": ["BUS 100", "MATH 201"],
+    "credits": 3
+  },
+  "FIN 310": {
+    "description": "In-depth exploration covering capital budgeting, capital structure, dividend policy, working capital management, and valuation using Excel-based analysis.",
+    "prerequisites": ["FIN 201"],
+    "credits": 3
+  },
+  "FIN 312": {
+    "description": "Broad perspective on investment objectives, investment vehicles, market operations, return and risk measurement, pricing techniques, and portfolio management frameworks.",
+    "prerequisites": ["FIN 201", "MATH 201"],
+    "credits": 3
+  },
+  "FIN 315": {
+    "description": "Introduction to the American financial system including banks, insurance companies and the capital market institutions, examining instruments, institutions, and their operating framework.",
+    "prerequisites": ["FIN 201"],
+    "credits": 3
+  },
+  "FIN 368": {
+    "description": "Methods for managing multinational corporation finances, including international monetary systems, trade financing, hedging, risk analysis, capital budgeting for foreign investments, and tax considerations.",
+    "prerequisites": ["FIN 201"],
+    "credits": 3
+  },
+  "FIN 370": {
+    "description": "Prepares students to understand financial information for firm valuation judgments, emphasizing critical analysis and review of how financial statements are prepared.",
+    "prerequisites": ["ACG 203", "FIN 201"],
+    "credits": 3
+  },
+  "FIN 380": {
+    "description": "Students develop spreadsheet models addressing loan amortization, lease analysis, capital budgeting, risk analysis, cash budgeting, options pricing, and portfolio management using Excel.",
+    "prerequisites": ["FIN 312"],
+    "credits": 3
+  },
+  "FIN 381": {
+    "description": "Focuses on non-speculative risk and its management including identification, measurement, and application of self-insurance and purchased insurance strategies.",
+    "prerequisites": ["FIN 201", "MATH 201"],
+    "credits": 3
+  },
+  "FIN 384": {
+    "description": "Exposes students to commercial banking topics including cash flow analysis, financial statement review, commercial loan structuring, and industry analysis.",
+    "prerequisites": ["FIN 201"],
+    "credits": 3
+  },
+  "FIN 412": {
+    "description": "Examines financial technology impact across finance, banking, and insurance sectors, studying how technology revolutionizes financial services and emerging fintech company models.",
+    "prerequisites": ["FIN 312"],
+    "credits": 3
+  },
+  "FIN 414": {
+    "description": "Explores the application of artificial intelligence techniques to finance, covering machine learning models for financial prediction, algorithmic trading, risk assessment, and data-driven financial decision-making.",
+    "prerequisites": ["FIN 201"],
+    "credits": 3
+  },
+  "FIN 458": {
+    "description": "Analyzes debt securities selection and management with focus on complexity of global securities, options, and futures for pricing and risk management applications.",
+    "prerequisites": ["FIN 312"],
+    "credits": 3
+  },
+  "FIN 460": {
+    "description": "Capstone course examining long-term financial management including capital budgeting, capital structure, leasing, valuation, mergers, dividends, and hedging through case studies.",
+    "prerequisites": ["FIN 201", "FIN 310", "FIN 312"],
+    "credits": 3
+  },
+  "FIN 465": {
+    "description": "Survey of quantitative and technological methods in contemporary finance, covering financial engineering and advanced mathematical approaches for global investment evaluation.",
+    "prerequisites": ["FIN 201", "FIN 312"],
+    "credits": 3
+  },
+  "FIN 466": {
+    "description": "Introduces tools for managing and analyzing financial big data using open-source analytical tools to apply numerical and textual records to financial decision-making.",
+    "prerequisites": ["ACG 203", "FIN 201", "MATH 201"],
+    "credits": 3
+  },
+  "FIN 475": {
+    "description": "Explores theory and practice of managing depository institutions, examining asset and liability management strategies and impacts on profitability.",
+    "prerequisites": ["FIN 201"],
+    "credits": 3
+  },
+  "GEN 103": {
+    "description": "Introduces lifelong career development and career management skills through discussions, activities, and assignments. Topics strengthen personal career identity and teach practical planning strategies.",
+    "prerequisites": ["GEN 100"],
+    "credits": 1
+  },
+  "GEN 106": {
+    "description": "Engages students collaboratively as a community of writers emphasizing writing as process. Explores writing's impact in real-world contexts through inquiry, revision, and reflection across diverse genres and rhetorical situations.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "GEN 201": {
+    "description": "Examines communication in the intercultural setting, both domestic and international. Develops perspectives on cultural influence in messaging, recognizing communication complexity, and reflecting on cultural impact on interpretation.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "GEN 390": {
+    "description": "Experiential capstone course integrating students' skills honed across the curriculum with understanding of Sustainable Development Goals and innovation processes to address real-world problems with community partners.",
+    "prerequisites": ["GEN 106", "ECO 113", "MATH 201", "MATH 110", "GEN 201", "BUS 100"],
+    "credits": 3
+  },
+  "HIS 250": {
+    "description": "Examines origins and early development of Europe, including feudalism decline, rise of national monarchies, urbanism during the Renaissance and Reformation, with emphasis on socioeconomic and cultural history.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "HIS 252": {
+    "description": "Studies political, intellectual, and socio-economic history of early modern Europe, covering the Reformation, Scientific Revolution, and English and French revolutions while introducing History as a field of study.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "HIS 261": {
+    "description": "Survey introducing American history covering political, cultural and economic development through Reconstruction, conveying foundations of the American way of life.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "HIS 262": {
+    "description": "Covers American experience from Reconstruction to present, focusing on the Urban-Industrial age, U.S. rise to world leadership, and changes in American life over the past century.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "HIS 263": {
+    "description": "Surveys American women's history from colonial times to present, examining how major social, political, and economic developments affected women, including both ordinary women and leading activists.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "HIS 270": {
+    "description": "Introductory survey tracing human and societal development from ancient history to 1500, providing insight into diverse ideas, institutions, and life practices across cultures and civilizations.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "HIS 271": {
+    "description": "Historical study of major world regions and cultures over five centuries, examining connections, interactions, and global trends with emphasis on third world emergence and modernization processes.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "HIS 351": {
+    "description": "Examines major political, economic and intellectual developments since 1815, emphasizing significant events, patterns, and themes in Western history within the modern world context.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "HIS 361": {
+    "description": "Explores whether World War II served as major force for change in women's lives both in the United States and globally. Examines experiences of diverse socio-economic and ethnic women across multiple countries.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "HIS 367": {
+    "description": "Explores American popular culture expressions across media including literature, film, music, advertising, and fashion, examining audience meaning-making and culture's relationship to economics, commerce, and social movements.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "HIS 371": {
+    "description": "Historical study of Russian society evolution from Age of Kiev to present, including tsarist and Soviet periods, with special attention to contemporary Russia.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "HIS 451": {
+    "description": "Examines major global history developments since 1945, considering capitalist and socialist systems, Cold War, imperialism, third-world independence movements, and new world order, with emphasis on Western and non-Western society interactions.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "ISA 201": {
+    "description": "Information technology has become deeply integrated with every business function. Course covers IT's role in business processes, enterprise systems (CRM, ERP, SCM), emerging technologies, and security issues. Students analyze business scenarios and compete in analytical cases.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "LCS 221": {
+    "description": "Investigates narrative literature forms including novels, short stories, and experimental narratives through theoretical frameworks and historical contexts.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "LCS 223": {
+    "description": "Examines poetry through craft analysis, strategic poetic decisions, and historical and cultural contexts shaping poetic expression.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "LCS 250": {
+    "description": "Applies critical lens to gender and sexuality structures, examining scholarship on women's history, feminist theory, and power systems.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "LCS 251": {
+    "description": "Focuses on dramatic literature across historical, cultural, and social contexts, potentially addressing performance elements.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "LCS 260": {
+    "description": "Examines central philosophical concepts about truth, justice, and decision-making through Western and non-Western philosophical traditions.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "LCS 270": {
+    "description": "Reflects on cultural texts from art to popular culture, exploring cultural practices, power relationships, and society's multiple dimensions.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "LGLS 211": {
+    "description": "Emphasizes the nature of legal systems and processes including agency, contracts, UCC, debtor-creditor relationships, government regulation, and business structure selection.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "LGLS 340": {
+    "description": "Examines the legal and ethical dimensions of generative artificial intelligence, addressing intellectual property, privacy, liability, bias, and regulatory frameworks surrounding AI-generated content and decision-making systems.",
+    "prerequisites": ["LGLS 211"],
+    "credits": 3
+  },
+  "MATH 110": {
+    "description": "Applied mathematics exploring quantitative problem analysis across four areas: functions, finance mathematics, real-world data modeling, and linear programming.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "MATH 201": {
+    "description": "Foundational statistical analysis including descriptive statistics, probability, distributions, confidence intervals, hypothesis testing, and regression.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "MGT 200": {
+    "description": "Provides business professionals with contemporary management knowledge covering leadership, organizational culture, performance management, employee engagement, and high-performing teams through articles, exercises, case studies, and simulations.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "MGT 201": {
+    "description": "Introduces theories and tools for managing competitive firms, emphasizing managerial issues and analytical techniques. Covers operations strategy, process design, quality, inventory theory, and project management.",
+    "prerequisites": ["MATH 201"],
+    "credits": 3
+  },
+  "MGT 302": {
+    "description": "Examines human dimensions of management with emphasis on applying theory to real-world problems and developing interpersonal skills, including motivation, leadership, group dynamics, and communication.",
+    "prerequisites": ["MGT 200"],
+    "credits": 3
+  },
+  "MGT 312": {
+    "description": "In-depth study of human resources management principles, emphasizing functions managers and HR personnel must understand to develop effective workforces.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "MGT 462": {
+    "description": "Focuses on project management tools and techniques with quantitative and qualitative emphasis, covering scheduling, budgeting, cost control, team building, and risk management, including consulting report delivery.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "MKT 201": {
+    "description": "Overview of key marketing concepts and tools including the marketing mix (product, price, promotion, distribution, people, process, facilities), customer value, competitive analysis, and consumer behavior.",
+    "prerequisites": ["BUS 100"],
+    "credits": 3
+  },
+  "MKT 311": {
+    "description": "Applies concepts from economics, psychology, sociology, and anthropology to study factors influencing acquisition, consumption, and disposition of goods and services.",
+    "prerequisites": ["MKT 201"],
+    "credits": 3
+  },
+  "MKT 381": {
+    "description": "Examines digital marketing channels, online consumer behavior, campaign creation across internet-based platforms, and effectiveness tracking for B2B and B2C brands.",
+    "prerequisites": ["MKT 201", "MKT 311"],
+    "credits": 3
+  },
+  "POLS 241": {
+    "description": "Covers nation-state development, war and peace dynamics, human rights, and international institutions including the UN and World Bank.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "POLS 256": {
+    "description": "Surveys U.S. government including Congress, presidency, Supreme Court, federalism, political parties, elections, civil liberties, and civil rights.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "POLS 353": {
+    "description": "Covers party history, organization, nominations, elections, voting, and media influence in national electoral processes.",
+    "prerequisites": ["POLS 241", "POLS 256"],
+    "credits": 3
+  },
+  "POLS 462": {
+    "description": "Analyzes modern international system dynamics, power politics, balance of power, war and peace, national power, and international law and diplomacy.",
+    "prerequisites": ["POLS 241", "POLS 256"],
+    "credits": 3
+  },
+  "PSY 260": {
+    "description": "Addresses the major principles, theories and research methods to understand mental processing and behavior, surveying topics across various contexts with attention to ethical implications.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "PSY 353": {
+    "description": "Examines major historical and contemporary approaches to understanding personality and development, incorporating cross-cultural and gender influences.",
+    "prerequisites": ["PSY 260"],
+    "credits": 3
+  },
+  "PSY 355": {
+    "description": "Covers contemporary approaches to understanding the causes and treatments of psychological and psychiatric disorders.",
+    "prerequisites": ["PSY 260"],
+    "credits": 3
+  },
+  "PSY 372": {
+    "description": "Focuses on antecedents of subjective well-being, optimal functioning across lifespan, positive traits development, and collective wellbeing.",
+    "prerequisites": ["PSY 260"],
+    "credits": 3
+  },
+  "PSY 373": {
+    "description": "Overview of cognitive psychology including neuroscience, perception, attention, memory, language, imagery, categorization, and decision-making.",
+    "prerequisites": ["PSY 260"],
+    "credits": 3
+  },
+  "PSY 402": {
+    "description": "Explores the intersection of artificial intelligence and human intelligence, examining how AI systems model cognitive processes and comparing machine learning approaches with human cognition, perception, and decision-making.",
+    "prerequisites": ["PSY 260"],
+    "credits": 3
+  },
+  "SCI 251": {
+    "description": "Introduction to fundamental principles of biology covering methodology, classification, cell structure, biochemistry, energy, genetics, ecology, and evolution.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "SCI 262": {
+    "description": "Explores geologic processes including volcanic activity, earthquakes, mountain building, and erosion.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "SCI 264": {
+    "description": "Covers mechanics, heat, waves, sound, light, electricity, and atomic physics from a conceptual perspective.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "SCI 265": {
+    "description": "Foundational chemistry covering atomic structure, bonding, organic and inorganic reactions, and equilibria.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "SCI 269": {
+    "description": "Provides fundamental scientific knowledge on causes, impacts, and mitigation and remediation possibilities for climate change.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "SCI 351": {
+    "description": "Review of ecological principles with research studies, techniques, and global and local environmental issues and sustainability.",
+    "prerequisites": ["SCI 251"],
+    "credits": 3
+  },
+  "SCI 352": {
+    "description": "Examines acute responses and chronic adaptations of the human body during aerobic and anaerobic exercise, including bioenergetics and system mechanisms.",
+    "prerequisites": ["SCI 251"],
+    "credits": 3
+  },
+  "SCI 355": {
+    "description": "Reviews energy transformation principles, alternative resources, feasibility, and energy policy formation.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "SCI 371": {
+    "description": "Covers environmental issues on land use, wildlife, and human health including toxicology, agriculture, biodiversity, and sustainable solutions.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "SCI L251": {
+    "description": "Hands-on laboratory complementing General Biology, providing familiarity with organisms, techniques, and concepts.",
+    "prerequisites": ["SCI 251"],
+    "credits": 1
+  },
+  "SCI L262": {
+    "description": "Hands-on activities with minerals, rocks, earthquake epicenter plotting, and map reading.",
+    "prerequisites": ["SCI 262"],
+    "credits": 1
+  },
+  "SCI L264": {
+    "description": "Laboratory for understanding physical principles through experimental measurements, scientific methods, and results evaluation.",
+    "prerequisites": ["SCI 264"],
+    "credits": 1
+  },
+  "SCI L265": {
+    "description": "Hands-on chemistry experiments illustrating lecture principles, theories, and laws.",
+    "prerequisites": ["SCI 265"],
+    "credits": 1
+  },
+  "SCI L269": {
+    "description": "Covers weather and climate, natural and human causes, impacts, and solutions including climate reconstruction and prediction methods.",
+    "prerequisites": ["SCI 269"],
+    "credits": 1
+  },
+  "SCI L351": {
+    "description": "Laboratory covering ecosystem dynamics, biotic and abiotic components, population patterns, and diversity using professional ecology techniques.",
+    "prerequisites": ["SCI 351"],
+    "credits": 1
+  },
+  "SCI L352": {
+    "description": "Basic laboratory tests including heart rate, blood pressure, EMG, VO2, and blood lactate measurement with data interpretation.",
+    "prerequisites": ["SCI 352"],
+    "credits": 1
+  },
+  "SCI L355": {
+    "description": "Hands-on activities with renewable and non-renewable resources, simulations, and solar house design.",
+    "prerequisites": ["SCI 355"],
+    "credits": 1
+  },
+  "SCI L371": {
+    "description": "Environmental investigations including data collection, experimental design, analytical instrumentation, and risk assessment.",
+    "prerequisites": ["SCI 371"],
+    "credits": 1
+  },
+  "SOAN 242": {
+    "description": "Examines how globalization affects human self-understanding and place in the world, challenging traditional cultural concepts. Covers global migration, diaspora, and media globalization from multiple perspectives.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "SOAN 243": {
+    "description": "Uses ethnographic texts and films to interpret global transformations through micro-level case studies. Examines ethnicity, textile movement, human trafficking, and refugee migration to explain globalization's mechanisms.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "SOAN 251": {
+    "description": "Survey and appraisal of basic sociological concepts, including theory and method, social processes and structure, culture, groups, socialization, inequality and social institutions.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "SOAN 302": {
+    "description": "Analyzes the Sustainable Development Goals through an anthropological lens, evaluating achievements from marginalized communities' perspectives and examining partnership models.",
+    "prerequisites": ["SOAN 242", "SOAN 251"],
+    "credits": 3
+  },
+  "SOAN 356": {
+    "description": "Examines changing American families through sociological and historical perspectives, addressing traditional family mythology, diversity of family forms, partnering, parenting, household labor division, and divorce.",
+    "prerequisites": ["SOAN 251"],
+    "credits": 3
+  },
+  "SOAN 360": {
+    "description": "Provides overview of sport sociology discipline, emphasizing global aspects and relationships between sport and race, class, gender, sexual orientation, and national identity.",
+    "prerequisites": ["SOAN 251"],
+    "credits": 3
+  },
+  "SOAN 370": {
+    "description": "Applies sociological theory and research to crime and social control, engaging students in policy debates and research on criminal justice systems in education, immigration, and drug control.",
+    "prerequisites": ["SOAN 251"],
+    "credits": 3
+  },
+  "SOAN 389": {
+    "description": "Teaches qualitative research methods including interviews, surveys, and participant-observation. Students develop skills in photography, audio recording, and documentary filmmaking.",
+    "prerequisites": [],
+    "credits": 3
+  },
+  "SOAN 454": {
+    "description": "Studies classical and contemporary social theory while examining how theories explain social inequalities including racism, sexism, classism, heterosexism, homophobia, transphobia, ethnocentrism and xenophobia.",
+    "prerequisites": ["SOAN 251"],
+    "credits": 3
+  }
+}

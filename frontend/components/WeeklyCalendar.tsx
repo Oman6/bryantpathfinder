@@ -6,7 +6,7 @@ import { CourseBlock } from "./CourseBlock";
 const DAYS = ["M", "T", "W", "R", "F"] as const;
 const DAY_LABELS = ["Mon", "Tue", "Wed", "Thu", "Fri"];
 const START_HOUR = 8;
-const END_HOUR = 21;
+const END_HOUR = 22;
 const PIXELS_PER_MINUTE = 0.8;
 
 function timeToMinutes(time: string): number {
@@ -67,7 +67,7 @@ export function WeeklyCalendar({ sections }: WeeklyCalendarProps) {
         </div>
 
         {/* Day columns */}
-        {DAYS.map((day, dayIndex) => (
+        {DAYS.map((day) => (
           <div key={day} className="relative border-l border-black/[0.03]">
             {/* Hour gridlines */}
             {hours.map((hour) => {
@@ -89,7 +89,6 @@ export function WeeklyCalendar({ sections }: WeeklyCalendarProps) {
                   <CourseBlock
                     key={`${section.crn}-${meetingIdx}`}
                     section={section}
-                    dayIndex={dayIndex}
                     startMinutes={timeToMinutes(meeting.start)}
                     endMinutes={timeToMinutes(meeting.end)}
                     calendarStartHour={START_HOUR}

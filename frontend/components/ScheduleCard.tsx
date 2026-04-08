@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Copy, Check, PencilSimple, ArrowsLeftRight } from "@phosphor-icons/react";
 import type { ScheduleOption, Section } from "@/lib/types";
 import { useStore } from "@/lib/store";
@@ -38,6 +38,10 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
   const [editing, setEditing] = useState(false);
   const [swappingSection, setSwappingSection] = useState<Section | null>(null);
   const [localSections, setLocalSections] = useState(schedule.sections);
+
+  useEffect(() => {
+    setLocalSections(schedule.sections);
+  }, [schedule.sections]);
 
   const handleSwap = (newSection: Section) => {
     setLocalSections((prev) =>

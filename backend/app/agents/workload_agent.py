@@ -16,11 +16,15 @@ logger = logging.getLogger(__name__)
 
 DATA_DIR = Path(__file__).resolve().parent.parent.parent.parent / "data"
 RATINGS_PATH = DATA_DIR / "professor_ratings.json"
+BUILDINGS_PATH = DATA_DIR / "campus_buildings.json"
 
 # Study hours per credit per week, scaled by difficulty
 # A 3-credit course with difficulty 3.0 = 3 * 2.0 = 6 hrs/week outside class
 BASE_HOURS_PER_CREDIT = 2.0
 DIFFICULTY_SCALE = {1: 0.5, 2: 0.75, 3: 1.0, 4: 1.4, 5: 1.8}
+
+# Gap threshold: only check transitions when gap between classes is under 15 min
+TRANSITION_GAP_THRESHOLD_MINUTES = 15
 
 
 def _get_difficulty_multiplier(difficulty: float) -> float:
@@ -39,6 +43,45 @@ def _load_ratings() -> dict:
     if not RATINGS_PATH.exists():
         return {}
     return json.loads(RATINGS_PATH.read_text(encoding="utf-8"))
+
+
+def _load_buildings() -> dict:
+    """Load campus buildings and walk times data.
+
+    Returns:
+        Parsed campus_buildings.json or empty dict structure if missing.
+    """
+    if not BUILDINGS_PATH.exists():
+        return {"buildings": [], "walk_times": {}, "transition_thresholds": {}}
+    return json.loads(BUILDINGS_PATH.read_text(encoding="utf-8"))
+
+
+def _resolve_building_code(banner_name: str | None, buildings_data: dict) -> str | None:
+    """Map a Banner building name (e.g. 'Bus Entr Leadership Ctr') to a short code (e.g. 'BELC').
+
+    Falls back to None if the banner_name is missing or unrecognized.
+    """
+    if not banner_name:
+        return None
+    for bldg in buildings_data.get("buildings", []):
+        if bldg.get("banner_name") and bldg["banner_name"] == banner_name:
+            return bldg["code"]
+    return None
+
+
+def _get_walk_time(code_a: str, code_b: str, walk_times: dict) -> int | None:
+    """Look up walk time between two building codes.
+
+    Walk times are stored as 'CODE1-CODE2' keys; this checks both orderings.
+    Returns None if the pair is not in the data.
+    """
+    key_forward = f"{code_a}-{code_b}"
+    key_reverse = f"{code_b}-{code_a}"
+    if key_forward in walk_times:
+        return walk_times[key_forward]
+    if key_reverse in walk_times:
+        return walk_times[key_reverse]
+    return None
 
 
 def _analyze_section(section: Section, ratings: dict) -> dict:
@@ -109,6 +152,90 @@ def _analyze_daily_load(schedule: ScheduleOption) -> dict[str, dict]:
     return result
 
 
+def _analyze_transitions(schedule: ScheduleOption, buildings_data: dict) -> list[dict]:
+    """Check for tight building transitions on the same day.
+
+    When two classes on the same day have a gap under TRANSITION_GAP_THRESHOLD_MINUTES
+    and are in different buildings, compute whether walk time exceeds the gap.
+
+    Returns:
+        List of transition entries with day, courses, gap, walk time, and status.
+    """
+    walk_times = buildings_data.get("walk_times", {})
+    thresholds = buildings_data.get("transition_thresholds", {})
+    comfortable = thresholds.get("comfortable_minutes", 10)
+    tight = thresholds.get("tight_minutes", 5)
+
+    # Collect per-day meetings with building info and course code
+    day_meetings: dict[str, list[dict]] = {d: [] for d in ["M", "T", "W", "R", "F"]}
+
+    for section in schedule.sections:
+        for meeting in section.meetings:
+            building_code = _resolve_building_code(meeting.building, buildings_data)
+            for day in meeting.days:
+                day_meetings[day].append({
+                    "course_code": section.course_code,
+                    "start": to_minutes(meeting.start),
+                    "end": to_minutes(meeting.end),
+                    "building_code": building_code,
+                    "building_name": meeting.building,
+                })
+
+    transitions: list[dict] = []
+
+    for day, meetings in day_meetings.items():
+        if len(meetings) < 2:
+            continue
+
+        sorted_mtgs = sorted(meetings, key=lambda m: m["start"])
+
+        for i in range(1, len(sorted_mtgs)):
+            prev = sorted_mtgs[i - 1]
+            curr = sorted_mtgs[i]
+
+            gap_minutes = curr["start"] - prev["end"]
+
+            # Only check transitions with a gap under the threshold
+            if gap_minutes >= TRANSITION_GAP_THRESHOLD_MINUTES:
+                continue
+
+            # Need building data on both to compare
+            if not prev["building_code"] or not curr["building_code"]:
+                continue
+
+            # Same building is never a problem
+            if prev["building_code"] == curr["building_code"]:
+                continue
+
+            walk_time = _get_walk_time(prev["building_code"], curr["building_code"], walk_times)
+            if walk_time is None:
+                continue
+
+            # Determine status based on buffer (gap minus walk time)
+            buffer = gap_minutes - walk_time
+            if buffer >= comfortable:
+                status = "comfortable"
+            elif buffer >= tight:
+                status = "ok"
+            elif buffer >= 0:
+                status = "tight"
+            else:
+                status = "risky"
+
+            transitions.append({
+                "day": day,
+                "from_course": prev["course_code"],
+                "to_course": curr["course_code"],
+                "from_building": prev["building_code"],
+                "to_building": curr["building_code"],
+                "gap_minutes": gap_minutes,
+                "walk_minutes": walk_time,
+                "status": status,
+            })
+
+    return transitions
+
+
 def run(schedules: list[ScheduleOption]) -> list[dict]:
     """Run the Workload Agent on a list of schedule options.
 
@@ -116,17 +243,20 @@ def run(schedules: list[ScheduleOption]) -> list[dict]:
         A list of dicts, one per schedule, containing:
         - course_breakdown: per-course workload estimates
         - daily_load: per-day class hours and flags
+        - transitions: list of building transition entries with walk time analysis
         - total_weekly_hours: estimated total hours (class + study)
         - workload_score: 1-10 rating (1=light, 10=crushing)
         - warnings: list of overload concerns
         - summary: one-sentence workload assessment
     """
     ratings = _load_ratings()
+    buildings_data = _load_buildings()
     results = []
 
     for schedule in schedules:
         course_breakdown = [_analyze_section(s, ratings) for s in schedule.sections]
         daily_load = _analyze_daily_load(schedule)
+        transitions = _analyze_transitions(schedule, buildings_data)
 
         total_class = sum(c["class_hours_per_week"] for c in course_breakdown)
         total_study = sum(c["study_hours_per_week"] for c in course_breakdown)
@@ -150,6 +280,24 @@ def run(schedules: list[ScheduleOption]) -> list[dict]:
         if total_weekly > 45:
             warnings.append(f"Total estimated workload is {total_weekly} hrs/week — consider dropping a course")
 
+        # Walk time transition warnings
+        day_labels = {"M": "Monday", "T": "Tuesday", "W": "Wednesday", "R": "Thursday", "F": "Friday"}
+        for t in transitions:
+            if t["walk_minutes"] > t["gap_minutes"]:
+                day_name = day_labels.get(t["day"], t["day"])
+                warnings.append(
+                    f"Tight transition on {day_name}: {t['from_course']} to {t['to_course']} "
+                    f"({t['gap_minutes']} min gap, {t['walk_minutes']} min walk from "
+                    f"{t['from_building']} to {t['to_building']})"
+                )
+            elif t["status"] == "tight":
+                day_name = day_labels.get(t["day"], t["day"])
+                warnings.append(
+                    f"Tight transition on {day_name}: {t['from_course']} to {t['to_course']} "
+                    f"({t['gap_minutes']} min gap, {t['walk_minutes']} min walk from "
+                    f"{t['from_building']} to {t['to_building']} — cutting it close)"
+                )
+
         # Summary
         if workload_score <= 3:
             intensity = "light"
@@ -165,6 +313,7 @@ def run(schedules: list[ScheduleOption]) -> list[dict]:
         results.append({
             "course_breakdown": course_breakdown,
             "daily_load": daily_load,
+            "transitions": transitions,
             "total_class_hours": round(total_class, 1),
             "total_study_hours": round(total_study, 1),
             "total_weekly_hours": total_weekly,
