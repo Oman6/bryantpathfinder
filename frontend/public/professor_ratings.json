@@ -3,7 +3,25 @@
     "quality": 1.0,
     "difficulty": 3.0,
     "num_ratings": 1,
-    "would_take_again": 0
+    "would_take_again": 0,
+    "legacyId": 3154873,
+    "tags": [
+      "Lots of homework",
+      "Lecture heavy",
+      "Test heavy"
+    ]
+  },
+  "Anwar, Mah-Rukh": {
+    "quality": 4.9,
+    "difficulty": 1.6,
+    "num_ratings": 7,
+    "would_take_again": 100,
+    "legacyId": 2965009,
+    "tags": [
+      "Caring",
+      "Amazing lectures",
+      "Inspirational"
+    ]
   },
   "Archetto, Glenn": {
     "quality": 4.6,
@@ -15,31 +33,73 @@
     "quality": 3.7,
     "difficulty": 2.8,
     "num_ratings": 39,
-    "would_take_again": 41
+    "would_take_again": 41,
+    "legacyId": 1269969,
+    "tags": [
+      "Lecture heavy",
+      "Graded by few things",
+      "Tough grader"
+    ]
   },
   "Ascioglu, Asli": {
     "quality": 3.0,
     "difficulty": 3.3,
     "num_ratings": 51,
-    "would_take_again": 75
+    "would_take_again": 75,
+    "legacyId": 169647,
+    "tags": [
+      "Caring",
+      "Test heavy",
+      "Tough grader"
+    ]
   },
   "Attaran, Sharmin": {
     "quality": 2.4,
     "difficulty": 3.1,
     "num_ratings": 33,
-    "would_take_again": 25
+    "would_take_again": 25,
+    "legacyId": 1385614,
+    "tags": [
+      "Group projects",
+      "Tough grader",
+      "Participation matters"
+    ]
   },
   "Beausejour, David": {
     "quality": 3.7,
     "difficulty": 3.2,
     "num_ratings": 60,
-    "would_take_again": 59
+    "would_take_again": 59,
+    "legacyId": 167379,
+    "tags": [
+      "Lecture heavy",
+      "Graded by few things",
+      "Test heavy"
+    ]
   },
   "Bell, Jocelyn": {
     "quality": 2.0,
     "difficulty": 4.0,
     "num_ratings": 4,
-    "would_take_again": 0
+    "would_take_again": 0,
+    "legacyId": 3117253,
+    "tags": [
+      "Tough grader",
+      "Lecture heavy",
+      "So many papers"
+    ]
+  },
+  "Bell-Lombardo, Hannah": {
+    "quality": 2.1,
+    "difficulty": 3.6,
+    "num_ratings": 49,
+    "would_take_again": 4,
+    "legacyId": 366544,
+    "tags": [
+      "Tough grader",
+      "Lecture heavy",
+      "Group projects"
+    ]
   },
   "Berdiev, Aziz": {
     "quality": 3.7,
@@ -51,55 +111,109 @@
     "quality": 3.3,
     "difficulty": 3.5,
     "num_ratings": 110,
-    "would_take_again": 34
+    "would_take_again": 34,
+    "legacyId": 96400,
+    "tags": [
+      "Tough grader",
+      "Lots of homework",
+      "Accessible outside class"
+    ]
   },
   "Bobroff, Ron": {
     "quality": 4.8,
     "difficulty": 2.6,
     "num_ratings": 24,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 2547339,
+    "tags": [
+      "Participation matters",
+      "Lecture heavy",
+      "Get ready to read"
+    ]
   },
   "Boggio, Andrea": {
     "quality": 3.4,
     "difficulty": 2.8,
     "num_ratings": 49,
-    "would_take_again": 61
+    "would_take_again": 61,
+    "legacyId": 913924,
+    "tags": [
+      "Graded by few things",
+      "Lecture heavy",
+      "Tough grader"
+    ]
   },
   "Bornstein, Ilisabeth": {
     "quality": 3.6,
     "difficulty": 3.8,
     "num_ratings": 36,
-    "would_take_again": 64
+    "would_take_again": 64,
+    "legacyId": 2296727,
+    "tags": [
+      "Tough grader",
+      "Participation matters",
+      "Get ready to read"
+    ]
   },
   "Cerutti, Jeffrey": {
     "quality": 5.0,
     "difficulty": 2.8,
     "num_ratings": 17,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 3055838,
+    "tags": [
+      "Amazing lectures",
+      "Participation matters",
+      "Group projects"
+    ]
   },
   "Chaudhury, Abhijit": {
     "quality": 2.7,
     "difficulty": 2.4,
     "num_ratings": 54,
-    "would_take_again": 45
+    "would_take_again": 45,
+    "legacyId": 169616,
+    "tags": [
+      "Group projects",
+      "Hilarious",
+      "Would take again"
+    ]
   },
   "Clinker, Conor": {
     "quality": 5.0,
     "difficulty": 1.5,
     "num_ratings": 11,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 2869540,
+    "tags": [
+      "Amazing lectures",
+      "Hilarious",
+      "Caring"
+    ]
   },
   "Coakley, Lori": {
     "quality": 3.4,
     "difficulty": 3.9,
     "num_ratings": 80,
-    "would_take_again": 51
+    "would_take_again": 51,
+    "legacyId": 155918,
+    "tags": [
+      "Participation matters",
+      "Get ready to read",
+      "Tough grader"
+    ]
   },
   "Coutinho, Carlos": {
     "quality": 1.9,
     "difficulty": 3.9,
     "num_ratings": 8,
-    "would_take_again": 12
+    "would_take_again": 12,
+    "legacyId": 2478584,
+    "tags": [
+      "Get ready to read",
+      "Lecture heavy",
+      "Graded by few things"
+    ]
   },
   "Crowe, Michael": {
     "quality": 1.1,
@@ -111,115 +225,243 @@
     "quality": 4.4,
     "difficulty": 3.3,
     "num_ratings": 40,
-    "would_take_again": 86
+    "would_take_again": 86,
+    "legacyId": 147116,
+    "tags": [
+      "Amazing lectures",
+      "Inspirational",
+      "Hilarious"
+    ]
   },
   "Czyrklis, Eileen": {
     "quality": 3.8,
     "difficulty": 2.5,
     "num_ratings": 8,
-    "would_take_again": 75
+    "would_take_again": 75,
+    "legacyId": 3012972,
+    "tags": [
+      "Participation matters",
+      "EXTRA CREDIT",
+      "Tough grader"
+    ]
   },
   "Daly, Kathleen": {
     "quality": 4.6,
     "difficulty": 2.1,
     "num_ratings": 41,
-    "would_take_again": 98
+    "would_take_again": 98,
+    "legacyId": 2326939,
+    "tags": [
+      "Caring",
+      "Clear grading criteria",
+      "Lecture heavy"
+    ]
   },
   "Day, Amber": {
     "quality": 3.3,
     "difficulty": 2.8,
     "num_ratings": 34,
-    "would_take_again": 52
+    "would_take_again": 52,
+    "legacyId": 1189877,
+    "tags": [
+      "Get ready to read",
+      "Participation matters",
+      "Tough grader"
+    ]
   },
   "Dean, Janet": {
     "quality": 4.4,
     "difficulty": 2.7,
     "num_ratings": 69,
-    "would_take_again": 78
+    "would_take_again": 78,
+    "legacyId": 154882,
+    "tags": [
+      "Participation matters",
+      "Get ready to read",
+      "Gives good feedback"
+    ]
   },
   "Deluga, Ronald": {
     "quality": 4.8,
     "difficulty": 2.0,
     "num_ratings": 57,
-    "would_take_again": 96
+    "would_take_again": 96,
+    "legacyId": 167437,
+    "tags": [
+      "Hilarious",
+      "Amazing lectures",
+      "Caring"
+    ]
   },
   "Deng, Mengqi": {
     "quality": 4.3,
     "difficulty": 2.6,
     "num_ratings": 9,
-    "would_take_again": 67
+    "would_take_again": 67,
+    "legacyId": 3034428,
+    "tags": [
+      "Lecture heavy",
+      "Group projects",
+      "Clear grading criteria"
+    ]
   },
   "Derderian, Mara": {
     "quality": 4.1,
     "difficulty": 3.3,
     "num_ratings": 14,
-    "would_take_again": 71
+    "would_take_again": 71,
+    "legacyId": 2731772,
+    "tags": [
+      "Amazing lectures",
+      "Lecture heavy",
+      "Accessible outside class"
+    ]
   },
   "Diaz, Carlos": {
     "quality": 4.0,
     "difficulty": 1.0,
     "num_ratings": 1,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 3135324
   },
   "Dietrich, John": {
     "quality": 4.3,
     "difficulty": 3.0,
     "num_ratings": 92,
-    "would_take_again": 79
+    "would_take_again": 79,
+    "legacyId": 169660,
+    "tags": [
+      "Gives good feedback",
+      "Lecture heavy",
+      "Tough grader"
+    ]
   },
   "Dowling, Maura": {
     "quality": 1.2,
     "difficulty": 4.2,
     "num_ratings": 6,
-    "would_take_again": 0
+    "would_take_again": 0,
+    "legacyId": 2042469,
+    "tags": [
+      "Tough grader",
+      "Group projects",
+      "Test heavy"
+    ]
   },
   "Dygert, Holly": {
     "quality": 3.1,
     "difficulty": 3.1,
     "num_ratings": 23,
-    "would_take_again": 57
+    "would_take_again": 57,
+    "legacyId": 2751628,
+    "tags": [
+      "Get ready to read",
+      "Lecture heavy",
+      "Tough grader"
+    ]
   },
   "Ergene, Erim": {
     "quality": 3.4,
     "difficulty": 3.2,
     "num_ratings": 10,
-    "would_take_again": 70
+    "would_take_again": 70,
+    "legacyId": 2525441,
+    "tags": [
+      "Group projects",
+      "Lecture heavy",
+      "Participation matters"
+    ]
+  },
+  "Falso-Capaldi, Kristen": {
+    "quality": 4.6,
+    "difficulty": 1.6,
+    "num_ratings": 16,
+    "would_take_again": 88,
+    "legacyId": 2740604,
+    "tags": [
+      "Gives good feedback",
+      "Caring",
+      "Participation matters"
+    ]
   },
   "Fellingham, John": {
     "quality": 4.3,
     "difficulty": 3.2,
     "num_ratings": 30,
-    "would_take_again": 73
+    "would_take_again": 73,
+    "legacyId": 2423094,
+    "tags": [
+      "Lecture heavy",
+      "Graded by few things",
+      "Clear grading criteria"
+    ]
   },
   "Fontaine, Amanda": {
     "quality": 2.3,
     "difficulty": 4.2,
     "num_ratings": 11,
-    "would_take_again": 36
+    "would_take_again": 36,
+    "legacyId": 2947236,
+    "tags": [
+      "Caring",
+      "Clear grading criteria",
+      "Accessible outside class"
+    ]
   },
   "Freiner, Nicole": {
     "quality": 4.4,
     "difficulty": 2.6,
     "num_ratings": 36,
-    "would_take_again": 88
+    "would_take_again": 88,
+    "legacyId": 1365497,
+    "tags": [
+      "Caring",
+      "Amazing lectures",
+      "Gives good feedback"
+    ]
+  },
+  "Fry, Benjamin": {
+    "quality": 0.0,
+    "difficulty": 0.0,
+    "num_ratings": 0,
+    "would_take_again": -1
   },
   "Gallo, Mary Ann": {
     "quality": 2.2,
     "difficulty": 2.7,
     "num_ratings": 23,
-    "would_take_again": 35
+    "would_take_again": 35,
+    "legacyId": 2683502,
+    "tags": [
+      "Lecture heavy",
+      "Participation matters",
+      "Graded by few things"
+    ]
+  },
+  "Gertje, Marie": {
+    "quality": 0.0,
+    "difficulty": 0.0,
+    "num_ratings": 0,
+    "would_take_again": -1
   },
   "Goolgasian, Christopher": {
     "quality": 4.6,
     "difficulty": 3.2,
     "num_ratings": 9,
-    "would_take_again": -1
+    "would_take_again": -1,
+    "legacyId": 948519
   },
   "Grigelevich, Ray": {
     "quality": 4.6,
     "difficulty": 2.3,
     "num_ratings": 11,
-    "would_take_again": 91
+    "would_take_again": 91,
+    "legacyId": 2750350,
+    "tags": [
+      "Caring",
+      "Lecture heavy",
+      "Accessible outside class"
+    ]
   },
   "Gulidanan, Donna": {
     "quality": 5.0,
@@ -237,133 +479,265 @@
     "quality": 5.0,
     "difficulty": 2.0,
     "num_ratings": 4,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 3061450,
+    "tags": [
+      "Amazing lectures",
+      "Participation matters",
+      "Group projects"
+    ]
   },
   "Heydarifard, Zahra": {
     "quality": 4.7,
     "difficulty": 2.5,
     "num_ratings": 13,
-    "would_take_again": 92
+    "would_take_again": 92,
+    "legacyId": 3054227,
+    "tags": [
+      "Amazing lectures",
+      "Caring",
+      "Participation matters"
+    ]
   },
   "Hightower, Tristan": {
     "quality": 5.0,
     "difficulty": 3.6,
     "num_ratings": 25,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 2996989,
+    "tags": [
+      "Caring",
+      "EXTRA CREDIT",
+      "Accessible outside class"
+    ]
   },
   "Holtzman, Richard": {
     "quality": 4.8,
     "difficulty": 2.4,
     "num_ratings": 103,
-    "would_take_again": 98
+    "would_take_again": 98,
+    "legacyId": 909837,
+    "tags": [
+      "Gives good feedback",
+      "Respected",
+      "Caring"
+    ]
   },
   "Horan, Jennifer": {
     "quality": 3.9,
     "difficulty": 2.6,
     "num_ratings": 33,
-    "would_take_again": 72
+    "would_take_again": 72,
+    "legacyId": 1892464,
+    "tags": [
+      "Get ready to read",
+      "Participation matters",
+      "Caring"
+    ]
   },
   "Howard, John": {
     "quality": 2.0,
     "difficulty": 4.1,
     "num_ratings": 13,
-    "would_take_again": 23
+    "would_take_again": 23,
+    "legacyId": 3044508,
+    "tags": [
+      "Tough grader",
+      "Lots of homework",
+      "Get ready to read"
+    ]
   },
   "Hughes, Kaitlyn": {
     "quality": 5.0,
     "difficulty": 1.9,
     "num_ratings": 16,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 2847072,
+    "tags": [
+      "Caring",
+      "Accessible outside class",
+      "Amazing lectures"
+    ]
   },
   "Hughes, Nia": {
     "quality": 5.0,
     "difficulty": 1.9,
     "num_ratings": 16,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 3077808,
+    "tags": [
+      "Lots of homework",
+      "Group projects",
+      "EXTRA CREDIT"
+    ]
   },
   "Inci, A. Can": {
     "quality": 3.9,
     "difficulty": 2.5,
     "num_ratings": 29,
-    "would_take_again": 69
+    "would_take_again": 69,
+    "legacyId": 1183252,
+    "tags": [
+      "Lecture heavy",
+      "Clear grading criteria",
+      "Caring"
+    ]
   },
   "Jayaraman, Jay": {
     "quality": 3.4,
     "difficulty": 3.1,
     "num_ratings": 37,
-    "would_take_again": 62
+    "would_take_again": 62,
+    "legacyId": 2409290,
+    "tags": [
+      "Group projects",
+      "Tough grader",
+      "Lots of homework"
+    ]
   },
   "Kaminaga, Allison": {
     "quality": 4.7,
     "difficulty": 2.5,
     "num_ratings": 68,
-    "would_take_again": 98
+    "would_take_again": 98,
+    "legacyId": 1559001,
+    "tags": [
+      "Group projects",
+      "Amazing lectures",
+      "Caring"
+    ]
   },
   "Kanemoto, Emi": {
     "quality": 5.0,
     "difficulty": 1.7,
     "num_ratings": 7,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 3044897,
+    "tags": [
+      "Caring",
+      "Participation matters",
+      "Group projects"
+    ]
   },
   "Kang, Eun": {
     "quality": 3.5,
     "difficulty": 3.9,
     "num_ratings": 13,
-    "would_take_again": 46
+    "would_take_again": 46,
+    "legacyId": 3086729,
+    "tags": [
+      "Tough grader",
+      "Group projects",
+      "Lecture heavy"
+    ]
   },
   "Kelly, Muni": {
     "quality": 3.8,
     "difficulty": 3.4,
     "num_ratings": 11,
-    "would_take_again": 91
+    "would_take_again": 91,
+    "legacyId": 2751629,
+    "tags": [
+      "Lots of homework",
+      "Caring",
+      "Test heavy"
+    ]
   },
   "Kim, Gihyun": {
     "quality": 2.2,
     "difficulty": 4.3,
     "num_ratings": 15,
-    "would_take_again": 33
+    "would_take_again": 33,
+    "legacyId": 3035632,
+    "tags": [
+      "Caring",
+      "Participation matters",
+      "Gives good feedback"
+    ]
   },
   "Kim, Jongsung": {
     "quality": 2.2,
     "difficulty": 4.3,
     "num_ratings": 15,
-    "would_take_again": 33
+    "would_take_again": 33,
+    "legacyId": 167391,
+    "tags": [
+      "Lecture heavy",
+      "Tough grader",
+      "Test heavy"
+    ]
   },
   "Knapp, Bryan": {
     "quality": 4.3,
     "difficulty": 3.0,
     "num_ratings": 38,
-    "would_take_again": 76
+    "would_take_again": 76,
+    "legacyId": 2626573,
+    "tags": [
+      "Participation matters",
+      "Amazing lectures",
+      "Get ready to read"
+    ]
   },
   "Koplik, Jeffrey": {
     "quality": 2.9,
     "difficulty": 3.5,
     "num_ratings": 30,
-    "would_take_again": 52
+    "would_take_again": 52,
+    "legacyId": 2109676,
+    "tags": [
+      "Lots of homework",
+      "Lecture heavy",
+      "Accessible outside class"
+    ]
   },
   "Kuang, Huan": {
     "quality": 5.0,
     "difficulty": 1.9,
     "num_ratings": 8,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 2842682,
+    "tags": [
+      "Amazing lectures",
+      "Caring",
+      "Gives good feedback"
+    ]
   },
   "Kumar, Sonal": {
     "quality": 3.9,
     "difficulty": 2.9,
     "num_ratings": 18,
-    "would_take_again": 72
+    "would_take_again": 72,
+    "legacyId": 2630774,
+    "tags": [
+      "Lecture heavy",
+      "Skip class? You won't pass.",
+      "Accessible outside class"
+    ]
   },
   "Lacey, Heather Pond": {
     "quality": 4.8,
     "difficulty": 2.8,
     "num_ratings": 35,
-    "would_take_again": 94
+    "would_take_again": 94,
+    "legacyId": 952628,
+    "tags": [
+      "Amazing lectures",
+      "Caring",
+      "Hilarious"
+    ]
   },
   "Lancellotta, Domenic": {
     "quality": 4.7,
     "difficulty": 2.1,
     "num_ratings": 10,
-    "would_take_again": 90
+    "would_take_again": 90,
+    "legacyId": 3000309,
+    "tags": [
+      "Hilarious",
+      "Caring",
+      "Respected"
+    ]
   },
   "Langley, Keylantra": {
     "quality": 1.0,
@@ -371,17 +745,36 @@
     "num_ratings": 3,
     "would_take_again": 0
   },
+  "Lawrence, Heather": {
+    "quality": 0.0,
+    "difficulty": 0.0,
+    "num_ratings": 0,
+    "would_take_again": -1
+  },
+  "Leandres, Angelina": {
+    "quality": 0.0,
+    "difficulty": 0.0,
+    "num_ratings": 0,
+    "would_take_again": -1
+  },
   "Leduc, Valerie": {
     "quality": 2.3,
     "difficulty": 3.5,
     "num_ratings": 12,
-    "would_take_again": 33
+    "would_take_again": 33,
+    "legacyId": 2736281,
+    "tags": [
+      "Tough grader",
+      "Participation matters",
+      "Group projects"
+    ]
   },
   "Lenz, Michael": {
     "quality": 0.0,
     "difficulty": 0.0,
     "num_ratings": 0,
-    "would_take_again": -1
+    "would_take_again": -1,
+    "legacyId": 3131572
   },
   "Lescault, Meghan": {
     "quality": 5.0,
@@ -393,19 +786,49 @@
     "quality": 4.8,
     "difficulty": 2.1,
     "num_ratings": 30,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 2180123,
+    "tags": [
+      "Gives good feedback",
+      "Caring",
+      "Amazing lectures"
+    ]
+  },
+  "Ma, Paul": {
+    "quality": 5,
+    "difficulty": 2.5,
+    "num_ratings": 4,
+    "would_take_again": 100,
+    "legacyId": 3148382,
+    "tags": [
+      "Amazing lectures",
+      "Gives good feedback",
+      "Clear grading criteria"
+    ]
   },
   "Macon, Danielle": {
     "quality": 4.2,
     "difficulty": 2.7,
     "num_ratings": 6,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 3061453,
+    "tags": [
+      "Group projects",
+      "Tough grader",
+      "Get ready to read"
+    ]
   },
   "Maloney, Kevin": {
     "quality": 4.2,
     "difficulty": 4.6,
     "num_ratings": 5,
-    "would_take_again": 80
+    "would_take_again": 80,
+    "legacyId": 2438539,
+    "tags": [
+      "Lots of homework",
+      "Accessible outside class",
+      "Test heavy"
+    ]
   },
   "Martino, Peter": {
     "quality": 4.8,
@@ -417,91 +840,193 @@
     "quality": 5.0,
     "difficulty": 1.9,
     "num_ratings": 16,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 2535916,
+    "tags": [
+      "Respected",
+      "Amazing lectures",
+      "Caring"
+    ]
   },
   "McNally, Daniel": {
     "quality": 4.0,
     "difficulty": 2.7,
     "num_ratings": 43,
-    "would_take_again": 78
+    "would_take_again": 78,
+    "legacyId": 240201,
+    "tags": [
+      "Hilarious",
+      "Lecture heavy",
+      "Amazing lectures"
+    ]
   },
   "Mier, Jennifer": {
     "quality": 2.2,
     "difficulty": 4.1,
     "num_ratings": 71,
-    "would_take_again": 31
+    "would_take_again": 31,
+    "legacyId": 2752990,
+    "tags": [
+      "Tough grader",
+      "Lots of homework",
+      "Group projects"
+    ]
   },
   "Mirmirani, Sam": {
     "quality": 2.1,
     "difficulty": 3.8,
     "num_ratings": 105,
-    "would_take_again": 21
+    "would_take_again": 21,
+    "legacyId": 244338,
+    "tags": [
+      "Lecture heavy",
+      "Tough grader",
+      "Test heavy"
+    ]
   },
   "Mohan, Ramesh": {
     "quality": 4.2,
     "difficulty": 3.1,
     "num_ratings": 111,
-    "would_take_again": 69
+    "would_take_again": 69,
+    "legacyId": 692535,
+    "tags": [
+      "Lecture heavy",
+      "Respected",
+      "Skip class? You won't pass."
+    ]
   },
   "Nigro, Peter": {
     "quality": 4.6,
     "difficulty": 3.6,
     "num_ratings": 30,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 167405,
+    "tags": [
+      "Participation matters",
+      "Respected",
+      "Amazing lectures"
+    ]
   },
   "Noga, Tracy": {
     "quality": 3.9,
     "difficulty": 3.8,
     "num_ratings": 132,
-    "would_take_again": 73
+    "would_take_again": 73,
+    "legacyId": 750515,
+    "tags": [
+      "Tough grader",
+      "Lots of homework",
+      "Get ready to read"
+    ]
+  },
+  "O'Leary, Mary-Kate": {
+    "quality": 5,
+    "difficulty": 1.6,
+    "num_ratings": 9,
+    "would_take_again": 100,
+    "legacyId": 2954521,
+    "tags": [
+      "Group projects",
+      "Participation matters",
+      "Inspirational"
+    ]
   },
   "Ostermeier, Kathryn": {
     "quality": 4.5,
     "difficulty": 2.7,
     "num_ratings": 23,
-    "would_take_again": 87
+    "would_take_again": 87,
+    "legacyId": 2436348,
+    "tags": [
+      "Group projects",
+      "Participation matters",
+      "Caring"
+    ]
   },
   "Pan, Xiaofei": {
     "quality": 3.7,
     "difficulty": 2.5,
     "num_ratings": 26,
-    "would_take_again": 69
+    "would_take_again": 69,
+    "legacyId": 2329717,
+    "tags": [
+      "Group projects",
+      "Accessible outside class",
+      "Clear grading criteria"
+    ]
   },
   "Pasha, Mehreen": {
     "quality": 4.8,
     "difficulty": 2.1,
     "num_ratings": 36,
-    "would_take_again": 94
+    "would_take_again": 94,
+    "legacyId": 2226054,
+    "tags": [
+      "Group projects",
+      "Respected",
+      "Caring"
+    ]
   },
   "Patalano, Robert": {
     "quality": 4.8,
     "difficulty": 2.2,
     "num_ratings": 12,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 2850043,
+    "tags": [
+      "Group projects",
+      "Amazing lectures",
+      "EXTRA CREDIT"
+    ]
   },
   "Patel, Poojan": {
     "quality": 5.0,
     "difficulty": 2.0,
     "num_ratings": 5,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 3149749,
+    "tags": [
+      "Amazing lectures",
+      "Caring",
+      "Participation matters"
+    ]
   },
   "Pearce, Kevin": {
     "quality": 3.3,
     "difficulty": 3.5,
     "num_ratings": 97,
-    "would_take_again": 56
+    "would_take_again": 56,
+    "legacyId": 167385,
+    "tags": [
+      "Tough grader",
+      "Lecture heavy",
+      "Participation matters"
+    ]
   },
   "Pearson, Jeremy": {
     "quality": 4.9,
     "difficulty": 2.1,
     "num_ratings": 44,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 2397897,
+    "tags": [
+      "Amazing lectures",
+      "Caring",
+      "Hilarious"
+    ]
   },
   "Pencek, Anthony": {
     "quality": 2.5,
     "difficulty": 3.1,
     "num_ratings": 36,
-    "would_take_again": 25
+    "would_take_again": 25,
+    "legacyId": 366561,
+    "tags": [
+      "Lecture heavy",
+      "Skip class? You won't pass.",
+      "Get ready to read"
+    ]
   },
   "Pereira, Michelle": {
     "quality": 3.5,
@@ -513,13 +1038,20 @@
     "quality": 3.9,
     "difficulty": 3.3,
     "num_ratings": 76,
-    "would_take_again": 68
+    "would_take_again": 68,
+    "legacyId": 365922,
+    "tags": [
+      "Amazing lectures",
+      "Lots of homework",
+      "Respected"
+    ]
   },
   "Pietraszek, Alyssa": {
     "quality": 0.0,
     "difficulty": 0.0,
     "num_ratings": 0,
-    "would_take_again": -1
+    "would_take_again": -1,
+    "legacyId": 3097020
   },
   "Potvin, Nicolle": {
     "quality": 3.3,
@@ -531,61 +1063,121 @@
     "quality": 2.9,
     "difficulty": 4.0,
     "num_ratings": 28,
-    "would_take_again": 54
+    "would_take_again": 54,
+    "legacyId": 1973122,
+    "tags": [
+      "Participation matters",
+      "Beware of pop quizzes",
+      "Lecture heavy"
+    ]
   },
   "Presley, Kenneth": {
     "quality": 3.4,
     "difficulty": 1.7,
     "num_ratings": 7,
-    "would_take_again": 57
+    "would_take_again": 57,
+    "legacyId": 2770735,
+    "tags": [
+      "Clear grading criteria",
+      "Group projects",
+      "Tough grader"
+    ]
   },
   "Prichard, Janet": {
     "quality": 2.4,
     "difficulty": 4.0,
     "num_ratings": 66,
-    "would_take_again": 6
+    "would_take_again": 6,
+    "legacyId": 169663,
+    "tags": [
+      "Tough grader",
+      "Group projects",
+      "Graded by few things"
+    ]
   },
   "Ramirez, Andres": {
     "quality": 3.0,
     "difficulty": 3.6,
     "num_ratings": 42,
-    "would_take_again": 30
+    "would_take_again": 30,
+    "legacyId": 833649,
+    "tags": [
+      "Tough grader",
+      "Lots of homework",
+      "Get ready to read"
+    ]
   },
   "Reid, Christopher": {
     "quality": 2.2,
     "difficulty": 4.7,
     "num_ratings": 37,
-    "would_take_again": 24
+    "would_take_again": 24,
+    "legacyId": 1492992,
+    "tags": [
+      "Tough grader",
+      "Lecture heavy",
+      "Test heavy"
+    ]
   },
   "Rice, Liam": {
     "quality": 5.0,
     "difficulty": 2.7,
     "num_ratings": 20,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 3038758,
+    "tags": [
+      "EXTRA CREDIT",
+      "Caring",
+      "Accessible outside class"
+    ]
   },
   "Roach, Tom": {
     "quality": 3.8,
     "difficulty": 3.6,
     "num_ratings": 48,
-    "would_take_again": 47
+    "would_take_again": 47,
+    "legacyId": 904118,
+    "tags": [
+      "Tough grader",
+      "Get ready to read",
+      "Participation matters"
+    ]
   },
   "Roberto, Michael": {
     "quality": 4.0,
     "difficulty": 4.0,
     "num_ratings": 27,
-    "would_take_again": 83
+    "would_take_again": 83,
+    "legacyId": 991728,
+    "tags": [
+      "Amazing lectures",
+      "Participation matters",
+      "Get ready to read"
+    ]
   },
   "Robins, Mary": {
     "quality": 3.6,
     "difficulty": 3.4,
     "num_ratings": 57,
-    "would_take_again": 65
+    "would_take_again": 65,
+    "legacyId": 2446354,
+    "tags": [
+      "Participation matters",
+      "Caring",
+      "Skip class? You won't pass."
+    ]
   },
   "Roethlein, Christopher": {
     "quality": 4.5,
     "difficulty": 3.0,
     "num_ratings": 57,
-    "would_take_again": 95
+    "would_take_again": 95,
+    "legacyId": 172645,
+    "tags": [
+      "Caring",
+      "Respected",
+      "Group projects"
+    ]
   },
   "Roselli, Paul": {
     "quality": 4.2,
@@ -597,13 +1189,25 @@
     "quality": 4.3,
     "difficulty": 3.5,
     "num_ratings": 49,
-    "would_take_again": 86
+    "would_take_again": 86,
+    "legacyId": 1869559,
+    "tags": [
+      "Participation matters",
+      "Respected",
+      "Amazing lectures"
+    ]
   },
   "Ryan, Riazat": {
     "quality": 5.0,
     "difficulty": 1.5,
     "num_ratings": 2,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 3147775,
+    "tags": [
+      "Hilarious",
+      "Caring",
+      "Accessible outside class"
+    ]
   },
   "Sawyer, Jason": {
     "quality": 2.8,
@@ -621,25 +1225,73 @@
     "quality": 5.0,
     "difficulty": 2.5,
     "num_ratings": 2,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 2981622,
+    "tags": [
+      "Inspirational",
+      "Participation matters",
+      "Amazing lectures"
+    ]
   },
   "Sousa, Kenneth": {
     "quality": 3.1,
     "difficulty": 4.4,
     "num_ratings": 156,
-    "would_take_again": 32
+    "would_take_again": 32,
+    "legacyId": 26335,
+    "tags": [
+      "Tough grader",
+      "Participation matters",
+      "Get ready to read"
+    ]
+  },
+  "Taylor-Costello, Kristin": {
+    "quality": 3.9,
+    "difficulty": 2.3,
+    "num_ratings": 24,
+    "would_take_again": 79,
+    "legacyId": 2674919,
+    "tags": [
+      "Lecture heavy",
+      "Caring",
+      "Gives good feedback"
+    ]
+  },
+  "Terranova, Natalie": {
+    "quality": 1.6,
+    "difficulty": 3.6,
+    "num_ratings": 5,
+    "would_take_again": 0,
+    "legacyId": 3150067,
+    "tags": [
+      "Lots of homework",
+      "Tough grader",
+      "Get ready to read"
+    ]
   },
   "Upama, Tanzila": {
     "quality": 2.0,
     "difficulty": 3.7,
     "num_ratings": 3,
-    "would_take_again": 0
+    "would_take_again": 0,
+    "legacyId": 3154976,
+    "tags": [
+      "Test heavy",
+      "Get ready to read",
+      "Tough grader"
+    ]
   },
   "Varin, Francis": {
     "quality": 3.4,
     "difficulty": 3.4,
     "num_ratings": 28,
-    "would_take_again": 54
+    "would_take_again": 54,
+    "legacyId": 2460681,
+    "tags": [
+      "Lecture heavy",
+      "Group projects",
+      "Tough grader"
+    ]
   },
   "Vincelette, Noah": {
     "quality": 3.0,
@@ -651,49 +1303,109 @@
     "quality": 4.1,
     "difficulty": 2.4,
     "num_ratings": 64,
-    "would_take_again": 89
+    "would_take_again": 89,
+    "legacyId": 147119,
+    "tags": [
+      "Group projects",
+      "Lecture heavy",
+      "EXTRA CREDIT"
+    ]
   },
   "Volkman, Julie": {
     "quality": 5.0,
     "difficulty": 2.3,
     "num_ratings": 15,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 2138259,
+    "tags": [
+      "Caring",
+      "EXTRA CREDIT",
+      "Hilarious"
+    ]
   },
   "Vozella, Mark": {
     "quality": 4.7,
     "difficulty": 1.8,
     "num_ratings": 84,
-    "would_take_again": 91
+    "would_take_again": 91,
+    "legacyId": 1996198,
+    "tags": [
+      "Caring",
+      "Hilarious",
+      "Respected"
+    ]
   },
   "Ward, Monica": {
     "quality": 5.0,
     "difficulty": 2.6,
     "num_ratings": 20,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 2828338,
+    "tags": [
+      "Get ready to read",
+      "Caring",
+      "Participation matters"
+    ]
   },
   "Washburn, Ronald": {
     "quality": 3.8,
     "difficulty": 3.0,
     "num_ratings": 111,
-    "would_take_again": 59
+    "would_take_again": 59,
+    "legacyId": 120125,
+    "tags": [
+      "Tough grader",
+      "Lecture heavy",
+      "Graded by few things"
+    ]
   },
   "Weicksel, Steven": {
     "quality": 4.5,
     "difficulty": 2.6,
     "num_ratings": 14,
-    "would_take_again": 86
+    "would_take_again": 86,
+    "legacyId": 2204041,
+    "tags": [
+      "Caring",
+      "Gives good feedback",
+      "Hilarious"
+    ]
   },
   "Williams, Zhongyuan": {
     "quality": 5.0,
     "difficulty": 1.6,
     "num_ratings": 8,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 2419174,
+    "tags": [
+      "Caring",
+      "Respected",
+      "EXTRA CREDIT"
+    ]
   },
   "Wishart, Adam": {
     "quality": 4.9,
     "difficulty": 2.3,
     "num_ratings": 18,
-    "would_take_again": 100
+    "would_take_again": 100,
+    "legacyId": 3057861,
+    "tags": [
+      "Caring",
+      "Gives good feedback",
+      "Clear grading criteria"
+    ]
+  },
+  "Wisnewski, Michael": {
+    "quality": 5,
+    "difficulty": 1,
+    "num_ratings": 1,
+    "would_take_again": 100,
+    "legacyId": 3047345,
+    "tags": [
+      "Inspirational",
+      "Caring",
+      "Respected"
+    ]
   },
   "Yoon, Sae Young": {
     "quality": 3.5,
@@ -705,24 +1417,48 @@
     "quality": 4.7,
     "difficulty": 1.8,
     "num_ratings": 25,
-    "would_take_again": 95
+    "would_take_again": 95,
+    "legacyId": 1201126,
+    "tags": [
+      "Hilarious",
+      "Caring",
+      "Respected"
+    ]
   },
   "Zbib, Leila": {
     "quality": 3.5,
     "difficulty": 2.8,
     "num_ratings": 4,
-    "would_take_again": 75
+    "would_take_again": 75,
+    "legacyId": 2886562,
+    "tags": [
+      "Gives good feedback",
+      "Group projects",
+      "Lots of homework"
+    ]
   },
   "Zdravkovic, Cindy": {
     "quality": 2.4,
     "difficulty": 4.2,
     "num_ratings": 56,
-    "would_take_again": 16
+    "would_take_again": 16,
+    "legacyId": 2541348,
+    "tags": [
+      "Amazing lectures",
+      "Caring",
+      "Hilarious"
+    ]
   },
   "Zheng, Xiaochuan": {
     "quality": 4.1,
     "difficulty": 2.9,
     "num_ratings": 29,
-    "would_take_again": 81
+    "would_take_again": 81,
+    "legacyId": 1214519,
+    "tags": [
+      "Test heavy",
+      "Group projects",
+      "Clear grading criteria"
+    ]
   }
 }
