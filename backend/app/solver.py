@@ -310,7 +310,7 @@ def solve(
 
     if total_all <= credit_high:
         # All requirements fit in the credit window — use them all
-        requirement_subsets = [(list(range(len(pool_requirements))),)]
+        requirement_subsets = [tuple(range(len(pool_requirements)))]
     else:
         # Generate subsets whose total credits fall within the window.
         # Use itertools.combinations with increasing subset sizes.
