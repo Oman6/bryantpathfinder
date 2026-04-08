@@ -1,10 +1,11 @@
 """FastAPI routes and application lifespan for BryantPathfinder.
 
-Three API endpoints:
-- GET  /api/health             — confirm the server is running and sections are loaded
-- POST /api/parse-audit        — parse a Degree Works screenshot via Claude Vision
-- POST /api/generate-schedules — run the solver and return 3 ranked schedules
-- GET  /api/sample-audit       — return the pre-parsed fixture for the demo fallback
+Endpoints:
+- GET  /api/health             — server status
+- POST /api/parse-audit        — Claude Vision audit parsing
+- POST /api/generate-schedules — solver + multi-agent enrichment pipeline
+- GET  /api/sample-audit       — demo fixture fallback
+- POST /api/multi-semester     — 4-semester graduation roadmap (3-agent pipeline)
 """
 
 import json
@@ -28,6 +29,7 @@ from .models import (
     Section,
 )
 from .solver import solve
+from .agents import orchestrator
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
@@ -46,7 +48,6 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None]:
     raw = json.loads(SECTIONS_PATH.read_text(encoding="utf-8"))
     sections_list = [Section(**s) for s in raw]
 
-    # Dict keyed by course_code for O(1) lookup in the expander
     sections_by_code: dict[str, list[Section]] = {}
     for section in sections_list:
         sections_by_code.setdefault(section.course_code, []).append(section)
@@ -55,14 +56,13 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None]:
     app.state.sections_by_code = sections_by_code
 
     logger.info("Loaded %d sections from %s", len(sections_list), SECTIONS_PATH)
-
     yield
 
 
 app = FastAPI(
     title="BryantPathfinder",
-    description="AI course scheduling assistant for Bryant University",
-    version="1.0.0",
+    description="AI course scheduling assistant with multi-agent orchestration",
+    version="2.0.0",
     lifespan=lifespan,
 )
 
@@ -77,7 +77,6 @@ app.add_middleware(
 
 @app.get("/api/health", response_model=HealthResponse)
 async def health() -> HealthResponse:
-    """Confirm sections.json is loaded and the server is ready."""
     sections: list[Section] = app.state.sections
     return HealthResponse(
         status="ok",
@@ -89,15 +88,12 @@ async def health() -> HealthResponse:
 
 @app.post("/api/parse-audit", response_model=DegreeAudit)
 async def parse_audit(request: ParseAuditRequest) -> DegreeAudit:
-    """Parse a Degree Works audit screenshot using Claude Vision."""
     if not request.image_base64:
         raise HTTPException(status_code=400, detail="image_base64 is required.")
 
-    # Detect media type from base64 header or default to PNG
     media_type = "image/png"
     b64 = request.image_base64
     if b64.startswith("data:"):
-        # Strip data URI prefix: "data:image/png;base64,..."
         header, _, b64 = b64.partition(",")
         if "image/jpeg" in header or "image/jpg" in header:
             media_type = "image/jpeg"
@@ -113,16 +109,24 @@ async def parse_audit(request: ParseAuditRequest) -> DegreeAudit:
         raise HTTPException(status_code=500, detail=str(e))
 
 
-@app.post("/api/generate-schedules", response_model=GenerateSchedulesResponse)
-async def generate_schedules(request: GenerateSchedulesRequest) -> GenerateSchedulesResponse:
-    """Run the constraint solver and return 3 ranked schedules with explanations."""
+@app.post("/api/generate-schedules")
+async def generate_schedules(request: GenerateSchedulesRequest) -> dict:
+    """Run solver + multi-agent enrichment pipeline.
+
+    Pipeline:
+    1. Constraint solver generates top 3 schedules
+    2. If zero results → Negotiator Agent analyzes bottlenecks
+    3. If results → Professor Match + Workload agents run in parallel
+    4. Claude explains each schedule (if API key available)
+    5. All agent outputs merged into final response
+    """
     sections: list[Section] = app.state.sections
     audit = request.audit
     preferences = request.preferences
 
     start_time = time.time()
 
-    # Run the solver
+    # Step 1: Run the solver
     schedules = solve(
         outstanding_requirements=audit.outstanding_requirements,
         all_sections=sections,
@@ -131,31 +135,26 @@ async def generate_schedules(request: GenerateSchedulesRequest) -> GenerateSched
 
     solver_duration_ms = int((time.time() - start_time) * 1000)
 
+    # Step 2: Zero-result path → Negotiator Agent
     if not schedules:
-        # Build a helpful message about which constraints to loosen
-        suggestions = []
-        if preferences.blocked_days:
-            suggestions.append(
-                f"Remove blocked days ({', '.join(preferences.blocked_days)})"
-            )
-        if preferences.no_earlier_than:
-            suggestions.append(
-                f"Allow classes before {preferences.no_earlier_than}"
-            )
-        if preferences.no_later_than:
-            suggestions.append(
-                f"Allow classes after {preferences.no_later_than}"
-            )
-        if not suggestions:
-            suggestions.append("Select fewer requirements or adjust your target credits")
-
-        detail = (
-            "No valid schedules found with your current preferences. "
-            "Try loosening these constraints: " + "; ".join(suggestions)
+        negotiation = orchestrator.negotiate_constraints(
+            audit.outstanding_requirements, sections, preferences
         )
-        raise HTTPException(status_code=422, detail=detail)
+        return {
+            "schedules": [],
+            "solver_stats": {
+                "solver_duration_ms": solver_duration_ms,
+                "total_duration_ms": int((time.time() - start_time) * 1000),
+                "schedules_returned": 0,
+            },
+            "negotiation": negotiation,
+            "agents_run": negotiation.get("agents_run", ["negotiator"]),
+        }
 
-    # Enrich each schedule with a Claude-generated explanation
+    # Step 3: Enrichment — Professor Match + Workload in parallel
+    enrichment = orchestrator.enrich_schedules(schedules, preferences)
+
+    # Step 4: Claude explanations (sequential, needs API)
     for schedule in schedules:
         try:
             explanation = explain_schedule(
@@ -170,24 +169,35 @@ async def generate_schedules(request: GenerateSchedulesRequest) -> GenerateSched
 
     total_duration_ms = int((time.time() - start_time) * 1000)
 
-    return GenerateSchedulesResponse(
-        schedules=schedules,
-        solver_stats={
+    return {
+        "schedules": [s.model_dump() for s in schedules],
+        "solver_stats": {
             "solver_duration_ms": solver_duration_ms,
             "total_duration_ms": total_duration_ms,
             "schedules_returned": len(schedules),
+            "orchestration_ms": enrichment.get("orchestration_ms", 0),
         },
-    )
+        "professor_data": enrichment.get("professor_data", []),
+        "workload_data": enrichment.get("workload_data", []),
+        "agents_run": ["solver"] + enrichment.get("agents_run", []) + ["explainer"],
+    }
 
 
 @app.get("/api/sample-audit", response_model=DegreeAudit)
 async def sample_audit() -> DegreeAudit:
-    """Return Owen's pre-parsed degree audit as a demo fallback."""
     if not FIXTURE_PATH.exists():
-        raise HTTPException(
-            status_code=500,
-            detail=f"Sample audit fixture not found at {FIXTURE_PATH}",
-        )
-
+        raise HTTPException(status_code=500, detail="Sample audit fixture not found")
     raw = json.loads(FIXTURE_PATH.read_text(encoding="utf-8"))
     return DegreeAudit(**raw)
+
+
+@app.post("/api/multi-semester")
+async def multi_semester(request: GenerateSchedulesRequest) -> dict:
+    """Run the Multi-Semester Planner — 3-agent sub-pipeline.
+
+    Agents: Prerequisite → Rotation → Sequencing
+    Produces a 4-semester graduation roadmap.
+    """
+    sections: list[Section] = app.state.sections
+    result = orchestrator.plan_multi_semester(request.audit, sections)
+    return result

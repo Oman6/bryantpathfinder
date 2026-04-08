@@ -20,7 +20,10 @@ const CATEGORY_LABELS: Record<string, string> = {
 
 export default function PreferencesPage() {
   const router = useRouter();
-  const { audit, setPreferences, setSchedules, setSolverStats } = useStore();
+  const {
+    audit, setPreferences, setSchedules, setSolverStats,
+    setProfessorData, setWorkloadData, setNegotiation, setAgentsRun,
+  } = useStore();
 
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
   const [targetCredits, setTargetCredits] = useState(15);
@@ -82,6 +85,10 @@ export default function PreferencesPage() {
       const response = await generateSchedules(audit, prefs);
       setSchedules(response.schedules);
       setSolverStats(response.solver_stats);
+      setProfessorData(response.professor_data ?? null);
+      setWorkloadData(response.workload_data ?? null);
+      setNegotiation(response.negotiation ?? null);
+      setAgentsRun(response.agents_run || []);
       router.push("/schedules");
     } catch (err) {
       const message = err instanceof Error ? err.message : "Failed to generate schedules";

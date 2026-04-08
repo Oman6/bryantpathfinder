@@ -27,9 +27,10 @@ const DAY_MAP: Record<string, string> = {
 interface ScheduleCardProps {
   schedule: ScheduleOption;
   className?: string;
+  children?: React.ReactNode;
 }
 
-export function ScheduleCard({ schedule, className = "" }: ScheduleCardProps) {
+export function ScheduleCard({ schedule, className = "", children }: ScheduleCardProps) {
   const { professorRatings } = useStore();
   const [crnDialogOpen, setCrnDialogOpen] = useState(false);
   const [copied, setCopied] = useState(false);
@@ -140,6 +141,9 @@ export function ScheduleCard({ schedule, className = "" }: ScheduleCardProps) {
             </span>
             <span>{to12h(schedule.earliest_class)}\u2013{to12h(schedule.latest_class)}</span>
           </div>
+
+          {/* Agent enrichment data */}
+          {children}
 
           {/* CTA */}
           <div className="mt-5">

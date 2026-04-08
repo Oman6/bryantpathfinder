@@ -1,5 +1,14 @@
 import { create } from "zustand";
-import type { DegreeAudit, ProfessorRatings, ScheduleOption, SchedulePreferences } from "./types";
+import type {
+  DegreeAudit,
+  GenerateSchedulesResponse,
+  NegotiationData,
+  ProfessorMatchData,
+  ProfessorRatings,
+  ScheduleOption,
+  SchedulePreferences,
+  WorkloadData,
+} from "./types";
 
 interface PathfinderState {
   audit: DegreeAudit | null;
@@ -13,6 +22,18 @@ interface PathfinderState {
 
   solverStats: Record<string, number> | null;
   setSolverStats: (stats: Record<string, number>) => void;
+
+  professorData: ProfessorMatchData[] | null;
+  setProfessorData: (data: ProfessorMatchData[] | null) => void;
+
+  workloadData: WorkloadData[] | null;
+  setWorkloadData: (data: WorkloadData[] | null) => void;
+
+  negotiation: NegotiationData | null;
+  setNegotiation: (data: NegotiationData | null) => void;
+
+  agentsRun: string[];
+  setAgentsRun: (agents: string[]) => void;
 
   professorRatings: ProfessorRatings;
   setProfessorRatings: (ratings: ProfessorRatings) => void;
@@ -46,6 +67,18 @@ export const useStore = create<PathfinderState>((set) => ({
 
   solverStats: null,
   setSolverStats: (solverStats) => set({ solverStats }),
+
+  professorData: null,
+  setProfessorData: (professorData) => set({ professorData }),
+
+  workloadData: null,
+  setWorkloadData: (workloadData) => set({ workloadData }),
+
+  negotiation: null,
+  setNegotiation: (negotiation) => set({ negotiation }),
+
+  agentsRun: [],
+  setAgentsRun: (agentsRun) => set({ agentsRun }),
 
   professorRatings: {},
   setProfessorRatings: (professorRatings) => set({ professorRatings }),

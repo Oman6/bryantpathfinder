@@ -1,6 +1,7 @@
 import type {
   DegreeAudit,
   GenerateSchedulesResponse,
+  MultiSemesterResult,
   SchedulePreferences,
 } from "./types";
 
@@ -31,6 +32,22 @@ export async function generateSchedules(
   if (!res.ok) {
     const error = await res.json().catch(() => ({ detail: "Failed to generate schedules" }));
     throw new Error(error.detail || `Generation failed (${res.status})`);
+  }
+  return res.json();
+}
+
+export async function getMultiSemesterPlan(
+  audit: DegreeAudit,
+  preferences: SchedulePreferences
+): Promise<MultiSemesterResult> {
+  const res = await fetch(`${API_BASE}/api/multi-semester`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ audit, preferences }),
+  });
+  if (!res.ok) {
+    const error = await res.json().catch(() => ({ detail: "Failed to generate plan" }));
+    throw new Error(error.detail || `Planning failed (${res.status})`);
   }
   return res.json();
 }

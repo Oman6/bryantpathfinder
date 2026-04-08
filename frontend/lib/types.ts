@@ -91,11 +91,111 @@ export interface ProfessorRating {
 
 export type ProfessorRatings = Record<string, ProfessorRating>;
 
+export interface ProfessorInsight {
+  instructor: string;
+  has_data: boolean;
+  quality?: number;
+  difficulty?: number;
+  num_ratings?: number;
+  would_take_again?: number;
+  match_score: number;
+  insight: string;
+  flags: string[];
+}
+
+export interface WorkloadCourse {
+  course_code: string;
+  instructor: string | null;
+  credits: number;
+  difficulty: number;
+  class_hours_per_week: number;
+  study_hours_per_week: number;
+  total_hours_per_week: number;
+}
+
+export interface DailyLoad {
+  label: string;
+  class_hours: number;
+  num_classes: number;
+  gap_hours: number;
+  is_heavy: boolean;
+}
+
+export interface WorkloadData {
+  course_breakdown: WorkloadCourse[];
+  daily_load: Record<string, DailyLoad>;
+  total_class_hours: number;
+  total_study_hours: number;
+  total_weekly_hours: number;
+  workload_score: number;
+  warnings: string[];
+  summary: string;
+}
+
+export interface ProfessorMatchData {
+  professor_insights: ProfessorInsight[];
+  avg_professor_score: number;
+  warnings: string[];
+  recommendations: string[];
+}
+
+export interface NegotiationTrade {
+  action: string;
+  constraint: string;
+  impact: string;
+  sections_gained: number;
+}
+
+export interface NegotiationData {
+  bottlenecks: { constraint: string; detail: string; severity: string }[];
+  trades: NegotiationTrade[];
+  zero_candidate_requirements: string[];
+  analysis: string;
+}
+
+export interface SemesterCourse {
+  id: string;
+  requirement: string;
+  credits: number;
+  category: string;
+  course: string;
+}
+
+export interface SemesterPlan {
+  semester: string;
+  courses: SemesterCourse[];
+  credits: number;
+  notes: string[];
+}
+
+export interface MultiSemesterResult {
+  prerequisite_analysis: {
+    ready_now: string[];
+    blocked: { id: string; waiting_on: string[] }[];
+    chains: string[][];
+  };
+  rotation_analysis: {
+    fall_only: { id: string; course: string }[];
+    spring_only: { id: string; course: string }[];
+    schedule_critical: { id: string; course: string; must_take: string }[];
+  };
+  semester_plan: SemesterPlan[];
+  total_credits_planned: number;
+  graduation_on_track: boolean;
+  agents_used: string[];
+  orchestration_ms: number;
+}
+
 export interface GenerateSchedulesResponse {
   schedules: ScheduleOption[];
   solver_stats: {
     solver_duration_ms: number;
     total_duration_ms: number;
     schedules_returned: number;
+    orchestration_ms?: number;
   };
+  professor_data?: ProfessorMatchData[];
+  workload_data?: WorkloadData[];
+  negotiation?: NegotiationData;
+  agents_run?: string[];
 }
