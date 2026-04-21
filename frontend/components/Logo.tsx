@@ -16,7 +16,7 @@ export function Logo() {
           Pathfinder
         </span>
         <span
-          className="text-[10px] text-[#787774]"
+          className="text-[10px] text-[#5F5D58]"
           style={{ fontFamily: "var(--font-geist-mono), monospace" }}
         >
           by NovaWealth

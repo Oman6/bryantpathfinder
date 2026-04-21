@@ -84,7 +84,7 @@ function DialogDescription({ className, ...props }: React.ComponentProps<"p">) {
   return (
     <p
       data-slot="dialog-description"
-      className={cn("text-sm text-[#787774]", className)}
+      className={cn("text-sm text-[#5F5D58]", className)}
       {...props}
     />
   )

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ArrowsLeftRight, Check, Warning, Star } from "@phosphor-icons/react";
 import { getAlternateSections } from "@/lib/api";
 import { useStore } from "@/lib/store";
@@ -38,11 +38,13 @@ export function SectionSwap({ currentSection, otherSections, onSwap, onClose }: 
   const { professorRatings } = useStore();
   const [alternatives, setAlternatives] = useState<Section[]>([]);
   const [loading, setLoading] = useState(true);
+  const dialogRef = useRef<HTMLDivElement>(null);
+  const closeBtnRef = useRef<HTMLButtonElement>(null);
+  const previouslyFocusedRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
     getAlternateSections(currentSection.course_code)
       .then((sections) => {
-        // Exclude the current section
         const filtered = sections.filter((s) => s.crn !== currentSection.crn);
         setAlternatives(filtered);
       })
@@ -50,23 +52,66 @@ export function SectionSwap({ currentSection, otherSections, onSwap, onClose }: 
       .finally(() => setLoading(false));
   }, [currentSection.course_code, currentSection.crn]);
 
+  // Focus management + keyboard handlers
+  useEffect(() => {
+    previouslyFocusedRef.current = document.activeElement as HTMLElement | null;
+    closeBtnRef.current?.focus();
+
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        e.preventDefault();
+        onClose();
+        return;
+      }
+      if (e.key === "Tab" && dialogRef.current) {
+        const focusable = dialogRef.current.querySelectorAll<HTMLElement>(
+          'button:not([disabled]), [href], input, [tabindex]:not([tabindex="-1"])'
+        );
+        if (focusable.length === 0) return;
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
+    };
+    document.addEventListener("keydown", handleKey);
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.removeEventListener("keydown", handleKey);
+      document.body.style.overflow = prevOverflow;
+      previouslyFocusedRef.current?.focus();
+    };
+  }, [onClose]);
+
   return (
     <>
       <div className="fixed inset-0 z-40 bg-black/10 backdrop-blur-[2px]" onClick={onClose} />
-      <div className="fixed left-1/2 top-1/2 z-50 w-full max-w-lg -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-black/5 bg-white p-6 shadow-[0_25px_50px_-12px_rgba(0,0,0,0.08)]">
+      <div
+        ref={dialogRef}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="section-swap-title"
+        className="fixed left-1/2 top-1/2 z-50 w-full max-w-lg -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-black/5 bg-white p-6 shadow-[0_25px_50px_-12px_rgba(0,0,0,0.08)]">
         {/* Header */}
         <div className="mb-4 flex items-center gap-3">
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#FAFAF7]">
-            <ArrowsLeftRight size={16} weight="light" className="text-[#787774]" />
+            <ArrowsLeftRight size={16} weight="light" className="text-[#5F5D58]" />
           </div>
           <div>
             <h3
+              id="section-swap-title"
               className="text-base font-medium"
               style={{ fontFamily: "var(--font-instrument-serif), serif" }}
             >
               Swap {currentSection.course_code}
             </h3>
-            <p className="text-[10px] text-[#787774]">
+            <p className="text-[10px] text-[#5F5D58]">
               Currently: sec {currentSection.section} with {currentSection.instructor || "TBA"}
             </p>
           </div>
@@ -74,9 +119,9 @@ export function SectionSwap({ currentSection, otherSections, onSwap, onClose }: 
 
         {/* Alternatives list */}
         {loading ? (
-          <div className="py-8 text-center text-xs text-[#787774]">Loading sections...</div>
+          <div className="py-8 text-center text-xs text-[#5F5D58]">Loading sections...</div>
         ) : alternatives.length === 0 ? (
-          <div className="py-8 text-center text-xs text-[#787774]">No other sections available.</div>
+          <div className="py-8 text-center text-xs text-[#5F5D58]">No other sections available.</div>
         ) : (
           <div className="max-h-80 space-y-2 overflow-y-auto">
             {alternatives.map((alt) => {
@@ -107,11 +152,11 @@ export function SectionSwap({ currentSection, otherSections, onSwap, onClose }: 
                       >
                         Sec {alt.section}
                       </span>
-                      <span className="text-xs text-[#787774]">
+                      <span className="text-xs text-[#5F5D58]">
                         {alt.instructor || "TBA"}
                       </span>
                       {rating && (
-                        <span className="flex items-center gap-0.5 text-[10px] text-[#787774]">
+                        <span className="flex items-center gap-0.5 text-[10px] text-[#5F5D58]">
                           <Star size={9} weight="fill" className={rating.quality >= 4 ? "text-emerald-600" : rating.quality >= 3 ? "text-amber-600" : "text-red-600"} />
                           {rating.quality.toFixed(1)}
                         </span>
@@ -119,13 +164,13 @@ export function SectionSwap({ currentSection, otherSections, onSwap, onClose }: 
                     </div>
                     <div className="mt-0.5 flex items-center gap-3">
                       <span
-                        className="text-[10px] text-[#787774]"
+                        className="text-[10px] text-[#5F5D58]"
                         style={{ fontFamily: "var(--font-geist-mono), monospace" }}
                       >
                         {meetingStr}
                       </span>
                       <span
-                        className="text-[10px] text-[#787774]"
+                        className="text-[10px] text-[#5F5D58]"
                         style={{ fontFamily: "var(--font-geist-mono), monospace" }}
                       >
                         {alt.seats_open}/{alt.seats_total} seats
@@ -156,8 +201,9 @@ export function SectionSwap({ currentSection, otherSections, onSwap, onClose }: 
 
         {/* Close */}
         <button
+          ref={closeBtnRef}
           onClick={onClose}
-          className="mt-4 flex w-full items-center justify-center rounded-full py-2.5 text-xs text-[#787774] transition-colors hover:text-[#1A1A1A]"
+          className="mt-4 flex w-full items-center justify-center rounded-full py-2.5 text-xs text-[#5F5D58] transition-colors hover:text-[#1A1A1A]"
         >
           Cancel
         </button>

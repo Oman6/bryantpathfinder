@@ -2,6 +2,7 @@ import { create } from "zustand";
 import type {
   DegreeAudit,
   GenerateSchedulesResponse,
+  GradeDistributions,
   NegotiationData,
   ProfessorMatchData,
   ProfessorRatings,
@@ -39,27 +40,38 @@ interface PathfinderState {
   setProfessorRatings: (ratings: ProfessorRatings) => void;
   rateProfessor: (name: string, quality: number, difficulty: number) => void;
 
+  gradeDistributions: GradeDistributions;
+  setGradeDistributions: (data: GradeDistributions) => void;
+
+  pinnedCrns: string[];
+  togglePinnedCrn: (crn: string) => void;
+  clearPinnedCrns: () => void;
+
   loading: boolean;
   setLoading: (loading: boolean) => void;
 
   error: string | null;
   setError: (error: string | null) => void;
+
+  reset: () => void;
 }
+
+const DEFAULT_PREFERENCES: SchedulePreferences = {
+  target_credits: 15,
+  blocked_days: [],
+  no_earlier_than: null,
+  no_later_than: null,
+  preferred_instructors: [],
+  avoided_instructors: [],
+  free_text: "",
+  selected_requirement_ids: [],
+};
 
 export const useStore = create<PathfinderState>((set) => ({
   audit: null,
   setAudit: (audit) => set({ audit, error: null }),
 
-  preferences: {
-    target_credits: 15,
-    blocked_days: [],
-    no_earlier_than: null,
-    no_later_than: null,
-    preferred_instructors: [],
-    avoided_instructors: [],
-    free_text: "",
-    selected_requirement_ids: [],
-  },
+  preferences: { ...DEFAULT_PREFERENCES },
   setPreferences: (preferences) => set({ preferences }),
 
   schedules: null,
@@ -79,6 +91,18 @@ export const useStore = create<PathfinderState>((set) => ({
 
   agentsRun: [],
   setAgentsRun: (agentsRun) => set({ agentsRun }),
+
+  gradeDistributions: {},
+  setGradeDistributions: (gradeDistributions) => set({ gradeDistributions }),
+
+  pinnedCrns: [],
+  togglePinnedCrn: (crn) =>
+    set((state) => ({
+      pinnedCrns: state.pinnedCrns.includes(crn)
+        ? state.pinnedCrns.filter((c) => c !== crn)
+        : [...state.pinnedCrns, crn],
+    })),
+  clearPinnedCrns: () => set({ pinnedCrns: [] }),
 
   professorRatings: {},
   setProfessorRatings: (professorRatings) => set({ professorRatings }),
@@ -107,4 +131,19 @@ export const useStore = create<PathfinderState>((set) => ({
 
   error: null,
   setError: (error) => set({ error }),
+
+  // Clears session state but preserves professorRatings (durable user data).
+  reset: () =>
+    set({
+      audit: null,
+      preferences: { ...DEFAULT_PREFERENCES },
+      schedules: null,
+      solverStats: null,
+      professorData: null,
+      workloadData: null,
+      negotiation: null,
+      agentsRun: [],
+      loading: false,
+      error: null,
+    }),
 }));

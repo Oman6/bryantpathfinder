@@ -1,10 +1,11 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Copy, Check, PencilSimple, ArrowsLeftRight } from "@phosphor-icons/react";
+import { Copy, Check, PencilSimple, ArrowsLeftRight, CalendarPlus, PushPin, PushPinSlash, Warning } from "@phosphor-icons/react";
 import type { ScheduleOption, Section } from "@/lib/types";
 import { useStore } from "@/lib/store";
 import { to12h } from "@/lib/utils";
+import { downloadIcs } from "@/lib/ics";
 import { WeeklyCalendar } from "./WeeklyCalendar";
 import { ProfessorTooltip } from "./ProfessorTooltip";
 import { SectionSwap } from "./SectionSwap";
@@ -31,8 +32,17 @@ interface ScheduleCardProps {
   children?: React.ReactNode;
 }
 
+function seatUrgency(section: Section): { label: string; tone: "red" | "amber" } | null {
+  if (section.seats_open <= 0) return { label: "Waitlist", tone: "red" };
+  if (section.seats_open <= 3) return { label: `${section.seats_open} left`, tone: "red" };
+  if (section.seats_total > 0 && section.seats_open / section.seats_total < 0.2) {
+    return { label: `${section.seats_open} left`, tone: "amber" };
+  }
+  return null;
+}
+
 export function ScheduleCard({ schedule, className = "", children }: ScheduleCardProps) {
-  const { professorRatings } = useStore();
+  const { professorRatings, gradeDistributions, pinnedCrns, togglePinnedCrn } = useStore();
   const [crnDialogOpen, setCrnDialogOpen] = useState(false);
   const [copied, setCopied] = useState(false);
   const [editing, setEditing] = useState(false);
@@ -53,6 +63,20 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
   const displaySections = editing ? localSections : schedule.sections;
 
   const crns = displaySections.map((s) => s.crn).join(", ");
+
+  // Predicted schedule GPA: credit-weighted avg of per-course avg_gpa when data exists.
+  const gpaData = displaySections
+    .map((s) => {
+      const d = gradeDistributions[s.course_code];
+      return d ? { credits: s.credits, gpa: d.avg_gpa } : null;
+    })
+    .filter((x): x is { credits: number; gpa: number } => x !== null);
+  const totalGpaCredits = gpaData.reduce((sum, x) => sum + x.credits, 0);
+  const predictedGpa =
+    totalGpaCredits > 0
+      ? gpaData.reduce((sum, x) => sum + x.credits * x.gpa, 0) / totalGpaCredits
+      : null;
+  const gpaCoverage = totalGpaCredits / displaySections.reduce((sum, s) => sum + s.credits, 0);
 
   const handleCopy = async () => {
     await navigator.clipboard.writeText(crns);
@@ -80,7 +104,7 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
             </div>
             <div className="flex items-center gap-2">
               <span
-                className="text-xs text-[#787774]"
+                className="text-xs text-[#5F5D58]"
                 style={{ fontFamily: "var(--font-geist-mono), monospace" }}
               >
                 {editing
@@ -92,7 +116,7 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
                 className={`flex items-center gap-1 rounded-full px-2 py-0.5 text-[9px] transition-colors ${
                   editing
                     ? "bg-[#B8985A] text-white"
-                    : "bg-black/[0.04] text-[#787774] hover:text-[#1A1A1A]"
+                    : "bg-black/[0.04] text-[#5F5D58] hover:text-[#1A1A1A]"
                 }`}
                 style={{ fontFamily: "var(--font-geist-mono), monospace" }}
               >
@@ -114,6 +138,8 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
                     `${m.days.join("")} ${to12h(m.start)}\u2013${to12h(m.end)}`
                 )
                 .join(", ");
+              const urgency = seatUrgency(section);
+              const pinned = pinnedCrns.includes(section.crn);
               return (
                 <div
                   key={section.crn}
@@ -134,21 +160,51 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
                     <ProfessorTooltip
                       name={section.instructor || "TBA"}
                       rating={section.instructor ? professorRatings[section.instructor] : undefined}
-                      className="text-xs text-[#787774]"
+                      className="text-xs text-[#5F5D58]"
                     />
                     {editing && (
                       <ArrowsLeftRight size={10} weight="light" className="text-[#B8985A]" />
                     )}
+                    {urgency && (
+                      <span
+                        className={`inline-flex items-center gap-1 rounded-full px-1.5 py-0.5 text-[9px] font-medium ${
+                          urgency.tone === "red"
+                            ? "bg-red-50 text-red-700"
+                            : "bg-amber-50 text-amber-700"
+                        }`}
+                      >
+                        <Warning size={9} weight="fill" />
+                        {urgency.label}
+                      </span>
+                    )}
+                    <button
+                      type="button"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        togglePinnedCrn(section.crn);
+                      }}
+                      aria-label={pinned ? `Unpin ${section.course_code}` : `Pin ${section.course_code}`}
+                      title={pinned ? "Unpin section" : "Pin section (lock for re-solve)"}
+                      className={`rounded p-0.5 transition-colors ${
+                        pinned ? "text-[#B8985A]" : "text-[#5F5D58]/40 hover:text-[#5F5D58]"
+                      }`}
+                    >
+                      {pinned ? (
+                        <PushPin size={10} weight="fill" />
+                      ) : (
+                        <PushPinSlash size={10} weight="light" />
+                      )}
+                    </button>
                   </div>
                   <div className="flex items-baseline gap-3">
                     <span
-                      className="text-[10px] text-[#787774]"
+                      className="text-[10px] text-[#5F5D58]"
                       style={{ fontFamily: "var(--font-geist-mono), monospace" }}
                     >
                       {meetingStr}
                     </span>
                     <span
-                      className="text-[10px] text-[#787774]"
+                      className="text-[10px] text-[#5F5D58]"
                       style={{ fontFamily: "var(--font-geist-mono), monospace" }}
                     >
                       {section.seats_open}/{section.seats_total}
@@ -162,7 +218,7 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
           {/* Explanation */}
           {schedule.explanation && schedule.explanation !== "Schedule explanation unavailable." && (
             <p
-              className="mt-4 text-sm italic leading-relaxed text-[#787774]"
+              className="mt-4 text-sm italic leading-relaxed text-[#5F5D58]"
               style={{ fontFamily: "var(--font-instrument-serif), serif" }}
             >
               {schedule.explanation}
@@ -171,7 +227,7 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
 
           {/* Stats row */}
           <div
-            className="mt-4 flex flex-wrap gap-x-5 gap-y-1 border-t border-black/5 pt-3 text-[10px] text-[#787774]"
+            className="mt-4 flex flex-wrap gap-x-5 gap-y-1 border-t border-black/5 pt-3 text-[10px] text-[#5F5D58]"
             style={{ fontFamily: "var(--font-geist-mono), monospace" }}
           >
             <span>{schedule.total_credits} credits</span>
@@ -181,16 +237,35 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
                 : "No days off"}
             </span>
             <span>{to12h(schedule.earliest_class)}\u2013{to12h(schedule.latest_class)}</span>
+            {predictedGpa !== null && gpaCoverage >= 0.5 && (
+              <span title={`Based on ${Math.round(gpaCoverage * 100)}% of credits with grade data`}>
+                ~{predictedGpa.toFixed(2)} GPA
+              </span>
+            )}
           </div>
 
           {/* Agent enrichment data */}
           {children}
 
           {/* CTA */}
-          <div className="mt-5">
+          <div className="mt-5 flex flex-wrap items-center gap-2">
             <PillButton onClick={() => setCrnDialogOpen(true)}>
               Use this schedule
             </PillButton>
+            <button
+              type="button"
+              onClick={() =>
+                downloadIcs({
+                  ...schedule,
+                  sections: displaySections,
+                })
+              }
+              className="inline-flex items-center gap-1.5 rounded-full border border-black/10 bg-white px-4 py-2.5 text-xs font-medium text-[#1A1A1A] transition-colors hover:bg-[#FAFAF7]"
+              title="Download .ics for Google Calendar / Apple Calendar / Outlook"
+            >
+              <CalendarPlus size={13} weight="light" />
+              Add to calendar
+            </button>
           </div>
         </div>
       </div>
@@ -205,7 +280,7 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
             >
               Your CRNs
             </DialogTitle>
-            <DialogDescription className="text-xs text-[#787774]">
+            <DialogDescription className="text-xs text-[#5F5D58]">
               Copy these into Banner Self-Service to register.
             </DialogDescription>
           </DialogHeader>
@@ -222,7 +297,7 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
                 >
                   {s.crn}
                 </span>
-                <span className="text-xs text-[#787774]">{s.course_code}</span>
+                <span className="text-xs text-[#5F5D58]">{s.course_code}</span>
               </div>
             ))}
           </div>
@@ -246,7 +321,7 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
 
           <button
             onClick={() => setCrnDialogOpen(false)}
-            className="mt-2 flex w-full items-center justify-center rounded-full py-2.5 text-xs text-[#787774] transition-colors hover:text-[#1A1A1A]"
+            className="mt-2 flex w-full items-center justify-center rounded-full py-2.5 text-xs text-[#5F5D58] transition-colors hover:text-[#1A1A1A]"
           >
             Done
           </button>

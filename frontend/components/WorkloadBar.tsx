@@ -22,10 +22,10 @@ export function WorkloadBar({ data }: { data: WorkloadData }) {
     <div className="space-y-3">
       {/* Workload score bar */}
       <div className="flex items-center gap-3">
-        <Lightning size={14} weight="light" className="text-[#787774]" />
+        <Lightning size={14} weight="light" className="text-[#5F5D58]" />
         <div className="flex-1">
           <div className="mb-1 flex items-center justify-between">
-            <span className="text-[10px] text-[#787774]">Workload</span>
+            <span className="text-[10px] text-[#5F5D58]">Workload</span>
             <span
               className="text-[10px] font-medium text-[#1A1A1A]"
               style={{ fontFamily: "var(--font-geist-mono), monospace" }}
@@ -47,7 +47,7 @@ export function WorkloadBar({ data }: { data: WorkloadData }) {
 
       {/* Hours breakdown */}
       <div
-        className="flex gap-4 text-[10px] text-[#787774]"
+        className="flex gap-4 text-[10px] text-[#5F5D58]"
         style={{ fontFamily: "var(--font-geist-mono), monospace" }}
       >
         <span className="flex items-center gap-1">

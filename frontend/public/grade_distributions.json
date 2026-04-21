@@ -1,0 +1,486 @@
+{
+  "_metadata": {
+    "source": "Estimated from RateMyProfessors difficulty ratings, crowd-sourced student reviews, and course catalog analysis (April 2026). Bryant University does not publish official grade distributions. These are qualitative estimates, not official data.",
+    "methodology": "RateMyProfessors difficulty ratings (1-5 scale) were collected for Bryant Finance professors and cross-referenced with student comments about typical grades. Courses from the 'Easiest Classes at Bryant' article (humansofuniversity.com) were assigned lower difficulty. Estimates use the following heuristic: difficulty 1.0-2.0 = easy (avg GPA ~3.5+), 2.0-3.0 = moderate (avg GPA ~3.0-3.4), 3.0-4.0 = hard (avg GPA ~2.5-3.0), 4.0-5.0 = very hard (avg GPA ~2.0-2.5).",
+    "last_updated": "2026-04-08",
+    "confidence": "low — no official data exists"
+  },
+
+  "FIN 201": {
+    "avg_gpa": 3.1,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 2.9,
+    "notes": "Foundational finance course. Professor-dependent difficulty. Kuang (1.9 difficulty, easy A), Kumar (2.9), Fellingham (3.2), Koplik (3.5), Derderian (3.2), Zheng (3.3), Ramirez (3.6). Most students report B+ to A- range with moderate effort.",
+    "a_pct": 30, "b_pct": 40, "c_pct": 20, "d_pct": 7, "f_pct": 3
+  },
+  "FIN 310": {
+    "avg_gpa": 2.8,
+    "difficulty_tier": "hard",
+    "rmp_difficulty_avg": 3.3,
+    "notes": "Intermediate Corporate Finance. Builds heavily on FIN 201. Excel-based analysis. Students report challenging exams with capital budgeting and valuation problems. Fewer professor options than FIN 201.",
+    "a_pct": 20, "b_pct": 35, "c_pct": 30, "d_pct": 10, "f_pct": 5
+  },
+  "FIN 312": {
+    "avg_gpa": 2.9,
+    "difficulty_tier": "hard",
+    "rmp_difficulty_avg": 3.2,
+    "notes": "Investments. Uses Financial Market Center. Covers risk/return, CAPM, portfolio theory. Fellingham teaches this (3.2 difficulty). Students report B to B+ typical with study effort.",
+    "a_pct": 22, "b_pct": 38, "c_pct": 28, "d_pct": 8, "f_pct": 4
+  },
+  "FIN 315": {
+    "avg_gpa": 2.9,
+    "difficulty_tier": "moderate-hard",
+    "rmp_difficulty_avg": 3.3,
+    "notes": "Financial Institutions and Markets. Koplik teaches this frequently (3.5 difficulty). Conceptual course covering banking, insurance, capital markets. B range typical.",
+    "a_pct": 22, "b_pct": 38, "c_pct": 28, "d_pct": 8, "f_pct": 4
+  },
+  "FIN 368": {
+    "avg_gpa": 2.9,
+    "difficulty_tier": "moderate-hard",
+    "rmp_difficulty_avg": 3.3,
+    "notes": "Multinational Finance. Zheng teaches this (3.3 difficulty). Covers hedging, arbitrage, international capital budgeting.",
+    "a_pct": 22, "b_pct": 38, "c_pct": 28, "d_pct": 8, "f_pct": 4
+  },
+  "FIN 370": {
+    "avg_gpa": 3.0,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 2.8,
+    "notes": "Financial Statement Analysis. Zbib teaches this (2.8 difficulty). Semester-long portfolio project. Student review: 'easy A if you put in effort.' Fellingham also teaches (3.2 difficulty).",
+    "a_pct": 28, "b_pct": 40, "c_pct": 22, "d_pct": 7, "f_pct": 3
+  },
+  "FIN 380": {
+    "avg_gpa": 2.5,
+    "difficulty_tier": "very hard",
+    "rmp_difficulty_avg": 4.2,
+    "notes": "Financial Modeling. Ramirez teaches this and students rate it 5.0 difficulty. Heavy Excel/spreadsheet work. Students report C+ to B- typical. One of the hardest FIN courses.",
+    "a_pct": 12, "b_pct": 28, "c_pct": 35, "d_pct": 17, "f_pct": 8
+  },
+  "FIN 381": {
+    "avg_gpa": 3.0,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 3.0,
+    "notes": "Risk Management and Insurance. Derderian teaches (3.2 difficulty). Part of Financial Services concentration.",
+    "a_pct": 25, "b_pct": 40, "c_pct": 25, "d_pct": 7, "f_pct": 3
+  },
+  "FIN 384": {
+    "avg_gpa": 3.0,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 3.0,
+    "notes": "Credit Essentials. Commercial banking focus. Limited RMP data available.",
+    "a_pct": 25, "b_pct": 40, "c_pct": 25, "d_pct": 7, "f_pct": 3
+  },
+  "FIN 412": {
+    "avg_gpa": 3.0,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 3.0,
+    "notes": "Introduction to Fintech and Digital Innovation. Newer course. Limited student feedback available.",
+    "a_pct": 25, "b_pct": 40, "c_pct": 25, "d_pct": 7, "f_pct": 3
+  },
+  "FIN 414": {
+    "avg_gpa": 3.0,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 3.0,
+    "notes": "In sections.json catalog. Limited RMP data available.",
+    "a_pct": 25, "b_pct": 40, "c_pct": 25, "d_pct": 7, "f_pct": 3
+  },
+  "FIN 458": {
+    "avg_gpa": 2.7,
+    "difficulty_tier": "hard",
+    "rmp_difficulty_avg": 3.5,
+    "notes": "Debt Securities, Derivatives and Investing. Quantitative course covering options pricing, fixed income. 400-level, advanced content.",
+    "a_pct": 18, "b_pct": 35, "c_pct": 30, "d_pct": 12, "f_pct": 5
+  },
+  "FIN 460": {
+    "avg_gpa": 2.8,
+    "difficulty_tier": "hard",
+    "rmp_difficulty_avg": 3.3,
+    "notes": "Corporate Finance: Theory and Practice. Capstone course. Kumar teaches (2.9 difficulty for FIN 460). Case study heavy. A- reported by at least one student.",
+    "a_pct": 20, "b_pct": 38, "c_pct": 28, "d_pct": 10, "f_pct": 4
+  },
+  "FIN 465": {
+    "avg_gpa": 2.8,
+    "difficulty_tier": "hard",
+    "rmp_difficulty_avg": 3.3,
+    "notes": "Innovations in Contemporary Finance. Financial engineering focus. 400-level quantitative course.",
+    "a_pct": 20, "b_pct": 35, "c_pct": 30, "d_pct": 10, "f_pct": 5
+  },
+  "FIN 466": {
+    "avg_gpa": 2.8,
+    "difficulty_tier": "hard",
+    "rmp_difficulty_avg": 3.3,
+    "notes": "Data Analysis for Finance. Big data tools, open-source analytics. Requires MATH 201 + ACG 203 + FIN 201.",
+    "a_pct": 20, "b_pct": 35, "c_pct": 30, "d_pct": 10, "f_pct": 5
+  },
+  "FIN 475": {
+    "avg_gpa": 2.9,
+    "difficulty_tier": "moderate-hard",
+    "rmp_difficulty_avg": 3.2,
+    "notes": "Management of Banking Institutions. Asset/liability management strategies.",
+    "a_pct": 22, "b_pct": 38, "c_pct": 28, "d_pct": 8, "f_pct": 4
+  },
+
+  "ACG 203": {
+    "avg_gpa": 2.9,
+    "difficulty_tier": "moderate-hard",
+    "rmp_difficulty_avg": 3.2,
+    "notes": "Principles of Financial Accounting. Business core requirement. Accounting courses at Bryant are generally considered rigorous.",
+    "a_pct": 22, "b_pct": 35, "c_pct": 30, "d_pct": 9, "f_pct": 4
+  },
+  "ACG 204": {
+    "avg_gpa": 2.9,
+    "difficulty_tier": "moderate-hard",
+    "rmp_difficulty_avg": 3.2,
+    "notes": "Principles of Managerial Accounting. Business core. Builds on ACG 203.",
+    "a_pct": 22, "b_pct": 35, "c_pct": 30, "d_pct": 9, "f_pct": 4
+  },
+  "BUS 400": {
+    "avg_gpa": 3.0,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 3.0,
+    "notes": "Business Policy. Senior capstone. Group project heavy.",
+    "a_pct": 25, "b_pct": 40, "c_pct": 25, "d_pct": 7, "f_pct": 3
+  },
+  "ISA 201": {
+    "avg_gpa": 3.2,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 2.7,
+    "notes": "Introduction to Information Technology and Analytics. Business core. Generally accessible.",
+    "a_pct": 30, "b_pct": 40, "c_pct": 22, "d_pct": 5, "f_pct": 3
+  },
+  "LGLS 211": {
+    "avg_gpa": 3.1,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 2.8,
+    "notes": "Legal Environment of Business. Business core. Reading-heavy but fair grading.",
+    "a_pct": 28, "b_pct": 40, "c_pct": 22, "d_pct": 7, "f_pct": 3
+  },
+  "MKT 201": {
+    "avg_gpa": 3.2,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 2.6,
+    "notes": "Foundations of Marketing Management. Business core. Generally considered one of the more accessible business core courses.",
+    "a_pct": 30, "b_pct": 42, "c_pct": 20, "d_pct": 5, "f_pct": 3
+  },
+  "MGT 200": {
+    "avg_gpa": 3.2,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 2.5,
+    "notes": "Management Principles and Practice. Business core. Group projects common.",
+    "a_pct": 32, "b_pct": 40, "c_pct": 20, "d_pct": 5, "f_pct": 3
+  },
+  "MGT 201": {
+    "avg_gpa": 3.0,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 2.8,
+    "notes": "Operations Management. Business core. Quantitative elements with supply chain focus.",
+    "a_pct": 25, "b_pct": 42, "c_pct": 23, "d_pct": 7, "f_pct": 3
+  },
+
+  "COM 203": {
+    "avg_gpa": 3.5,
+    "difficulty_tier": "easy",
+    "rmp_difficulty_avg": 1.7,
+    "notes": "Introduction to Communication. Listed as one of the easiest courses at Bryant. Montecalvo teaches with 100% would-take-again and 1.7 difficulty.",
+    "a_pct": 45, "b_pct": 38, "c_pct": 12, "d_pct": 3, "f_pct": 2
+  },
+  "COM 230": {
+    "avg_gpa": 3.3,
+    "difficulty_tier": "easy-moderate",
+    "rmp_difficulty_avg": 2.2,
+    "notes": "Communication course option for LCS requirement.",
+    "a_pct": 35, "b_pct": 42, "c_pct": 17, "d_pct": 4, "f_pct": 2
+  },
+  "PSY 260": {
+    "avg_gpa": 3.4,
+    "difficulty_tier": "easy",
+    "rmp_difficulty_avg": 2.0,
+    "notes": "Introduction to Psychology. Listed as one of the easiest courses at Bryant (humansofuniversity.com).",
+    "a_pct": 40, "b_pct": 40, "c_pct": 15, "d_pct": 3, "f_pct": 2
+  },
+  "POLS 241": {
+    "avg_gpa": 3.3,
+    "difficulty_tier": "easy-moderate",
+    "rmp_difficulty_avg": 2.2,
+    "notes": "Introduction to Global Politics. Listed as one of the easiest courses at Bryant.",
+    "a_pct": 35, "b_pct": 42, "c_pct": 17, "d_pct": 4, "f_pct": 2
+  },
+  "GEN 201": {
+    "avg_gpa": 3.3,
+    "difficulty_tier": "easy-moderate",
+    "rmp_difficulty_avg": 2.3,
+    "notes": "Intercultural Communication. General education requirement.",
+    "a_pct": 35, "b_pct": 40, "c_pct": 18, "d_pct": 5, "f_pct": 2
+  },
+  "GEN 390": {
+    "avg_gpa": 3.2,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 2.5,
+    "notes": "General Education Capstone. Senior-level gen ed course.",
+    "a_pct": 30, "b_pct": 42, "c_pct": 20, "d_pct": 5, "f_pct": 3
+  },
+
+  "LCS 221": {
+    "avg_gpa": 3.3,
+    "difficulty_tier": "easy-moderate",
+    "rmp_difficulty_avg": 2.3,
+    "notes": "Literary and Cultural Studies course.",
+    "a_pct": 35, "b_pct": 40, "c_pct": 18, "d_pct": 5, "f_pct": 2
+  },
+  "LCS 250": {
+    "avg_gpa": 3.3,
+    "difficulty_tier": "easy-moderate",
+    "rmp_difficulty_avg": 2.3,
+    "notes": "Literary and Cultural Studies course.",
+    "a_pct": 35, "b_pct": 40, "c_pct": 18, "d_pct": 5, "f_pct": 2
+  },
+  "LCS 260": {
+    "avg_gpa": 3.3,
+    "difficulty_tier": "easy-moderate",
+    "rmp_difficulty_avg": 2.3,
+    "notes": "Literary and Cultural Studies course.",
+    "a_pct": 35, "b_pct": 40, "c_pct": 18, "d_pct": 5, "f_pct": 2
+  },
+  "LCS 270": {
+    "avg_gpa": 3.4,
+    "difficulty_tier": "easy",
+    "rmp_difficulty_avg": 2.0,
+    "notes": "Introduction to Cultural Studies. Listed as one of the easiest courses at Bryant (humansofuniversity.com).",
+    "a_pct": 40, "b_pct": 40, "c_pct": 15, "d_pct": 3, "f_pct": 2
+  },
+
+  "SCI 251": {
+    "avg_gpa": 3.3,
+    "difficulty_tier": "easy-moderate",
+    "rmp_difficulty_avg": 2.3,
+    "notes": "Biology I Principles of Biology. Listed as one of the easiest courses at Bryant. Lab component (SCI L251) paired.",
+    "a_pct": 35, "b_pct": 40, "c_pct": 18, "d_pct": 5, "f_pct": 2
+  },
+  "SCI 262": {
+    "avg_gpa": 3.0,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 2.8,
+    "notes": "Science course with lab component.",
+    "a_pct": 25, "b_pct": 42, "c_pct": 23, "d_pct": 7, "f_pct": 3
+  },
+  "SCI 264": {
+    "avg_gpa": 3.0,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 2.8,
+    "notes": "Science course with lab component.",
+    "a_pct": 25, "b_pct": 42, "c_pct": 23, "d_pct": 7, "f_pct": 3
+  },
+  "SCI 265": {
+    "avg_gpa": 3.0,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 2.8,
+    "notes": "Science course with lab component.",
+    "a_pct": 25, "b_pct": 42, "c_pct": 23, "d_pct": 7, "f_pct": 3
+  },
+  "SCI 269": {
+    "avg_gpa": 3.0,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 2.8,
+    "notes": "Science course with lab component.",
+    "a_pct": 25, "b_pct": 42, "c_pct": 23, "d_pct": 7, "f_pct": 3
+  },
+  "SCI 351": {
+    "avg_gpa": 2.8,
+    "difficulty_tier": "moderate-hard",
+    "rmp_difficulty_avg": 3.2,
+    "notes": "Upper-level science course. 300-level courses generally harder.",
+    "a_pct": 20, "b_pct": 38, "c_pct": 28, "d_pct": 10, "f_pct": 4
+  },
+
+  "ECO 113": {
+    "avg_gpa": 3.1,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 2.7,
+    "notes": "Microeconomic Principles. Introductory economics. Liam Rice (100% would-take-again, 2.7 difficulty). Sam Mirmirani (62% would-take-again, 3.0 difficulty).",
+    "a_pct": 28, "b_pct": 40, "c_pct": 22, "d_pct": 7, "f_pct": 3
+  },
+  "ECO 114": {
+    "avg_gpa": 3.1,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 2.7,
+    "notes": "Macroeconomic Principles. Introductory economics.",
+    "a_pct": 28, "b_pct": 40, "c_pct": 22, "d_pct": 7, "f_pct": 3
+  },
+  "MATH 201": {
+    "avg_gpa": 3.0,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 2.8,
+    "notes": "Statistics I. Required for many business courses. Quantitative but introductory level.",
+    "a_pct": 25, "b_pct": 40, "c_pct": 25, "d_pct": 7, "f_pct": 3
+  },
+  "MATH 110": {
+    "avg_gpa": 3.0,
+    "difficulty_tier": "moderate",
+    "rmp_difficulty_avg": 2.8,
+    "notes": "Mathematical Analysis. Prerequisite math course.",
+    "a_pct": 25, "b_pct": 40, "c_pct": 25, "d_pct": 7, "f_pct": 3
+  },
+
+  "_professor_ratings": {
+    "_note": "RateMyProfessors data for Bryant University Finance department professors, collected April 2026",
+    "Huan Kuang": {
+      "quality": 5.0, "difficulty": 1.9, "would_take_again_pct": 100, "num_ratings": 8,
+      "courses": ["FIN 201"],
+      "tags": ["Amazing lectures", "Caring", "Gives good feedback", "Inspirational", "Accessible outside class"],
+      "student_notes": "Easy A. All exams and quizzes are take home. Curves exams and allows retakes."
+    },
+    "Jeffrey Cerutti": {
+      "quality": 5.0, "difficulty": 2.8, "would_take_again_pct": 100, "num_ratings": 17,
+      "courses": ["FIN (unspecified)"],
+      "tags": [],
+      "student_notes": "Highest rated finance professor alongside Kuang."
+    },
+    "Poojan Patel": {
+      "quality": 5.0, "difficulty": 2.0, "would_take_again_pct": 100, "num_ratings": 5,
+      "courses": ["FIN (unspecified)"],
+      "tags": [],
+      "student_notes": "Very easy, highly rated but limited sample size."
+    },
+    "John Fellingham": {
+      "quality": 4.3, "difficulty": 3.2, "would_take_again_pct": 73, "num_ratings": 30,
+      "courses": ["FIN 201", "FIN 312", "FIN 315", "FIN 370"],
+      "tags": ["Lecture heavy", "Graded by few things", "Clear grading criteria", "Caring", "Test heavy"],
+      "student_notes": "Accessible and student-friendly. Tests are Lockdown Browser plus take-home. A and B+ grades reported."
+    },
+    "Mara Derderian": {
+      "quality": 4.3, "difficulty": 3.2, "would_take_again_pct": 77, "num_ratings": 38,
+      "courses": ["FIN 201", "FIN 381", "FIN 313", "FIN 315"],
+      "tags": ["Skip class? You won't pass", "Amazing lectures", "Respected", "Caring", "Clear grading criteria"],
+      "student_notes": "Grade depends on exams, which are tough. B+ to C- range common. Attendance critical."
+    },
+    "Cathy Zheng": {
+      "quality": 3.9, "difficulty": 3.3, "would_take_again_pct": 67, "num_ratings": 15,
+      "courses": ["FIN 201", "FIN 368"],
+      "tags": ["Lecture heavy", "Clear grading criteria", "Accessible outside class", "Respected"],
+      "student_notes": "Knowledgeable but lectures can be dry. A to B grade range. Exams difficult but similar to homework."
+    },
+    "Sonal Kumar": {
+      "quality": 3.9, "difficulty": 2.9, "would_take_again_pct": 73, "num_ratings": 18,
+      "courses": ["FIN 201", "FIN 460"],
+      "tags": ["Lecture heavy", "Skip class? You won't pass", "Accessible outside class", "Tough grader"],
+      "student_notes": "Wants students to succeed. Open note exams and quizzes. Lenient on due dates."
+    },
+    "Leila Zbib": {
+      "quality": 3.5, "difficulty": 2.8, "would_take_again_pct": 75, "num_ratings": 4,
+      "courses": ["FIN 370"],
+      "tags": ["Gives good feedback", "Group projects", "Lots of homework", "Caring"],
+      "student_notes": "Easy A if you put in effort. Semester-long portfolio project can be time-consuming."
+    },
+    "Andres Ramirez": {
+      "quality": 3.0, "difficulty": 3.6, "would_take_again_pct": 30, "num_ratings": 42,
+      "courses": ["FIN 201", "FIN 201G", "FIN 380"],
+      "tags": ["Tough grader", "Lots of homework", "Get ready to read", "Test heavy", "Participation matters"],
+      "student_notes": "FIN 380 rated 5.0 difficulty. C+ to B+ grades typical. Many students recommend avoiding."
+    },
+    "Jeffrey Koplik": {
+      "quality": 2.9, "difficulty": 3.5, "would_take_again_pct": 52, "num_ratings": 30,
+      "courses": ["FIN 201", "FIN 312", "FIN 315"],
+      "tags": ["Lots of homework", "Lecture heavy", "Accessible outside class", "Tough grader", "Clear grading criteria"],
+      "student_notes": "Knowledgeable but demanding. Hard exams. Success requires preparation and interest in finance."
+    }
+  },
+
+  "_finance_concentration_requirements": {
+    "_note": "Official Bryant University Finance Concentration requirements from catalog.bryant.edu (2025-2026 catalog)",
+    "concentration_name": "Bachelor of Science in Business Administration: Finance Concentration",
+    "minimum_concentration_credits": 18,
+    "minimum_degree_credits": 120,
+    "core_finance_courses": [
+      {"code": "FIN 310", "name": "Intermediate Corporate Finance", "credits": 3, "prereqs": ["FIN 201", "Sophomore standing"]},
+      {"code": "FIN 312", "name": "Investments", "credits": 3, "prereqs": ["FIN 201", "MATH 201"]},
+      {"code": "FIN 315", "name": "Financial Institutions and Markets", "credits": 3, "prereqs": ["FIN 201"]}
+    ],
+    "elective_group_1": {
+      "description": "Choose one of the following",
+      "courses": [
+        {"code": "FIN 370", "name": "Financial Statement Analysis", "credits": 3, "prereqs": ["ACG 203", "FIN 201", "Sophomore standing"]},
+        {"code": "FIN 371", "name": "Archway Financial Statement and Security Analysis", "credits": 3, "prereqs": ["FIN 201", "FIN 312", "ACG 203", "Instructor approval", "Junior standing"]},
+        {"code": "FIN 380", "name": "Financial Modeling", "credits": 3, "prereqs": ["FIN 312"]},
+        {"code": "FIN 465", "name": "Innovations in Contemporary Finance", "credits": 3, "prereqs": ["FIN 201", "FIN 312 or FIN 315"]},
+        {"code": "FIN 466", "name": "Data Analysis for Finance", "credits": 3, "prereqs": ["ACG 203", "FIN 201", "MATH 201", "Junior standing"]}
+      ],
+      "notes": "FIN 370 and FIN 371 are equivalent courses. Cannot get credit for both."
+    },
+    "elective_group_2": {
+      "description": "Two additional Finance electives (must include at least one 400-level course)",
+      "eligible_courses": [
+        {"code": "FIN 368", "name": "Multinational Finance", "credits": 3},
+        {"code": "FIN 370", "name": "Financial Statement Analysis", "credits": 3},
+        {"code": "FIN 380", "name": "Financial Modeling", "credits": 3},
+        {"code": "FIN 381", "name": "Risk Management and Insurance", "credits": 3},
+        {"code": "FIN 383", "name": "Real Estate Finance", "credits": 3},
+        {"code": "FIN 384", "name": "Credit Essentials", "credits": 3},
+        {"code": "FIN 412", "name": "Introduction to Fintech and Digital Innovation", "credits": 3},
+        {"code": "FIN 454", "name": "Archway Equity Portfolio Management", "credits": 6},
+        {"code": "FIN 458", "name": "Debt Securities, Derivatives and Investing", "credits": 3},
+        {"code": "FIN 460", "name": "Corporate Finance: Theory and Practice", "credits": 3},
+        {"code": "FIN 465", "name": "Innovations in Contemporary Finance", "credits": 3},
+        {"code": "FIN 466", "name": "Data Analysis for Finance", "credits": 3},
+        {"code": "FIN 475", "name": "Management of Banking Institutions", "credits": 3},
+        {"code": "FIN 480", "name": "Archway Fixed Income Portfolio Management", "credits": 3}
+      ]
+    },
+    "business_core_requirements": [
+      {"code": "ACG 203", "name": "Principles of Financial Accounting", "credits": 3},
+      {"code": "ACG 204", "name": "Principles of Managerial Accounting", "credits": 3},
+      {"code": "BUS 400", "name": "Business Policy", "credits": 3},
+      {"code": "FIN 201", "name": "Financial Management", "credits": 3},
+      {"code": "ISA 201", "name": "Introduction to Information Technology and Analytics", "credits": 3},
+      {"code": "LGLS 211", "name": "The Legal Environment of Business", "credits": 3},
+      {"code": "MGT 200", "name": "Management Principles and Practice", "credits": 3},
+      {"code": "MGT 201", "name": "Operations Management", "credits": 3},
+      {"code": "MKT 201", "name": "Foundations of Marketing Management", "credits": 3}
+    ],
+    "prerequisite_chain": {
+      "_note": "The critical prerequisite chain for Finance concentration courses",
+      "chain": [
+        "MATH 201 + BUS 100 --> FIN 201",
+        "FIN 201 --> FIN 310 (also needs Sophomore standing)",
+        "FIN 201 + MATH 201 --> FIN 312",
+        "FIN 201 --> FIN 315",
+        "ACG 203 + FIN 201 --> FIN 370",
+        "FIN 312 --> FIN 380",
+        "FIN 201 + FIN 312 + ACG 203 --> FIN 371 (also needs Junior standing + Instructor approval)",
+        "FIN 371 --> FIN 454 (also needs Instructor approval)",
+        "FIN 312 --> FIN 458 (also needs Junior standing)",
+        "FIN 201 + FIN 310 + FIN 312 --> FIN 460 (also needs Junior standing)",
+        "FIN 201 + (FIN 312 or FIN 315) --> FIN 465",
+        "ACG 203 + FIN 201 + MATH 201 --> FIN 466 (also needs Junior standing)"
+      ]
+    }
+  },
+
+  "_crowd_sourced_difficulty": {
+    "_note": "Qualitative difficulty assessments compiled from humansofuniversity.com, Niche, RateMyProfessors, and student reviews",
+    "easiest_courses": [
+      "COM 203 - Introduction to Communication (Montecalvo: 1.7 difficulty, 100% would-take-again)",
+      "COM 251 - Written Communication (listed in easiest classes article)",
+      "PSY 260 - Introduction to Psychology (listed in easiest classes article)",
+      "LCS 270 - Introduction to Cultural Studies (listed in easiest classes article)",
+      "LCS 230 - Introduction to Film Studies (listed in easiest classes article)",
+      "SCI 251 - Biology I (listed in easiest classes article)",
+      "LCS 121 - Introduction to Literary Studies (listed in easiest classes article)",
+      "WRIT 106 / GEN 106 - Writing Workshop (listed in easiest classes article)",
+      "POLS 241 - Introduction to Global Politics (listed in easiest classes article)",
+      "AS 391 - General Arts and Sciences Internship (listed in easiest classes article)"
+    ],
+    "hardest_finance_courses": [
+      "FIN 380 - Financial Modeling (Ramirez: 5.0 difficulty, 30% would-take-again)",
+      "FIN 458 - Debt Securities, Derivatives and Investing (quantitative, 400-level)",
+      "FIN 460 - Corporate Finance: Theory and Practice (capstone, case study heavy)",
+      "FIN 310 - Intermediate Corporate Finance (builds heavily on FIN 201)",
+      "FIN 465 - Innovations in Contemporary Finance (financial engineering)"
+    ],
+    "general_observations": [
+      "Bryant is described as 'intellectually challenging yet informative' - not an easy school",
+      "Professor selection matters enormously: same course (FIN 201) ranges from 1.9 to 3.6 difficulty",
+      "Finance concentration is considered one of the more rigorous business majors at Bryant",
+      "Gen ed and humanities courses are generally easier GPA boosters",
+      "Average admitted student GPA is 3.53 (weighted), suggesting grade inflation is moderate"
+    ]
+  }
+}

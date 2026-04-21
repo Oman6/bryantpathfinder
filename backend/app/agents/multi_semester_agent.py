@@ -236,6 +236,9 @@ def _sequencing_agent(
         candidates.sort(key=lambda x: x[0])
 
         notes = []
+        # Track courses just scheduled this semester — they must NOT satisfy
+        # prereqs for other reqs in this same semester (prereqs must complete first).
+        newly_completed: list[str] = []
         for _, req in candidates:
             if semester_credits + req.credits_needed > target_credits_per_semester + 1:
                 continue
@@ -250,9 +253,13 @@ def _sequencing_agent(
             semester_credits += req.credits_needed
             scheduled.add(req.id)
 
-            # Add completed course to satisfied set for next semester prereq checks
             if req.options:
-                all_satisfied.add(req.options[0])
+                newly_completed.append(req.options[0])
+
+        # Apply newly-completed courses AFTER the semester is finalized so that
+        # a course and its prereq cannot land in the same semester.
+        for course in newly_completed:
+            all_satisfied.add(course)
 
         if semester_courses:
             plan.append({

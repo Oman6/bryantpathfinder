@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Star, ChalkboardTeacher, PaperPlaneTilt } from "@phosphor-icons/react";
 import type { ProfessorRating } from "@/lib/types";
 import { useStore } from "@/lib/store";
@@ -36,7 +36,7 @@ function StarSelector({
 
   return (
     <div>
-      <p className="mb-1 text-[10px] text-[#787774]">{label}</p>
+      <p className="mb-1 text-[10px] text-[#5F5D58]">{label}</p>
       <div className="flex gap-0.5">
         {[1, 2, 3, 4, 5].map((star) => (
           <button
@@ -51,7 +51,7 @@ function StarSelector({
               size={14}
               weight={(hover || value) >= star ? "fill" : "light"}
               className={
-                (hover || value) >= star ? "text-[#B8985A]" : "text-[#787774]/30"
+                (hover || value) >= star ? "text-[#B8985A]" : "text-[#5F5D58]/30"
               }
             />
           </button>
@@ -89,15 +89,50 @@ export function ProfessorTooltip({ name, rating, className = "" }: ProfessorTool
     if (!showForm) setShow(false);
   };
 
+  const wrapperRef = useRef<HTMLSpanElement>(null);
+
+  // Close on outside click when pinned open via tap
+  useEffect(() => {
+    if (!show && !showForm) return;
+    const handleClick = (e: MouseEvent) => {
+      if (wrapperRef.current && !wrapperRef.current.contains(e.target as Node)) {
+        setShow(false);
+        setShowForm(false);
+      }
+    };
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setShow(false);
+        setShowForm(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClick);
+    document.addEventListener("keydown", handleKey);
+    return () => {
+      document.removeEventListener("mousedown", handleClick);
+      document.removeEventListener("keydown", handleKey);
+    };
+  }, [show, showForm]);
+
   return (
     <span
+      ref={wrapperRef}
       className={`relative cursor-default ${className}`}
       onMouseEnter={() => setShow(true)}
       onMouseLeave={handleMouseLeave}
     >
-      <span className="border-b border-dotted border-[#787774]/40">
+      <button
+        type="button"
+        onClick={(e) => {
+          e.stopPropagation();
+          setShow((v) => !v);
+        }}
+        className="border-b border-dotted border-[#5F5D58]/40 text-left"
+        aria-expanded={show || showForm}
+        aria-label={`Professor details for ${name}`}
+      >
         {name}
-      </span>
+      </button>
 
       {(show || showForm) && (
         <div
@@ -111,7 +146,7 @@ export function ProfessorTooltip({ name, rating, className = "" }: ProfessorTool
           {/* Header */}
           <div className="mb-2.5 flex items-center gap-2">
             <div className="flex h-6 w-6 items-center justify-center rounded-md bg-[#FAFAF7]">
-              <ChalkboardTeacher size={13} weight="light" className="text-[#787774]" />
+              <ChalkboardTeacher size={13} weight="light" className="text-[#5F5D58]" />
             </div>
             <span className="text-xs font-medium text-[#1A1A1A]">{name}</span>
           </div>
@@ -131,12 +166,12 @@ export function ProfessorTooltip({ name, rating, className = "" }: ProfessorTool
                     {rating.quality.toFixed(1)}
                   </span>
                 </div>
-                <span className="text-[10px] text-[#787774]">quality</span>
+                <span className="text-[10px] text-[#5F5D58]">quality</span>
               </div>
 
               <div className="grid grid-cols-2 gap-x-3 gap-y-1.5">
                 <div>
-                  <p className="text-[10px] text-[#787774]">Difficulty</p>
+                  <p className="text-[10px] text-[#5F5D58]">Difficulty</p>
                   <p
                     className="text-xs font-medium text-[#1A1A1A]"
                     style={{ fontFamily: "var(--font-geist-mono), monospace" }}
@@ -145,7 +180,7 @@ export function ProfessorTooltip({ name, rating, className = "" }: ProfessorTool
                   </p>
                 </div>
                 <div>
-                  <p className="text-[10px] text-[#787774]">Would retake</p>
+                  <p className="text-[10px] text-[#5F5D58]">Would retake</p>
                   <p
                     className="text-xs font-medium text-[#1A1A1A]"
                     style={{ fontFamily: "var(--font-geist-mono), monospace" }}
@@ -158,7 +193,7 @@ export function ProfessorTooltip({ name, rating, className = "" }: ProfessorTool
               </div>
 
               <p
-                className="mt-2 text-[9px] text-[#787774]"
+                className="mt-2 text-[9px] text-[#5F5D58]"
                 style={{ fontFamily: "var(--font-geist-mono), monospace" }}
               >
                 Based on {rating.num_ratings} rating{rating.num_ratings !== 1 ? "s" : ""}
@@ -168,7 +203,7 @@ export function ProfessorTooltip({ name, rating, className = "" }: ProfessorTool
               {!showForm && (
                 <button
                   onClick={() => setShowForm(true)}
-                  className="mt-2.5 w-full rounded-lg bg-[#FAFAF7] py-1.5 text-[10px] font-medium text-[#787774] transition-colors hover:bg-black/[0.04] hover:text-[#1A1A1A]"
+                  className="mt-2.5 w-full rounded-lg bg-[#FAFAF7] py-1.5 text-[10px] font-medium text-[#5F5D58] transition-colors hover:bg-black/[0.04] hover:text-[#1A1A1A]"
                 >
                   Add your rating
                 </button>
@@ -199,7 +234,7 @@ export function ProfessorTooltip({ name, rating, className = "" }: ProfessorTool
           ) : (
             <>
               {/* No rating — prompt to rate */}
-              <p className="mb-3 text-[10px] text-[#787774]">
+              <p className="mb-3 text-[10px] text-[#5F5D58]">
                 No ratings yet. Be the first to rate this professor.
               </p>
 

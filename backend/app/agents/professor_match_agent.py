@@ -45,6 +45,17 @@ def _analyze_professor(
     num_ratings = r["num_ratings"]
     wta = r["would_take_again"]
 
+    # Treat the (0.0, 0.0, 0 ratings) sentinel as "no data" so these profs
+    # aren't penalized as if they were actually rated 0/5.
+    if num_ratings == 0 and quality == 0.0:
+        return {
+            "instructor": instructor,
+            "has_data": False,
+            "insight": "No rating data available.",
+            "match_score": 0,
+            "flags": [],
+        }
+
     flags: list[str] = []
     match_score = 0
 

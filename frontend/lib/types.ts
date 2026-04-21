@@ -91,6 +91,20 @@ export interface ProfessorRating {
 
 export type ProfessorRatings = Record<string, ProfessorRating>;
 
+export interface GradeDistribution {
+  avg_gpa: number;
+  difficulty_tier: string;
+  rmp_difficulty_avg?: number;
+  notes?: string;
+  a_pct: number;
+  b_pct: number;
+  c_pct: number;
+  d_pct: number;
+  f_pct: number;
+}
+
+export type GradeDistributions = Record<string, GradeDistribution>;
+
 export interface ProfessorInsight {
   instructor: string;
   has_data: boolean;

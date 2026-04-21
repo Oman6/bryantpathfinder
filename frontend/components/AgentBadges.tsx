@@ -86,7 +86,7 @@ function AgentPopover({ agentKey, onClose }: { agentKey: string; onClose: () => 
           </div>
           <span className="text-sm font-medium text-[#1A1A1A]">{info.label}</span>
         </div>
-        <p className="text-xs leading-relaxed text-[#787774]">
+        <p className="text-xs leading-relaxed text-[#5F5D58]">
           {info.description}
         </p>
       </div>
@@ -117,14 +117,14 @@ export function AgentBadges({
       {agents.map((agent) => {
         const info = AGENT_INFO[agent];
         const Icon = info?.icon || Robot;
-        const colorParts = (info?.color || "text-[#787774] bg-black/5").split(" ");
+        const colorParts = (info?.color || "text-[#5F5D58] bg-black/5").split(" ");
 
         return (
           <span key={agent} className="relative">
             <button
               onClick={() => setOpenAgent(openAgent === agent ? null : agent)}
               className={`flex items-center gap-1 rounded-full px-2 py-0.5 text-[9px] ring-1 ring-black/5 transition-colors hover:ring-black/15 ${
-                openAgent === agent ? "bg-black/[0.06] text-[#1A1A1A]" : "bg-black/[0.02] text-[#787774]"
+                openAgent === agent ? "bg-black/[0.06] text-[#1A1A1A]" : "bg-black/[0.02] text-[#5F5D58]"
               }`}
               style={{ fontFamily: "var(--font-geist-mono), monospace" }}
             >
@@ -139,7 +139,7 @@ export function AgentBadges({
       })}
       {orchestrationMs !== undefined && (
         <span
-          className="flex items-center gap-0.5 text-[9px] text-[#787774]"
+          className="flex items-center gap-0.5 text-[9px] text-[#5F5D58]"
           style={{ fontFamily: "var(--font-geist-mono), monospace" }}
         >
           <Lightning size={9} weight="light" />

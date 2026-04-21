@@ -9,6 +9,7 @@ import { PillButton } from "@/components/PillButton";
 import { WorkloadBar } from "@/components/WorkloadBar";
 import { AgentBadges } from "@/components/AgentBadges";
 import { NegotiationCard } from "@/components/NegotiationCard";
+import { ScheduleComparison } from "@/components/ScheduleComparison";
 import { Skeleton } from "@/components/ui/skeleton";
 
 export default function SchedulesPage() {
@@ -41,7 +42,7 @@ export default function SchedulesPage() {
         <section className="mx-auto max-w-4xl px-6 py-24 md:px-12 md:py-32">
           <button
             onClick={() => router.push("/preferences")}
-            className="mb-8 flex items-center gap-1.5 text-xs text-[#787774] transition-colors hover:text-[#1A1A1A]"
+            className="mb-8 flex items-center gap-1.5 text-xs text-[#5F5D58] transition-colors hover:text-[#1A1A1A]"
           >
             <ArrowLeft size={14} weight="light" />
             <span>Back to preferences</span>
@@ -55,8 +56,10 @@ export default function SchedulesPage() {
             >
               No valid schedules found
             </h1>
-            <p className="text-sm text-[#787774]">
-              But the Negotiator Agent found tradeoffs that would work.
+            <p className="text-sm text-[#5F5D58]">
+              {negotiation && negotiation.trades && negotiation.trades.length > 0
+                ? "But the Negotiator Agent found tradeoffs that would work."
+                : "Try relaxing your constraints or selecting different requirements."}
             </p>
           </div>
 
@@ -109,7 +112,7 @@ export default function SchedulesPage() {
         {/* Back link */}
         <button
           onClick={() => router.push("/preferences")}
-          className="mb-8 flex items-center gap-1.5 text-xs text-[#787774] transition-colors hover:text-[#1A1A1A]"
+          className="mb-8 flex items-center gap-1.5 text-xs text-[#5F5D58] transition-colors hover:text-[#1A1A1A]"
         >
           <ArrowLeft size={14} weight="light" />
           <span>Back to preferences</span>
@@ -124,7 +127,7 @@ export default function SchedulesPage() {
           >
             Your schedules
           </h1>
-          <p className="text-sm text-[#787774]">
+          <p className="text-sm text-[#5F5D58]">
             {schedules.length} options for {audit.name} &middot; Fall 2026
             {solverStats && (
               <span
@@ -143,6 +146,17 @@ export default function SchedulesPage() {
             <AgentBadges
               agents={agentsRun}
               orchestrationMs={solverStats?.orchestration_ms}
+            />
+          </div>
+        )}
+
+        {/* Comparison table */}
+        {schedules.length > 1 && (
+          <div className="mt-8 animate-fade-up delay-200">
+            <ScheduleComparison
+              schedules={schedules}
+              workloadData={workloadData}
+              professorData={professorData}
             />
           </div>
         )}
@@ -197,7 +211,7 @@ export default function SchedulesPage() {
             View 4-semester plan
           </PillButton>
           <p
-            className="ml-auto text-[10px] text-[#787774]"
+            className="ml-auto text-[10px] text-[#5F5D58]"
             style={{ fontFamily: "var(--font-geist-mono), monospace" }}
           >
             Pathfinder by NovaWealth

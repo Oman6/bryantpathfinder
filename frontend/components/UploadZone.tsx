@@ -108,7 +108,7 @@ export function UploadZone() {
             <Skeleton className="mx-auto h-4 w-64" />
           </div>
           <p
-            className="text-xs text-[#787774]"
+            className="text-xs text-[#5F5D58]"
             style={{ fontFamily: "var(--font-geist-mono), monospace" }}
           >
             Claude is reading your requirements...
@@ -130,7 +130,7 @@ export function UploadZone() {
               className={`flex flex-1 items-center justify-center gap-1.5 rounded-full py-2 text-xs font-medium transition-all duration-300 ${
                 tab === "paste"
                   ? "bg-white text-[#1A1A1A] shadow-sm"
-                  : "text-[#787774] hover:text-[#1A1A1A]"
+                  : "text-[#5F5D58] hover:text-[#1A1A1A]"
               }`}
               style={{ transitionTimingFunction: "cubic-bezier(0.32, 0.72, 0, 1)" }}
             >
@@ -142,7 +142,7 @@ export function UploadZone() {
               className={`flex flex-1 items-center justify-center gap-1.5 rounded-full py-2 text-xs font-medium transition-all duration-300 ${
                 tab === "upload"
                   ? "bg-white text-[#1A1A1A] shadow-sm"
-                  : "text-[#787774] hover:text-[#1A1A1A]"
+                  : "text-[#5F5D58] hover:text-[#1A1A1A]"
               }`}
               style={{ transitionTimingFunction: "cubic-bezier(0.32, 0.72, 0, 1)" }}
             >
@@ -154,7 +154,7 @@ export function UploadZone() {
           {/* Paste tab */}
           {tab === "paste" && (
             <div className="space-y-3">
-              <p className="text-xs text-[#787774]">
+              <p className="text-xs text-[#5F5D58]">
                 Paste your advisor notes, requirement list, or any text describing what courses you still need.
               </p>
               <textarea
@@ -162,7 +162,7 @@ export function UploadZone() {
                 onChange={(e) => setPasteText(e.target.value)}
                 placeholder={"e.g. FIN 310, GEN 201, SCI + matching lab from approved list, LCS 200 level from approved list, ACG 203, ACG 204, ISA 201, MKT 201, LGLS 211, BUS 400, GEN 390 capstone"}
                 rows={5}
-                className="w-full resize-none rounded-xl border border-black/5 bg-[#FAFAF7] px-4 py-3 text-sm text-[#1A1A1A] placeholder:text-[#787774]/40 focus:border-[#B8985A]/30 focus:bg-white focus:outline-none focus:ring-1 focus:ring-[#B8985A]/20"
+                className="w-full resize-none rounded-xl border border-black/5 bg-[#FAFAF7] px-4 py-3 text-sm text-[#1A1A1A] placeholder:text-[#5F5D58]/40 focus:border-[#B8985A]/30 focus:bg-white focus:outline-none focus:ring-1 focus:ring-[#B8985A]/20"
                 style={{ fontFamily: "var(--font-geist-mono), monospace" }}
               />
               <button
@@ -187,15 +187,15 @@ export function UploadZone() {
               onDrop={handleDrop}
             >
               <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#FAFAF7]">
-                <Upload size={24} weight="light" className="text-[#787774]" />
+                <Upload size={24} weight="light" className="text-[#5F5D58]" />
               </div>
               <div className="text-center">
                 <p className="text-sm font-medium text-[#1A1A1A]">
                   Drop your Degree Works screenshot
                 </p>
-                <p className="mt-1 text-xs text-[#787774]">PNG, JPEG, or PDF</p>
+                <p className="mt-1 text-xs text-[#5F5D58]">PNG, JPEG, or PDF</p>
               </div>
-              <label className="cursor-pointer rounded-full bg-[#FAFAF7] px-5 py-2 text-xs font-medium text-[#787774] ring-1 ring-black/5 transition-colors hover:bg-black/[0.04] hover:text-[#1A1A1A]">
+              <label className="cursor-pointer rounded-full bg-[#FAFAF7] px-5 py-2 text-xs font-medium text-[#5F5D58] ring-1 ring-black/5 transition-colors hover:bg-black/[0.04] hover:text-[#1A1A1A]">
                 Browse files
                 <input type="file" accept=".png,.jpg,.jpeg,.pdf" className="hidden" onChange={handleInputChange} />
               </label>
@@ -216,7 +216,7 @@ export function UploadZone() {
       {/* Sample audit link */}
       <button
         onClick={handleSampleAudit}
-        className="group flex w-full items-center justify-center gap-1.5 py-2 text-xs text-[#787774] transition-colors hover:text-[#1A1A1A]"
+        className="group flex w-full items-center justify-center gap-1.5 py-2 text-xs text-[#5F5D58] transition-colors hover:text-[#1A1A1A]"
       >
         <span>Or use sample audit</span>
         <span className="transition-transform group-hover:translate-x-0.5">&rarr;</span>

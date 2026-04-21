@@ -46,7 +46,7 @@ export default function HomePage() {
               <span className="italic text-[#B8985A]">when.</span>
             </h1>
 
-            <p className="max-w-lg text-base leading-relaxed text-[#787774]">
+            <p className="max-w-lg text-base leading-relaxed text-[#5F5D58]">
               An AI course scheduling assistant that turns your Degree Works
               audit into a working class schedule in seconds.
             </p>
@@ -71,10 +71,10 @@ export default function HomePage() {
               <div className="flex h-full flex-col gap-4 rounded-[calc(2rem-0.375rem)] bg-white p-8">
                 <div className="flex items-center gap-3">
                   <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#FAFAF7]">
-                    <step.icon size={20} weight="light" className="text-[#787774]" />
+                    <step.icon size={20} weight="light" className="text-[#5F5D58]" />
                   </div>
                   <span
-                    className="text-[10px] font-medium text-[#787774]"
+                    className="text-[10px] font-medium text-[#5F5D58]"
                     style={{ fontFamily: "var(--font-geist-mono), monospace" }}
                   >
                     Step {step.number}
@@ -83,7 +83,7 @@ export default function HomePage() {
                 <h3 className="text-sm font-medium text-[#1A1A1A]">
                   {step.title}
                 </h3>
-                <p className="text-xs leading-relaxed text-[#787774]">
+                <p className="text-xs leading-relaxed text-[#5F5D58]">
                   {step.description}
                 </p>
               </div>

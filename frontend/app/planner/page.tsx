@@ -48,7 +48,7 @@ const CATEGORY_STYLES: Record<string, { bg: string; text: string; label: string 
 function CategoryBadge({ category }: { category: string }) {
   const style = CATEGORY_STYLES[category] || {
     bg: "bg-black/5",
-    text: "text-[#787774]",
+    text: "text-[#5F5D58]",
     label: category,
   };
 
@@ -83,7 +83,7 @@ function SemesterCard({
       {/* Semester header */}
       <div className="mb-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <CalendarBlank size={14} weight="light" className="text-[#787774]" />
+          <CalendarBlank size={14} weight="light" className="text-[#5F5D58]" />
           <span
             className="text-sm font-medium text-[#1A1A1A]"
             style={{ fontFamily: "var(--font-instrument-serif), serif" }}
@@ -92,7 +92,7 @@ function SemesterCard({
           </span>
         </div>
         <span
-          className="text-[10px] text-[#787774]"
+          className="text-[10px] text-[#5F5D58]"
           style={{ fontFamily: "var(--font-geist-mono), monospace" }}
         >
           {credits} cr
@@ -114,7 +114,7 @@ function SemesterCard({
                     {course.course}
                   </span>
                   <span
-                    className="text-[10px] text-[#787774]"
+                    className="text-[10px] text-[#5F5D58]"
                     style={{ fontFamily: "var(--font-geist-mono), monospace" }}
                   >
                     {course.credits} cr
@@ -122,7 +122,7 @@ function SemesterCard({
                 </div>
                 <div className="flex items-center gap-1.5">
                   <CategoryBadge category={course.category} />
-                  <span className="text-[10px] leading-tight text-[#787774]">
+                  <span className="text-[10px] leading-tight text-[#5F5D58]">
                     {course.requirement}
                   </span>
                 </div>
@@ -134,7 +134,7 @@ function SemesterCard({
           {notes.length > 0 && (
             <div className="mt-4 border-t border-black/5 pt-3 space-y-1">
               {notes.map((note, i) => (
-                <p key={i} className="text-[10px] leading-relaxed text-[#787774]">
+                <p key={i} className="text-[10px] leading-relaxed text-[#5F5D58]">
                   {note}
                 </p>
               ))}
@@ -154,7 +154,7 @@ function SemesterCard({
                 />
               </div>
               <span
-                className="text-[9px] text-[#787774]"
+                className="text-[9px] text-[#5F5D58]"
                 style={{ fontFamily: "var(--font-geist-mono), monospace" }}
               >
                 {credits}/18
@@ -238,7 +238,7 @@ export default function PlannerPage() {
         <section className="mx-auto max-w-6xl px-6 py-24 md:px-12 md:py-32">
           <button
             onClick={() => router.push("/schedules")}
-            className="mb-8 flex items-center gap-1.5 text-xs text-[#787774] transition-colors hover:text-[#1A1A1A]"
+            className="mb-8 flex items-center gap-1.5 text-xs text-[#5F5D58] transition-colors hover:text-[#1A1A1A]"
           >
             <ArrowLeft size={14} weight="light" />
             <span>Back to schedules</span>
@@ -252,7 +252,7 @@ export default function PlannerPage() {
             >
               Building your roadmap...
             </h1>
-            <p className="text-sm text-[#787774]">
+            <p className="text-sm text-[#5F5D58]">
               Analyzing prerequisites, course rotations, and optimal sequencing.
             </p>
           </div>
@@ -289,7 +289,7 @@ export default function PlannerPage() {
         <section className="mx-auto max-w-6xl px-6 py-24 md:px-12 md:py-32">
           <button
             onClick={() => router.push("/schedules")}
-            className="mb-8 flex items-center gap-1.5 text-xs text-[#787774] transition-colors hover:text-[#1A1A1A]"
+            className="mb-8 flex items-center gap-1.5 text-xs text-[#5F5D58] transition-colors hover:text-[#1A1A1A]"
           >
             <ArrowLeft size={14} weight="light" />
             <span>Back to schedules</span>
@@ -333,7 +333,7 @@ export default function PlannerPage() {
         {/* Back link */}
         <button
           onClick={() => router.push("/schedules")}
-          className="mb-8 flex items-center gap-1.5 text-xs text-[#787774] transition-colors hover:text-[#1A1A1A]"
+          className="mb-8 flex items-center gap-1.5 text-xs text-[#5F5D58] transition-colors hover:text-[#1A1A1A]"
         >
           <ArrowLeft size={14} weight="light" />
           <span>Back to schedules</span>
@@ -348,7 +348,7 @@ export default function PlannerPage() {
           >
             4-Semester Roadmap
           </h1>
-          <p className="text-sm text-[#787774]">
+          <p className="text-sm text-[#5F5D58]">
             {plan.total_credits_planned} credits planned for {audit.name} across{" "}
             {plan.semester_plan.length} semesters
           </p>
@@ -416,7 +416,7 @@ export default function PlannerPage() {
               >
                 Course dependencies
               </h2>
-              <p className="text-sm text-[#787774]">
+              <p className="text-sm text-[#5F5D58]">
                 These courses must be taken in sequence. Each arrow represents a prerequisite relationship.
               </p>
             </div>
@@ -447,7 +447,7 @@ export default function PlannerPage() {
               >
                 Semester availability
               </h2>
-              <p className="text-sm text-[#787774]">
+              <p className="text-sm text-[#5F5D58]">
                 Some courses are only offered in specific semesters. Missing them could delay graduation.
               </p>
             </div>
@@ -459,7 +459,7 @@ export default function PlannerPage() {
                   {plan.rotation_analysis.fall_only.length > 0 && (
                     <div className="space-y-2">
                       <span
-                        className="text-[10px] font-medium uppercase tracking-[0.15em] text-[#787774]"
+                        className="text-[10px] font-medium uppercase tracking-[0.15em] text-[#5F5D58]"
                         style={{ fontFamily: "var(--font-geist-mono), monospace" }}
                       >
                         Fall only
@@ -483,7 +483,7 @@ export default function PlannerPage() {
                   {plan.rotation_analysis.spring_only.length > 0 && (
                     <div className="space-y-2">
                       <span
-                        className="text-[10px] font-medium uppercase tracking-[0.15em] text-[#787774]"
+                        className="text-[10px] font-medium uppercase tracking-[0.15em] text-[#5F5D58]"
                         style={{ fontFamily: "var(--font-geist-mono), monospace" }}
                       >
                         Spring only
@@ -541,7 +541,7 @@ export default function PlannerPage() {
             Back to schedules
           </PillButton>
           <p
-            className="text-[10px] text-[#787774]"
+            className="text-[10px] text-[#5F5D58]"
             style={{ fontFamily: "var(--font-geist-mono), monospace" }}
           >
             Pathfinder by NovaWealth

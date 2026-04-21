@@ -16,14 +16,14 @@ export function NegotiationCard({ data }: { data: NegotiationData }) {
             <h3 className="text-sm font-medium text-[#1A1A1A]">
               Constraint Analysis
             </h3>
-            <p className="text-xs text-[#787774]">
+            <p className="text-xs text-[#5F5D58]">
               The Negotiator Agent found tradeoffs to unlock valid schedules.
             </p>
           </div>
         </div>
 
         {/* Analysis */}
-        <p className="mb-5 text-sm leading-relaxed text-[#787774]">
+        <p className="mb-5 text-sm leading-relaxed text-[#5F5D58]">
           {data.analysis}
         </p>
 
@@ -31,7 +31,7 @@ export function NegotiationCard({ data }: { data: NegotiationData }) {
         {data.bottlenecks.length > 0 && (
           <div className="mb-5 space-y-2">
             <h4
-              className="text-[10px] font-medium uppercase tracking-[0.15em] text-[#787774]"
+              className="text-[10px] font-medium uppercase tracking-[0.15em] text-[#5F5D58]"
               style={{ fontFamily: "var(--font-geist-mono), monospace" }}
             >
               Bottlenecks
@@ -43,7 +43,7 @@ export function NegotiationCard({ data }: { data: NegotiationData }) {
               >
                 <Warning size={12} weight="light" className="text-orange-700" />
                 <span className="text-xs text-[#1A1A1A]">{b.constraint}</span>
-                <span className="text-[10px] text-[#787774]">{b.detail}</span>
+                <span className="text-[10px] text-[#5F5D58]">{b.detail}</span>
               </div>
             ))}
           </div>
@@ -53,7 +53,7 @@ export function NegotiationCard({ data }: { data: NegotiationData }) {
         {data.trades.length > 0 && (
           <div className="space-y-2">
             <h4
-              className="text-[10px] font-medium uppercase tracking-[0.15em] text-[#787774]"
+              className="text-[10px] font-medium uppercase tracking-[0.15em] text-[#5F5D58]"
               style={{ fontFamily: "var(--font-geist-mono), monospace" }}
             >
               Proposed Trades
@@ -67,11 +67,11 @@ export function NegotiationCard({ data }: { data: NegotiationData }) {
                   <p className="text-xs font-medium text-[#1A1A1A]">
                     {trade.action}
                   </p>
-                  <p className="mt-0.5 text-[10px] text-[#787774]">
+                  <p className="mt-0.5 text-[10px] text-[#5F5D58]">
                     {trade.impact}
                   </p>
                 </div>
-                <ArrowRight size={14} weight="light" className="text-[#787774]" />
+                <ArrowRight size={14} weight="light" className="text-[#5F5D58]" />
               </div>
             ))}
           </div>

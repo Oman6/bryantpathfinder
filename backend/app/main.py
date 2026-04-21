@@ -10,13 +10,18 @@ Endpoints:
 
 import json
 import logging
+import os
 import time
+from collections import deque
 from collections.abc import AsyncGenerator
+from concurrent.futures import ThreadPoolExecutor
 from contextlib import asynccontextmanager
 from pathlib import Path
+from threading import Lock
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 
 from pydantic import BaseModel as PydanticBaseModel
 from .claude_client import explain_schedule, parse_audit_vision
@@ -38,6 +43,28 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data"
 SECTIONS_PATH = DATA_DIR / "sections.json"
 FIXTURE_PATH = DATA_DIR / "fixtures" / "audit_owen.json"
+
+# Input size limits
+MAX_IMAGE_B64_LEN = 10_000_000  # ~7.5MB decoded, generous for Degree Works PDFs
+MAX_AUDIT_TEXT_LEN = 20_000
+
+# Simple in-memory per-IP rate limiter (30 req / 60s per IP)
+RATE_LIMIT_WINDOW_S = 60
+RATE_LIMIT_MAX = 30
+_rate_buckets: dict[str, deque] = {}
+_rate_lock = Lock()
+
+
+def _rate_limit_check(ip: str) -> bool:
+    now = time.time()
+    with _rate_lock:
+        bucket = _rate_buckets.setdefault(ip, deque())
+        while bucket and bucket[0] < now - RATE_LIMIT_WINDOW_S:
+            bucket.popleft()
+        if len(bucket) >= RATE_LIMIT_MAX:
+            return False
+        bucket.append(now)
+        return True
 
 
 @asynccontextmanager
@@ -67,14 +94,48 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+_allowed_origins_env = os.environ.get("ALLOWED_ORIGINS", "")
+_allowed_origins = [o.strip() for o in _allowed_origins_env.split(",") if o.strip()] or [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=_allowed_origins,
     allow_credentials=False,
-    allow_methods=["*"],
-    allow_headers=["*"],
-    max_age=0,
+    allow_methods=["GET", "POST"],
+    allow_headers=["Content-Type"],
+    max_age=600,
 )
+
+
+@app.middleware("http")
+async def rate_limit_middleware(request: Request, call_next):
+    """Per-IP rate limit for Claude-calling endpoints."""
+    expensive = request.url.path in {
+        "/api/parse-audit",
+        "/api/parse-audit-text",
+        "/api/generate-schedules",
+    }
+    if expensive:
+        client_ip = request.client.host if request.client else "unknown"
+        if not _rate_limit_check(client_ip):
+            return JSONResponse(
+                status_code=429,
+                content={"detail": "Rate limit exceeded. Try again in a minute."},
+            )
+    return await call_next(request)
+
+
+@app.exception_handler(Exception)
+async def global_exception_handler(request: Request, exc: Exception) -> JSONResponse:
+    """Catch-all for unhandled exceptions — avoids leaking stack traces."""
+    logger.exception("unhandled_exception", extra={"path": request.url.path})
+    return JSONResponse(
+        status_code=500,
+        content={"detail": "Internal server error. Check backend logs."},
+    )
 
 
 @app.get("/api/health", response_model=HealthResponse)
@@ -98,6 +159,8 @@ async def parse_audit_text(request: ParseAuditTextRequest) -> DegreeAudit:
     from .claude_client import parse_audit_text as _parse_text
     if not request.text.strip():
         raise HTTPException(status_code=400, detail="Text is required.")
+    if len(request.text) > MAX_AUDIT_TEXT_LEN:
+        raise HTTPException(status_code=413, detail=f"Text exceeds {MAX_AUDIT_TEXT_LEN} character limit.")
     try:
         audit = _parse_text(request.text)
         return audit
@@ -111,6 +174,8 @@ async def parse_audit_text(request: ParseAuditTextRequest) -> DegreeAudit:
 async def parse_audit(request: ParseAuditRequest) -> DegreeAudit:
     if not request.image_base64:
         raise HTTPException(status_code=400, detail="image_base64 is required.")
+    if len(request.image_base64) > MAX_IMAGE_B64_LEN:
+        raise HTTPException(status_code=413, detail="Image exceeds 10MB limit.")
 
     media_type = "image/png"
     b64 = request.image_base64
@@ -175,18 +240,24 @@ async def generate_schedules(request: GenerateSchedulesRequest) -> dict:
     # Step 3: Enrichment — Professor Match + Workload in parallel
     enrichment = orchestrator.enrich_schedules(schedules, preferences)
 
-    # Step 4: Claude explanations (sequential, needs API)
-    for schedule in schedules:
+    # Step 4: Claude explanations — run 3 calls in parallel (~3s vs ~9s sequential)
+    def _explain_one(s: ScheduleOption) -> tuple[int, str]:
         try:
-            explanation = explain_schedule(
-                schedule=schedule,
+            return s.rank, explain_schedule(
+                schedule=s,
                 preferences=preferences,
-                requirements_satisfied=schedule.requirements_satisfied,
+                requirements_satisfied=s.requirements_satisfied,
             )
-            schedule.explanation = explanation
         except Exception as e:
-            logger.warning("Failed to generate explanation for rank %d: %s", schedule.rank, e)
-            schedule.explanation = "Schedule explanation unavailable."
+            logger.warning("Failed to generate explanation for rank %d: %s", s.rank, e)
+            return s.rank, "Schedule explanation unavailable."
+
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        for rank, explanation in executor.map(_explain_one, schedules):
+            for s in schedules:
+                if s.rank == rank:
+                    s.explanation = explanation
+                    break
 
     total_duration_ms = int((time.time() - start_time) * 1000)
 

@@ -117,7 +117,7 @@ export default function PreferencesPage() {
         {/* Back link */}
         <button
           onClick={() => router.push("/")}
-          className="mb-8 flex items-center gap-1.5 text-xs text-[#787774] transition-colors hover:text-[#1A1A1A]"
+          className="mb-8 flex items-center gap-1.5 text-xs text-[#5F5D58] transition-colors hover:text-[#1A1A1A]"
         >
           <ArrowLeft size={14} weight="light" />
           <span>Back</span>
@@ -131,7 +131,7 @@ export default function PreferencesPage() {
           >
             Set your preferences
           </h1>
-          <p className="text-sm text-[#787774]">
+          <p className="text-sm text-[#5F5D58]">
             {audit.name} &middot; {audit.major} &middot;{" "}
             {audit.credits_earned_or_inprogress} of {audit.credits_required} credits
           </p>
@@ -143,7 +143,7 @@ export default function PreferencesPage() {
             <h2 className="text-sm font-medium text-[#1A1A1A]">
               Outstanding requirements
             </h2>
-            <p className="mt-1 text-xs text-[#787774]">
+            <p className="mt-1 text-xs text-[#5F5D58]">
               {audit.outstanding_requirements.length > 0
                 ? "Uncheck any you don't want to schedule this semester."
                 : "No outstanding requirements were found in your audit. Try uploading a clearer screenshot, or use the sample audit."}
@@ -159,7 +159,7 @@ export default function PreferencesPage() {
                   setAudit(sample);
                 } catch {}
               }}
-              className="rounded-full bg-[#FAFAF7] px-4 py-2 text-xs text-[#787774] ring-1 ring-black/5 transition-colors hover:text-[#1A1A1A]"
+              className="rounded-full bg-[#FAFAF7] px-4 py-2 text-xs text-[#5F5D58] ring-1 ring-black/5 transition-colors hover:text-[#1A1A1A]"
             >
               Load sample audit instead
             </button>
@@ -171,7 +171,7 @@ export default function PreferencesPage() {
             return (
               <div key={cat} className="space-y-2">
                 <h3
-                  className="text-[10px] font-medium uppercase tracking-[0.15em] text-[#787774]"
+                  className="text-[10px] font-medium uppercase tracking-[0.15em] text-[#5F5D58]"
                   style={{ fontFamily: "var(--font-geist-mono), monospace" }}
                 >
                   {CATEGORY_LABELS[cat] || cat}
@@ -193,7 +193,7 @@ export default function PreferencesPage() {
                           {req.requirement}
                         </span>
                         <span
-                          className="ml-2 text-xs text-[#787774]"
+                          className="ml-2 text-xs text-[#5F5D58]"
                           style={{ fontFamily: "var(--font-geist-mono), monospace" }}
                         >
                           {req.options.length > 0
@@ -202,7 +202,7 @@ export default function PreferencesPage() {
                         </span>
                       </div>
                       <span
-                        className="text-[10px] text-[#787774]"
+                        className="text-[10px] text-[#5F5D58]"
                         style={{ fontFamily: "var(--font-geist-mono), monospace" }}
                       >
                         {req.credits_needed} cr
@@ -222,7 +222,7 @@ export default function PreferencesPage() {
           {/* Target credits */}
           <div className="space-y-2">
             <div className="flex items-center justify-between">
-              <label className="text-xs text-[#787774]">Target credits</label>
+              <label className="text-xs text-[#5F5D58]">Target credits</label>
               <span
                 className="text-xs font-medium text-[#1A1A1A]"
                 style={{ fontFamily: "var(--font-geist-mono), monospace" }}
@@ -239,7 +239,7 @@ export default function PreferencesPage() {
               className="w-full accent-[#B8985A]"
             />
             <div
-              className="flex justify-between text-[10px] text-[#787774]"
+              className="flex justify-between text-[10px] text-[#5F5D58]"
               style={{ fontFamily: "var(--font-geist-mono), monospace" }}
             >
               <span>12</span>
@@ -249,7 +249,7 @@ export default function PreferencesPage() {
 
           {/* Days off selector */}
           <div className="space-y-2">
-            <label className="text-xs text-[#787774]">Days off</label>
+            <label className="text-xs text-[#5F5D58]">Days off</label>
             <div className="flex gap-2">
               {([["M", "Mon"], ["T", "Tue"], ["W", "Wed"], ["R", "Thu"], ["F", "Fri"]] as const).map(([code, label]) => {
                 const isBlocked = blockedDays.has(code);
@@ -268,7 +268,7 @@ export default function PreferencesPage() {
                     className={`flex h-11 w-14 items-center justify-center rounded-xl text-xs font-medium transition-all duration-300 ${
                       isBlocked
                         ? "bg-[#1A1A1A] text-white"
-                        : "bg-[#FAFAF7] text-[#787774] ring-1 ring-black/5 hover:ring-black/10"
+                        : "bg-[#FAFAF7] text-[#5F5D58] ring-1 ring-black/5 hover:ring-black/10"
                     }`}
                     style={{ transitionTimingFunction: "cubic-bezier(0.32, 0.72, 0, 1)" }}
                   >
@@ -313,7 +313,7 @@ export default function PreferencesPage() {
 
           {/* Free text */}
           <div className="space-y-2">
-            <label className="text-xs text-[#787774]">
+            <label className="text-xs text-[#5F5D58]">
               Other preferences (plain English)
             </label>
             <textarea
@@ -321,7 +321,7 @@ export default function PreferencesPage() {
               onChange={(e) => setFreeText(e.target.value)}
               placeholder="e.g. I want to start the finance concentration"
               rows={2}
-              className="w-full resize-none rounded-xl border border-black/5 bg-white px-4 py-3 text-sm text-[#1A1A1A] placeholder:text-[#787774]/50 focus:border-[#B8985A]/30 focus:outline-none focus:ring-1 focus:ring-[#B8985A]/20"
+              className="w-full resize-none rounded-xl border border-black/5 bg-white px-4 py-3 text-sm text-[#1A1A1A] placeholder:text-[#5F5D58]/50 focus:border-[#B8985A]/30 focus:outline-none focus:ring-1 focus:ring-[#B8985A]/20"
             />
           </div>
         </div>
