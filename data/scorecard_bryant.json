@@ -1,0 +1,307 @@
+{
+  "source": "U.S. Dept. of Education College Scorecard (api.data.gov)",
+  "school_name": "Bryant University",
+  "unitid": 217165,
+  "programs": [
+    {
+      "cip_code": "1101",
+      "title": "Computer and Information Sciences, General",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": null,
+      "earnings_1yr": null,
+      "earnings_4yr": 100692,
+      "earnings_5yr": 96693,
+      "earnings_4yr_national": 92374
+    },
+    {
+      "cip_code": "5203",
+      "title": "Accounting and Related Services",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 107,
+      "earnings_1yr": 64665,
+      "earnings_4yr": 97515,
+      "earnings_5yr": 92533,
+      "earnings_4yr_national": 76194
+    },
+    {
+      "cip_code": "5208",
+      "title": "Finance and Financial Management Services",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 186,
+      "earnings_1yr": 61993,
+      "earnings_4yr": 90499,
+      "earnings_5yr": 96206,
+      "earnings_4yr_national": 83343
+    },
+    {
+      "cip_code": "5202",
+      "title": "Business Administration, Management and Operations",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 128,
+      "earnings_1yr": 65045,
+      "earnings_4yr": 89929,
+      "earnings_5yr": 82994,
+      "earnings_4yr_national": 68257
+    },
+    {
+      "cip_code": "5211",
+      "title": "International Business",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 47,
+      "earnings_1yr": 65237,
+      "earnings_4yr": 89409,
+      "earnings_5yr": 95772,
+      "earnings_4yr_national": 73201
+    },
+    {
+      "cip_code": "2703",
+      "title": "Applied Mathematics",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 29,
+      "earnings_1yr": 64954,
+      "earnings_4yr": 86595,
+      "earnings_5yr": 94973,
+      "earnings_4yr_national": 91532
+    },
+    {
+      "cip_code": "4510",
+      "title": "Political Science and Government",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 14,
+      "earnings_1yr": 41112,
+      "earnings_4yr": 78579,
+      "earnings_5yr": 87176,
+      "earnings_4yr_national": 63293
+    },
+    {
+      "cip_code": "5214",
+      "title": "Marketing",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 141,
+      "earnings_1yr": 50727,
+      "earnings_4yr": 78181,
+      "earnings_5yr": 81173,
+      "earnings_4yr_national": 69303
+    },
+    {
+      "cip_code": "5210",
+      "title": "Human Resources Management and Services",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 26,
+      "earnings_1yr": 62176,
+      "earnings_4yr": 76241,
+      "earnings_5yr": 79061,
+      "earnings_4yr_national": 68069
+    },
+    {
+      "cip_code": "0901",
+      "title": "Communication and Media Studies",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 33,
+      "earnings_1yr": 45071,
+      "earnings_4yr": 68518,
+      "earnings_5yr": 69424,
+      "earnings_4yr_national": 56359
+    },
+    {
+      "cip_code": "0301",
+      "title": "Natural Resources Conservation and Research",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 1,
+      "earnings_1yr": null,
+      "earnings_4yr": null,
+      "earnings_5yr": null,
+      "earnings_4yr_national": 55012
+    },
+    {
+      "cip_code": "0907",
+      "title": "Radio, Television, and Digital Communication",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 0,
+      "earnings_1yr": null,
+      "earnings_4yr": null,
+      "earnings_5yr": null,
+      "earnings_4yr_national": null
+    },
+    {
+      "cip_code": "1603",
+      "title": "East Asian Languages, Literatures, and Linguistics",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 2,
+      "earnings_1yr": null,
+      "earnings_4yr": null,
+      "earnings_5yr": null,
+      "earnings_4yr_national": 51642
+    },
+    {
+      "cip_code": "1609",
+      "title": "Romance Languages, Literatures, and Linguistics",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 3,
+      "earnings_1yr": null,
+      "earnings_4yr": null,
+      "earnings_5yr": null,
+      "earnings_4yr_national": 55000
+    },
+    {
+      "cip_code": "2601",
+      "title": "Biology, General",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 16,
+      "earnings_1yr": null,
+      "earnings_4yr": null,
+      "earnings_5yr": null,
+      "earnings_4yr_national": 57214
+    },
+    {
+      "cip_code": "3020",
+      "title": "International/Globalization Studies",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 1,
+      "earnings_1yr": null,
+      "earnings_4yr": null,
+      "earnings_5yr": null,
+      "earnings_4yr_national": 59972
+    },
+    {
+      "cip_code": "3026",
+      "title": "Cultural Studies/Critical Theory and Analysis",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 6,
+      "earnings_1yr": null,
+      "earnings_4yr": null,
+      "earnings_5yr": null,
+      "earnings_4yr_national": 40892
+    },
+    {
+      "cip_code": "3105",
+      "title": "Sports, Kinesiology, and Physical Education/Fitness",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 0,
+      "earnings_1yr": null,
+      "earnings_4yr": null,
+      "earnings_5yr": null,
+      "earnings_4yr_national": null
+    },
+    {
+      "cip_code": "4201",
+      "title": "Psychology, General",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 21,
+      "earnings_1yr": null,
+      "earnings_4yr": null,
+      "earnings_5yr": null,
+      "earnings_4yr_national": null
+    },
+    {
+      "cip_code": "4228",
+      "title": "Clinical, Counseling and Applied Psychology",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 2,
+      "earnings_1yr": null,
+      "earnings_4yr": null,
+      "earnings_5yr": 64779,
+      "earnings_4yr_national": 50523
+    },
+    {
+      "cip_code": "4506",
+      "title": "Economics",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 14,
+      "earnings_1yr": 52020,
+      "earnings_4yr": null,
+      "earnings_5yr": null,
+      "earnings_4yr_national": 82686
+    },
+    {
+      "cip_code": "4511",
+      "title": "Sociology",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 4,
+      "earnings_1yr": null,
+      "earnings_4yr": null,
+      "earnings_5yr": null,
+      "earnings_4yr_national": 52657
+    },
+    {
+      "cip_code": "4513",
+      "title": "Sociology and Anthropology",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": null,
+      "earnings_1yr": null,
+      "earnings_4yr": null,
+      "earnings_5yr": null,
+      "earnings_4yr_national": null
+    },
+    {
+      "cip_code": "5010",
+      "title": "Arts, Entertainment, and Media Management",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": null,
+      "earnings_1yr": null,
+      "earnings_4yr": null,
+      "earnings_5yr": null,
+      "earnings_4yr_national": null
+    },
+    {
+      "cip_code": "5100",
+      "title": "Health Services/Allied Health/Health Sciences, General",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 0,
+      "earnings_1yr": null,
+      "earnings_4yr": null,
+      "earnings_5yr": null,
+      "earnings_4yr_national": null
+    },
+    {
+      "cip_code": "5127",
+      "title": "Medical Illustration and Informatics",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 0,
+      "earnings_1yr": null,
+      "earnings_4yr": null,
+      "earnings_5yr": null,
+      "earnings_4yr_national": null
+    },
+    {
+      "cip_code": "5207",
+      "title": "Entrepreneurial and Small Business Operations",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 18,
+      "earnings_1yr": null,
+      "earnings_4yr": null,
+      "earnings_5yr": 66032,
+      "earnings_4yr_national": 61027
+    },
+    {
+      "cip_code": "5212",
+      "title": "Management Information Systems and Services",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 12,
+      "earnings_1yr": null,
+      "earnings_4yr": null,
+      "earnings_5yr": null,
+      "earnings_4yr_national": 83290
+    },
+    {
+      "cip_code": "5213",
+      "title": "Management Sciences and Quantitative Methods",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 23,
+      "earnings_1yr": 60162,
+      "earnings_4yr": null,
+      "earnings_5yr": null,
+      "earnings_4yr_national": 86176
+    },
+    {
+      "cip_code": "5401",
+      "title": "History",
+      "credential": "Bachelor's Degree",
+      "ipeds_awards": 1,
+      "earnings_1yr": null,
+      "earnings_4yr": null,
+      "earnings_5yr": null,
+      "earnings_4yr_national": 50680
+    }
+  ]
+}

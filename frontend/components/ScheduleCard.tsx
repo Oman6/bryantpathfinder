@@ -10,6 +10,7 @@ import { WeeklyCalendar } from "./WeeklyCalendar";
 import { ProfessorTooltip } from "./ProfessorTooltip";
 import { SectionSwap } from "./SectionSwap";
 import { PillButton } from "./PillButton";
+import { CourseDetail } from "./CourseDetail";
 import {
   Dialog,
   DialogContent,
@@ -44,6 +45,7 @@ function seatUrgency(section: Section): { label: string; tone: "red" | "amber" }
 export function ScheduleCard({ schedule, className = "", children }: ScheduleCardProps) {
   const { professorRatings, gradeDistributions, pinnedCrns, togglePinnedCrn } = useStore();
   const [crnDialogOpen, setCrnDialogOpen] = useState(false);
+  const [detailCourse, setDetailCourse] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
   const [editing, setEditing] = useState(false);
   const [swappingSection, setSwappingSection] = useState<Section | null>(null);
@@ -151,12 +153,19 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
                   onClick={editing ? () => setSwappingSection(section) : undefined}
                 >
                   <div className="flex items-baseline gap-2">
-                    <span
-                      className="text-xs font-medium text-[#1A1A1A]"
+                    <button
+                      type="button"
+                      onClick={(e) => {
+                        if (editing) return;
+                        e.stopPropagation();
+                        setDetailCourse(section.course_code);
+                      }}
+                      title="Course details, prerequisites, rotation"
+                      className="text-xs font-medium text-[#1A1A1A] underline-offset-2 transition-colors hover:text-[#B8985A] hover:underline"
                       style={{ fontFamily: "var(--font-geist-mono), monospace" }}
                     >
                       {section.course_code}
-                    </span>
+                    </button>
                     <ProfessorTooltip
                       name={section.instructor || "TBA"}
                       rating={section.instructor ? professorRatings[section.instructor] : undefined}
@@ -236,7 +245,7 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
                 ? `${schedule.days_off.map((d) => DAY_MAP[d] || d).join(", ")} off`
                 : "No days off"}
             </span>
-            <span>{to12h(schedule.earliest_class)}\u2013{to12h(schedule.latest_class)}</span>
+            <span>{`${to12h(schedule.earliest_class)}\u2013${to12h(schedule.latest_class)}`}</span>
             {predictedGpa !== null && gpaCoverage >= 0.5 && (
               <span title={`Based on ${Math.round(gpaCoverage * 100)}% of credits with grade data`}>
                 ~{predictedGpa.toFixed(2)} GPA
@@ -335,6 +344,15 @@ export function ScheduleCard({ schedule, className = "", children }: ScheduleCar
           otherSections={localSections.filter((s) => s.crn !== swappingSection.crn)}
           onSwap={handleSwap}
           onClose={() => setSwappingSection(null)}
+        />
+      )}
+
+      {/* Course detail dialog */}
+      {detailCourse && (
+        <CourseDetail
+          courseCode={detailCourse}
+          open={detailCourse !== null}
+          onClose={() => setDetailCourse(null)}
         />
       )}
     </>

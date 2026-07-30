@@ -1,0 +1,312 @@
+{
+  "source_url": "https://catalog.bryant.edu/undergraduate/academiccalendar/",
+  "fetched_at": "2026-04-27T13:10:36.736762",
+  "events": [
+    {
+      "date": "2026-01-03",
+      "label": "Classes meet on Saturdays",
+      "raw_when": "Saturdays January 3 and 10",
+      "semester": null
+    },
+    {
+      "date": "2026-01-12",
+      "label": "Classes End",
+      "raw_when": "Monday, January 12",
+      "semester": null
+    },
+    {
+      "date": "2026-01-13",
+      "label": "First-year  & Transfer Students Residence Halls Move-In: Residence Hall Move-in Orientation (New Students) program starting at noon",
+      "raw_when": "Tuesday, January 13",
+      "semester": null
+    },
+    {
+      "date": "2026-01-14",
+      "label": "Bryant IDEA - First Year and Transfer Students Only",
+      "raw_when": "Wednesday, January 14 through Friday, January 16",
+      "semester": null
+    },
+    {
+      "date": "2026-01-18",
+      "label": "Returning Sophomore, Juniors, and Seniors: Resident Halls Move-In",
+      "raw_when": "Sunday, January 18",
+      "semester": null
+    },
+    {
+      "date": "2026-01-19",
+      "label": "Martin Luther King Jr. Day - no classes",
+      "raw_when": "Monday, January 19",
+      "semester": null
+    },
+    {
+      "date": "2026-01-20",
+      "label": "Classes Begin",
+      "raw_when": "Tuesday, January 20",
+      "semester": null
+    },
+    {
+      "date": "2026-01-26",
+      "label": "Add Period Ends",
+      "raw_when": "Monday, January 26",
+      "semester": null
+    },
+    {
+      "date": "2026-02-02",
+      "label": "Drop Period Ends",
+      "raw_when": "Monday, February 2",
+      "semester": null
+    },
+    {
+      "date": "2026-02-16",
+      "label": "President's Day - no classes",
+      "raw_when": "Monday, February 16",
+      "semester": null
+    },
+    {
+      "date": "2026-02-17",
+      "label": "MONDAY SCHEDULE FOR ALL COURSES",
+      "raw_when": "Tuesday, February 17",
+      "semester": null
+    },
+    {
+      "date": "2026-03-10",
+      "label": "First-year and Transfer Mid-Term Grades Due",
+      "raw_when": "Tuesday, March 10",
+      "semester": null
+    },
+    {
+      "date": "2026-03-16",
+      "label": "Spring Break",
+      "raw_when": "Monday, March 16 through Sunday, March 22",
+      "semester": null
+    },
+    {
+      "date": "2026-04-07",
+      "label": "Last Day for \"W\" Grade",
+      "raw_when": "Tuesday, April 7",
+      "semester": null
+    },
+    {
+      "date": "2026-04-08",
+      "label": "Research and Engagement (REDay) -ReDay activities will be assigned in lieu of formal in-class meetings. Evening classes will meet as regularly scheduled",
+      "raw_when": "Wednesday, April 8",
+      "semester": null
+    },
+    {
+      "date": "2026-05-05",
+      "label": "Classes End",
+      "raw_when": "Tuesday, May 5",
+      "semester": null
+    },
+    {
+      "date": "2026-05-06",
+      "label": "Examination Period (Senior Week to start Monday, May 11th at 4pm.)",
+      "raw_when": "Wednesday, May 6 through Tuesday, May 12",
+      "semester": null
+    },
+    {
+      "date": "2026-05-12",
+      "label": "Semester Ends",
+      "raw_when": "Tuesday, May 12",
+      "semester": null
+    },
+    {
+      "date": "2026-05-14",
+      "label": "Graduate Commencement",
+      "raw_when": "Thursday, May 14",
+      "semester": null
+    },
+    {
+      "date": "2026-05-16",
+      "label": "Undergraduate Commencement",
+      "raw_when": "Saturday, May 16",
+      "semester": null
+    },
+    {
+      "date": "2026-05-19",
+      "label": "Classes Begin (Day and Evening) - REMOTE",
+      "raw_when": "Tuesday, May 19",
+      "semester": null
+    },
+    {
+      "date": "2026-05-25",
+      "label": "Memorial Day - no classes",
+      "raw_when": "Monday, May 25",
+      "semester": null
+    },
+    {
+      "date": "2026-06-19",
+      "label": "Juneteenth - no classes",
+      "raw_when": "Friday, June 19",
+      "semester": null
+    },
+    {
+      "date": "2026-06-24",
+      "label": "Day Classes End",
+      "raw_when": "Wednesday, June 24",
+      "semester": null
+    },
+    {
+      "date": "2026-06-25",
+      "label": "Classes Begin(Day and Evening) - REMOTE",
+      "raw_when": "Thursday, June 25",
+      "semester": null
+    },
+    {
+      "date": "2026-07-03",
+      "label": "Independence Day - no classes",
+      "raw_when": "Friday, July 3",
+      "semester": null
+    },
+    {
+      "date": "2026-07-03",
+      "label": "Independence Day",
+      "raw_when": "Friday, July 3",
+      "semester": null
+    },
+    {
+      "date": "2026-07-07",
+      "label": "Tuesday/Thursday",
+      "raw_when": "Tuesday, July 7",
+      "semester": null
+    },
+    {
+      "date": "2026-07-13",
+      "label": "Monday/Wednesday",
+      "raw_when": "Monday, July 13",
+      "semester": null
+    },
+    {
+      "date": "2026-07-31",
+      "label": "Day Classes End",
+      "raw_when": "Friday, July 31",
+      "semester": null
+    },
+    {
+      "date": "2026-08-13",
+      "label": "Tuesday/Thursday",
+      "raw_when": "Thursday, August 13",
+      "semester": null
+    },
+    {
+      "date": "2026-08-17",
+      "label": "Monday/Wednesday",
+      "raw_when": "Monday, August 17",
+      "semester": null
+    },
+    {
+      "date": "2026-08-28",
+      "label": "Transfer Students: Residence Hall Move-in",
+      "raw_when": "Thursday, August 28",
+      "semester": null
+    },
+    {
+      "date": "2026-08-28",
+      "label": "New First-Year Students: Residence Hall Move-In",
+      "raw_when": "Thursday, August 28",
+      "semester": null
+    },
+    {
+      "date": "2026-08-28",
+      "label": "Transfer Orientation and Commuter Welcome",
+      "raw_when": "Thursday, August 28",
+      "semester": null
+    },
+    {
+      "date": "2026-08-28",
+      "label": "New Student Welcome Week",
+      "raw_when": "Thursday, August 28 through Monday, September 1",
+      "semester": null
+    },
+    {
+      "date": "2026-09-01",
+      "label": "Returning Students: Residence Move-In",
+      "raw_when": "Monday, September 1",
+      "semester": null
+    },
+    {
+      "date": "2026-09-02",
+      "label": "All Undergraduate Day and Evening",
+      "raw_when": "Tuesday, September 2",
+      "semester": null
+    },
+    {
+      "date": "2026-09-03",
+      "label": "Convocation",
+      "raw_when": "Wednesday, September 3 - 3:00 p.m.",
+      "semester": null
+    },
+    {
+      "date": "2026-09-08",
+      "label": "Add Period Ends",
+      "raw_when": "Monday, September 8",
+      "semester": null
+    },
+    {
+      "date": "2026-09-15",
+      "label": "Drop Period Ends",
+      "raw_when": "Monday, September 15",
+      "semester": null
+    },
+    {
+      "date": "2026-10-13",
+      "label": "Columbus/Indigenous Peoples' Day Holiday",
+      "raw_when": "Monday, October 13",
+      "semester": null
+    },
+    {
+      "date": "2026-10-14",
+      "label": "MONDAY SCHEDULE FOR ALL COURSES",
+      "raw_when": "Tuesday, October 14",
+      "semester": null
+    },
+    {
+      "date": "2026-10-21",
+      "label": "First-year/Transfer Mid-Term Grades Due",
+      "raw_when": "Tuesday, October 21",
+      "semester": null
+    },
+    {
+      "date": "2026-11-11",
+      "label": "Day of Understanding: All Students are expected to attend DOU activities in lieu of class meeting.  Night classes meet as scheduled.",
+      "raw_when": "Tuesday, November 11",
+      "semester": null
+    },
+    {
+      "date": "2026-11-11",
+      "label": "Last Day for \"W\" Grade",
+      "raw_when": "Tuesday, November 11",
+      "semester": null
+    },
+    {
+      "date": "2026-11-25",
+      "label": "Thanksgiving Recess",
+      "raw_when": "Begins with Tuesday after last class, November 25 and ends on Sunday, November 30",
+      "semester": null
+    },
+    {
+      "date": "2026-12-12",
+      "label": "Classes End",
+      "raw_when": "Friday, December 12",
+      "semester": null
+    },
+    {
+      "date": "2026-12-13",
+      "label": "Examination Period",
+      "raw_when": "Saturday, December 13 through Friday, December 19",
+      "semester": null
+    },
+    {
+      "date": "2026-12-19",
+      "label": "Semester Ends",
+      "raw_when": "Friday, December 19",
+      "semester": null
+    },
+    {
+      "date": "2026-12-29",
+      "label": "Classes Begin - REMOTE",
+      "raw_when": "Monday, December 29",
+      "semester": null
+    }
+  ]
+}

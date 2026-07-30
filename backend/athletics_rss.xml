@@ -1,0 +1,2304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ev="http://purl.org/rss/1.0/modules/event/" xmlns:s="http://sidearmsports.com/schemas/cal_rss/1.0/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"> 
+<channel>
+<title>Bryant University Athletics</title><link>https://bryantbulldogs.com</link><atom:link rel="self" href="https://bryantbulldogs.com/calendar.ashx?path=all&amp;type=rss" />
+<description> </description>
+<item>
+<title>3/27 8:00 AM [N] Bryant University Track and Field vs Jaylin Rainford Invitational</title>
+<description>[N] Bryant University Track and Field vs Jaylin Rainford Invitational\n\nStreaming Video: https://americaeast.com/watch/default.aspx?Live=17992\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12181&amp;sport_id=27</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12181&amp;sport_id=27</guid><ev:location>Smithfield, R.I.</ev:location>
+<ev:startdate>2026-03-27T12:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-03-28T12:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-03-27T08:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-03-28T08:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Bryant_Bulldogs.png</s:opponentlogo>
+<s:opponent>Jaylin Rainford Invitational</s:opponent>
+<s:gameid>12181</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://live.802timing.com/meets/64115</s:livestats>
+<s:recap>https://bryantbulldogs.com/news/2026/3/27/track-and-field-track-and-field-victorious-at-the-jaylin-rainford-invitational.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>3/27 3:00 PM [L] Bryant University Baseball vs New Jersey Institute of Technology</title>
+<description>[L] Bryant University Baseball vs New Jersey Institute of Technology\nL 10-12\nStreaming Video: https://www.espn.com/watch/player/_/id/ac94585f-25a9-4033-897c-e5332539f5db\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11882&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11882&amp;sport_id=1</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-03-27T19:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-03-27T22:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-03-27T15:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-03-27T18:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/NJIT.png</s:opponentlogo>
+<s:opponent>New Jersey Institute of Technology</s:opponent>
+<s:gameid>11882</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/baseball/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=11882</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/3/27/baseball-njit-scores-six-in-the-ninth-to-stun-bulldogs-on-friday.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>3/28 [N] Bryant University Women&#39;s Rowing at University of Connecticut &amp; Trinity College</title>
+<description>[N] Bryant University Women&#39;s Rowing at University of Connecticut &amp; Trinity College\n\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12315&amp;sport_id=21</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12315&amp;sport_id=21</guid><ev:location>Storrs, CT</ev:location>
+<ev:startdate>2026-03-28</ev:startdate>
+<ev:enddate>2026-03-28T07:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-03-28</s:localstartdate>
+<s:localenddate>2026-03-28T03:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Husky_.png</s:opponentlogo>
+<s:opponent>University of Connecticut &amp; Trinity College</s:opponent>
+<s:gameid>12315</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:recap>https://bryantbulldogs.com/news/2026/4/1/womens-rowing-rowing-competed-against-uconn-trinity-over-the-weekend.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>3/28 [N] Bryant University Women&#39;s Golf vs Intercollegiate at Prospect Bay</title>
+<description>[N] Bryant University Women&#39;s Golf vs Intercollegiate at Prospect Bay\n 7th of 12 Teams\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12245&amp;sport_id=19</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12245&amp;sport_id=19</guid><ev:location>Grasonville, MD / Prospect Bay CC</ev:location>
+<ev:startdate>2026-03-28</ev:startdate>
+<ev:enddate>2026-03-29T03:59:59.9999999Z</ev:enddate>
+<s:localstartdate>2026-03-28</s:localstartdate>
+<s:localenddate>2026-03-28T23:59:59.9999999</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/2025/12/15/PSP_Bay.jpg</s:opponentlogo>
+<s:opponent>Intercollegiate at Prospect Bay</s:opponent>
+<s:gameid>12245</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://www.golfgenius.com/pages/12277859597783421854?fbclid=PAdGRleAQ0zzJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAacwgm5T7X5xI1TS9gB4d0Awd1-BMWm1oT9daqclig3XfD1LxHKwoa6wnlBhkw_aem_eUpKELSWqneWNDItv_96hg</s:livestats>
+<s:recap>https://bryantbulldogs.com/news/2026/3/30/womens-golf-womens-golf-places-seventh-at-prospect-bay.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>3/28 12:00 PM [L] Bryant University Men&#39;s Lacrosse at University of Maryland Baltimore County</title>
+<description>[L] Bryant University Men&#39;s Lacrosse at University of Maryland Baltimore County\nL 11-12\nStreaming Video: https://www.espn.com/watch/player/_/id/4d110cf4-5924-4c8a-a8fc-d275d6e372b5\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12218&amp;sport_id=10</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12218&amp;sport_id=10</guid><ev:location>Baltimore, Maryland</ev:location>
+<ev:startdate>2026-03-28T16:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-03-28T19:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-03-28T12:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-03-28T15:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMBC_200x200.png</s:opponentlogo>
+<s:opponent>University of Maryland Baltimore County</s:opponent>
+<s:gameid>12218</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://umbcretrievers.com/sidearmstats/mlax/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12218</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/3/28/mens-lacrosse-mens-lacrosse-fall-short-to-golden-retrievers.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>3/28 12:00 PM [W] Bryant University Women&#39;s Lacrosse at University of Massachusetts Lowell</title>
+<description>[W] Bryant University Women&#39;s Lacrosse at University of Massachusetts Lowell\nW 16-10\nStreaming Video: https://www.espn.com/watch/player/_/id/7efce61c-b4b8-443c-8072-288d9066abbd\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12149&amp;sport_id=20</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12149&amp;sport_id=20</guid><ev:location>Lowell, MA</ev:location>
+<ev:startdate>2026-03-28T16:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-03-28T19:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-03-28T12:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-03-28T15:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMassLowell.png</s:opponentlogo>
+<s:opponent>University of Massachusetts Lowell</s:opponent>
+<s:gameid>12149</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://goriverhawks.com/sidearmstats/wlax/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12149</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/3/28/womens-lacrosse-womens-lacrosse-topples-uml-on-saturday.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>3/28 1:00 PM [W] Bryant University Softball at University of Maryland Baltimore County</title>
+<description>[W] Bryant University Softball at University of Maryland Baltimore County\n Canceled\nStreaming Video: https://americaeast.com/watch/default.aspx?Live=17686\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12112&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12112&amp;sport_id=15</guid><ev:location>Baltimore, Maryland</ev:location>
+<ev:startdate>2026-03-28T17:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-03-28T19:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-03-28T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-03-28T15:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMBC_200x200.png</s:opponentlogo>
+<s:opponent>University of Maryland Baltimore County</s:opponent>
+<s:gameid>12112</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://umbcretrievers.com/sidearmstats/softball/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>3/28 3:00 PM [W] Bryant University Softball at University of Maryland Baltimore County</title>
+<description>[W] Bryant University Softball at University of Maryland Baltimore County\n Canceled\nStreaming Video: https://americaeast.com/watch/default.aspx?Live=17686\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12113&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12113&amp;sport_id=15</guid><ev:location>Baltimore, Maryland</ev:location>
+<ev:startdate>2026-03-28T19:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-03-28T21:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-03-28T15:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-03-28T17:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMBC_200x200.png</s:opponentlogo>
+<s:opponent>University of Maryland Baltimore County</s:opponent>
+<s:gameid>12113</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://umbcretrievers.com/sidearmstats/softball/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>3/28 5:00 PM [W] Bryant University Men&#39;s Soccer vs University of Connecticut</title>
+<description>[W] Bryant University Men&#39;s Soccer vs University of Connecticut\nW 1-0\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12361&amp;sport_id=11</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12361&amp;sport_id=11</guid><ev:location>Smithfield, R.I., Beirne Stadium</ev:location>
+<ev:startdate>2026-03-28T21:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-03-28T23:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-03-28T17:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-03-28T19:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Husky_.png</s:opponentlogo>
+<s:opponent>University of Connecticut</s:opponent>
+<s:gameid>12361</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/msoc/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>3/29 Bryant University MEN&#39;S CLUB LACROSSE  Sacred Heart</title>
+<description>Bryant University MEN&#39;S CLUB LACROSSE  Sacred Heart\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12353&amp;sport_id=36</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12353&amp;sport_id=36</guid><ev:location>Providence</ev:location>
+<ev:startdate>2026-03-29</ev:startdate>
+<ev:enddate>2026-03-29T07:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-03-29</s:localstartdate>
+<s:localenddate>2026-03-29T03:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo></s:opponentlogo>
+<s:opponent>Sacred Heart</s:opponent>
+<s:gameid>12353</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>3/29 Bryant University MEN&#39;S CLUB LACROSSE  Providence College</title>
+<description>Bryant University MEN&#39;S CLUB LACROSSE  Providence College\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12352&amp;sport_id=36</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12352&amp;sport_id=36</guid><ev:location>Providence</ev:location>
+<ev:startdate>2026-03-29</ev:startdate>
+<ev:enddate>2026-03-29T07:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-03-29</s:localstartdate>
+<s:localenddate>2026-03-29T03:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo></s:opponentlogo>
+<s:opponent>Providence College</s:opponent>
+<s:gameid>12352</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>3/29 1:00 PM [L] Bryant University Men&#39;s Tennis at Columbia University</title>
+<description>[L] Bryant University Men&#39;s Tennis at Columbia University\nL 0-7\nStreaming Video: https://portal.stretchinternet.com/columbialions/\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12208&amp;sport_id=13</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12208&amp;sport_id=13</guid><ev:location>New York, NY / Philip &amp; Cheryl Milstein Family Tennis Center</ev:location>
+<ev:startdate>2026-03-29T17:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-03-29T20:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-03-29T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-03-29T16:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/ColumbiaLogo2024.png</s:opponentlogo>
+<s:opponent>Columbia University</s:opponent>
+<s:gameid>12208</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://sidearmstats.com/columbia/mten/</s:livestats>
+<s:recap>https://bryantbulldogs.com/news/2026/3/29/mens-tennis-mens-tennis-blanked-at-columbia-on-sunday-afternoon.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>3/29 11:30 AM [W] Bryant University Baseball vs New Jersey Institute of Technology</title>
+<description>[W] Bryant University Baseball vs New Jersey Institute of Technology\nW 7-5\nStreaming Video: https://www.espn.com/watch/player/_/id/b86af194-1a16-43eb-b036-5a3b2e5e0ee1\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11883&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11883&amp;sport_id=1</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-03-29T15:30:00.0000000Z</ev:startdate>
+<ev:enddate>2026-03-29T18:30:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-03-29T11:30:00.0000000</s:localstartdate>
+<s:localenddate>2026-03-29T14:30:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/NJIT.png</s:opponentlogo>
+<s:opponent>New Jersey Institute of Technology</s:opponent>
+<s:gameid>11883</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/baseball/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=11883</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/3/29/baseball-kingsburys-knock-caps-rally-as-bryant-wins-game-one-sunday-7-5.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>3/29 12:00 PM [W] Bryant University Softball at University of Maryland Baltimore County</title>
+<description>[W] Bryant University Softball at University of Maryland Baltimore County\n Canceled\nStreaming Video: https://americaeast.com/watch/default.aspx?Live=17687\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12114&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12114&amp;sport_id=15</guid><ev:location>Baltimore, Maryland</ev:location>
+<ev:startdate>2026-03-29T16:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-03-29T18:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-03-29T12:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-03-29T14:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMBC_200x200.png</s:opponentlogo>
+<s:opponent>University of Maryland Baltimore County</s:opponent>
+<s:gameid>12114</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://umbcretrievers.com/sidearmstats/softball/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>3/29 1:00 PM [L] Bryant University Women&#39;s Tennis at Brown University</title>
+<description>[L] Bryant University Women&#39;s Tennis at Brown University\nL 1-6\nStreaming Video: https://portal.stretchinternet.com/brown/\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12239&amp;sport_id=24</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12239&amp;sport_id=24</guid><ev:location>Providence, RI / Pizzitola Sports Center</ev:location>
+<ev:startdate>2026-03-29T17:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-03-29T20:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-03-29T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-03-29T16:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Brown_logo_200x200.png</s:opponentlogo>
+<s:opponent>Brown University</s:opponent>
+<s:gameid>12239</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://ioncourt.com/ties/6960e6df1b20e8f96fe4e1d3?source=ties</s:livestats>
+<s:recap>https://bryantbulldogs.com/news/2026/3/29/womens-tennis-womens-tennis-falls-at-brown-on-sunday-afternoon.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>3/29 2:00 PM [W] Bryant University Baseball vs New Jersey Institute of Technology</title>
+<description>[W] Bryant University Baseball vs New Jersey Institute of Technology\nW 13-9\nStreaming Video: https://www.espn.com/watch/player/_/id/8e42267c-6b5a-4081-8ab6-1bd6173fa9c1\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11884&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11884&amp;sport_id=1</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-03-29T18:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-03-29T21:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-03-29T14:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-03-29T17:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/NJIT.png</s:opponentlogo>
+<s:opponent>New Jersey Institute of Technology</s:opponent>
+<s:gameid>11884</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/baseball/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=11884</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/3/29/baseball-bryant-takes-series-with-wild-13-9-victory-in-sunday-finale.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>3/30 [N] Bryant University Men&#39;s Golf vs Columbia Spring Invitational</title>
+<description>[N] Bryant University Men&#39;s Golf vs Columbia Spring Invitational\n Tied for 6th of 12 Teams\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12264&amp;sport_id=9</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12264&amp;sport_id=9</guid><ev:location>Springfield, Pa. / Rolling Green Golf Club</ev:location>
+<ev:startdate>2026-03-30</ev:startdate>
+<ev:enddate>2026-03-30T07:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-03-30</s:localstartdate>
+<s:localenddate>2026-03-30T03:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/ColumbiaLogo2024.png</s:opponentlogo>
+<s:opponent>Columbia Spring Invitational</s:opponent>
+<s:gameid>12264</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://scoreboard.clippd.com/tournaments/238889/scoring/participants</s:livestats>
+<s:recap>https://bryantbulldogs.com/news/2026/3/31/mens-golf-bryant-ties-for-sixth-place-in-columbia-spring-invitational.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>3/31 3:30 PM [L] Bryant University Baseball at Brown University</title>
+<description>[L] Bryant University Baseball at Brown University\nL 0-10 (8 inn.)\nStreaming Video: https://www.espn.com/watch/player/_/id/c2fbed79-3839-4bae-8be9-ff7c532b8dd8\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11913&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11913&amp;sport_id=1</guid><ev:location>Providence, RI</ev:location>
+<ev:startdate>2026-03-31T19:30:00.0000000Z</ev:startdate>
+<ev:enddate>2026-03-31T22:30:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-03-31T15:30:00.0000000</s:localstartdate>
+<s:localenddate>2026-03-31T18:30:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Brown_logo_200x200.png</s:opponentlogo>
+<s:opponent>Brown University</s:opponent>
+<s:gameid>11913</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://brownbears.com/sidearmstats/baseball/media;category=batting</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=11913</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/3/31/baseball-bulldogs-fall-to-brown-on-tuesday.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/1 3:00 PM [L] Bryant University Women&#39;s Lacrosse at University of Massachusetts</title>
+<description>[L] Bryant University Women&#39;s Lacrosse at University of Massachusetts\nL 7-23\nStreaming Video: https://www.espn.com/watch/catalog/e9b1f7fc-0fe9-304f-8b23-f7ff267f1b72/lacrosse#bucketId=29774&amp;sourceCollection=Browse_By_Sport_New\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12150&amp;sport_id=20</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12150&amp;sport_id=20</guid><ev:location>Amherst, MA</ev:location>
+<ev:startdate>2026-04-01T19:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-01T22:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-01T15:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-01T18:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMass.png</s:opponentlogo>
+<s:opponent>University of Massachusetts</s:opponent>
+<s:gameid>12150</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://stats.statbroadcast.com/broadcast/?id=646041</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12150</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/1/womens-lacrosse-bulldogs-fall-to-umass-on-wednesday.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/1 4:00 PM CANCELLED Bryant University Softball vs Providence College</title>
+<description>CANCELLED Bryant University Softball vs Providence College\nStreaming Video: https://www.espn.com/watch/player/_/id/ec3df514-bffb-4cf7-a4ca-0d75a296e1c2\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12115&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12115&amp;sport_id=15</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-04-01T20:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-01T22:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-01T16:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-01T18:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Providence_College_200x200.png</s:opponentlogo>
+<s:opponent>Providence College</s:opponent>
+<s:gameid>12115</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/softball/media;category=batting</s:livestats>
+<s:recap>https://bryantbulldogs.com/news/2026/3/30/softball-bryant-welcomes-pc-to-conaty-park-on-wednesday.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/2 2:00 PM [W] Bryant University Baseball at University of Maine</title>
+<description>[W] Bryant University Baseball at University of Maine\nW 4-3\nStreaming Video: https://www.espn.com/watch/player/_/id/1a386433-2981-445b-a9a2-9fc9627eda3b\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11885&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11885&amp;sport_id=1</guid><ev:location>Orono, ME</ev:location>
+<ev:startdate>2026-04-02T18:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-02T21:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-02T14:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-02T17:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Maine.png</s:opponentlogo>
+<s:opponent>University of Maine</s:opponent>
+<s:gameid>11885</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://goblackbears.com/sidearmstats/baseball/media;category=batting</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=11885</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/2/baseball-ninth-inning-rally-lifts-bryant-to-4-3-win-over-maine-on-thursday.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/3 10:00 AM [L] Bryant University Women&#39;s Bowling vs Louisiana Tech</title>
+<description>[L] Bryant University Women&#39;s Bowling vs Louisiana Tech\nL 1-2\nStreaming Video: https://www.bowltv.com/schedule\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12375&amp;sport_id=17</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12375&amp;sport_id=17</guid><ev:location>Arlington, TX / International Training &amp; Research Center</ev:location>
+<ev:startdate>2026-04-03T14:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-03T17:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-03T10:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-03T13:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/LATech.png</s:opponentlogo>
+<s:opponent>Louisiana Tech</s:opponent>
+<s:gameid>12375</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:recap>https://bryantbulldogs.com/news/2026/4/3/womens-bowling-bryants-season-ends-in-ncaa-regional-round.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/3 8:00 AM [N] Bryant University Track and Field vs Ocean State Cup</title>
+<description>[N] Bryant University Track and Field vs Ocean State Cup\n\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12182&amp;sport_id=27</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12182&amp;sport_id=27</guid><ev:location>Smithfield, R.I.</ev:location>
+<ev:startdate>2026-04-03T12:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-04T03:59:59.9999999Z</ev:enddate>
+<s:localstartdate>2026-04-03T08:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-03T23:59:59.9999999</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Bryant_Bulldogs.png</s:opponentlogo>
+<s:opponent>Ocean State Cup</s:opponent>
+<s:gameid>12182</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:recap>https://bryantbulldogs.com/news/2026/4/4/track-and-field-track-and-field-compete-in-ocean-state-cup.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/3 2:00 PM [W] Bryant University Softball at University of Massachusetts Lowell</title>
+<description>[W] Bryant University Softball at University of Massachusetts Lowell\nW 2-0\nStreaming Video: https://americaeast.com/watch/default.aspx?Live=17981&amp;path=umass_lowell\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12116&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12116&amp;sport_id=15</guid><ev:location>Lowell, MA</ev:location>
+<ev:startdate>2026-04-03T18:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-03T20:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-03T14:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-03T16:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMassLowell.png</s:opponentlogo>
+<s:opponent>University of Massachusetts Lowell</s:opponent>
+<s:gameid>12116</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://goriverhawks.com/sidearmstats/softball/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12116</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/3/softball-wachter-and-tracy-throw-cgs-lewis-goes-deep-as-bryant-wins-both-games-at-uml.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/3 3:30 PM [L] Bryant University Women&#39;s Bowling vs Wichita State University</title>
+<description>[L] Bryant University Women&#39;s Bowling vs Wichita State University\nL 0-2\nStreaming Video: https://www.bowltv.com/schedule\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12377&amp;sport_id=17</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12377&amp;sport_id=17</guid><ev:location>Arlington, TX / International Training &amp; Research Center</ev:location>
+<ev:startdate>2026-04-03T19:30:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-03T22:30:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-03T15:30:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-03T18:30:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Wichitia-State.png</s:opponentlogo>
+<s:opponent>Wichita State University</s:opponent>
+<s:gameid>12377</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:recap>https://bryantbulldogs.com/news/2026/4/3/womens-bowling-bryants-season-ends-in-ncaa-regional-round.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/3 4:00 PM [W] Bryant University Softball at University of Massachusetts Lowell</title>
+<description>[W] Bryant University Softball at University of Massachusetts Lowell\nW 8-0\nStreaming Video: https://americaeast.com/watch/default.aspx?Live=17981&amp;path=umass_lowell\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12117&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12117&amp;sport_id=15</guid><ev:location>Lowell, MA</ev:location>
+<ev:startdate>2026-04-03T20:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-03T22:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-03T16:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-03T18:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMassLowell.png</s:opponentlogo>
+<s:opponent>University of Massachusetts Lowell</s:opponent>
+<s:gameid>12117</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://goriverhawks.com/sidearmstats/softball/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12117</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/3/softball-wachter-and-tracy-throw-cgs-lewis-goes-deep-as-bryant-wins-both-games-at-uml.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/3 5:00 PM [L] Bryant University Baseball at University of Maine</title>
+<description>[L] Bryant University Baseball at University of Maine\nL 5-11\nStreaming Video: https://www.espn.com/watch/player/_/id/f8ee4efa-656f-43ab-a9e3-3b9944a48692\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11886&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11886&amp;sport_id=1</guid><ev:location>Orono, ME</ev:location>
+<ev:startdate>2026-04-03T21:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-04T00:00:00.0000001Z</ev:enddate>
+<s:localstartdate>2026-04-03T17:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-03T20:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Maine.png</s:opponentlogo>
+<s:opponent>University of Maine</s:opponent>
+<s:gameid>11886</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://goblackbears.com/sidearmstats/baseball/media;category=batting</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=11886</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/3/baseball-bulldogs-fall-to-maine-on-friday-night.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/3 6:00 PM Bryant University Women&#39;s Soccer vs Franklin Pierce University</title>
+<description>Bryant University Women&#39;s Soccer vs Franklin Pierce University\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12371&amp;sport_id=22</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12371&amp;sport_id=22</guid><ev:location>Smithfield, R.I.</ev:location>
+<ev:startdate>2026-04-03T22:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-04T00:00:00.0000001Z</ev:enddate>
+<s:localstartdate>2026-04-03T18:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-03T20:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/FPU_Primary_Digital_PNG_102219.png</s:opponentlogo>
+<s:opponent>Franklin Pierce University</s:opponent>
+<s:gameid>12371</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>4/4 [N] Bryant University Women&#39;s Rowing at Amherst College &amp; Union College</title>
+<description>[N] Bryant University Women&#39;s Rowing at Amherst College &amp; Union College\n\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12317&amp;sport_id=21</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12317&amp;sport_id=21</guid><ev:location>Amherst, MA</ev:location>
+<ev:startdate>2026-04-04</ev:startdate>
+<ev:enddate>2026-04-04T07:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-04</s:localstartdate>
+<s:localenddate>2026-04-04T03:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Amherst Mammoth (1).png</s:opponentlogo>
+<s:opponent>Amherst College &amp; Union College</s:opponent>
+<s:gameid>12317</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:recap>https://bryantbulldogs.com/news/2026/4/5/womens-rowing-bryant-competes-in-amherst-on-saturday.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/4 12:00 PM [W] Bryant University Men&#39;s Lacrosse vs NJIT</title>
+<description>[W] Bryant University Men&#39;s Lacrosse vs NJIT\nW 14-9\nStreaming Video: https://www.espn.com/watch/player/_/id/aacef655-9fc4-4227-a625-21fca5950a1b\nTickets: https://bryanttickets.com/event/mens-lacrosse-vs-njit-um40gj\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12219&amp;sport_id=10</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12219&amp;sport_id=10</guid><ev:location>Smithfield, R.I., Beirne Stadium</ev:location>
+<ev:startdate>2026-04-04T16:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-04T19:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-04T12:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-04T15:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/NJIT.png</s:opponentlogo>
+<s:opponent>NJIT</s:opponent>
+<s:gameid>12219</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/mlax/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12219</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/4/mens-lacrosse-west-nets-six-mens-lacrosse-defeats-njit.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/4 1:00 PM [L] Bryant University Baseball at University of Maine</title>
+<description>[L] Bryant University Baseball at University of Maine\nL 2-5\nStreaming Video: https://www.espn.com/watch/player/_/id/f8ee4efa-656f-43ab-a9e3-3b9944a48692\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11887&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11887&amp;sport_id=1</guid><ev:location>Orono, ME</ev:location>
+<ev:startdate>2026-04-04T17:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-04T20:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-04T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-04T16:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Maine.png</s:opponentlogo>
+<s:opponent>University of Maine</s:opponent>
+<s:gameid>11887</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://goblackbears.com/sidearmstats/baseball/media;category=batting</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=11887</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/4/baseball-five-run-sixth-lifts-maine-to-series-win-over-bryant.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/4 1:00 PM [L] Bryant University Softball at University of Massachusetts Lowell</title>
+<description>[L] Bryant University Softball at University of Massachusetts Lowell\nL 5-7\nStreaming Video: https://americaeast.com/watch/default.aspx?Live=17982&amp;path=umass_lowell\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12118&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12118&amp;sport_id=15</guid><ev:location>Lowell, MA</ev:location>
+<ev:startdate>2026-04-04T17:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-04T19:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-04T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-04T15:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMassLowell.png</s:opponentlogo>
+<s:opponent>University of Massachusetts Lowell</s:opponent>
+<s:gameid>12118</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://goriverhawks.com/sidearmstats/softball/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12118</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/4/softball-bulldogs-fall-to-uml-on-a-walk-off-home-run-on-sunday.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/4 3:00 PM [W] Bryant University Women&#39;s Lacrosse vs University of New Hampshire</title>
+<description>[W] Bryant University Women&#39;s Lacrosse vs University of New Hampshire\nW 18-11\nStreaming Video: https://www.espn.com/watch/player/_/id/0726e494-47e3-4dc5-8f66-beb08659f570\nTickets: https://bryanttickets.com/event/womens-lacrosse-vs-unh-gpfbho\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12151&amp;sport_id=20</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12151&amp;sport_id=20</guid><ev:location>Smithfield, R.I.</ev:location>
+<ev:startdate>2026-04-04T19:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-04T22:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-04T15:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-04T18:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/unh-logo.png</s:opponentlogo>
+<s:opponent>University of New Hampshire</s:opponent>
+<s:gameid>12151</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/wlax/media</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12151</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/4/womens-lacrosse-degeorge-o-mara-lift-bryant-past-unh-18-11-on-saturday.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/4 3:30 PM [W] Bryant University Men&#39;s Tennis vs Nichols College</title>
+<description>[W] Bryant University Men&#39;s Tennis vs Nichols College\nW 7-0\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12376&amp;sport_id=13</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12376&amp;sport_id=13</guid><ev:location>Smithfield, RI / Bryant Tennis Courts </ev:location>
+<ev:startdate>2026-04-04T19:30:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-04T22:30:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-04T15:30:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-04T18:30:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Nichols.png</s:opponentlogo>
+<s:opponent>Nichols College</s:opponent>
+<s:gameid>12376</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:recap>https://bryantbulldogs.com/news/2026/4/4/mens-tennis-mens-tennis-sweeps-nichols-on-senior-day.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/6 [N] Bryant University Women&#39;s Golf vs St. John&#39;s Invitational</title>
+<description>[N] Bryant University Women&#39;s Golf vs St. John&#39;s Invitational\n 4th of 12 Teams\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12248&amp;sport_id=19</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12248&amp;sport_id=19</guid><ev:location>Hastings-on-Hudson, NY / The St. Andrew&#39;s Golf Club</ev:location>
+<ev:startdate>2026-04-06</ev:startdate>
+<ev:enddate>2026-04-07T03:59:59.9999999Z</ev:enddate>
+<s:localstartdate>2026-04-06</s:localstartdate>
+<s:localenddate>2026-04-06T23:59:59.9999999</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Saint_Johns.png</s:opponentlogo>
+<s:opponent>St. John&#39;s Invitational</s:opponent>
+<s:gameid>12248</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://scoreboard.clippd.com/tournaments/239513/scoring/participants</s:livestats>
+<s:recap>https://bryantbulldogs.com/news/2026/4/7/womens-golf-bryant-earns-fourth-place-finish-at-st-johns-invitational.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/7 3:00 PM [L] Bryant University Baseball vs University of Connecticut</title>
+<description>[L] Bryant University Baseball vs University of Connecticut\nL 2-6\nStreaming Video: https://www.espn.com/watch/player/_/id/ca7afbe5-624a-45c5-b7f3-485fee0203ea\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11888&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11888&amp;sport_id=1</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-04-07T19:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-07T22:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-07T15:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-07T18:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Husky_.png</s:opponentlogo>
+<s:opponent>University of Connecticut</s:opponent>
+<s:gameid>11888</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/baseball/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=11888</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/7/baseball-kingsbury-posts-four-hits-bulldogs-fall-to-uconn.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/8 4:00 PM [L] Bryant University Softball at University of Rhode Island</title>
+<description>[L] Bryant University Softball at University of Rhode Island\nL 8-10\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12119&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12119&amp;sport_id=15</guid><ev:location>Kingston, RI</ev:location>
+<ev:startdate>2026-04-08T20:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-08T22:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-08T16:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-08T18:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Split-RI.png</s:opponentlogo>
+<s:opponent>University of Rhode Island</s:opponent>
+<s:gameid>12119</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://stats.statbroadcast.com/broadcast/?id=648266</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12119</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/8/softball-genzer-hits-a-hr-in-road-loss-to-uri.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/9 2:00 PM [L] Bryant University Women&#39;s Tennis at University of Rhode Island</title>
+<description>[L] Bryant University Women&#39;s Tennis at University of Rhode Island\nL 1-6\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12240&amp;sport_id=24</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12240&amp;sport_id=24</guid><ev:location>Kingston, RI / URI Tennis Complex</ev:location>
+<ev:startdate>2026-04-09T18:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-09T21:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-09T14:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-09T17:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Split-RI.png</s:opponentlogo>
+<s:opponent>University of Rhode Island</s:opponent>
+<s:gameid>12240</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:recap>https://bryantbulldogs.com/news/2026/4/9/womens-tennis-womens-tennis-falls-at-uri-on-thursday-afternoon.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/10 Bryant University Women&#39;s Soccer at Merrimack College</title>
+<description>Bryant University Women&#39;s Soccer at Merrimack College\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12372&amp;sport_id=22</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12372&amp;sport_id=22</guid><ev:location>North Andover, MA</ev:location>
+<ev:startdate>2026-04-10</ev:startdate>
+<ev:enddate>2026-04-10T06:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-10</s:localstartdate>
+<s:localenddate>2026-04-10T02:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Merrimack.png</s:opponentlogo>
+<s:opponent>Merrimack College</s:opponent>
+<s:gameid>12372</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>4/10 6:00 AM [N] Bryant University Track and Field at Tufts Spring Stampede</title>
+<description>[N] Bryant University Track and Field at Tufts Spring Stampede\n\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12379&amp;sport_id=27</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12379&amp;sport_id=27</guid><ev:location>Medford, MA</ev:location>
+<ev:startdate>2026-04-10T10:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-11T23:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-10T06:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-11T19:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/tufts.png</s:opponentlogo>
+<s:opponent>Tufts Spring Stampede</s:opponent>
+<s:gameid>12379</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:recap>https://bryantbulldogs.com/news/2026/4/12/track-and-field-four-track-and-field-records-established-at-bucknell-tufts.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/10 3:00 PM [W] Bryant University Baseball vs University at Albany</title>
+<description>[W] Bryant University Baseball vs University at Albany\nW 15-5 (7 inn.)\nStreaming Video: https://www.espn.com/watch/player/_/id/0cec3d4b-c15f-4606-b697-5ec54ef05a62\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11889&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11889&amp;sport_id=1</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-04-10T19:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-10T22:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-10T15:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-10T18:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/DaneHeadUAlbany.png</s:opponentlogo>
+<s:opponent>University at Albany</s:opponent>
+<s:gameid>11889</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/baseball/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=11889</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/10/baseball-hackett-leads-power-surge-as-bryant-beats-ualbany-on-friday.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/11 [N] Bryant University Women&#39;s Rowing at Knecht Cup</title>
+<description>[N] Bryant University Women&#39;s Rowing at Knecht Cup\n\nStreaming Video: https://www.youtube.com/live/jlNgPU0xlj8\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12319&amp;sport_id=21</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12319&amp;sport_id=21</guid><ev:location></ev:location>
+<ev:startdate>2026-04-11</ev:startdate>
+<ev:enddate>2026-04-11T07:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-11</s:localstartdate>
+<s:localenddate>2026-04-11T03:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo></s:opponentlogo>
+<s:opponent>Knecht Cup</s:opponent>
+<s:gameid>12319</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:recap>https://bryantbulldogs.com/news/2026/4/15/womens-rowing-bryant-rowing-earns-first-place-in-wn-f8-at-knecht-cup.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/11 Bryant University MEN&#39;S CLUB LACROSSE  Marist</title>
+<description>Bryant University MEN&#39;S CLUB LACROSSE  Marist\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12354&amp;sport_id=36</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12354&amp;sport_id=36</guid><ev:location>Marist</ev:location>
+<ev:startdate>2026-04-11</ev:startdate>
+<ev:enddate>2026-04-11T07:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-11</s:localstartdate>
+<s:localenddate>2026-04-11T03:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo></s:opponentlogo>
+<s:opponent>Marist</s:opponent>
+<s:gameid>12354</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>4/11 Bryant University MEN&#39;S CLUB LACROSSE  UMASS</title>
+<description>Bryant University MEN&#39;S CLUB LACROSSE  UMASS\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12355&amp;sport_id=36</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12355&amp;sport_id=36</guid><ev:location>Marist</ev:location>
+<ev:startdate>2026-04-11</ev:startdate>
+<ev:enddate>2026-04-11T07:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-11</s:localstartdate>
+<s:localenddate>2026-04-11T03:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo></s:opponentlogo>
+<s:opponent>UMASS</s:opponent>
+<s:gameid>12355</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>4/11 8:00 AM [N] Bryant University Track and Field at Bucknell Outdoor Classic</title>
+<description>[N] Bryant University Track and Field at Bucknell Outdoor Classic\n\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12184&amp;sport_id=27</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12184&amp;sport_id=27</guid><ev:location>Lewisburg, Pa.</ev:location>
+<ev:startdate>2026-04-11T12:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-12T12:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-11T08:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-12T08:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/bucknell_logo.png</s:opponentlogo>
+<s:opponent>Bucknell Outdoor Classic</s:opponent>
+<s:gameid>12184</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:recap>https://bryantbulldogs.com/news/2026/4/12/track-and-field-four-track-and-field-records-established-at-bucknell-tufts.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/11 12:00 PM [L] Bryant University Women&#39;s Lacrosse at University at Albany</title>
+<description>[L] Bryant University Women&#39;s Lacrosse at University at Albany\nL 8-9\nStreaming Video: https://www.espn.com/watch/catalog/6d2d50e4-6aad-471f-8a16-adadf07d87a8/america-east-conference#bucketId=29784&amp;sourceCollection=Browse_By_Top_Conferences\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12152&amp;sport_id=20</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12152&amp;sport_id=20</guid><ev:location>Albany, NY</ev:location>
+<ev:startdate>2026-04-11T16:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-11T19:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-11T12:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-11T15:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/DaneHeadUAlbany.png</s:opponentlogo>
+<s:opponent>University at Albany</s:opponent>
+<s:gameid>12152</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://ualbanysports.com/sidearmstats/wlax/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12152</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/11/womens-lacrosse-womens-lacrosse-recap-ualbany.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/11 1:00 PM [L] Bryant University Baseball vs University at Albany</title>
+<description>[L] Bryant University Baseball vs University at Albany\nL 3-6\nStreaming Video: http://americaeast.tv/\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11890&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11890&amp;sport_id=1</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-04-11T17:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-11T20:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-11T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-11T16:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/DaneHeadUAlbany.png</s:opponentlogo>
+<s:opponent>University at Albany</s:opponent>
+<s:gameid>11890</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/baseball/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=11890</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/11/baseball-ualbany-scores-three-in-ninth-to-even-series-with-bryant.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/11 1:00 PM [W] Bryant University Softball vs Binghamton University</title>
+<description>[W] Bryant University Softball vs Binghamton University\nW 8-0\nStreaming Video: https://americaeast.com/watch/default.aspx?Live=17981\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12120&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12120&amp;sport_id=15</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-04-11T17:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-11T19:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-11T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-11T15:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Binghamton_200x200_logo.png</s:opponentlogo>
+<s:opponent>Binghamton University</s:opponent>
+<s:gameid>12120</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/softball/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12120</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/11/softball-bulldogs-split-on-saturday-against-binghamton.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/11 3:00 PM [L] Bryant University Softball vs Binghamton University</title>
+<description>[L] Bryant University Softball vs Binghamton University\nL 2-4\nStreaming Video: https://americaeast.com/watch/default.aspx?Live=17981\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12121&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12121&amp;sport_id=15</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-04-11T19:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-11T21:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-11T15:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-11T17:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Binghamton_200x200_logo.png</s:opponentlogo>
+<s:opponent>Binghamton University</s:opponent>
+<s:gameid>12121</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/softball/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12121</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/11/softball-bulldogs-split-on-saturday-against-binghamton.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/11 3:00 PM [W] Bryant University Men&#39;s Soccer at University of Massachusetts</title>
+<description>[W] Bryant University Men&#39;s Soccer at University of Massachusetts\nW 1-0\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12362&amp;sport_id=11</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12362&amp;sport_id=11</guid><ev:location>Amherst, MA</ev:location>
+<ev:startdate>2026-04-11T19:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-11T21:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-11T15:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-11T17:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMass.png</s:opponentlogo>
+<s:opponent>University of Massachusetts</s:opponent>
+<s:gameid>12362</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>4/11 6:00 PM [W] Bryant University Men&#39;s Lacrosse vs Iona University</title>
+<description>[W] Bryant University Men&#39;s Lacrosse vs Iona University\nW 17-6\nStreaming Video: https://www.espn.com/watch/player/_/id/4285d412-2ccb-4703-ad00-8bbf03b5953d\nTickets: https://bryanttickets.com/event/mens-lacrosse-vs-iona-wkziaj\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12220&amp;sport_id=10</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12220&amp;sport_id=10</guid><ev:location>Smithfield, R.I., Beirne Stadium</ev:location>
+<ev:startdate>2026-04-11T22:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-12T01:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-11T18:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-11T21:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Iona_logo.png</s:opponentlogo>
+<s:opponent>Iona University</s:opponent>
+<s:gameid>12220</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/mlax/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12220</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/11/mens-lacrosse-mens-lacrosse-rally-past-iona-17-6.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/12 [N] Bryant University Women&#39;s Rowing at Knecht Cup</title>
+<description>[N] Bryant University Women&#39;s Rowing at Knecht Cup\n\nStreaming Video: https://www.youtube.com/live/m-4v5TyJKoM?feature=share\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12378&amp;sport_id=21</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12378&amp;sport_id=21</guid><ev:location></ev:location>
+<ev:startdate>2026-04-12</ev:startdate>
+<ev:enddate>2026-04-12T07:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-12</s:localstartdate>
+<s:localenddate>2026-04-12T03:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo></s:opponentlogo>
+<s:opponent>Knecht Cup</s:opponent>
+<s:gameid>12378</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:recap>https://bryantbulldogs.com/news/2026/4/15/womens-rowing-bryant-rowing-earns-first-place-in-wn-f8-at-knecht-cup.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/12 11:00 AM [W] Bryant University Women&#39;s Tennis vs University of New Haven</title>
+<description>[W] Bryant University Women&#39;s Tennis vs University of New Haven\nW 4-3\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12241&amp;sport_id=24</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12241&amp;sport_id=24</guid><ev:location>Smithfield, RI / Bryant Tennis Courts </ev:location>
+<ev:startdate>2026-04-12T15:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-12T18:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-12T11:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-12T14:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/w5.png</s:opponentlogo>
+<s:opponent>University of New Haven</s:opponent>
+<s:gameid>12241</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:recap>https://bryantbulldogs.com/news/2026/4/12/womens-tennis-bryant-goes-2-0-against-new-haven-and-providence-on-senior-day.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/12 12:00 PM [W] Bryant University Softball vs Binghamton University</title>
+<description>[W] Bryant University Softball vs Binghamton University\nW 10-8\nStreaming Video: https://www.espn.com/watch/player/_/id/d197c8c4-0dff-41a2-a088-35dcc6a0a718\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12122&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12122&amp;sport_id=15</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-04-12T16:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-12T18:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-12T12:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-12T14:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Binghamton_200x200_logo.png</s:opponentlogo>
+<s:opponent>Binghamton University</s:opponent>
+<s:gameid>12122</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/softball/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12122</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/12/softball-bryant-wins-a-thriller-for-series-victory-against-binghamton-on-sunday.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/12 1:00 PM [W] Bryant University Baseball vs University at Albany</title>
+<description>[W] Bryant University Baseball vs University at Albany\nW 15-5 (8 inn.)\nStreaming Video: http://americaeast.tv/\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11891&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11891&amp;sport_id=1</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-04-12T17:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-12T20:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-12T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-12T16:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/DaneHeadUAlbany.png</s:opponentlogo>
+<s:opponent>University at Albany</s:opponent>
+<s:gameid>11891</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/baseball/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=11891</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/12/baseball-bryant-sets-stolen-base-record-rallies-to-take-series-from-ualbany.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/12 2:45 PM [W] Bryant University Women&#39;s Tennis vs Providence College</title>
+<description>[W] Bryant University Women&#39;s Tennis vs Providence College\nW 4-3\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12242&amp;sport_id=24</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12242&amp;sport_id=24</guid><ev:location>Smithfield, RI / Bryant Tennis Courts </ev:location>
+<ev:startdate>2026-04-12T18:45:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-12T21:45:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-12T14:45:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-12T17:45:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Providence_College_200x200.png</s:opponentlogo>
+<s:opponent>Providence College</s:opponent>
+<s:gameid>12242</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:recap>https://bryantbulldogs.com/news/2026/4/12/womens-tennis-bryant-goes-2-0-against-new-haven-and-providence-on-senior-day.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/13 [N] Bryant University Men&#39;s Golf vs The Shark Invitational</title>
+<description>[N] Bryant University Men&#39;s Golf vs The Shark Invitational\n 2nd of 15 Teams\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12265&amp;sport_id=9</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12265&amp;sport_id=9</guid><ev:location>Glen Head, N.Y. / Brookville Country Club</ev:location>
+<ev:startdate>2026-04-13</ev:startdate>
+<ev:enddate>2026-04-14T03:59:59.9999999Z</ev:enddate>
+<s:localstartdate>2026-04-13</s:localstartdate>
+<s:localenddate>2026-04-13T23:59:59.9999999</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/LIU-Sharks.png</s:opponentlogo>
+<s:opponent>The Shark Invitational</s:opponent>
+<s:gameid>12265</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://scoreboard.clippd.com/tournaments/238941/scoring/participants</s:livestats>
+<s:recap>https://bryantbulldogs.com/news/2026/4/14/mens-golf-young-finishes-first-bulldogs-finish-second-at-shark-invitational.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/14 3:00 PM [L] Bryant University Baseball vs University of Rhode Island</title>
+<description>[L] Bryant University Baseball vs University of Rhode Island\nL 9-10\nStreaming Video: http://americaeast.tv/\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11892&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11892&amp;sport_id=1</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-04-14T19:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-14T22:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-14T15:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-14T18:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Split-RI.png</s:opponentlogo>
+<s:opponent>University of Rhode Island</s:opponent>
+<s:gameid>11892</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/baseball/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=11892</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/14/baseball-bulldogs-fall-to-uri-on-tuesday-at-conaty-park.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/14 6:00 PM [L] Bryant University Softball at University of Connecticut</title>
+<description>[L] Bryant University Softball at University of Connecticut\nL 0-6\nStreaming Video: https://uconnhuskies.com/watch/live\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12123&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12123&amp;sport_id=15</guid><ev:location>Storrs, CT</ev:location>
+<ev:startdate>2026-04-14T22:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-15T00:00:00.0000001Z</ev:enddate>
+<s:localstartdate>2026-04-14T18:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-14T20:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Husky_.png</s:opponentlogo>
+<s:opponent>University of Connecticut</s:opponent>
+<s:gameid>12123</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://stats.statbroadcast.com/broadcast/?id=646697</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12123</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/14/softball-bryant-falls-to-uconn-on-tuesday.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/15 [N] Bryant University Women&#39;s Golf vs Senior Showdown</title>
+<description>[N] Bryant University Women&#39;s Golf vs Senior Showdown\n 1st of 5 Teams\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12246&amp;sport_id=19</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12246&amp;sport_id=19</guid><ev:location>Brockton, Mass. / Thorny Lea Golf Club</ev:location>
+<ev:startdate>2026-04-15</ev:startdate>
+<ev:enddate>2026-04-15T07:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-15</s:localstartdate>
+<s:localenddate>2026-04-15T03:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Stonehill_2022.png</s:opponentlogo>
+<s:opponent>Senior Showdown</s:opponent>
+<s:gameid>12246</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://stonehill.leaderboardking.com/leaderboards/7066/layout_ncaa?game_id=14833</s:livestats>
+<s:recap>https://bryantbulldogs.com/news/2026/4/15/womens-golf-womens-golf-finishes-in-first-place-at-senior-showdown.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/15 7:45 PM [W] Bryant University Men&#39;s Soccer at Providence College</title>
+<description>[W] Bryant University Men&#39;s Soccer at Providence College\nW 2-1\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12363&amp;sport_id=11</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12363&amp;sport_id=11</guid><ev:location>Providence, RI</ev:location>
+<ev:startdate>2026-04-15T23:45:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-16T01:45:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-15T19:45:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-15T21:45:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Providence_College_200x200.png</s:opponentlogo>
+<s:opponent>Providence College</s:opponent>
+<s:gameid>12363</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/msoc/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>4/16 8:00 AM [N] Bryant University Track and Field at Bryan Clay Invitational</title>
+<description>[N] Bryant University Track and Field at Bryan Clay Invitational\n\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12185&amp;sport_id=27</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12185&amp;sport_id=27</guid><ev:location>Azusa, Calif.</ev:location>
+<ev:startdate>2026-04-16T12:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-18T12:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-16T08:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-18T08:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/AP 1807-White Outline.png</s:opponentlogo>
+<s:opponent>Bryan Clay Invitational</s:opponent>
+<s:gameid>12185</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:recap>https://bryantbulldogs.com/news/2026/4/19/track-and-field-trott-and-whiting-compete-at-bryan-clay-invitational.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/16 2:00 PM [L] Bryant University Men&#39;s Tennis vs Longwood University - First Round</title>
+<description>[L] Bryant University Men&#39;s Tennis vs Longwood University - First Round\nL 3-4\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12294&amp;sport_id=13</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12294&amp;sport_id=13</guid><ev:location>Lexington, S.C. / Lexington County Tennis Complex</ev:location>
+<ev:startdate>2026-04-16T18:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-16T21:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-16T14:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-16T17:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Longwood-Lancers.png</s:opponentlogo>
+<s:opponent>Longwood University</s:opponent>
+<s:gameid>12294</s:gameid>
+<s:gamepromoname>First Round</s:gamepromoname>
+<s:links>
+<s:livestats>https://stats.statbroadcast.com/broadcast/?id=657134</s:livestats>
+<s:recap>https://bryantbulldogs.com/news/2026/4/16/mens-tennis-mens-tennis-starts-strong-falls-to-longwood-in-big-south-tournament.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/17 Bryant University Women&#39;s Soccer at Brown University</title>
+<description>Bryant University Women&#39;s Soccer at Brown University\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12373&amp;sport_id=22</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12373&amp;sport_id=22</guid><ev:location>Providence, RI</ev:location>
+<ev:startdate>2026-04-17</ev:startdate>
+<ev:enddate>2026-04-17T06:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-17</s:localstartdate>
+<s:localenddate>2026-04-17T02:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Brown_logo_200x200.png</s:opponentlogo>
+<s:opponent>Brown University</s:opponent>
+<s:gameid>12373</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>4/17 8:00 AM [N] Bryant University Track and Field at George Davis Invitational</title>
+<description>[N] Bryant University Track and Field at George Davis Invitational\n\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12186&amp;sport_id=27</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12186&amp;sport_id=27</guid><ev:location>Lowell, Mass.</ev:location>
+<ev:startdate>2026-04-17T12:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-18T14:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-17T08:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-18T10:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMassLowell.png</s:opponentlogo>
+<s:opponent>George Davis Invitational</s:opponent>
+<s:gameid>12186</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:recap>https://bryantbulldogs.com/news/2026/4/19/track-and-field-track-and-field-thrive-at-george-davis-invitational.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/17 3:00 PM [L] Bryant University Baseball at Binghamton University</title>
+<description>[L] Bryant University Baseball at Binghamton University\nL 2-4\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11893&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11893&amp;sport_id=1</guid><ev:location>Vestal, NY</ev:location>
+<ev:startdate>2026-04-17T19:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-17T22:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-17T15:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-17T18:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Binghamton_200x200_logo.png</s:opponentlogo>
+<s:opponent>Binghamton University</s:opponent>
+<s:gameid>11893</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=11893</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/17/baseball-hilburger-throws-complete-game-but-bulldogs-fall-to-binghamton-4-2.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/17 4:00 PM [W] Bryant University Women&#39;s Tennis vs Tennessee State University - OVC Quarterfinals</title>
+<description>[W] Bryant University Women&#39;s Tennis vs Tennessee State University - OVC Quarterfinals\nW 4-0\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12293&amp;sport_id=24</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12293&amp;sport_id=24</guid><ev:location>St. Louis, MO / Dwight Davis Tennis Center</ev:location>
+<ev:startdate>2026-04-17T20:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-17T23:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-17T16:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-17T19:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/TSU_2021.png</s:opponentlogo>
+<s:opponent>Tennessee State University</s:opponent>
+<s:gameid>12293</s:gameid>
+<s:gamepromoname>OVC Quarterfinals</s:gamepromoname>
+<s:links>
+<s:livestats>https://stats.statbroadcast.com/broadcast/?id=658289</s:livestats>
+<s:recap>https://bryantbulldogs.com/news/2026/4/17/womens-tennis-bryant-cruises-past-tennessee-state-to-advance-to-ovc-semifinals.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/18 Bryant University MEN&#39;S CLUB LACROSSE  Georgetown</title>
+<description>Bryant University MEN&#39;S CLUB LACROSSE  Georgetown\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12356&amp;sport_id=36</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12356&amp;sport_id=36</guid><ev:location>Georgetown</ev:location>
+<ev:startdate>2026-04-18</ev:startdate>
+<ev:enddate>2026-04-18T07:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-18</s:localstartdate>
+<s:localenddate>2026-04-18T03:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo></s:opponentlogo>
+<s:opponent>Georgetown</s:opponent>
+<s:gameid>12356</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>4/18 Bryant University MEN&#39;S CLUB LACROSSE  Richmond</title>
+<description>Bryant University MEN&#39;S CLUB LACROSSE  Richmond\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12357&amp;sport_id=36</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12357&amp;sport_id=36</guid><ev:location>Georgetown</ev:location>
+<ev:startdate>2026-04-18</ev:startdate>
+<ev:enddate>2026-04-18T07:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-18</s:localstartdate>
+<s:localenddate>2026-04-18T03:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo></s:opponentlogo>
+<s:opponent>Richmond</s:opponent>
+<s:gameid>12357</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>4/18 11:00 AM [W] Bryant University Women&#39;s Lacrosse vs UMBC</title>
+<description>[W] Bryant University Women&#39;s Lacrosse vs UMBC\nW 22-6\nTickets: https://bryanttickets.com/event/womens-lacrosse-vs-umbc-g3ziir\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12153&amp;sport_id=20</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12153&amp;sport_id=20</guid><ev:location>Smithfield, R.I.</ev:location>
+<ev:startdate>2026-04-18T15:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-18T18:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-18T11:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-18T14:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMBC.png</s:opponentlogo>
+<s:opponent>UMBC</s:opponent>
+<s:gameid>12153</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/wlax/media</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12153</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/18/womens-lacrosse-bryant-earns-wire-to-wire-win-over-umbc-on-senior-day.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/18 11:30 AM [L] Bryant University Baseball at Binghamton University</title>
+<description>[L] Bryant University Baseball at Binghamton University\nL 9-13 (7 inn.)\nStreaming Video: https://www.espn.com/watch/player/_/id/d211e631-0d38-47f5-9c82-0d292a9196df\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11894&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11894&amp;sport_id=1</guid><ev:location>Vestal, NY</ev:location>
+<ev:startdate>2026-04-18T15:30:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-18T18:30:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-18T11:30:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-18T14:30:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Binghamton_200x200_logo.png</s:opponentlogo>
+<s:opponent>Binghamton University</s:opponent>
+<s:gameid>11894</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://binghamtonbearcats.com/sidearmstats/baseball/media;category=batting</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=11894</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/18/baseball-seven-run-fifth-dooms-bulldogs-in-game-one-on-saturday.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/18 12:00 PM [W] Bryant University Men&#39;s Lacrosse at Binghamton</title>
+<description>[W] Bryant University Men&#39;s Lacrosse at Binghamton\nW 8-6\nStreaming Video: https://www.espn.com/watch/player/_/eventCalendarId/401838153?gameId=401838153&amp;sourceLang=en&amp;om-navmethod=espn:globalsearch:results\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12221&amp;sport_id=10</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12221&amp;sport_id=10</guid><ev:location>Vestal, N.Y.</ev:location>
+<ev:startdate>2026-04-18T16:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-18T19:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-18T12:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-18T15:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Binghamton_200x200_logo.png</s:opponentlogo>
+<s:opponent>Binghamton</s:opponent>
+<s:gameid>12221</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://binghamtonbearcats.com/sidearmstats/mlax/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12221</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/18/mens-lacrosse-mens-lacrosse-wins-a-tight-battle-in-vestal-8-6.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/18 1:00 PM [W] Bryant University Softball at University at Albany</title>
+<description>[W] Bryant University Softball at University at Albany\nW 7-2\nStreaming Video: https://americaeast.com/watch/default.aspx?Live=17836\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12124&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12124&amp;sport_id=15</guid><ev:location>Albany, NY</ev:location>
+<ev:startdate>2026-04-18T17:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-18T19:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-18T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-18T15:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/DaneHeadUAlbany.png</s:opponentlogo>
+<s:opponent>University at Albany</s:opponent>
+<s:gameid>12124</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://ualbanysports.com/sidearmstats/softball</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12124</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/18/softball-garcia-lewis-go-deep-as-bryant-splits-at-ualbany-on-saturday.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/18 3:00 PM [L] Bryant University Softball at University at Albany</title>
+<description>[L] Bryant University Softball at University at Albany\nL 3-5\nStreaming Video: https://americaeast.com/watch/default.aspx?Live=17836\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12125&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12125&amp;sport_id=15</guid><ev:location>Albany, NY</ev:location>
+<ev:startdate>2026-04-18T19:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-18T21:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-18T15:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-18T17:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/DaneHeadUAlbany.png</s:opponentlogo>
+<s:opponent>University at Albany</s:opponent>
+<s:gameid>12125</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://ualbanysports.com/sidearmstats/softball/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12125</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/18/softball-garcia-lewis-go-deep-as-bryant-splits-at-ualbany-on-saturday.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/18 3:00 PM [W] Bryant University Women&#39;s Tennis vs Southeast Missouri State University - OVC Semifinals</title>
+<description>[W] Bryant University Women&#39;s Tennis vs Southeast Missouri State University - OVC Semifinals\nW 4-1\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12382&amp;sport_id=24</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12382&amp;sport_id=24</guid><ev:location>St. Louis, MO / Dwight Davis Tennis Center</ev:location>
+<ev:startdate>2026-04-18T19:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-18T22:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-18T15:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-18T18:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Southeast_Missouri_Redhawks_logo.png</s:opponentlogo>
+<s:opponent>Southeast Missouri State University</s:opponent>
+<s:gameid>12382</s:gameid>
+<s:gamepromoname>OVC Semifinals</s:gamepromoname>
+<s:links>
+<s:livestats>https://stats.statbroadcast.com/broadcast/?id=658291</s:livestats>
+<s:recap>https://bryantbulldogs.com/news/2026/4/18/womens-tennis-womens-tennis-punches-ticket-to-ovc-final-on-sunday.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/18 3:30 PM [L] Bryant University Baseball at Binghamton University</title>
+<description>[L] Bryant University Baseball at Binghamton University\nL 7-8\nStreaming Video: https://www.espn.com/watch/player/_/id/9406a0b3-1e6f-4ef0-9f08-e7bef0b2308d\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11895&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11895&amp;sport_id=1</guid><ev:location>Vestal, NY</ev:location>
+<ev:startdate>2026-04-18T19:30:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-18T22:30:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-18T15:30:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-18T18:30:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Binghamton_200x200_logo.png</s:opponentlogo>
+<s:opponent>Binghamton University</s:opponent>
+<s:gameid>11895</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://binghamtonbearcats.com/sidearmstats/baseball/media;category=batting</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=11895</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/18/baseball-binghamton-completes-sweep-with-eight-run-seventh.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/19 [N] Bryant University Women&#39;s Golf vs OVC Championship</title>
+<description>[N] Bryant University Women&#39;s Golf vs OVC Championship\n 6th of 9 Teams\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12247&amp;sport_id=19</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12247&amp;sport_id=19</guid><ev:location>Dalton, GA / Dalton Golf &amp; Country Club</ev:location>
+<ev:startdate>2026-04-19</ev:startdate>
+<ev:enddate>2026-04-21T03:59:59.9999999Z</ev:enddate>
+<s:localstartdate>2026-04-19</s:localstartdate>
+<s:localenddate>2026-04-20T23:59:59.9999999</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/2025/12/15/OVCChampLogos_25_26_GOLF_WOMEN.png</s:opponentlogo>
+<s:opponent>OVC Championship</s:opponent>
+<s:gameid>12247</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://scoreboard.clippd.com/tournaments/238689/scoring/participants</s:livestats>
+<s:recap>https://bryantbulldogs.com/news/2026/4/21/womens-golf-womens-golf-finishes-sixth-at-ovc-championship.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/19 12:00 PM CANCELLED Bryant University Softball at University at Albany</title>
+<description>CANCELLED Bryant University Softball at University at Albany\nStreaming Video: https://americaeast.com/watch/default.aspx?Live=17837\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12126&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12126&amp;sport_id=15</guid><ev:location>Albany, NY</ev:location>
+<ev:startdate>2026-04-19T16:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-19T18:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-19T12:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-19T14:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/DaneHeadUAlbany.png</s:opponentlogo>
+<s:opponent>University at Albany</s:opponent>
+<s:gameid>12126</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://ualbanysports.com/sidearmstats/softball/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>4/19 1:00 PM [W] Bryant University Women&#39;s Tennis vs SIUE - OVC Championship</title>
+<description>[W] Bryant University Women&#39;s Tennis vs SIUE - OVC Championship\nW 4-2\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12383&amp;sport_id=24</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12383&amp;sport_id=24</guid><ev:location>St. Louis, MO / Dwight Davis Tennis Center</ev:location>
+<ev:startdate>2026-04-19T17:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-19T20:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-19T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-19T16:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/CougarUpdatedLogo2023.png</s:opponentlogo>
+<s:opponent>SIUE</s:opponent>
+<s:gameid>12383</s:gameid>
+<s:gamepromoname>OVC Championship</s:gamepromoname>
+<s:links>
+<s:livestats>https://stats.statbroadcast.com/broadcast/?id=658292</s:livestats>
+<s:recap>https://bryantbulldogs.com/news/2026/4/19/womens-tennis-womens-tennis-wins-back-to-back-ovc-titles.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/21 3:00 PM CANCELLED Bryant University Baseball vs Brown University</title>
+<description>CANCELLED Bryant University Baseball vs Brown University\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11896&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11896&amp;sport_id=1</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-04-21T19:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-21T22:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-21T15:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-21T18:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Brown_logo_200x200.png</s:opponentlogo>
+<s:opponent>Brown University</s:opponent>
+<s:gameid>11896</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/baseball/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>4/21 5:00 PM [L] Bryant University Softball at Boston College</title>
+<description>[L] Bryant University Softball at Boston College\nL 0-8\nStreaming Video: https://cdn.espn.com/watch/player/_/id/c07c4693-acda-4d7c-9ece-32f9d40c7ea6\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12127&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12127&amp;sport_id=15</guid><ev:location>Chestnut Hill, MA</ev:location>
+<ev:startdate>2026-04-21T21:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-21T23:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-21T17:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-21T19:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Boston_College_200x200.png</s:opponentlogo>
+<s:opponent>Boston College</s:opponent>
+<s:gameid>12127</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://stats.statbroadcast.com/broadcast/?id=637247</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12127</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/21/softball-bryant-falls-to-bc-on-tuesday.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/23 7:00 AM [N] Bryant University Track and Field at Penn Relays</title>
+<description>[N] Bryant University Track and Field at Penn Relays\n\nStreaming Video: https://flosports.link/49ONMU2\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12187&amp;sport_id=27</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12187&amp;sport_id=27</guid><ev:location>Philadelphia, PA</ev:location>
+<ev:startdate>2026-04-23T11:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-25T14:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-23T07:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-25T10:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/penn_relays.png</s:opponentlogo>
+<s:opponent>Penn Relays</s:opponent>
+<s:gameid>12187</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:recap>https://bryantbulldogs.com/news/2026/4/25/track-and-field-track-and-field-compete-in-the-penn-relays.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/23 7:00 PM Bryant University Women&#39;s Soccer vs Assumption University</title>
+<description>Bryant University Women&#39;s Soccer vs Assumption University\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12374&amp;sport_id=22</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12374&amp;sport_id=22</guid><ev:location>Smithfield, R.I.</ev:location>
+<ev:startdate>2026-04-23T23:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-24T01:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-23T19:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-23T21:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/au_A_primary_blue_wt_gray_rgb - Copy.png</s:opponentlogo>
+<s:opponent>Assumption University</s:opponent>
+<s:gameid>12374</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>4/24 6:00 PM [W] Bryant University Baseball at University of Massachusetts Lowell</title>
+<description>[W] Bryant University Baseball at University of Massachusetts Lowell\nW 8-5\nStreaming Video: http://americaeast.tv/\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11897&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11897&amp;sport_id=1</guid><ev:location>Lowell, MA</ev:location>
+<ev:startdate>2026-04-24T22:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-25T01:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-24T18:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-24T21:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMassLowell.png</s:opponentlogo>
+<s:opponent>University of Massachusetts Lowell</s:opponent>
+<s:gameid>11897</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://goriverhawks.com/sidearmstats/baseball</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=11897</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/24/baseball-bryant-snaps-skid-defeats-umass-lowell-8-5-on-friday.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/25 Bryant University Women&#39;s Rowing at Assumption University, Mass Maritime, and Amherst</title>
+<description>Bryant University Women&#39;s Rowing at Assumption University, Mass Maritime, and Amherst\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12320&amp;sport_id=21</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12320&amp;sport_id=21</guid><ev:location>Worcester, MA</ev:location>
+<ev:startdate>2026-04-25</ev:startdate>
+<ev:enddate>2026-04-25T07:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-25</s:localstartdate>
+<s:localenddate>2026-04-25T03:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/au_A_primary_blue_wt_gray_rgb - Copy.png</s:opponentlogo>
+<s:opponent>Assumption University, Mass Maritime, and Amherst</s:opponent>
+<s:gameid>12320</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>4/25 8:00 AM [N] Bryant University Track and Field at Pre-Conference Invitational</title>
+<description>[N] Bryant University Track and Field at Pre-Conference Invitational\n\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12188&amp;sport_id=27</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12188&amp;sport_id=27</guid><ev:location>Durham, NH</ev:location>
+<ev:startdate>2026-04-25T12:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-25T15:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-25T08:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-25T11:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/unh-logo.png</s:opponentlogo>
+<s:opponent>Pre-Conference Invitational</s:opponent>
+<s:gameid>12188</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>4/25 12:00 PM [W] Bryant University Women&#39;s Lacrosse at Binghamton University</title>
+<description>[W] Bryant University Women&#39;s Lacrosse at Binghamton University\nW 12-7\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12154&amp;sport_id=20</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12154&amp;sport_id=20</guid><ev:location>Vestal, NY</ev:location>
+<ev:startdate>2026-04-25T16:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-25T19:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-25T12:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-25T15:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Binghamton_200x200_logo.png</s:opponentlogo>
+<s:opponent>Binghamton University</s:opponent>
+<s:gameid>12154</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://binghamtonbearcats.com/sidearmstats/wlax/media</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12154</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/25/womens-lacrosse-wlax-at-binghamton.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/25 12:00 PM [W] Bryant University Men&#39;s Lacrosse vs University of Massachusetts Lowell</title>
+<description>[W] Bryant University Men&#39;s Lacrosse vs University of Massachusetts Lowell\nW 11-7\nStreaming Video: https://www.espn.com/watch/player/_/eventCalendarId/401837728?gameId=401837728&amp;sourceLang=en&amp;om-navmethod=espn:globalsearch:results\nTickets: https://bryanttickets.com/event/mens-lacrosse-vs-umass-lowell-g347i4\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12222&amp;sport_id=10</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12222&amp;sport_id=10</guid><ev:location>Smithfield, R.I., Beirne Stadium</ev:location>
+<ev:startdate>2026-04-25T16:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-25T19:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-25T12:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-25T15:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMassLowell.png</s:opponentlogo>
+<s:opponent>University of Massachusetts Lowell</s:opponent>
+<s:gameid>12222</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/mlax/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12222</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/25/mens-lacrosse-mens-lacrosse-victorious-in-regular-season-finale.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/25 1:00 PM [W] Bryant University Baseball at University of Massachusetts Lowell</title>
+<description>[W] Bryant University Baseball at University of Massachusetts Lowell\nW 5-3\nStreaming Video: http://americaeast.tv/\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11898&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11898&amp;sport_id=1</guid><ev:location>Lowell, MA</ev:location>
+<ev:startdate>2026-04-25T17:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-25T20:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-25T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-25T16:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMassLowell.png</s:opponentlogo>
+<s:opponent>University of Massachusetts Lowell</s:opponent>
+<s:gameid>11898</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://goriverhawks.com/sidearmstats/baseball</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=11898</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/25/baseball-bryant-downs-umass-lowell-5-3-on-saturday.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/25 1:00 PM [W] Bryant University Softball vs University of Maine</title>
+<description>[W] Bryant University Softball vs University of Maine\nW 11-4\nStreaming Video: https://americaeast.com/watch/default.aspx?Live=17963&amp;path=umass_lowell\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12128&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12128&amp;sport_id=15</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-04-25T17:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-25T19:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-25T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-25T15:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Maine.png</s:opponentlogo>
+<s:opponent>University of Maine</s:opponent>
+<s:gameid>12128</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/softball/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12128</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/25/softball-bulldogs-win-both-against-maine-and-earn-no-1-seed-and-share-of-ae-regular-season-title.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/25 3:00 PM [W] Bryant University Softball vs University of Maine</title>
+<description>[W] Bryant University Softball vs University of Maine\nW 4-3\nStreaming Video: https://americaeast.com/watch/default.aspx?Live=17963&amp;path=umass_lowell\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12129&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12129&amp;sport_id=15</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-04-25T19:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-25T21:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-25T15:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-25T17:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Maine.png</s:opponentlogo>
+<s:opponent>University of Maine</s:opponent>
+<s:gameid>12129</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/softball/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12129</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/25/softball-bulldogs-win-both-against-maine-and-earn-no-1-seed-and-share-of-ae-regular-season-title.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/26 Bryant University Men&#39;s Golf vs OVC Championship</title>
+<description>Bryant University Men&#39;s Golf vs OVC Championship\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12266&amp;sport_id=9</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12266&amp;sport_id=9</guid><ev:location>West Lafayette IN / Birck Boilermaker Golf Complex (Purdue) </ev:location>
+<ev:startdate>2026-04-26</ev:startdate>
+<ev:enddate>2026-04-29T03:59:59.9999999Z</ev:enddate>
+<s:localstartdate>2026-04-26</s:localstartdate>
+<s:localenddate>2026-04-28T23:59:59.9999999</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/2025/12/17/OVCChampLogos_25_26_GOLF_MEN.png</s:opponentlogo>
+<s:opponent>OVC Championship</s:opponent>
+<s:gameid>12266</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://scoreboard.clippd.com/tournaments/238690/scoring/participants</s:livestats>
+</s:links>
+</item>
+<item>
+<title>4/26 12:00 PM [W] Bryant University Softball vs University of Maine</title>
+<description>[W] Bryant University Softball vs University of Maine\nW 9-5\nStreaming Video: https://www.espn.com/watch/player/_/id/09f6b2e8-6c8a-4101-8aae-c69310bf4fb0\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12130&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12130&amp;sport_id=15</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-04-26T16:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-26T18:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-26T12:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-26T14:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Maine.png</s:opponentlogo>
+<s:opponent>University of Maine</s:opponent>
+<s:gameid>12130</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/softball/summary</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=12130</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/26/softball-bryant-earns-series-sweep-of-maine-and-clinches-outright-america-east-regular-season-title.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/26 12:00 PM [W] Bryant University Baseball at University of Massachusetts Lowell</title>
+<description>[W] Bryant University Baseball at University of Massachusetts Lowell\nW 4-2\nStreaming Video: http://americaeast.tv/\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11899&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11899&amp;sport_id=1</guid><ev:location>Lowell, MA</ev:location>
+<ev:startdate>2026-04-26T16:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-26T19:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-26T12:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-26T15:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMassLowell.png</s:opponentlogo>
+<s:opponent>University of Massachusetts Lowell</s:opponent>
+<s:gameid>11899</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://goriverhawks.com/sidearmstats/baseball</s:livestats>
+<s:boxscore>https://bryantbulldogs.com/boxscore.aspx?id=11899</s:boxscore>
+<s:recap>https://bryantbulldogs.com/news/2026/4/26/baseball-pitching-trio-shines-bryant-completes-sweep-of-uml-with-two-late-runs.aspx</s:recap>
+</s:links>
+</item>
+<item>
+<title>4/29 4:00 PM Bryant University Softball at Stonehill College</title>
+<description>Bryant University Softball at Stonehill College\nStreaming Video: http://necfrontrow.com/live-schedule?school=SC\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12131&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12131&amp;sport_id=15</guid><ev:location>North Easton, MA</ev:location>
+<ev:startdate>2026-04-29T20:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-29T22:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-29T16:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-29T18:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Stonehill_2022.png</s:opponentlogo>
+<s:opponent>Stonehill College</s:opponent>
+<s:gameid>12131</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://stonehillskyhawks.com/sidearmstats/softball/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>4/29 5:00 PM Bryant University Baseball at Holy Cross</title>
+<description>Bryant University Baseball at Holy Cross\nStreaming Video: https://www.espn.com/watch/player/_/id/6b4e22ef-0009-49a0-a8c1-f78e06878cde\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11914&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11914&amp;sport_id=1</guid><ev:location>Worcester, MA</ev:location>
+<ev:startdate>2026-04-29T21:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-30T00:00:00.0000001Z</ev:enddate>
+<s:localstartdate>2026-04-29T17:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-29T20:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Holy-Cross.png</s:opponentlogo>
+<s:opponent>Holy Cross</s:opponent>
+<s:gameid>11914</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://goholycross.com/sidearmstats/baseball/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>4/30 4:00 PM Bryant University Men&#39;s Lacrosse vs University of Vermont</title>
+<description>Bryant University Men&#39;s Lacrosse vs University of Vermont\nStreaming Video: https://www.espn.com/watch/player/_/id/2640c708-d8d4-4253-8a93-eab45cb0f512\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12384&amp;sport_id=10</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12384&amp;sport_id=10</guid><ev:location>Albany NY</ev:location>
+<ev:startdate>2026-04-30T20:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-04-30T23:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-04-30T16:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-04-30T19:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/w20.png</s:opponentlogo>
+<s:opponent>University of Vermont</s:opponent>
+<s:gameid>12384</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://ualbanysports.com/sidearmstats/mlax/media</s:livestats>
+</s:links>
+</item>
+<item>
+<title>5/1 2:00 PM [W] Bryant University Softball vs University of Maryland Baltimore County</title>
+<description>[W] Bryant University Softball vs University of Maryland Baltimore County\n Canceled\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12132&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12132&amp;sport_id=15</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-05-01T18:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-05-01T20:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-05-01T14:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-05-01T16:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMBC_200x200.png</s:opponentlogo>
+<s:opponent>University of Maryland Baltimore County</s:opponent>
+<s:gameid>12132</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/softball/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>5/1 4:00 PM [W] Bryant University Softball vs University of Maryland Baltimore County</title>
+<description>[W] Bryant University Softball vs University of Maryland Baltimore County\n Canceled\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12133&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12133&amp;sport_id=15</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-05-01T20:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-05-01T22:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-05-01T16:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-05-01T18:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMBC_200x200.png</s:opponentlogo>
+<s:opponent>University of Maryland Baltimore County</s:opponent>
+<s:gameid>12133</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/softball/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>5/1 6:00 PM Bryant University Baseball at New Jersey Institute of Technology</title>
+<description>Bryant University Baseball at New Jersey Institute of Technology\nStreaming Video: http://americaeast.tv/\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11900&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11900&amp;sport_id=1</guid><ev:location>Little Falls, NJ</ev:location>
+<ev:startdate>2026-05-01T22:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-05-02T01:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-05-01T18:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-05-01T21:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/NJIT.png</s:opponentlogo>
+<s:opponent>New Jersey Institute of Technology</s:opponent>
+<s:gameid>11900</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://njithighlanders.com/sidearmstats/baseball/media</s:livestats>
+</s:links>
+</item>
+<item>
+<title>5/1 7:00 PM Bryant University Women&#39;s Lacrosse vs University at Albany - America East Semifinals</title>
+<description>Bryant University Women&#39;s Lacrosse vs University at Albany - America East Semifinals\nStreaming Video: https://www.espn.com/watch/player/_/id/88845327-554a-4cf3-945b-4095ee24e1ab\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12155&amp;sport_id=20</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12155&amp;sport_id=20</guid><ev:location>Burlington, VT</ev:location>
+<ev:startdate>2026-05-01T23:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-05-02T02:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-05-01T19:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-05-01T22:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/DaneHeadUAlbany.png</s:opponentlogo>
+<s:opponent>University at Albany</s:opponent>
+<s:gameid>12155</s:gameid>
+<s:gamepromoname>America East Semifinals</s:gamepromoname>
+<s:links>
+<s:livestats>https://uvmathletics.com/sidearmstats/wlax/media</s:livestats>
+</s:links>
+</item>
+<item>
+<title>5/2 Bryant University Women&#39;s Rowing at New England Row Championships</title>
+<description>Bryant University Women&#39;s Rowing at New England Row Championships\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12321&amp;sport_id=21</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12321&amp;sport_id=21</guid><ev:location>Worcester, Mass.</ev:location>
+<ev:startdate>2026-05-02</ev:startdate>
+<ev:enddate>2026-05-02T07:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-05-02</s:localstartdate>
+<s:localenddate>2026-05-02T03:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo></s:opponentlogo>
+<s:opponent>New England Row Championships</s:opponent>
+<s:gameid>12321</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>5/2 1:00 PM [W] Bryant University Softball vs University of Maryland Baltimore County</title>
+<description>[W] Bryant University Softball vs University of Maryland Baltimore County\n Canceled\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12134&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12134&amp;sport_id=15</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-05-02T17:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-05-02T19:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-05-02T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-05-02T15:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMBC_200x200.png</s:opponentlogo>
+<s:opponent>University of Maryland Baltimore County</s:opponent>
+<s:gameid>12134</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/softball/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>5/2 6:00 PM Bryant University Baseball at New Jersey Institute of Technology</title>
+<description>Bryant University Baseball at New Jersey Institute of Technology\nStreaming Video: http://americaeast.tv/\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11901&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11901&amp;sport_id=1</guid><ev:location>Little Falls, NJ</ev:location>
+<ev:startdate>2026-05-02T22:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-05-03T01:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-05-02T18:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-05-02T21:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/NJIT.png</s:opponentlogo>
+<s:opponent>New Jersey Institute of Technology</s:opponent>
+<s:gameid>11901</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://njithighlanders.com/sidearmstats/baseball/media</s:livestats>
+</s:links>
+</item>
+<item>
+<title>5/3 1:00 PM Bryant University Baseball at New Jersey Institute of Technology</title>
+<description>Bryant University Baseball at New Jersey Institute of Technology\nStreaming Video: http://americaeast.tv/\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11902&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11902&amp;sport_id=1</guid><ev:location>Little Falls, NJ</ev:location>
+<ev:startdate>2026-05-03T17:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-05-03T20:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-05-03T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-05-03T16:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/NJIT.png</s:opponentlogo>
+<s:opponent>New Jersey Institute of Technology</s:opponent>
+<s:gameid>11902</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://njithighlanders.com/sidearmstats/baseball/media</s:livestats>
+</s:links>
+</item>
+<item>
+<title>5/5 5:00 PM Bryant University Baseball at Merrimack College</title>
+<description>Bryant University Baseball at Merrimack College\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11915&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11915&amp;sport_id=1</guid><ev:location>North Andover, MA</ev:location>
+<ev:startdate>2026-05-05T21:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-05-06T00:00:00.0000001Z</ev:enddate>
+<s:localstartdate>2026-05-05T17:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-05-05T20:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Merrimack.png</s:opponentlogo>
+<s:opponent>Merrimack College</s:opponent>
+<s:gameid>11915</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://merrimackathletics.com/sidearmstats/baseball/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>5/6 Bryant University Softball vs America East Playoffs</title>
+<description>Bryant University Softball vs America East Playoffs\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12380&amp;sport_id=15</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12380&amp;sport_id=15</guid><ev:location>Orono, ME</ev:location>
+<ev:startdate>2026-05-06</ev:startdate>
+<ev:enddate>2026-05-06T06:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-05-06</s:localstartdate>
+<s:localenddate>2026-05-06T02:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo></s:opponentlogo>
+<s:opponent>America East Playoffs</s:opponent>
+<s:gameid>12380</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>5/8 3:00 PM Bryant University Baseball vs University of Maryland Baltimore County</title>
+<description>Bryant University Baseball vs University of Maryland Baltimore County\nStreaming Video: https://www.espn.com/watch/player/_/id/30108976-5562-4a25-885c-c19122290bf1\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11903&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11903&amp;sport_id=1</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-05-08T19:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-05-08T22:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-05-08T15:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-05-08T18:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMBC_200x200.png</s:opponentlogo>
+<s:opponent>University of Maryland Baltimore County</s:opponent>
+<s:gameid>11903</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/baseball/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>5/9 8:00 AM Bryant University Track and Field at America East Championships</title>
+<description>Bryant University Track and Field at America East Championships\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12189&amp;sport_id=27</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12189&amp;sport_id=27</guid><ev:location>Cambridge, MA</ev:location>
+<ev:startdate>2026-05-09T12:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-05-10T17:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-05-09T08:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-05-10T13:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/America_East_2024.png</s:opponentlogo>
+<s:opponent>America East Championships</s:opponent>
+<s:gameid>12189</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>5/9 1:00 PM Bryant University Baseball vs University of Maryland Baltimore County</title>
+<description>Bryant University Baseball vs University of Maryland Baltimore County\nStreaming Video: https://www.espn.com/watch/player/_/id/a3d2d8d7-3373-4f1c-89b0-339b9f0eb1f4\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11904&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11904&amp;sport_id=1</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-05-09T17:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-05-09T20:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-05-09T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-05-09T16:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMBC_200x200.png</s:opponentlogo>
+<s:opponent>University of Maryland Baltimore County</s:opponent>
+<s:gameid>11904</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/baseball/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>5/10 1:00 PM Bryant University Baseball vs University of Maryland Baltimore County</title>
+<description>Bryant University Baseball vs University of Maryland Baltimore County\nStreaming Video: https://www.espn.com/watch/player/_/id/82d26a17-3737-431c-b61f-b194c84365d8\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11905&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11905&amp;sport_id=1</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-05-10T17:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-05-10T20:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-05-10T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-05-10T16:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/UMBC_200x200.png</s:opponentlogo>
+<s:opponent>University of Maryland Baltimore County</s:opponent>
+<s:gameid>11905</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/baseball/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>5/12 4:00 PM Bryant University Baseball vs Stonehill College</title>
+<description>Bryant University Baseball vs Stonehill College\nStreaming Video: https://www.espn.com/watch/player/_/id/75e67d74-9d24-40df-ab15-047fc5523254\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11916&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11916&amp;sport_id=1</guid><ev:location>Smithfield, R.I., Conaty Park</ev:location>
+<ev:startdate>2026-05-12T20:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-05-12T23:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-05-12T16:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-05-12T19:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Stonehill_2022.png</s:opponentlogo>
+<s:opponent>Stonehill College</s:opponent>
+<s:gameid>11916</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/baseball/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>5/14 3:00 PM Bryant University Baseball at Marist University</title>
+<description>Bryant University Baseball at Marist University\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11917&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11917&amp;sport_id=1</guid><ev:location>Poughkeepsie, NY</ev:location>
+<ev:startdate>2026-05-14T19:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-05-14T22:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-05-14T15:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-05-14T18:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Marist_Red_Foxes.png</s:opponentlogo>
+<s:opponent>Marist University</s:opponent>
+<s:gameid>11917</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>5/15 Bryant University Women&#39;s Rowing at CAA Championships</title>
+<description>Bryant University Women&#39;s Rowing at CAA Championships\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12322&amp;sport_id=21</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12322&amp;sport_id=21</guid><ev:location>Cooper River, N.J.</ev:location>
+<ev:startdate>2026-05-15</ev:startdate>
+<ev:enddate>2026-05-15T07:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-05-15</s:localstartdate>
+<s:localenddate>2026-05-15T03:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo></s:opponentlogo>
+<s:opponent>CAA Championships</s:opponent>
+<s:gameid>12322</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>5/15 12:00 PM Bryant University Baseball at Marist University</title>
+<description>Bryant University Baseball at Marist University\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=11918&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=11918&amp;sport_id=1</guid><ev:location>Poughkeepsie, NY</ev:location>
+<ev:startdate>2026-05-15T16:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-05-15T19:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-05-15T12:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-05-15T15:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Marist_Red_Foxes.png</s:opponentlogo>
+<s:opponent>Marist University</s:opponent>
+<s:gameid>11918</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>5/15 3:00 PM Bryant University Baseball at Marist University</title>
+<description>Bryant University Baseball at Marist University\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12284&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12284&amp;sport_id=1</guid><ev:location>Poughkeepsie, NY</ev:location>
+<ev:startdate>2026-05-15T19:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-05-15T22:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-05-15T15:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-05-15T18:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Marist_Red_Foxes.png</s:opponentlogo>
+<s:opponent>Marist University</s:opponent>
+<s:gameid>12284</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>5/16 Bryant University Women&#39;s Rowing at CAA Championships</title>
+<description>Bryant University Women&#39;s Rowing at CAA Championships\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12323&amp;sport_id=21</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12323&amp;sport_id=21</guid><ev:location>Cooper River, N.J.</ev:location>
+<ev:startdate>2026-05-16</ev:startdate>
+<ev:enddate>2026-05-16T07:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-05-16</s:localstartdate>
+<s:localenddate>2026-05-16T03:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo></s:opponentlogo>
+<s:opponent>CAA Championships</s:opponent>
+<s:gameid>12323</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>5/20 Bryant University Baseball vs America East Championships</title>
+<description>Bryant University Baseball vs America East Championships\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12381&amp;sport_id=1</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12381&amp;sport_id=1</guid><ev:location>Vestal, N.Y.</ev:location>
+<ev:startdate>2026-05-20</ev:startdate>
+<ev:enddate>2026-05-23T03:59:59.9999999Z</ev:enddate>
+<s:localstartdate>2026-05-20</s:localstartdate>
+<s:localenddate>2026-05-22T23:59:59.9999999</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo></s:opponentlogo>
+<s:opponent>America East Championships</s:opponent>
+<s:gameid>12381</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>5/27 9:00 AM Bryant University Track and Field at NCAA Championships</title>
+<description>Bryant University Track and Field at NCAA Championships\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12190&amp;sport_id=27</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12190&amp;sport_id=27</guid><ev:location>Indianapolis, IN</ev:location>
+<ev:startdate>2026-05-27T13:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-05-30T15:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-05-27T09:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-05-30T11:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/NCAALogoUpdated.png</s:opponentlogo>
+<s:opponent>NCAA Championships</s:opponent>
+<s:gameid>12190</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>8/29 Bryant University Football at Stonehill College</title>
+<description>Bryant University Football at Stonehill College\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12249&amp;sport_id=5</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12249&amp;sport_id=5</guid><ev:location>North Easton, MA</ev:location>
+<ev:startdate>2026-08-29</ev:startdate>
+<ev:enddate>2026-08-29T07:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-08-29</s:localstartdate>
+<s:localenddate>2026-08-29T03:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Stonehill_2022.png</s:opponentlogo>
+<s:opponent>Stonehill College</s:opponent>
+<s:gameid>12249</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>9/5 Bryant University Football at Army</title>
+<description>Bryant University Football at Army\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12250&amp;sport_id=5</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12250&amp;sport_id=5</guid><ev:location>West Point, N.Y.</ev:location>
+<ev:startdate>2026-09-05</ev:startdate>
+<ev:enddate>2026-09-05T07:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-09-05</s:localstartdate>
+<s:localenddate>2026-09-05T03:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/army_logo_R.png</s:opponentlogo>
+<s:opponent>Army</s:opponent>
+<s:gameid>12250</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>9/12 6:00 PM Bryant University Football at Hampton University</title>
+<description>Bryant University Football at Hampton University\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12251&amp;sport_id=5</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12251&amp;sport_id=5</guid><ev:location>Hampton, VA</ev:location>
+<ev:startdate>2026-09-12T22:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-09-13T01:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-09-12T18:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-09-12T21:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Hampton Pirates Transperent Logo.png</s:opponentlogo>
+<s:opponent>Hampton University</s:opponent>
+<s:gameid>12251</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/football/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>9/19 1:00 PM Bryant University Football vs Princeton University</title>
+<description>Bryant University Football vs Princeton University\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12253&amp;sport_id=5</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12253&amp;sport_id=5</guid><ev:location>Smithfield, R.I., Beirne Stadium</ev:location>
+<ev:startdate>2026-09-19T17:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-09-19T20:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-09-19T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-09-19T16:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Princeton_Tigers.png</s:opponentlogo>
+<s:opponent>Princeton University</s:opponent>
+<s:gameid>12253</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/football/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>10/3 6:00 PM Bryant University Football vs North Carolina A&amp;T State University</title>
+<description>Bryant University Football vs North Carolina A&amp;T State University\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12254&amp;sport_id=5</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12254&amp;sport_id=5</guid><ev:location>Smithfield, R.I., Beirne Stadium</ev:location>
+<ev:startdate>2026-10-03T22:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-10-04T01:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-10-03T18:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-10-03T21:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/North-Carolina-AT.png</s:opponentlogo>
+<s:opponent>North Carolina A&amp;T State University</s:opponent>
+<s:gameid>12254</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/football/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>10/10 Bryant University Football at Brown University</title>
+<description>Bryant University Football at Brown University\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12255&amp;sport_id=5</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12255&amp;sport_id=5</guid><ev:location>Providence, RI</ev:location>
+<ev:startdate>2026-10-10</ev:startdate>
+<ev:enddate>2026-10-10T07:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-10-10</s:localstartdate>
+<s:localenddate>2026-10-10T03:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Brown_logo_200x200.png</s:opponentlogo>
+<s:opponent>Brown University</s:opponent>
+<s:gameid>12255</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>10/17 1:00 PM Bryant University Football at University of Maine</title>
+<description>Bryant University Football at University of Maine\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12256&amp;sport_id=5</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12256&amp;sport_id=5</guid><ev:location>Orono, ME</ev:location>
+<ev:startdate>2026-10-17T17:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-10-17T20:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-10-17T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-10-17T16:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Maine.png</s:opponentlogo>
+<s:opponent>University of Maine</s:opponent>
+<s:gameid>12256</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>10/24 2:00 PM Bryant University Football vs Stony Brook University</title>
+<description>Bryant University Football vs Stony Brook University\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12257&amp;sport_id=5</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12257&amp;sport_id=5</guid><ev:location>Smithfield, R.I., Beirne Stadium</ev:location>
+<ev:startdate>2026-10-24T18:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-10-24T21:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-10-24T14:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-10-24T17:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/stony.png</s:opponentlogo>
+<s:opponent>Stony Brook University</s:opponent>
+<s:gameid>12257</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/football/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>10/31 1:00 PM Bryant University Football at Monmouth University</title>
+<description>Bryant University Football at Monmouth University\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12258&amp;sport_id=5</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12258&amp;sport_id=5</guid><ev:location>West Long Branch, NJ</ev:location>
+<ev:startdate>2026-10-31T17:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-10-31T20:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-10-31T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-10-31T16:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Monmouth.png</s:opponentlogo>
+<s:opponent>Monmouth University</s:opponent>
+<s:gameid>12258</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>11/7 1:00 PM Bryant University Football vs University at Albany</title>
+<description>Bryant University Football vs University at Albany\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12259&amp;sport_id=5</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12259&amp;sport_id=5</guid><ev:location>Smithfield, R.I., Beirne Stadium</ev:location>
+<ev:startdate>2026-11-07T18:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-11-07T21:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-11-07T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-11-07T16:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/DaneHeadUAlbany.png</s:opponentlogo>
+<s:opponent>University at Albany</s:opponent>
+<s:gameid>12259</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/football/summary</s:livestats>
+</s:links>
+</item>
+<item>
+<title>11/14 12:00 PM Bryant University Football at Sacred Heart University</title>
+<description>Bryant University Football at Sacred Heart University\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12260&amp;sport_id=5</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12260&amp;sport_id=5</guid><ev:location>Fairfield, CT</ev:location>
+<ev:startdate>2026-11-14T17:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-11-14T20:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-11-14T12:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-11-14T15:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Sacred-Heart.png</s:opponentlogo>
+<s:opponent>Sacred Heart University</s:opponent>
+<s:gameid>12260</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+</s:links>
+</item>
+<item>
+<title>11/21 1:00 PM Bryant University Football vs University of Rhode Island</title>
+<description>Bryant University Football vs University of Rhode Island\n</description>
+<link>https://bryantbulldogs.com/calendar.aspx?game_id=12261&amp;sport_id=5</link><guid isPermaLink="true">https://bryantbulldogs.com/calendar.aspx?game_id=12261&amp;sport_id=5</guid><ev:location>Smithfield, R.I., Beirne Stadium</ev:location>
+<ev:startdate>2026-11-21T18:00:00.0000000Z</ev:startdate>
+<ev:enddate>2026-11-21T21:00:00.0000000Z</ev:enddate>
+<s:localstartdate>2026-11-21T13:00:00.0000000</s:localstartdate>
+<s:localenddate>2026-11-21T16:00:00.0000000</s:localenddate>
+<s:teamlogo>https://bryantbulldogs.com/images/logos/site/site.png</s:teamlogo>
+<s:opponentlogo>https://bryantbulldogs.com/images/logos/Split-RI.png</s:opponentlogo>
+<s:opponent>University of Rhode Island</s:opponent>
+<s:gameid>12261</s:gameid>
+<s:gamepromoname></s:gamepromoname>
+<s:links>
+<s:livestats>https://bryantbulldogs.com/sidearmstats/football/summary</s:livestats>
+</s:links>
+</item>
+</channel>
+</rss>

@@ -62,7 +62,8 @@ function StarSelector({
 }
 
 export function ProfessorTooltip({ name, rating, className = "" }: ProfessorTooltipProps) {
-  const { rateProfessor } = useStore();
+  const { rateProfessor, facultyLookup } = useStore();
+  const facultyEntry = facultyLookup[name];
   const [show, setShow] = useState(false);
   const [showForm, setShowForm] = useState(false);
   const [quality, setQuality] = useState(0);
@@ -144,11 +145,30 @@ export function ProfessorTooltip({ name, rating, className = "" }: ProfessorTool
           }}
         >
           {/* Header */}
-          <div className="mb-2.5 flex items-center gap-2">
-            <div className="flex h-6 w-6 items-center justify-center rounded-md bg-[#FAFAF7]">
+          <div className="mb-2 flex items-start gap-2">
+            <div className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-[#FAFAF7]">
               <ChalkboardTeacher size={13} weight="light" className="text-[#5F5D58]" />
             </div>
-            <span className="text-xs font-medium text-[#1A1A1A]">{name}</span>
+            <div className="min-w-0 flex-1">
+              <div className="text-xs font-medium text-[#1A1A1A]">{name}</div>
+              {facultyEntry && (facultyEntry.title || facultyEntry.department) && (
+                <div className="mt-0.5 text-[10px] leading-snug text-[#5F5D58]">
+                  {facultyEntry.title}
+                  {facultyEntry.title && facultyEntry.department ? " · " : ""}
+                  {facultyEntry.department}
+                </div>
+              )}
+              {facultyEntry?.profile_url && (
+                <a
+                  href={facultyEntry.profile_url}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="mt-0.5 inline-block text-[10px] text-[#B8985A] hover:underline"
+                >
+                  Bryant profile →
+                </a>
+              )}
+            </div>
           </div>
 
           {rating ? (

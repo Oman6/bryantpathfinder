@@ -277,8 +277,13 @@ def run(schedules: list[ScheduleOption]) -> list[dict]:
             codes = [c["course_code"] for c in hard_courses]
             warnings.append(f"Multiple challenging courses: {', '.join(codes)}")
 
-        if total_weekly > 45:
-            warnings.append(f"Total estimated workload is {total_weekly} hrs/week — consider dropping a course")
+        # Scale the warning threshold by credits taken — 45 hrs is normal at
+        # 18 credits but heavy at 12. Use 3.5 hrs/credit as the "heavy" floor.
+        target_credits = max(1, sum(s.credits for s in schedule.sections))
+        if total_weekly / target_credits >= 3.5:
+            warnings.append(
+                f"Total estimated workload is {total_weekly} hrs/week — heavy load for {int(target_credits)} credits"
+            )
 
         # Walk time transition warnings
         day_labels = {"M": "Monday", "T": "Tuesday", "W": "Wednesday", "R": "Thursday", "F": "Friday"}

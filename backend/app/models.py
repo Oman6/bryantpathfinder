@@ -152,3 +152,5 @@ class HealthResponse(BaseModel):
     sections_loaded: int
     term: str
     anthropic_api: str
+    sections_source: str = "disk"
+    llm_provider: str = "anthropic"

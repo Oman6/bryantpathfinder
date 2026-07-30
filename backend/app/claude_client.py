@@ -1,10 +1,14 @@
-"""Anthropic API wrapper for BryantPathfinder.
+"""LLM client wrapper for BryantPathfinder.
 
-A thin layer over the official anthropic Python SDK that exposes three
-functions matching the three Claude use cases in the pipeline:
-1. parse_audit_vision — Degree Works screenshot to structured DegreeAudit
-2. explain_schedule — generate a two-sentence explanation for a schedule
-3. rank_schedules — rank three candidate schedules with rationale
+Four functions, one per pipeline stage:
+1. parse_audit_vision — Degree Works screenshot → DegreeAudit (Claude Vision only)
+2. parse_audit_text   — pasted text → DegreeAudit (provider-agnostic via llm.py)
+3. explain_schedule   — schedule → 2-sentence rationale (provider-agnostic)
+4. rank_schedules     — 3 schedules → ranked list with rationales (provider-agnostic)
+
+Text completions route through `app.llm.text_chat`, which respects the
+LLM_PROVIDER env var (anthropic | groq). Vision stays on Claude unconditionally
+because open-source vision models can't reliably parse a Degree Works layout.
 """
 
 import json
@@ -14,14 +18,29 @@ import os
 import anthropic
 from dotenv import load_dotenv
 
+from .llm import text_chat
 from .models import DegreeAudit, ScheduleOption, SchedulePreferences
-from .prompts import EXPLAIN_SCHEDULE_PROMPT, RANK_SCHEDULES_PROMPT, VISION_AUDIT_PROMPT
+from .prompts import (
+    EXPLAIN_SCHEDULE_SYSTEM,
+    EXPLAIN_SCHEDULE_USER,
+    RANK_SCHEDULES_SYSTEM,
+    RANK_SCHEDULES_USER,
+    VISION_AUDIT_PROMPT,
+)
+
+
+def _cached_system(text: str) -> list[dict]:
+    """Wrap a static system prompt as a single cache-control block (Vision path only)."""
+    return [{"type": "text", "text": text, "cache_control": {"type": "ephemeral"}}]
 
 load_dotenv()
 
 logger = logging.getLogger(__name__)
 
-MODEL = "claude-sonnet-4-20250514"
+# Vision model — only used in parse_audit_vision; never routed through llm.py.
+# Overridable via ANTHROPIC_MODEL so a retired default never silently breaks the
+# Vision path (claude-sonnet-4-20250514 retired 2026-06-15).
+MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5")
 
 
 def _get_client() -> anthropic.Anthropic:
@@ -71,7 +90,7 @@ def parse_audit_vision(image_base64: str, media_type: str = "image/png") -> Degr
                 model=MODEL,
                 max_tokens=4096,
                 temperature=0,
-                system=VISION_AUDIT_PROMPT,
+                system=_cached_system(VISION_AUDIT_PROMPT),
                 messages=[
                     {
                         "role": "user",
@@ -127,13 +146,12 @@ MAX_AUDIT_TEXT_LEN = 20_000
 
 
 def parse_audit_text(text: str) -> DegreeAudit:
-    """Parse a pasted text description of degree requirements using Claude.
+    """Parse a pasted text description of degree requirements.
 
     Students can paste advisor notes, requirement lists, or any text describing
-    what courses they need. Claude interprets it and returns a structured DegreeAudit.
+    what courses they need. The active LLM provider interprets it and returns
+    a structured DegreeAudit.
     """
-    client = _get_client()
-
     if len(text) > MAX_AUDIT_TEXT_LEN:
         raise ValueError(f"Audit text exceeds {MAX_AUDIT_TEXT_LEN} character limit.")
 
@@ -180,27 +198,23 @@ Return ONLY valid JSON matching the DegreeAudit schema. No markdown fences."""
     last_error = None
     for attempt in range(2):
         try:
-            message = client.messages.create(
-                model=MODEL,
+            response_text = text_chat(
+                system=VISION_AUDIT_PROMPT,
+                user=prompt,
                 max_tokens=4096,
                 temperature=0,
-                system=VISION_AUDIT_PROMPT,
-                messages=[{"role": "user", "content": prompt}],
             )
-            response_text = message.content[0].text
             parsed = _parse_json_response(response_text)
             audit = DegreeAudit(**parsed)
-            logger.info("claude.text_parse_success", extra={"requirements": len(audit.outstanding_requirements)})
+            logger.info("llm.text_parse_success requirements=%d", len(audit.outstanding_requirements))
             return audit
         except (json.JSONDecodeError, KeyError, TypeError) as e:
             last_error = e
-            logger.warning("claude.text_parse_malformed: attempt=%d error=%s", attempt + 1, str(e))
+            logger.warning("llm.text_parse_malformed attempt=%d error=%s", attempt + 1, str(e))
             if attempt == 0:
                 continue
-        except anthropic.APIError as e:
-            raise ValueError(f"Claude API error: {e}")
 
-    raise ValueError(f"Claude returned malformed JSON after 2 attempts: {last_error}")
+    raise ValueError(f"LLM returned malformed JSON after 2 attempts: {last_error}")
 
 
 def explain_schedule(
@@ -218,8 +232,6 @@ def explain_schedule(
     Returns:
         A two-sentence explanation string.
     """
-    client = _get_client()
-
     schedule_data = []
     for s in schedule.sections:
         schedule_data.append({
@@ -233,22 +245,22 @@ def explain_schedule(
             "seats_total": s.seats_total,
         })
 
-    prompt = EXPLAIN_SCHEDULE_PROMPT.format(
+    user_content = EXPLAIN_SCHEDULE_USER.format(
         schedule_json=json.dumps(schedule_data, indent=2),
         preferences_json=json.dumps(preferences.model_dump(), indent=2),
         requirements_json=json.dumps(requirements_satisfied, indent=2),
     )
 
     try:
-        message = client.messages.create(
-            model=MODEL,
+        out = text_chat(
+            system=EXPLAIN_SCHEDULE_SYSTEM,
+            user=user_content,
             max_tokens=300,
             temperature=0.3,
-            messages=[{"role": "user", "content": prompt}],
         )
-        return message.content[0].text.strip()
-    except anthropic.APIError as e:
-        logger.error("claude.explain_error", extra={"error": str(e)})
+        return out.strip()
+    except Exception as e:
+        logger.error("llm.explain_error: %s", e)
         return "Schedule explanation unavailable."
 
 
@@ -266,10 +278,8 @@ def rank_schedules(
         A list of dicts with 'schedule', 'rank', and 'rationale' keys.
 
     Raises:
-        ValueError: If Claude returns malformed ranking JSON after one retry.
+        ValueError: If the LLM returns malformed ranking JSON after one retry.
     """
-    client = _get_client()
-
     def schedule_to_summary(schedule: ScheduleOption) -> str:
         sections_info = []
         for s in schedule.sections:
@@ -294,7 +304,7 @@ def rank_schedules(
         for i, s in enumerate(schedules[:3])
     }
 
-    prompt = RANK_SCHEDULES_PROMPT.format(
+    user_content = RANK_SCHEDULES_USER.format(
         preferences_json=json.dumps(preferences.model_dump(), indent=2),
         **schedule_summaries,
     )
@@ -302,21 +312,18 @@ def rank_schedules(
     last_error = None
     for attempt in range(2):
         try:
-            message = client.messages.create(
-                model=MODEL,
+            response_text = text_chat(
+                system=RANK_SCHEDULES_SYSTEM,
+                user=user_content,
                 max_tokens=500,
                 temperature=0,
-                messages=[{"role": "user", "content": prompt}],
             )
-            parsed = _parse_json_response(message.content[0].text)
+            parsed = _parse_json_response(response_text)
             return parsed["rankings"]
         except (json.JSONDecodeError, KeyError, TypeError) as e:
             last_error = e
-            logger.warning("claude.rank_malformed_json", extra={"attempt": attempt + 1, "error": str(e)})
+            logger.warning("llm.rank_malformed_json attempt=%d error=%s", attempt + 1, str(e))
             if attempt == 0:
                 continue
-        except anthropic.AuthenticationError:
-            logger.error("claude.auth_error")
-            raise
 
-    raise ValueError(f"Claude returned malformed ranking JSON after 2 attempts: {last_error}")
+    raise ValueError(f"LLM returned malformed ranking JSON after 2 attempts: {last_error}")

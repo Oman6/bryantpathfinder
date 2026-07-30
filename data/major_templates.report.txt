@@ -1,0 +1,39 @@
+Major templates generated 2026-04-27T19:05:59.937510
+  total: 35 (5 hand-curated, 30 auto-generated)
+
+Per-template detail:
+  [HAND] Finance                                            reqs= 16 unparsed=0
+  [HAND] Accounting                                         reqs= 12 unparsed=0
+  [HAND] Marketing                                          reqs= 11 unparsed=0
+  [HAND] Management                                         reqs= 12 unparsed=0
+  [HAND] Actuarial Mathematics                              reqs=  9 unparsed=0
+  [auto] Arts and Creative Industries                       reqs= 76 unparsed=0
+  [auto] Biology                                            reqs= 51 unparsed=32
+  [auto] Communication                                      reqs= 51 unparsed=2
+  [auto] Data Science                                       reqs= 24 unparsed=3
+  [auto] Digital Communication Program                      reqs= 27 unparsed=0
+  [auto] Economics                                          reqs= 66 unparsed=3
+  [auto] Entrepreneurship Degree                            reqs= 32 unparsed=3
+  [auto] Exercise and Movement Science                      reqs= 22 unparsed=11
+  [auto] Financial Services Concentration                   reqs= 42 unparsed=2
+  [auto] Global Supply Chain Management Concentration       reqs= 25 unparsed=1
+  [auto] Health Informatics                                 reqs= 17 unparsed=2
+  [auto] Health Sciences                                    reqs= 55 unparsed=3
+  [auto] Healthcare Management & Strategy Concentration     reqs= 32 unparsed=0
+  [auto] History                                            reqs= 14 unparsed=8
+  [auto] Information Systems Concentration                  reqs= 17 unparsed=1
+  [auto] International Business Major - Digital Marketing C reqs= 24 unparsed=2
+  [auto] International Business Major - Human Resource Mana reqs= 18 unparsed=2
+  [auto] International Business Major - Information Systems reqs= 18 unparsed=3
+  [auto] International Business Major - Leadership and Inno reqs= 21 unparsed=3
+  [auto] International Business Major - Team and Project Ma reqs= 21 unparsed=2
+  [auto] International Business Major – Accounting Concentr reqs= 23 unparsed=1
+  [auto] International Business Major – Finance Concentrati reqs= 20 unparsed=3
+  [auto] International Business Major – Global Supply Chain reqs= 26 unparsed=4
+  [auto] International Business Major – Marketing Concentra reqs= 20 unparsed=2
+  [auto] Literary and Cultural Studies                      reqs=  7 unparsed=3
+  [auto] Managerial Accounting and Finance Concentration    reqs= 32 unparsed=1
+  [auto] Politics and Law                                   reqs=  8 unparsed=2
+  [auto] Psychology                                         reqs= 32 unparsed=10
+  [auto] Sociology                                          reqs= 32 unparsed=3
+  [auto] Sports Industries, Media, and Promotion            reqs= 35 unparsed=0

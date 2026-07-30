@@ -1,0 +1,1316 @@
+{
+  "source": "https://bryantbulldogs.com/calendar.ashx?path=all&type=rss",
+  "fetched_at": "2026-04-27T13:12:18.057734",
+  "events": [
+    {
+      "title": "3/27 8:00 AM [N] Bryant University Track and Field vs Jaylin Rainford Invitational",
+      "sport": "Track and Field",
+      "opponent": "Jaylin Rainford Invitational",
+      "location": "Smithfield, R.I.",
+      "is_home": true,
+      "start_local": "2026-03-27T08:00:00",
+      "end_local": "2026-03-28T08:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12181&sport_id=27"
+    },
+    {
+      "title": "3/27 3:00 PM [L] Bryant University Baseball vs New Jersey Institute of Technology",
+      "sport": "Baseball",
+      "opponent": "New Jersey Institute of Technology",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-03-27T15:00:00",
+      "end_local": "2026-03-27T18:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11882&sport_id=1"
+    },
+    {
+      "title": "3/28 [N] Bryant University Women's Rowing at University of Connecticut & Trinity College",
+      "sport": "Women's Rowing",
+      "opponent": "University of Connecticut & Trinity College",
+      "location": "Storrs, CT",
+      "is_home": false,
+      "start_local": "2026-03-28T00:00:00",
+      "end_local": "2026-03-28T03:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12315&sport_id=21"
+    },
+    {
+      "title": "3/28 [N] Bryant University Women's Golf vs Intercollegiate at Prospect Bay",
+      "sport": "Women's Golf",
+      "opponent": "Intercollegiate at Prospect Bay",
+      "location": "Grasonville, MD / Prospect Bay CC",
+      "is_home": false,
+      "start_local": "2026-03-28T00:00:00",
+      "end_local": "2026-03-28T23:59:59",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12245&sport_id=19"
+    },
+    {
+      "title": "3/28 12:00 PM [L] Bryant University Men's Lacrosse at University of Maryland Baltimore County",
+      "sport": "Men's Lacrosse",
+      "opponent": "University of Maryland Baltimore County",
+      "location": "Baltimore, Maryland",
+      "is_home": false,
+      "start_local": "2026-03-28T12:00:00",
+      "end_local": "2026-03-28T15:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12218&sport_id=10"
+    },
+    {
+      "title": "3/28 12:00 PM [W] Bryant University Women's Lacrosse at University of Massachusetts Lowell",
+      "sport": "Women's Lacrosse",
+      "opponent": "University of Massachusetts Lowell",
+      "location": "Lowell, MA",
+      "is_home": false,
+      "start_local": "2026-03-28T12:00:00",
+      "end_local": "2026-03-28T15:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12149&sport_id=20"
+    },
+    {
+      "title": "3/28 1:00 PM [W] Bryant University Softball at University of Maryland Baltimore County",
+      "sport": "Softball",
+      "opponent": "University of Maryland Baltimore County",
+      "location": "Baltimore, Maryland",
+      "is_home": false,
+      "start_local": "2026-03-28T13:00:00",
+      "end_local": "2026-03-28T15:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12112&sport_id=15"
+    },
+    {
+      "title": "3/28 3:00 PM [W] Bryant University Softball at University of Maryland Baltimore County",
+      "sport": "Softball",
+      "opponent": "University of Maryland Baltimore County",
+      "location": "Baltimore, Maryland",
+      "is_home": false,
+      "start_local": "2026-03-28T15:00:00",
+      "end_local": "2026-03-28T17:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12113&sport_id=15"
+    },
+    {
+      "title": "3/28 5:00 PM [W] Bryant University Men's Soccer vs University of Connecticut",
+      "sport": "Men's Soccer",
+      "opponent": "University of Connecticut",
+      "location": "Smithfield, R.I., Beirne Stadium",
+      "is_home": true,
+      "start_local": "2026-03-28T17:00:00",
+      "end_local": "2026-03-28T19:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12361&sport_id=11"
+    },
+    {
+      "title": "3/29 Bryant University MEN'S CLUB LACROSSE  Sacred Heart",
+      "sport": "",
+      "opponent": "Sacred Heart",
+      "location": "Providence",
+      "is_home": false,
+      "start_local": "2026-03-29T00:00:00",
+      "end_local": "2026-03-29T03:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12353&sport_id=36"
+    },
+    {
+      "title": "3/29 Bryant University MEN'S CLUB LACROSSE  Providence College",
+      "sport": "",
+      "opponent": "Providence College",
+      "location": "Providence",
+      "is_home": false,
+      "start_local": "2026-03-29T00:00:00",
+      "end_local": "2026-03-29T03:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12352&sport_id=36"
+    },
+    {
+      "title": "3/29 11:30 AM [W] Bryant University Baseball vs New Jersey Institute of Technology",
+      "sport": "Baseball",
+      "opponent": "New Jersey Institute of Technology",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-03-29T11:30:00",
+      "end_local": "2026-03-29T14:30:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11883&sport_id=1"
+    },
+    {
+      "title": "3/29 12:00 PM [W] Bryant University Softball at University of Maryland Baltimore County",
+      "sport": "Softball",
+      "opponent": "University of Maryland Baltimore County",
+      "location": "Baltimore, Maryland",
+      "is_home": false,
+      "start_local": "2026-03-29T12:00:00",
+      "end_local": "2026-03-29T14:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12114&sport_id=15"
+    },
+    {
+      "title": "3/29 1:00 PM [L] Bryant University Men's Tennis at Columbia University",
+      "sport": "Men's Tennis",
+      "opponent": "Columbia University",
+      "location": "New York, NY / Philip & Cheryl Milstein Family Tennis Center",
+      "is_home": false,
+      "start_local": "2026-03-29T13:00:00",
+      "end_local": "2026-03-29T16:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12208&sport_id=13"
+    },
+    {
+      "title": "3/29 1:00 PM [L] Bryant University Women's Tennis at Brown University",
+      "sport": "Women's Tennis",
+      "opponent": "Brown University",
+      "location": "Providence, RI / Pizzitola Sports Center",
+      "is_home": false,
+      "start_local": "2026-03-29T13:00:00",
+      "end_local": "2026-03-29T16:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12239&sport_id=24"
+    },
+    {
+      "title": "3/29 2:00 PM [W] Bryant University Baseball vs New Jersey Institute of Technology",
+      "sport": "Baseball",
+      "opponent": "New Jersey Institute of Technology",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-03-29T14:00:00",
+      "end_local": "2026-03-29T17:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11884&sport_id=1"
+    },
+    {
+      "title": "3/30 [N] Bryant University Men's Golf vs Columbia Spring Invitational",
+      "sport": "Men's Golf",
+      "opponent": "Columbia Spring Invitational",
+      "location": "Springfield, Pa. / Rolling Green Golf Club",
+      "is_home": false,
+      "start_local": "2026-03-30T00:00:00",
+      "end_local": "2026-03-30T03:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12264&sport_id=9"
+    },
+    {
+      "title": "3/31 3:30 PM [L] Bryant University Baseball at Brown University",
+      "sport": "Baseball",
+      "opponent": "Brown University",
+      "location": "Providence, RI",
+      "is_home": false,
+      "start_local": "2026-03-31T15:30:00",
+      "end_local": "2026-03-31T18:30:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11913&sport_id=1"
+    },
+    {
+      "title": "4/1 3:00 PM [L] Bryant University Women's Lacrosse at University of Massachusetts",
+      "sport": "Women's Lacrosse",
+      "opponent": "University of Massachusetts",
+      "location": "Amherst, MA",
+      "is_home": false,
+      "start_local": "2026-04-01T15:00:00",
+      "end_local": "2026-04-01T18:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12150&sport_id=20"
+    },
+    {
+      "title": "4/1 4:00 PM CANCELLED Bryant University Softball vs Providence College",
+      "sport": "Softball",
+      "opponent": "Providence College",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-04-01T16:00:00",
+      "end_local": "2026-04-01T18:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12115&sport_id=15"
+    },
+    {
+      "title": "4/2 2:00 PM [W] Bryant University Baseball at University of Maine",
+      "sport": "Baseball",
+      "opponent": "University of Maine",
+      "location": "Orono, ME",
+      "is_home": false,
+      "start_local": "2026-04-02T14:00:00",
+      "end_local": "2026-04-02T17:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11885&sport_id=1"
+    },
+    {
+      "title": "4/3 8:00 AM [N] Bryant University Track and Field vs Ocean State Cup",
+      "sport": "Track and Field",
+      "opponent": "Ocean State Cup",
+      "location": "Smithfield, R.I.",
+      "is_home": true,
+      "start_local": "2026-04-03T08:00:00",
+      "end_local": "2026-04-03T23:59:59",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12182&sport_id=27"
+    },
+    {
+      "title": "4/3 10:00 AM [L] Bryant University Women's Bowling vs Louisiana Tech",
+      "sport": "Women's Bowling",
+      "opponent": "Louisiana Tech",
+      "location": "Arlington, TX / International Training & Research Center",
+      "is_home": false,
+      "start_local": "2026-04-03T10:00:00",
+      "end_local": "2026-04-03T13:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12375&sport_id=17"
+    },
+    {
+      "title": "4/3 2:00 PM [W] Bryant University Softball at University of Massachusetts Lowell",
+      "sport": "Softball",
+      "opponent": "University of Massachusetts Lowell",
+      "location": "Lowell, MA",
+      "is_home": false,
+      "start_local": "2026-04-03T14:00:00",
+      "end_local": "2026-04-03T16:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12116&sport_id=15"
+    },
+    {
+      "title": "4/3 3:30 PM [L] Bryant University Women's Bowling vs Wichita State University",
+      "sport": "Women's Bowling",
+      "opponent": "Wichita State University",
+      "location": "Arlington, TX / International Training & Research Center",
+      "is_home": false,
+      "start_local": "2026-04-03T15:30:00",
+      "end_local": "2026-04-03T18:30:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12377&sport_id=17"
+    },
+    {
+      "title": "4/3 4:00 PM [W] Bryant University Softball at University of Massachusetts Lowell",
+      "sport": "Softball",
+      "opponent": "University of Massachusetts Lowell",
+      "location": "Lowell, MA",
+      "is_home": false,
+      "start_local": "2026-04-03T16:00:00",
+      "end_local": "2026-04-03T18:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12117&sport_id=15"
+    },
+    {
+      "title": "4/3 5:00 PM [L] Bryant University Baseball at University of Maine",
+      "sport": "Baseball",
+      "opponent": "University of Maine",
+      "location": "Orono, ME",
+      "is_home": false,
+      "start_local": "2026-04-03T17:00:00",
+      "end_local": "2026-04-03T20:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11886&sport_id=1"
+    },
+    {
+      "title": "4/3 6:00 PM Bryant University Women's Soccer vs Franklin Pierce University",
+      "sport": "Women's Soccer",
+      "opponent": "Franklin Pierce University",
+      "location": "Smithfield, R.I.",
+      "is_home": true,
+      "start_local": "2026-04-03T18:00:00",
+      "end_local": "2026-04-03T20:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12371&sport_id=22"
+    },
+    {
+      "title": "4/4 [N] Bryant University Women's Rowing at Amherst College & Union College",
+      "sport": "Women's Rowing",
+      "opponent": "Amherst College & Union College",
+      "location": "Amherst, MA",
+      "is_home": false,
+      "start_local": "2026-04-04T00:00:00",
+      "end_local": "2026-04-04T03:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12317&sport_id=21"
+    },
+    {
+      "title": "4/4 12:00 PM [W] Bryant University Men's Lacrosse vs NJIT",
+      "sport": "Men's Lacrosse",
+      "opponent": "NJIT",
+      "location": "Smithfield, R.I., Beirne Stadium",
+      "is_home": true,
+      "start_local": "2026-04-04T12:00:00",
+      "end_local": "2026-04-04T15:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12219&sport_id=10"
+    },
+    {
+      "title": "4/4 1:00 PM [L] Bryant University Baseball at University of Maine",
+      "sport": "Baseball",
+      "opponent": "University of Maine",
+      "location": "Orono, ME",
+      "is_home": false,
+      "start_local": "2026-04-04T13:00:00",
+      "end_local": "2026-04-04T16:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11887&sport_id=1"
+    },
+    {
+      "title": "4/4 1:00 PM [L] Bryant University Softball at University of Massachusetts Lowell",
+      "sport": "Softball",
+      "opponent": "University of Massachusetts Lowell",
+      "location": "Lowell, MA",
+      "is_home": false,
+      "start_local": "2026-04-04T13:00:00",
+      "end_local": "2026-04-04T15:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12118&sport_id=15"
+    },
+    {
+      "title": "4/4 3:00 PM [W] Bryant University Women's Lacrosse vs University of New Hampshire",
+      "sport": "Women's Lacrosse",
+      "opponent": "University of New Hampshire",
+      "location": "Smithfield, R.I.",
+      "is_home": true,
+      "start_local": "2026-04-04T15:00:00",
+      "end_local": "2026-04-04T18:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12151&sport_id=20"
+    },
+    {
+      "title": "4/4 3:30 PM [W] Bryant University Men's Tennis vs Nichols College",
+      "sport": "Men's Tennis",
+      "opponent": "Nichols College",
+      "location": "Smithfield, RI / Bryant Tennis Courts",
+      "is_home": true,
+      "start_local": "2026-04-04T15:30:00",
+      "end_local": "2026-04-04T18:30:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12376&sport_id=13"
+    },
+    {
+      "title": "4/6 [N] Bryant University Women's Golf vs St. John's Invitational",
+      "sport": "Women's Golf",
+      "opponent": "St. John's Invitational",
+      "location": "Hastings-on-Hudson, NY / The St. Andrew's Golf Club",
+      "is_home": false,
+      "start_local": "2026-04-06T00:00:00",
+      "end_local": "2026-04-06T23:59:59",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12248&sport_id=19"
+    },
+    {
+      "title": "4/7 3:00 PM [L] Bryant University Baseball vs University of Connecticut",
+      "sport": "Baseball",
+      "opponent": "University of Connecticut",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-04-07T15:00:00",
+      "end_local": "2026-04-07T18:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11888&sport_id=1"
+    },
+    {
+      "title": "4/8 4:00 PM [L] Bryant University Softball at University of Rhode Island",
+      "sport": "Softball",
+      "opponent": "University of Rhode Island",
+      "location": "Kingston, RI",
+      "is_home": false,
+      "start_local": "2026-04-08T16:00:00",
+      "end_local": "2026-04-08T18:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12119&sport_id=15"
+    },
+    {
+      "title": "4/9 2:00 PM [L] Bryant University Women's Tennis at University of Rhode Island",
+      "sport": "Women's Tennis",
+      "opponent": "University of Rhode Island",
+      "location": "Kingston, RI / URI Tennis Complex",
+      "is_home": false,
+      "start_local": "2026-04-09T14:00:00",
+      "end_local": "2026-04-09T17:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12240&sport_id=24"
+    },
+    {
+      "title": "4/10 Bryant University Women's Soccer at Merrimack College",
+      "sport": "Women's Soccer",
+      "opponent": "Merrimack College",
+      "location": "North Andover, MA",
+      "is_home": false,
+      "start_local": "2026-04-10T00:00:00",
+      "end_local": "2026-04-10T02:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12372&sport_id=22"
+    },
+    {
+      "title": "4/10 6:00 AM [N] Bryant University Track and Field at Tufts Spring Stampede",
+      "sport": "Track and Field",
+      "opponent": "Tufts Spring Stampede",
+      "location": "Medford, MA",
+      "is_home": false,
+      "start_local": "2026-04-10T06:00:00",
+      "end_local": "2026-04-11T19:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12379&sport_id=27"
+    },
+    {
+      "title": "4/10 3:00 PM [W] Bryant University Baseball vs University at Albany",
+      "sport": "Baseball",
+      "opponent": "University at Albany",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-04-10T15:00:00",
+      "end_local": "2026-04-10T18:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11889&sport_id=1"
+    },
+    {
+      "title": "4/11 [N] Bryant University Women's Rowing at Knecht Cup",
+      "sport": "Women's Rowing",
+      "opponent": "Knecht Cup",
+      "location": "",
+      "is_home": false,
+      "start_local": "2026-04-11T00:00:00",
+      "end_local": "2026-04-11T03:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12319&sport_id=21"
+    },
+    {
+      "title": "4/11 Bryant University MEN'S CLUB LACROSSE  Marist",
+      "sport": "",
+      "opponent": "Marist",
+      "location": "Marist",
+      "is_home": false,
+      "start_local": "2026-04-11T00:00:00",
+      "end_local": "2026-04-11T03:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12354&sport_id=36"
+    },
+    {
+      "title": "4/11 Bryant University MEN'S CLUB LACROSSE  UMASS",
+      "sport": "",
+      "opponent": "UMASS",
+      "location": "Marist",
+      "is_home": false,
+      "start_local": "2026-04-11T00:00:00",
+      "end_local": "2026-04-11T03:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12355&sport_id=36"
+    },
+    {
+      "title": "4/11 8:00 AM [N] Bryant University Track and Field at Bucknell Outdoor Classic",
+      "sport": "Track and Field",
+      "opponent": "Bucknell Outdoor Classic",
+      "location": "Lewisburg, Pa.",
+      "is_home": false,
+      "start_local": "2026-04-11T08:00:00",
+      "end_local": "2026-04-12T08:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12184&sport_id=27"
+    },
+    {
+      "title": "4/11 12:00 PM [L] Bryant University Women's Lacrosse at University at Albany",
+      "sport": "Women's Lacrosse",
+      "opponent": "University at Albany",
+      "location": "Albany, NY",
+      "is_home": false,
+      "start_local": "2026-04-11T12:00:00",
+      "end_local": "2026-04-11T15:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12152&sport_id=20"
+    },
+    {
+      "title": "4/11 1:00 PM [L] Bryant University Baseball vs University at Albany",
+      "sport": "Baseball",
+      "opponent": "University at Albany",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-04-11T13:00:00",
+      "end_local": "2026-04-11T16:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11890&sport_id=1"
+    },
+    {
+      "title": "4/11 1:00 PM [W] Bryant University Softball vs Binghamton University",
+      "sport": "Softball",
+      "opponent": "Binghamton University",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-04-11T13:00:00",
+      "end_local": "2026-04-11T15:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12120&sport_id=15"
+    },
+    {
+      "title": "4/11 3:00 PM [L] Bryant University Softball vs Binghamton University",
+      "sport": "Softball",
+      "opponent": "Binghamton University",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-04-11T15:00:00",
+      "end_local": "2026-04-11T17:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12121&sport_id=15"
+    },
+    {
+      "title": "4/11 3:00 PM [W] Bryant University Men's Soccer at University of Massachusetts",
+      "sport": "Men's Soccer",
+      "opponent": "University of Massachusetts",
+      "location": "Amherst, MA",
+      "is_home": false,
+      "start_local": "2026-04-11T15:00:00",
+      "end_local": "2026-04-11T17:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12362&sport_id=11"
+    },
+    {
+      "title": "4/11 6:00 PM [W] Bryant University Men's Lacrosse vs Iona University",
+      "sport": "Men's Lacrosse",
+      "opponent": "Iona University",
+      "location": "Smithfield, R.I., Beirne Stadium",
+      "is_home": true,
+      "start_local": "2026-04-11T18:00:00",
+      "end_local": "2026-04-11T21:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12220&sport_id=10"
+    },
+    {
+      "title": "4/12 [N] Bryant University Women's Rowing at Knecht Cup",
+      "sport": "Women's Rowing",
+      "opponent": "Knecht Cup",
+      "location": "",
+      "is_home": false,
+      "start_local": "2026-04-12T00:00:00",
+      "end_local": "2026-04-12T03:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12378&sport_id=21"
+    },
+    {
+      "title": "4/12 11:00 AM [W] Bryant University Women's Tennis vs University of New Haven",
+      "sport": "Women's Tennis",
+      "opponent": "University of New Haven",
+      "location": "Smithfield, RI / Bryant Tennis Courts",
+      "is_home": true,
+      "start_local": "2026-04-12T11:00:00",
+      "end_local": "2026-04-12T14:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12241&sport_id=24"
+    },
+    {
+      "title": "4/12 12:00 PM [W] Bryant University Softball vs Binghamton University",
+      "sport": "Softball",
+      "opponent": "Binghamton University",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-04-12T12:00:00",
+      "end_local": "2026-04-12T14:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12122&sport_id=15"
+    },
+    {
+      "title": "4/12 1:00 PM [W] Bryant University Baseball vs University at Albany",
+      "sport": "Baseball",
+      "opponent": "University at Albany",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-04-12T13:00:00",
+      "end_local": "2026-04-12T16:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11891&sport_id=1"
+    },
+    {
+      "title": "4/12 2:45 PM [W] Bryant University Women's Tennis vs Providence College",
+      "sport": "Women's Tennis",
+      "opponent": "Providence College",
+      "location": "Smithfield, RI / Bryant Tennis Courts",
+      "is_home": true,
+      "start_local": "2026-04-12T14:45:00",
+      "end_local": "2026-04-12T17:45:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12242&sport_id=24"
+    },
+    {
+      "title": "4/13 [N] Bryant University Men's Golf vs The Shark Invitational",
+      "sport": "Men's Golf",
+      "opponent": "The Shark Invitational",
+      "location": "Glen Head, N.Y. / Brookville Country Club",
+      "is_home": false,
+      "start_local": "2026-04-13T00:00:00",
+      "end_local": "2026-04-13T23:59:59",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12265&sport_id=9"
+    },
+    {
+      "title": "4/14 3:00 PM [L] Bryant University Baseball vs University of Rhode Island",
+      "sport": "Baseball",
+      "opponent": "University of Rhode Island",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-04-14T15:00:00",
+      "end_local": "2026-04-14T18:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11892&sport_id=1"
+    },
+    {
+      "title": "4/14 6:00 PM [L] Bryant University Softball at University of Connecticut",
+      "sport": "Softball",
+      "opponent": "University of Connecticut",
+      "location": "Storrs, CT",
+      "is_home": false,
+      "start_local": "2026-04-14T18:00:00",
+      "end_local": "2026-04-14T20:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12123&sport_id=15"
+    },
+    {
+      "title": "4/15 [N] Bryant University Women's Golf vs Senior Showdown",
+      "sport": "Women's Golf",
+      "opponent": "Senior Showdown",
+      "location": "Brockton, Mass. / Thorny Lea Golf Club",
+      "is_home": false,
+      "start_local": "2026-04-15T00:00:00",
+      "end_local": "2026-04-15T03:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12246&sport_id=19"
+    },
+    {
+      "title": "4/15 7:45 PM [W] Bryant University Men's Soccer at Providence College",
+      "sport": "Men's Soccer",
+      "opponent": "Providence College",
+      "location": "Providence, RI",
+      "is_home": false,
+      "start_local": "2026-04-15T19:45:00",
+      "end_local": "2026-04-15T21:45:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12363&sport_id=11"
+    },
+    {
+      "title": "4/16 8:00 AM [N] Bryant University Track and Field at Bryan Clay Invitational",
+      "sport": "Track and Field",
+      "opponent": "Bryan Clay Invitational",
+      "location": "Azusa, Calif.",
+      "is_home": false,
+      "start_local": "2026-04-16T08:00:00",
+      "end_local": "2026-04-18T08:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12185&sport_id=27"
+    },
+    {
+      "title": "4/16 2:00 PM [L] Bryant University Men's Tennis vs Longwood University - First Round",
+      "sport": "Men's Tennis",
+      "opponent": "Longwood University",
+      "location": "Lexington, S.C. / Lexington County Tennis Complex",
+      "is_home": false,
+      "start_local": "2026-04-16T14:00:00",
+      "end_local": "2026-04-16T17:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12294&sport_id=13"
+    },
+    {
+      "title": "4/17 Bryant University Women's Soccer at Brown University",
+      "sport": "Women's Soccer",
+      "opponent": "Brown University",
+      "location": "Providence, RI",
+      "is_home": false,
+      "start_local": "2026-04-17T00:00:00",
+      "end_local": "2026-04-17T02:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12373&sport_id=22"
+    },
+    {
+      "title": "4/17 8:00 AM [N] Bryant University Track and Field at George Davis Invitational",
+      "sport": "Track and Field",
+      "opponent": "George Davis Invitational",
+      "location": "Lowell, Mass.",
+      "is_home": false,
+      "start_local": "2026-04-17T08:00:00",
+      "end_local": "2026-04-18T10:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12186&sport_id=27"
+    },
+    {
+      "title": "4/17 3:00 PM [L] Bryant University Baseball at Binghamton University",
+      "sport": "Baseball",
+      "opponent": "Binghamton University",
+      "location": "Vestal, NY",
+      "is_home": false,
+      "start_local": "2026-04-17T15:00:00",
+      "end_local": "2026-04-17T18:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11893&sport_id=1"
+    },
+    {
+      "title": "4/17 4:00 PM [W] Bryant University Women's Tennis vs Tennessee State University - OVC Quarterfinals",
+      "sport": "Women's Tennis",
+      "opponent": "Tennessee State University",
+      "location": "St. Louis, MO / Dwight Davis Tennis Center",
+      "is_home": false,
+      "start_local": "2026-04-17T16:00:00",
+      "end_local": "2026-04-17T19:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12293&sport_id=24"
+    },
+    {
+      "title": "4/18 Bryant University MEN'S CLUB LACROSSE  Georgetown",
+      "sport": "",
+      "opponent": "Georgetown",
+      "location": "Georgetown",
+      "is_home": false,
+      "start_local": "2026-04-18T00:00:00",
+      "end_local": "2026-04-18T03:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12356&sport_id=36"
+    },
+    {
+      "title": "4/18 Bryant University MEN'S CLUB LACROSSE  Richmond",
+      "sport": "",
+      "opponent": "Richmond",
+      "location": "Georgetown",
+      "is_home": false,
+      "start_local": "2026-04-18T00:00:00",
+      "end_local": "2026-04-18T03:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12357&sport_id=36"
+    },
+    {
+      "title": "4/18 11:00 AM [W] Bryant University Women's Lacrosse vs UMBC",
+      "sport": "Women's Lacrosse",
+      "opponent": "UMBC",
+      "location": "Smithfield, R.I.",
+      "is_home": true,
+      "start_local": "2026-04-18T11:00:00",
+      "end_local": "2026-04-18T14:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12153&sport_id=20"
+    },
+    {
+      "title": "4/18 11:30 AM [L] Bryant University Baseball at Binghamton University",
+      "sport": "Baseball",
+      "opponent": "Binghamton University",
+      "location": "Vestal, NY",
+      "is_home": false,
+      "start_local": "2026-04-18T11:30:00",
+      "end_local": "2026-04-18T14:30:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11894&sport_id=1"
+    },
+    {
+      "title": "4/18 12:00 PM [W] Bryant University Men's Lacrosse at Binghamton",
+      "sport": "Men's Lacrosse",
+      "opponent": "Binghamton",
+      "location": "Vestal, N.Y.",
+      "is_home": false,
+      "start_local": "2026-04-18T12:00:00",
+      "end_local": "2026-04-18T15:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12221&sport_id=10"
+    },
+    {
+      "title": "4/18 1:00 PM [W] Bryant University Softball at University at Albany",
+      "sport": "Softball",
+      "opponent": "University at Albany",
+      "location": "Albany, NY",
+      "is_home": false,
+      "start_local": "2026-04-18T13:00:00",
+      "end_local": "2026-04-18T15:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12124&sport_id=15"
+    },
+    {
+      "title": "4/18 3:00 PM [L] Bryant University Softball at University at Albany",
+      "sport": "Softball",
+      "opponent": "University at Albany",
+      "location": "Albany, NY",
+      "is_home": false,
+      "start_local": "2026-04-18T15:00:00",
+      "end_local": "2026-04-18T17:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12125&sport_id=15"
+    },
+    {
+      "title": "4/18 3:00 PM [W] Bryant University Women's Tennis vs Southeast Missouri State University - OVC Semifinals",
+      "sport": "Women's Tennis",
+      "opponent": "Southeast Missouri State University",
+      "location": "St. Louis, MO / Dwight Davis Tennis Center",
+      "is_home": false,
+      "start_local": "2026-04-18T15:00:00",
+      "end_local": "2026-04-18T18:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12382&sport_id=24"
+    },
+    {
+      "title": "4/18 3:30 PM [L] Bryant University Baseball at Binghamton University",
+      "sport": "Baseball",
+      "opponent": "Binghamton University",
+      "location": "Vestal, NY",
+      "is_home": false,
+      "start_local": "2026-04-18T15:30:00",
+      "end_local": "2026-04-18T18:30:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11895&sport_id=1"
+    },
+    {
+      "title": "4/19 [N] Bryant University Women's Golf vs OVC Championship",
+      "sport": "Women's Golf",
+      "opponent": "OVC Championship",
+      "location": "Dalton, GA / Dalton Golf & Country Club",
+      "is_home": false,
+      "start_local": "2026-04-19T00:00:00",
+      "end_local": "2026-04-20T23:59:59",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12247&sport_id=19"
+    },
+    {
+      "title": "4/19 12:00 PM CANCELLED Bryant University Softball at University at Albany",
+      "sport": "Softball",
+      "opponent": "University at Albany",
+      "location": "Albany, NY",
+      "is_home": false,
+      "start_local": "2026-04-19T12:00:00",
+      "end_local": "2026-04-19T14:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12126&sport_id=15"
+    },
+    {
+      "title": "4/19 1:00 PM [W] Bryant University Women's Tennis vs SIUE - OVC Championship",
+      "sport": "Women's Tennis",
+      "opponent": "SIUE",
+      "location": "St. Louis, MO / Dwight Davis Tennis Center",
+      "is_home": false,
+      "start_local": "2026-04-19T13:00:00",
+      "end_local": "2026-04-19T16:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12383&sport_id=24"
+    },
+    {
+      "title": "4/21 3:00 PM CANCELLED Bryant University Baseball vs Brown University",
+      "sport": "Baseball",
+      "opponent": "Brown University",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-04-21T15:00:00",
+      "end_local": "2026-04-21T18:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11896&sport_id=1"
+    },
+    {
+      "title": "4/21 5:00 PM [L] Bryant University Softball at Boston College",
+      "sport": "Softball",
+      "opponent": "Boston College",
+      "location": "Chestnut Hill, MA",
+      "is_home": false,
+      "start_local": "2026-04-21T17:00:00",
+      "end_local": "2026-04-21T19:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12127&sport_id=15"
+    },
+    {
+      "title": "4/23 7:00 AM [N] Bryant University Track and Field at Penn Relays",
+      "sport": "Track and Field",
+      "opponent": "Penn Relays",
+      "location": "Philadelphia, PA",
+      "is_home": false,
+      "start_local": "2026-04-23T07:00:00",
+      "end_local": "2026-04-25T10:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12187&sport_id=27"
+    },
+    {
+      "title": "4/23 7:00 PM Bryant University Women's Soccer vs Assumption University",
+      "sport": "Women's Soccer",
+      "opponent": "Assumption University",
+      "location": "Smithfield, R.I.",
+      "is_home": true,
+      "start_local": "2026-04-23T19:00:00",
+      "end_local": "2026-04-23T21:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12374&sport_id=22"
+    },
+    {
+      "title": "4/24 6:00 PM [W] Bryant University Baseball at University of Massachusetts Lowell",
+      "sport": "Baseball",
+      "opponent": "University of Massachusetts Lowell",
+      "location": "Lowell, MA",
+      "is_home": false,
+      "start_local": "2026-04-24T18:00:00",
+      "end_local": "2026-04-24T21:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11897&sport_id=1"
+    },
+    {
+      "title": "4/25 Bryant University Women's Rowing at Assumption University, Mass Maritime, and Amherst",
+      "sport": "Women's Rowing",
+      "opponent": "Assumption University, Mass Maritime, and Amherst",
+      "location": "Worcester, MA",
+      "is_home": false,
+      "start_local": "2026-04-25T00:00:00",
+      "end_local": "2026-04-25T03:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12320&sport_id=21"
+    },
+    {
+      "title": "4/25 8:00 AM [N] Bryant University Track and Field at Pre-Conference Invitational",
+      "sport": "Track and Field",
+      "opponent": "Pre-Conference Invitational",
+      "location": "Durham, NH",
+      "is_home": false,
+      "start_local": "2026-04-25T08:00:00",
+      "end_local": "2026-04-25T11:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12188&sport_id=27"
+    },
+    {
+      "title": "4/25 12:00 PM [W] Bryant University Women's Lacrosse at Binghamton University",
+      "sport": "Women's Lacrosse",
+      "opponent": "Binghamton University",
+      "location": "Vestal, NY",
+      "is_home": false,
+      "start_local": "2026-04-25T12:00:00",
+      "end_local": "2026-04-25T15:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12154&sport_id=20"
+    },
+    {
+      "title": "4/25 12:00 PM [W] Bryant University Men's Lacrosse vs University of Massachusetts Lowell",
+      "sport": "Men's Lacrosse",
+      "opponent": "University of Massachusetts Lowell",
+      "location": "Smithfield, R.I., Beirne Stadium",
+      "is_home": true,
+      "start_local": "2026-04-25T12:00:00",
+      "end_local": "2026-04-25T15:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12222&sport_id=10"
+    },
+    {
+      "title": "4/25 1:00 PM [W] Bryant University Baseball at University of Massachusetts Lowell",
+      "sport": "Baseball",
+      "opponent": "University of Massachusetts Lowell",
+      "location": "Lowell, MA",
+      "is_home": false,
+      "start_local": "2026-04-25T13:00:00",
+      "end_local": "2026-04-25T16:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11898&sport_id=1"
+    },
+    {
+      "title": "4/25 1:00 PM [W] Bryant University Softball vs University of Maine",
+      "sport": "Softball",
+      "opponent": "University of Maine",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-04-25T13:00:00",
+      "end_local": "2026-04-25T15:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12128&sport_id=15"
+    },
+    {
+      "title": "4/25 3:00 PM [W] Bryant University Softball vs University of Maine",
+      "sport": "Softball",
+      "opponent": "University of Maine",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-04-25T15:00:00",
+      "end_local": "2026-04-25T17:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12129&sport_id=15"
+    },
+    {
+      "title": "4/26 Bryant University Men's Golf vs OVC Championship",
+      "sport": "Men's Golf",
+      "opponent": "OVC Championship",
+      "location": "West Lafayette IN / Birck Boilermaker Golf Complex (Purdue)",
+      "is_home": false,
+      "start_local": "2026-04-26T00:00:00",
+      "end_local": "2026-04-28T23:59:59",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12266&sport_id=9"
+    },
+    {
+      "title": "4/26 12:00 PM [W] Bryant University Softball vs University of Maine",
+      "sport": "Softball",
+      "opponent": "University of Maine",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-04-26T12:00:00",
+      "end_local": "2026-04-26T14:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12130&sport_id=15"
+    },
+    {
+      "title": "4/26 12:00 PM [W] Bryant University Baseball at University of Massachusetts Lowell",
+      "sport": "Baseball",
+      "opponent": "University of Massachusetts Lowell",
+      "location": "Lowell, MA",
+      "is_home": false,
+      "start_local": "2026-04-26T12:00:00",
+      "end_local": "2026-04-26T15:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11899&sport_id=1"
+    },
+    {
+      "title": "4/29 4:00 PM Bryant University Softball at Stonehill College",
+      "sport": "Softball",
+      "opponent": "Stonehill College",
+      "location": "North Easton, MA",
+      "is_home": false,
+      "start_local": "2026-04-29T16:00:00",
+      "end_local": "2026-04-29T18:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12131&sport_id=15"
+    },
+    {
+      "title": "4/29 5:00 PM Bryant University Baseball at Holy Cross",
+      "sport": "Baseball",
+      "opponent": "Holy Cross",
+      "location": "Worcester, MA",
+      "is_home": false,
+      "start_local": "2026-04-29T17:00:00",
+      "end_local": "2026-04-29T20:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11914&sport_id=1"
+    },
+    {
+      "title": "4/30 4:00 PM Bryant University Men's Lacrosse vs University of Vermont",
+      "sport": "Men's Lacrosse",
+      "opponent": "University of Vermont",
+      "location": "Albany NY",
+      "is_home": false,
+      "start_local": "2026-04-30T16:00:00",
+      "end_local": "2026-04-30T19:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12384&sport_id=10"
+    },
+    {
+      "title": "5/1 2:00 PM [W] Bryant University Softball vs University of Maryland Baltimore County",
+      "sport": "Softball",
+      "opponent": "University of Maryland Baltimore County",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-05-01T14:00:00",
+      "end_local": "2026-05-01T16:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12132&sport_id=15"
+    },
+    {
+      "title": "5/1 4:00 PM [W] Bryant University Softball vs University of Maryland Baltimore County",
+      "sport": "Softball",
+      "opponent": "University of Maryland Baltimore County",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-05-01T16:00:00",
+      "end_local": "2026-05-01T18:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12133&sport_id=15"
+    },
+    {
+      "title": "5/1 6:00 PM Bryant University Baseball at New Jersey Institute of Technology",
+      "sport": "Baseball",
+      "opponent": "New Jersey Institute of Technology",
+      "location": "Little Falls, NJ",
+      "is_home": false,
+      "start_local": "2026-05-01T18:00:00",
+      "end_local": "2026-05-01T21:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11900&sport_id=1"
+    },
+    {
+      "title": "5/1 7:00 PM Bryant University Women's Lacrosse vs University at Albany - America East Semifinals",
+      "sport": "Women's Lacrosse",
+      "opponent": "University at Albany",
+      "location": "Burlington, VT",
+      "is_home": false,
+      "start_local": "2026-05-01T19:00:00",
+      "end_local": "2026-05-01T22:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12155&sport_id=20"
+    },
+    {
+      "title": "5/2 Bryant University Women's Rowing at New England Row Championships",
+      "sport": "Women's Rowing",
+      "opponent": "New England Row Championships",
+      "location": "Worcester, Mass.",
+      "is_home": false,
+      "start_local": "2026-05-02T00:00:00",
+      "end_local": "2026-05-02T03:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12321&sport_id=21"
+    },
+    {
+      "title": "5/2 1:00 PM [W] Bryant University Softball vs University of Maryland Baltimore County",
+      "sport": "Softball",
+      "opponent": "University of Maryland Baltimore County",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-05-02T13:00:00",
+      "end_local": "2026-05-02T15:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12134&sport_id=15"
+    },
+    {
+      "title": "5/2 6:00 PM Bryant University Baseball at New Jersey Institute of Technology",
+      "sport": "Baseball",
+      "opponent": "New Jersey Institute of Technology",
+      "location": "Little Falls, NJ",
+      "is_home": false,
+      "start_local": "2026-05-02T18:00:00",
+      "end_local": "2026-05-02T21:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11901&sport_id=1"
+    },
+    {
+      "title": "5/3 1:00 PM Bryant University Baseball at New Jersey Institute of Technology",
+      "sport": "Baseball",
+      "opponent": "New Jersey Institute of Technology",
+      "location": "Little Falls, NJ",
+      "is_home": false,
+      "start_local": "2026-05-03T13:00:00",
+      "end_local": "2026-05-03T16:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11902&sport_id=1"
+    },
+    {
+      "title": "5/5 5:00 PM Bryant University Baseball at Merrimack College",
+      "sport": "Baseball",
+      "opponent": "Merrimack College",
+      "location": "North Andover, MA",
+      "is_home": false,
+      "start_local": "2026-05-05T17:00:00",
+      "end_local": "2026-05-05T20:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11915&sport_id=1"
+    },
+    {
+      "title": "5/6 Bryant University Softball vs America East Playoffs",
+      "sport": "Softball",
+      "opponent": "America East Playoffs",
+      "location": "Orono, ME",
+      "is_home": false,
+      "start_local": "2026-05-06T00:00:00",
+      "end_local": "2026-05-06T02:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12380&sport_id=15"
+    },
+    {
+      "title": "5/8 3:00 PM Bryant University Baseball vs University of Maryland Baltimore County",
+      "sport": "Baseball",
+      "opponent": "University of Maryland Baltimore County",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-05-08T15:00:00",
+      "end_local": "2026-05-08T18:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11903&sport_id=1"
+    },
+    {
+      "title": "5/9 8:00 AM Bryant University Track and Field at America East Championships",
+      "sport": "Track and Field",
+      "opponent": "America East Championships",
+      "location": "Cambridge, MA",
+      "is_home": false,
+      "start_local": "2026-05-09T08:00:00",
+      "end_local": "2026-05-10T13:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12189&sport_id=27"
+    },
+    {
+      "title": "5/9 1:00 PM Bryant University Baseball vs University of Maryland Baltimore County",
+      "sport": "Baseball",
+      "opponent": "University of Maryland Baltimore County",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-05-09T13:00:00",
+      "end_local": "2026-05-09T16:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11904&sport_id=1"
+    },
+    {
+      "title": "5/10 1:00 PM Bryant University Baseball vs University of Maryland Baltimore County",
+      "sport": "Baseball",
+      "opponent": "University of Maryland Baltimore County",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-05-10T13:00:00",
+      "end_local": "2026-05-10T16:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11905&sport_id=1"
+    },
+    {
+      "title": "5/12 4:00 PM Bryant University Baseball vs Stonehill College",
+      "sport": "Baseball",
+      "opponent": "Stonehill College",
+      "location": "Smithfield, R.I., Conaty Park",
+      "is_home": true,
+      "start_local": "2026-05-12T16:00:00",
+      "end_local": "2026-05-12T19:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11916&sport_id=1"
+    },
+    {
+      "title": "5/14 3:00 PM Bryant University Baseball at Marist University",
+      "sport": "Baseball",
+      "opponent": "Marist University",
+      "location": "Poughkeepsie, NY",
+      "is_home": false,
+      "start_local": "2026-05-14T15:00:00",
+      "end_local": "2026-05-14T18:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11917&sport_id=1"
+    },
+    {
+      "title": "5/15 Bryant University Women's Rowing at CAA Championships",
+      "sport": "Women's Rowing",
+      "opponent": "CAA Championships",
+      "location": "Cooper River, N.J.",
+      "is_home": false,
+      "start_local": "2026-05-15T00:00:00",
+      "end_local": "2026-05-15T03:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12322&sport_id=21"
+    },
+    {
+      "title": "5/15 12:00 PM Bryant University Baseball at Marist University",
+      "sport": "Baseball",
+      "opponent": "Marist University",
+      "location": "Poughkeepsie, NY",
+      "is_home": false,
+      "start_local": "2026-05-15T12:00:00",
+      "end_local": "2026-05-15T15:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=11918&sport_id=1"
+    },
+    {
+      "title": "5/15 3:00 PM Bryant University Baseball at Marist University",
+      "sport": "Baseball",
+      "opponent": "Marist University",
+      "location": "Poughkeepsie, NY",
+      "is_home": false,
+      "start_local": "2026-05-15T15:00:00",
+      "end_local": "2026-05-15T18:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12284&sport_id=1"
+    },
+    {
+      "title": "5/16 Bryant University Women's Rowing at CAA Championships",
+      "sport": "Women's Rowing",
+      "opponent": "CAA Championships",
+      "location": "Cooper River, N.J.",
+      "is_home": false,
+      "start_local": "2026-05-16T00:00:00",
+      "end_local": "2026-05-16T03:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12323&sport_id=21"
+    },
+    {
+      "title": "5/20 Bryant University Baseball vs America East Championships",
+      "sport": "Baseball",
+      "opponent": "America East Championships",
+      "location": "Vestal, N.Y.",
+      "is_home": false,
+      "start_local": "2026-05-20T00:00:00",
+      "end_local": "2026-05-22T23:59:59",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12381&sport_id=1"
+    },
+    {
+      "title": "5/27 9:00 AM Bryant University Track and Field at NCAA Championships",
+      "sport": "Track and Field",
+      "opponent": "NCAA Championships",
+      "location": "Indianapolis, IN",
+      "is_home": false,
+      "start_local": "2026-05-27T09:00:00",
+      "end_local": "2026-05-30T11:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12190&sport_id=27"
+    },
+    {
+      "title": "8/29 Bryant University Football at Stonehill College",
+      "sport": "Football",
+      "opponent": "Stonehill College",
+      "location": "North Easton, MA",
+      "is_home": false,
+      "start_local": "2026-08-29T00:00:00",
+      "end_local": "2026-08-29T03:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12249&sport_id=5"
+    },
+    {
+      "title": "9/5 Bryant University Football at Army",
+      "sport": "Football",
+      "opponent": "Army",
+      "location": "West Point, N.Y.",
+      "is_home": false,
+      "start_local": "2026-09-05T00:00:00",
+      "end_local": "2026-09-05T03:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12250&sport_id=5"
+    },
+    {
+      "title": "9/12 6:00 PM Bryant University Football at Hampton University",
+      "sport": "Football",
+      "opponent": "Hampton University",
+      "location": "Hampton, VA",
+      "is_home": false,
+      "start_local": "2026-09-12T18:00:00",
+      "end_local": "2026-09-12T21:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12251&sport_id=5"
+    },
+    {
+      "title": "9/19 1:00 PM Bryant University Football vs Princeton University",
+      "sport": "Football",
+      "opponent": "Princeton University",
+      "location": "Smithfield, R.I., Beirne Stadium",
+      "is_home": true,
+      "start_local": "2026-09-19T13:00:00",
+      "end_local": "2026-09-19T16:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12253&sport_id=5"
+    },
+    {
+      "title": "10/3 6:00 PM Bryant University Football vs North Carolina A&T State University",
+      "sport": "Football",
+      "opponent": "North Carolina A&T State University",
+      "location": "Smithfield, R.I., Beirne Stadium",
+      "is_home": true,
+      "start_local": "2026-10-03T18:00:00",
+      "end_local": "2026-10-03T21:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12254&sport_id=5"
+    },
+    {
+      "title": "10/10 Bryant University Football at Brown University",
+      "sport": "Football",
+      "opponent": "Brown University",
+      "location": "Providence, RI",
+      "is_home": false,
+      "start_local": "2026-10-10T00:00:00",
+      "end_local": "2026-10-10T03:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12255&sport_id=5"
+    },
+    {
+      "title": "10/17 1:00 PM Bryant University Football at University of Maine",
+      "sport": "Football",
+      "opponent": "University of Maine",
+      "location": "Orono, ME",
+      "is_home": false,
+      "start_local": "2026-10-17T13:00:00",
+      "end_local": "2026-10-17T16:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12256&sport_id=5"
+    },
+    {
+      "title": "10/24 2:00 PM Bryant University Football vs Stony Brook University",
+      "sport": "Football",
+      "opponent": "Stony Brook University",
+      "location": "Smithfield, R.I., Beirne Stadium",
+      "is_home": true,
+      "start_local": "2026-10-24T14:00:00",
+      "end_local": "2026-10-24T17:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12257&sport_id=5"
+    },
+    {
+      "title": "10/31 1:00 PM Bryant University Football at Monmouth University",
+      "sport": "Football",
+      "opponent": "Monmouth University",
+      "location": "West Long Branch, NJ",
+      "is_home": false,
+      "start_local": "2026-10-31T13:00:00",
+      "end_local": "2026-10-31T16:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12258&sport_id=5"
+    },
+    {
+      "title": "11/7 1:00 PM Bryant University Football vs University at Albany",
+      "sport": "Football",
+      "opponent": "University at Albany",
+      "location": "Smithfield, R.I., Beirne Stadium",
+      "is_home": true,
+      "start_local": "2026-11-07T13:00:00",
+      "end_local": "2026-11-07T16:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12259&sport_id=5"
+    },
+    {
+      "title": "11/14 12:00 PM Bryant University Football at Sacred Heart University",
+      "sport": "Football",
+      "opponent": "Sacred Heart University",
+      "location": "Fairfield, CT",
+      "is_home": false,
+      "start_local": "2026-11-14T12:00:00",
+      "end_local": "2026-11-14T15:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12260&sport_id=5"
+    },
+    {
+      "title": "11/21 1:00 PM Bryant University Football vs University of Rhode Island",
+      "sport": "Football",
+      "opponent": "University of Rhode Island",
+      "location": "Smithfield, R.I., Beirne Stadium",
+      "is_home": true,
+      "start_local": "2026-11-21T13:00:00",
+      "end_local": "2026-11-21T16:00:00",
+      "link": "https://bryantbulldogs.com/calendar.aspx?game_id=12261&sport_id=5"
+    }
+  ]
+}

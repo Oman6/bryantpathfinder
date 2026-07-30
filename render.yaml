@@ -1,0 +1,31 @@
+# Render blueprint for the BryantPathfinder backend.
+# Deploy: push to GitHub, then in Render → New → Blueprint, point at this repo.
+# Secrets (sync: false) are entered once in the Render dashboard, never committed.
+services:
+  - type: web
+    name: bryantpathfinder-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      # LLM provider: "groq" (free tier) or "anthropic" (paid, matches the Claude thesis).
+      - key: LLM_PROVIDER
+        value: groq
+      - key: ANTHROPIC_MODEL
+        value: claude-sonnet-5
+      # Serve the disk snapshot on boot; refresh seats via /api/refresh-sections.
+      - key: PATHFINDER_SKIP_LIVE_FETCH
+        value: "1"
+      # Set to "1" to disable the FERPA-sensitive audit-upload/paste endpoints for
+      # the pilot, leaving only the key-free MajorPicker path exposed.
+      - key: PATHFINDER_DISABLE_UPLOAD
+        value: "1"
+      # --- Secrets: set these in the Render dashboard, do not commit ---
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      # Comma-separated allowed origins, e.g. https://bryantpathfinder.vercel.app
+      - key: ALLOWED_ORIGINS
+        sync: false

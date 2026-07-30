@@ -1,16 +1,18 @@
 "use client";
 
-import { Upload, SlidersHorizontal, Calendar } from "@phosphor-icons/react";
+import { useState } from "react";
+import { Upload, SlidersHorizontal, Calendar, CaretDown, CaretUp } from "@phosphor-icons/react";
 import { Logo } from "@/components/Logo";
+import { MajorPicker } from "@/components/MajorPicker";
 import { UploadZone } from "@/components/UploadZone";
 
 const steps = [
   {
     icon: Upload,
     number: "1",
-    title: "Paste your requirements",
+    title: "Pick your major",
     description:
-      "Go to Degree Works, find your outstanding courses, and paste them into the text box above. Or click 'Use sample audit' to try it with demo data.",
+      "Select your major and we'll pre-fill the typical sophomore-year requirements. Or upload your Degree Works audit if you've got one handy.",
   },
   {
     icon: SlidersHorizontal,
@@ -29,6 +31,8 @@ const steps = [
 ];
 
 export default function HomePage() {
+  const [showAudit, setShowAudit] = useState(false);
+
   return (
     <main className="min-h-[100dvh]">
       {/* Hero section */}
@@ -42,19 +46,43 @@ export default function HomePage() {
               className="text-5xl leading-[1.05] tracking-tight text-[#1A1A1A] md:text-7xl"
               style={{ fontFamily: "var(--font-instrument-serif), serif" }}
             >
-              Your advisor tells you what to take. Pathfinder tells you{" "}
-              <span className="italic text-[#B8985A]">when.</span>
+              Tell us what you're studying.{" "}
+              <span className="italic text-[#B8985A]">We'll handle the rest.</span>
             </h1>
 
             <p className="max-w-lg text-base leading-relaxed text-[#5F5D58]">
-              An AI course scheduling assistant that turns your Degree Works
-              audit into a working class schedule in seconds.
+              An AI course scheduling assistant that turns your Bryant requirements
+              into three conflict-free schedules in seconds.
             </p>
           </div>
 
-          {/* Right — upload zone */}
-          <div className="animate-fade-up delay-200">
-            <UploadZone />
+          {/* Right — major picker (primary) + upload disclosure (secondary) */}
+          <div className="animate-fade-up delay-200 space-y-3">
+            <MajorPicker />
+
+            <div className="rounded-[2rem] bg-black/[0.03] p-1.5 ring-1 ring-black/5">
+              <button
+                type="button"
+                onClick={() => setShowAudit((v) => !v)}
+                className="flex w-full items-center justify-between rounded-[calc(2rem-0.375rem)] bg-white px-6 py-3 text-left"
+                aria-expanded={showAudit}
+              >
+                <span className="text-xs text-[#5F5D58]">
+                  Have a Degree Works audit?{" "}
+                  <span className="text-[#1A1A1A]">Paste or upload it.</span>
+                </span>
+                {showAudit ? (
+                  <CaretUp size={14} weight="light" className="text-[#5F5D58]" />
+                ) : (
+                  <CaretDown size={14} weight="light" className="text-[#5F5D58]" />
+                )}
+              </button>
+              {showAudit && (
+                <div className="mt-1 rounded-[calc(2rem-0.375rem)] bg-white p-2 animate-fade-up">
+                  <UploadZone />
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </section>

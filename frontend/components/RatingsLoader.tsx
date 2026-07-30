@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { useStore } from "@/lib/store";
 
 export function RatingsLoader() {
-  const { setProfessorRatings, setGradeDistributions } = useStore();
+  const { setProfessorRatings, setGradeDistributions, setCourseMetadata, setFacultyLookup } = useStore();
 
   useEffect(() => {
     fetch("/professor_ratings.json")
@@ -29,7 +29,21 @@ export function RatingsLoader() {
         setGradeDistributions(clean);
       })
       .catch(() => {});
-  }, [setProfessorRatings, setGradeDistributions]);
+
+    fetch("/course_metadata.json")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((payload) => {
+        if (payload?.courses) setCourseMetadata(payload.courses);
+      })
+      .catch(() => {});
+
+    fetch("/faculty_lookup.json")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((payload) => {
+        if (payload?.faculty) setFacultyLookup(payload.faculty);
+      })
+      .catch(() => {});
+  }, [setProfessorRatings, setGradeDistributions, setCourseMetadata, setFacultyLookup]);
 
   return null;
 }

@@ -105,6 +105,35 @@ export interface GradeDistribution {
 
 export type GradeDistributions = Record<string, GradeDistribution>;
 
+export interface CourseMetadata {
+  title: string;
+  credits: number | null;
+  description: string;
+  prerequisites: string;
+  corequisites: string;
+  when_offered: string;
+  cross_listed: string;
+  in_active_catalog: boolean;
+  total_sections: number;
+  terms_offered: number;
+  unique_instructors: string[];
+  programs_requiring_it: string[];
+}
+
+export type CourseMetadataMap = Record<string, CourseMetadata>;
+
+export interface FacultyEntry {
+  title: string;
+  department: string;
+  college: string;
+  email: string;
+  profile_url?: string | null;
+  expertise?: string[] | null;
+  education?: string | null;
+}
+
+export type FacultyLookup = Record<string, FacultyEntry>;
+
 export interface ProfessorInsight {
   instructor: string;
   has_data: boolean;

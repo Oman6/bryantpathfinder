@@ -1,22 +1,24 @@
 """Pure Python constraint solver for BryantPathfinder.
 
 This is the heart of Pathfinder. It takes outstanding requirements, candidate
-sections, and student preferences, then returns the top three valid, conflict-free
-schedules ranked by a multi-factor scoring function.
+sections, and student preferences, then returns valid, conflict-free schedules
+ranked by a multi-factor scoring function.
 
-No LLM calls. No external optimization libraries. About 400 lines of
+No LLM calls. No external optimization libraries. About 500 lines of
 documented, deterministic Python.
 
 The solver guarantees correctness: every returned schedule is conflict-free.
-Claude is only called after the solver finishes, to explain and re-rank
-the top three options.
+Claude is only called after the solver finishes (and after the refiner runs),
+to explain and re-rank the final picks.
 
 See docs/adr/0003-deterministic-solver-vs-llm.md for why this design was chosen.
 """
 
 import itertools
+import json
 import logging
 import time
+from pathlib import Path
 from typing import Literal
 
 from .models import (
@@ -33,6 +35,11 @@ logger = logging.getLogger(__name__)
 # Safety cap: stop evaluating after this many combinations to avoid
 # pathological cases blowing up the response time.
 MAX_COMBINATIONS = 10_000
+
+# Per-subset cap so one large candidate pool can't consume the entire global
+# budget and starve course-set diversity. Once a subset has produced this many
+# combinations we move on to the next requirement subset.
+MAX_COMBINATIONS_PER_SUBSET = 1_500
 
 ALL_DAYS: list[str] = ["M", "T", "W", "R", "F"]
 
@@ -144,30 +151,136 @@ def filter_candidates_by_preferences(
     return result
 
 
+# --- Static professor ratings for in-solver scoring ---
+# Loaded lazily on first call so the solver stays self-contained and doesn't
+# require a Pydantic config object — these are the same ratings the agents use.
+_DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data"
+_RATINGS_PATH = _DATA_DIR / "professor_ratings.json"
+_ratings_cache: dict | None = None
+
+
+def _ratings() -> dict:
+    global _ratings_cache
+    if _ratings_cache is None:
+        try:
+            _ratings_cache = json.loads(_RATINGS_PATH.read_text(encoding="utf-8"))
+        except FileNotFoundError:
+            _ratings_cache = {}
+    return _ratings_cache
+
+
+def professor_quality_score(section: Section) -> float:
+    """Per-section quality signal in roughly the range [-3.0, +3.0].
+
+    Returns 0 when there's insufficient data (no instructor, no rating, or
+    fewer than 5 ratings). This avoids penalizing professors who happen to
+    have no RMP presence — common at small schools.
+    """
+    if not section.instructor:
+        return 0.0
+    r = _ratings().get(section.instructor)
+    if not r:
+        return 0.0
+    num_ratings = r.get("num_ratings", 0)
+    if num_ratings < 5:
+        return 0.0
+    quality = r.get("quality", 0) or 0
+    wta = r.get("would_take_again", -1)
+    score = 0.0
+    # Quality is the headline RMP star (1.0–5.0).
+    if quality >= 4.5:
+        score += 2.5
+    elif quality >= 4.0:
+        score += 1.5
+    elif quality >= 3.5:
+        score += 0.5
+    elif quality < 2.5:
+        score -= 2.0
+    elif quality < 3.0:
+        score -= 1.0
+    # "Would take again" is a stronger signal but only fires on enough data.
+    if num_ratings >= 10:
+        if wta >= 80:
+            score += 1.0
+        elif 0 <= wta < 25:
+            score -= 1.0
+    return score
+
+
+def seat_safety_score(section: Section) -> float:
+    """Penalize sections that are about to close. Reward healthy headroom."""
+    total = section.seats_total
+    open_seats = section.seats_open
+    if total <= 0:
+        return 0.0
+    if open_seats <= 0:
+        return -5.0  # waitlist-only — strongly avoid
+    if open_seats < 3:
+        return -3.0  # 1–2 seats left — almost certainly closes during reg
+    if open_seats / total >= 0.5:
+        return 1.0
+    return 0.0
+
+
+def time_of_day_score(section: Section, preferences: SchedulePreferences) -> float:
+    """Penalize evening classes unless the student already opted into them.
+
+    Honors any explicit no_later_than the student set — if they already
+    capped at 17:00 the solver wouldn't have offered evenings anyway.
+    """
+    score = 0.0
+    for m in section.meetings:
+        start_min = to_minutes(m.start)
+        if start_min >= 18 * 60:  # 6:00 PM and later
+            score -= 2.0
+        elif start_min >= 17 * 60:  # 5:00 PM
+            score -= 0.5
+    return score
+
+
+def instructor_diversity_score(sections: list[Section]) -> float:
+    """Penalize loading three or more sections with the same instructor.
+
+    A student typically wants variety; if Kumar is teaching half your
+    schedule that's a flag (legitimately fine in some cases, but the solver
+    should default to spreading the bet).
+    """
+    counts: dict[str, int] = {}
+    for s in sections:
+        if s.instructor:
+            counts[s.instructor] = counts.get(s.instructor, 0) + 1
+    return sum(-2.0 * (c - 2) for c in counts.values() if c >= 3)
+
+
+def subject_diversity_score(sections: list[Section]) -> float:
+    """Penalize loading 5+ sections in the same subject (e.g., 5 FIN courses)."""
+    counts: dict[str, int] = {}
+    for s in sections:
+        counts[s.subject] = counts.get(s.subject, 0) + 1
+    excess = sum(c - 4 for c in counts.values() if c >= 5)
+    return -3.0 * excess
+
+
 def score_combination(
     sections: list[Section],
     requirements: list[OutstandingRequirement],
     preferences: SchedulePreferences,
 ) -> float:
-    """Score a valid schedule combination on four dimensions.
+    """Score a valid schedule combination on multiple dimensions.
 
-    Scoring dimensions:
-    1. Credit match — how close to target_credits (max +10)
-    2. Preference fit — preferred/avoided instructors (+5 / -10 each)
-    3. Seat availability — +1 per section with >50% seats open
-    4. Category balance — +3 per distinct requirement category covered
-
-    Args:
-        sections: The sections in this schedule combination.
-        requirements: The requirements these sections satisfy.
-        preferences: Student preferences for scoring context.
-
-    Returns:
-        A float score. Higher is better.
+    Returns a float; higher is better. Components:
+      1. Credit match            — how close to target_credits
+      2. Instructor preferences  — preferred/avoided lists
+      3. Seat safety             — penalize tight-headroom sections
+      4. Category balance        — reward mix across major/core/gen-ed
+      5. Professor quality       — RMP-weighted signal per section
+      6. Time of day             — penalize evening sections
+      7. Instructor diversity    — penalize same-prof-3+-times
+      8. Subject diversity       — penalize 5+-of-same-subject
     """
     score = 0.0
 
-    # 1. Credit match — strongly prefer being close to target
+    # 1. Credit match — strongly prefer being at or just below target
     total_credits = sum(s.credits for s in sections)
     credit_diff = abs(total_credits - preferences.target_credits)
     if credit_diff == 0:
@@ -189,14 +302,25 @@ def score_combination(
             if avoid.lower() in instructor_lower:
                 score -= 10.0
 
-    # 3. Seat availability
+    # 3. Seat safety
     for section in sections:
-        if section.seats_total > 0 and section.seats_open / section.seats_total > 0.5:
-            score += 1.0
+        score += seat_safety_score(section)
 
     # 4. Category balance
     categories = {r.category for r in requirements}
     score += len(categories) * 3.0
+
+    # 5. Professor quality (the big change)
+    for section in sections:
+        score += professor_quality_score(section) * 1.5
+
+    # 6. Time of day
+    for section in sections:
+        score += time_of_day_score(section, preferences)
+
+    # 7 & 8. Diversity
+    score += instructor_diversity_score(sections)
+    score += subject_diversity_score(sections)
 
     return score
 
@@ -228,8 +352,12 @@ def solve(
     outstanding_requirements: list[OutstandingRequirement],
     all_sections: list[Section],
     preferences: SchedulePreferences,
+    *,
+    max_candidates: int = 3,
 ) -> list[ScheduleOption]:
-    """Generate the top three valid, conflict-free schedules.
+    """Generate up to `max_candidates` valid, conflict-free schedules.
+
+    Pass max_candidates>3 to feed a downstream refiner with diverse options.
 
     Algorithm:
     1. For each selected requirement, expand into candidate sections.
@@ -262,25 +390,27 @@ def solve(
         logger.warning("solver.no_requirements", extra={"selected_ids": list(selected_ids)})
         return []
 
-    # Build a set of courses already completed or in progress to exclude from wildcards
-    # This prevents the solver from scheduling FIN 201 when the student is already taking it
-    exclude_courses: set[str] = set()
-    # The audit is not directly available here, but we can infer from the sections
-    # that wildcard matches should exclude courses whose code appears in specific_course
-    # requirements that are NOT in the outstanding list (i.e., already satisfied).
-    # For now, we filter at a simpler level: if a course appears in the options of
-    # another outstanding requirement, don't double-count it via wildcards.
-    specific_courses: set[str] = set()
+    # Courses already "claimed" by a specific_course or choose_one_of requirement.
+    # Wildcard pools must exclude these, otherwise a wildcard (e.g. FIN 4XX) can
+    # re-select a course another requirement already covers — the root cause of the
+    # same course appearing twice in one schedule.
+    claimed_courses: set[str] = set()
     for r in requirements:
-        if r.rule_type == "specific_course":
-            specific_courses.update(r.options)
+        if r.rule_type in ("specific_course", "choose_one_of"):
+            claimed_courses.update(r.options)
 
     # Step 1 & 2: Expand and filter candidates for each requirement
     candidate_pools: list[list[list[Section]]] = []
     pool_requirements: list[OutstandingRequirement] = []
 
     for req in requirements:
-        expanded = expand_requirement(req, all_sections)
+        # A required specific course (e.g. FIN 310) must still surface even when
+        # every one of its sections is full — otherwise it silently vanishes from
+        # the plan. Seat-safety scoring down-ranks full sections so they read as
+        # waitlist rather than being dropped. choose_one_of / wildcard requirements
+        # have alternatives, so full sections stay filtered out for them.
+        include_full = req.rule_type == "specific_course"
+        expanded = expand_requirement(req, all_sections, include_full=include_full)
 
         if req.rule_type == "course_with_lab":
             # Each tuple is (lecture, lab) — flatten to a list of section-pairs
@@ -306,8 +436,8 @@ def solve(
             filtered = filter_candidates_by_preferences(expanded, preferences)
             # For wildcard rules, exclude sections that are already covered
             # by a specific_course requirement to avoid double-scheduling
-            if req.rule_type == "wildcard" and specific_courses:
-                filtered = [s for s in filtered if s.course_code not in specific_courses]
+            if req.rule_type == "wildcard" and claimed_courses:
+                filtered = [s for s in filtered if s.course_code not in claimed_courses]
             if filtered:
                 # Each candidate is a single-section list for uniform handling
                 candidate_pools.append([[s] for s in filtered])
@@ -338,12 +468,25 @@ def solve(
         CATEGORY_PRIORITY = {"major": 4, "business_core": 3, "general_education": 2, "elective": 1, "minor": 1}
 
         def _subset_score(indices: tuple[int, ...]) -> float:
-            """Score a subset: prioritize major courses, then closeness to target."""
-            cats = sum(CATEGORY_PRIORITY.get(pool_requirements[i].category, 0) for i in indices)
+            """Score a subset: closeness to the target credit count dominates,
+            with a mild preference for higher-priority (major/core) requirements.
+
+            Closeness is the primary term so the solver stops overshooting — e.g.
+            returning three 18-credit schedules when the student asked for 15.
+            Going over target is penalized harder than coming in under it, since an
+            over-target schedule is one the student cannot actually register for.
+            The category preference is *averaged* over the subset (not summed) so it
+            does not grow with subset size and quietly outweigh closeness.
+            """
             credits = sum(req_credits[i] for i in indices)
-            closeness = 10 - abs(credits - target)
+            diff = credits - target
+            closeness = -3.0 * diff if diff >= 0 else 2.0 * diff
+            avg_priority = (
+                sum(CATEGORY_PRIORITY.get(pool_requirements[i].category, 0) for i in indices)
+                / len(indices)
+            )
             distinct_cats = len({pool_requirements[i].category for i in indices})
-            return cats * 2 + closeness + distinct_cats * 3
+            return closeness * 10 + avg_priority + distinct_cats * 0.5
 
         # Target the ideal subset size (target_credits / avg_credits_per_req)
         avg_credits = sum(req_credits) / len(req_credits) if req_credits else 3
@@ -402,16 +545,28 @@ def solve(
         subset_pools = [candidate_pools[i] for i in subset_indices]
         subset_reqs = [pool_requirements[i] for i in subset_indices]
 
+        subset_evaluated = 0
         for combo in itertools.product(*subset_pools):
             combinations_evaluated += 1
+            subset_evaluated += 1
             if combinations_evaluated > MAX_COMBINATIONS:
                 logger.warning("solver.max_combinations_reached", extra={"cap": MAX_COMBINATIONS})
+                break
+            if subset_evaluated > MAX_COMBINATIONS_PER_SUBSET:
                 break
 
             # Flatten the combination
             all_combo_sections: list[Section] = []
             for section_group in combo:
                 all_combo_sections.extend(section_group)
+
+            # Reject any combination that schedules the same course twice. Two
+            # requirements with overlapping pools (a choose_one_of and a wildcard,
+            # or two wildcards) can independently pick the same course; dedup-by-CRN
+            # downstream would not catch it because the sections have different CRNs.
+            combo_course_codes = [s.course_code for s in all_combo_sections]
+            if len(set(combo_course_codes)) != len(combo_course_codes):
+                continue
 
             # Check pairwise conflicts
             has_conflict = False
@@ -433,37 +588,51 @@ def solve(
         if combinations_evaluated > MAX_COMBINATIONS:
             break
 
-    # Step 6: Sort by score and take top 3 distinct schedules
+    # Step 6: Sort by score, then select schedules preferring *distinct course
+    # sets* so the options shown to the student differ in which courses they take,
+    # not merely in which section/CRN was picked. Section-variants of an already-
+    # chosen course set are deferred and only used to backfill if there aren't
+    # enough distinct course sets to reach max_candidates.
     valid_schedules.sort(key=lambda x: x[0], reverse=True)
 
-    # Deduplicate by CRN set
-    seen_crn_sets: list[frozenset[str]] = []
     top_schedules: list[ScheduleOption] = []
+    seen_crn_sets: set[frozenset[str]] = set()
+    seen_course_sets: set[frozenset[str]] = set()
+    deferred: list[tuple[float, list[Section], list[OutstandingRequirement]]] = []
 
-    for score, sections, reqs in valid_schedules:
-        crn_set = frozenset(s.crn for s in sections)
-        if crn_set in seen_crn_sets:
-            continue
-        seen_crn_sets.append(crn_set)
-
+    def _make_option(score: float, sections: list[Section], reqs: list[OutstandingRequirement]) -> ScheduleOption:
         metadata = _get_schedule_metadata(sections)
-        total_credits = sum(s.credits for s in sections)
-
-        option = ScheduleOption(
+        return ScheduleOption(
             rank=len(top_schedules) + 1,
             sections=sections,
             requirements_satisfied=[r.id for r in reqs],
-            total_credits=total_credits,
+            total_credits=sum(s.credits for s in sections),
             days_off=metadata["days_off"],
             earliest_class=metadata["earliest_class"],
             latest_class=metadata["latest_class"],
             score=score,
             explanation="",
         )
-        top_schedules.append(option)
 
-        if len(top_schedules) >= 3:
+    for score, sections, reqs in valid_schedules:
+        crn_set = frozenset(s.crn for s in sections)
+        if crn_set in seen_crn_sets:
+            continue
+        seen_crn_sets.add(crn_set)
+        course_set = frozenset(s.course_code for s in sections)
+        if course_set in seen_course_sets:
+            deferred.append((score, sections, reqs))
+            continue
+        seen_course_sets.add(course_set)
+        top_schedules.append(_make_option(score, sections, reqs))
+        if len(top_schedules) >= max_candidates:
             break
+
+    if len(top_schedules) < max_candidates:
+        for score, sections, reqs in deferred:
+            top_schedules.append(_make_option(score, sections, reqs))
+            if len(top_schedules) >= max_candidates:
+                break
 
     duration_ms = int((time.time() - start_time) * 1000)
     logger.info(

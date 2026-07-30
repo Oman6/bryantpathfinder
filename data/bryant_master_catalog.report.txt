@@ -1,0 +1,7 @@
+Bryant master catalog built 2026-04-27T18:33:47.737451
+  courses (total / active catalog / banner-only): 815 / 583 / 202
+  programs: 87 (18 majors, 38 minors, 31 concentrations)
+  faculty: 162 (86 matched to RMP)
+  sections indexed across 10 terms: 5588
+  unique instructors in sections data: 538
+  outputs: bryant_master_catalog.json, bryant_master_catalog.compact.json

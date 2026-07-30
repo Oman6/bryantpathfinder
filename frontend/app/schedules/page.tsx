@@ -11,6 +11,11 @@ import { AgentBadges } from "@/components/AgentBadges";
 import { NegotiationCard } from "@/components/NegotiationCard";
 import { ScheduleComparison } from "@/components/ScheduleComparison";
 import { Skeleton } from "@/components/ui/skeleton";
+import { WagePanel } from "@/components/WagePanel";
+import { WeatherStrip } from "@/components/WeatherStrip";
+import { DeadlinesPanel } from "@/components/DeadlinesPanel";
+import { AthleticsPanel } from "@/components/AthleticsPanel";
+import { EventsPanel } from "@/components/EventsPanel";
 
 export default function SchedulesPage() {
   const router = useRouter();
@@ -149,6 +154,21 @@ export default function SchedulesPage() {
             />
           </div>
         )}
+
+        {/* Wage outcomes panel */}
+        {audit.major && (
+          <div className="mt-6 animate-fade-up delay-150">
+            <WagePanel major={audit.major} />
+          </div>
+        )}
+
+        {/* Campus context: weather + deadlines + athletics + events */}
+        <div className="mt-4 grid gap-4 md:grid-cols-2 animate-fade-up delay-200">
+          <WeatherStrip />
+          <DeadlinesPanel />
+          <AthleticsPanel />
+          <EventsPanel />
+        </div>
 
         {/* Comparison table */}
         {schedules.length > 1 && (

@@ -59,28 +59,34 @@ def _analyze_professor(
     flags: list[str] = []
     match_score = 0
 
-    # Quality assessment
-    if quality >= 4.0:
+    # Below 5 ratings, RMP scores are noise — surface no flags. The solver
+    # already gives 0 weight to professors below this threshold.
+    has_signal = num_ratings >= 5
+
+    # Quality assessment (raised "low" floor to 2.5; was firing on average profs)
+    if has_signal and quality >= 4.0:
         match_score += 3
         flags.append("highly_rated")
-    elif quality < 2.5:
+    elif has_signal and quality < 2.5:
         match_score -= 3
         flags.append("low_rated")
 
     # Difficulty assessment
-    if difficulty >= 4.0:
+    if has_signal and difficulty >= 4.0:
         flags.append("very_challenging")
         match_score -= 1
-    elif difficulty <= 2.5:
+    elif has_signal and difficulty <= 2.5:
         flags.append("manageable_workload")
         match_score += 1
 
-    # Would take again
-    if wta >= 0:
+    # Would-take-again — require >=10 ratings before flagging on this signal,
+    # and tighten the "low approval" cutoff from 40% to 25%. RMP averages
+    # ~60% wta college-wide, so 40% was firing on average professors.
+    if num_ratings >= 10 and wta >= 0:
         if wta >= 80:
             match_score += 2
             flags.append("students_love")
-        elif wta < 40:
+        elif wta < 25:
             match_score -= 2
             flags.append("low_approval")
 

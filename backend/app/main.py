@@ -24,7 +24,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from pydantic import BaseModel as PydanticBaseModel
+from .banner_live import fetch_live_sections
 from .claude_client import explain_schedule, parse_audit_vision
+from .llm import provider_label
 from .models import (
     DegreeAudit,
     GenerateSchedulesRequest,
@@ -34,6 +36,7 @@ from .models import (
     ScheduleOption,
     Section,
 )
+from .refiner import refine
 from .solver import solve
 from .agents import orchestrator
 
@@ -67,23 +70,57 @@ def _rate_limit_check(ip: str) -> bool:
         return True
 
 
-@asynccontextmanager
-async def lifespan(app: FastAPI) -> AsyncGenerator[None]:
-    """Load sections.json once at startup, store in app.state."""
+def _upload_disabled() -> bool:
+    """Whether the audit upload/paste endpoints are disabled for this deployment.
+
+    These paths transmit FERPA-protected education records to a third-party LLM.
+    Set PATHFINDER_DISABLE_UPLOAD=1 to turn them off for a pilot that relies only
+    on the key-free MajorPicker path, which never sends student records anywhere.
+    """
+    return os.environ.get("PATHFINDER_DISABLE_UPLOAD") == "1"
+
+
+def _load_sections_from_disk() -> list[Section]:
     if not SECTIONS_PATH.exists():
         raise RuntimeError(f"sections.json not found at {SECTIONS_PATH}")
-
     raw = json.loads(SECTIONS_PATH.read_text(encoding="utf-8"))
-    sections_list = [Section(**s) for s in raw]
+    return [Section(**s) for s in raw]
 
+
+def _index_sections(sections_list: list[Section]) -> dict[str, list[Section]]:
     sections_by_code: dict[str, list[Section]] = {}
     for section in sections_list:
         sections_by_code.setdefault(section.course_code, []).append(section)
+    return sections_by_code
 
-    app.state.sections = sections_list
-    app.state.sections_by_code = sections_by_code
 
-    logger.info("Loaded %d sections from %s", len(sections_list), SECTIONS_PATH)
+def _set_app_sections(target: FastAPI, sections_list: list[Section], source: str) -> None:
+    target.state.sections = sections_list
+    target.state.sections_by_code = _index_sections(sections_list)
+    target.state.sections_source = source
+    logger.info("sections_loaded count=%d source=%s", len(sections_list), source)
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI) -> AsyncGenerator[None]:
+    """Refresh sections from Banner SSB on startup; fall back to the on-disk
+    snapshot if Banner is unreachable or the env var is set to skip.
+    """
+    skip_live = os.environ.get("PATHFINDER_SKIP_LIVE_FETCH") == "1"
+    sections_list: list[Section] | None = None
+    source = "disk"
+
+    if not skip_live:
+        try:
+            sections_list = fetch_live_sections()
+            source = "banner_live"
+        except Exception as e:
+            logger.warning("banner_live.startup_fetch_failed err=%s — falling back to disk", e)
+
+    if sections_list is None:
+        sections_list = _load_sections_from_disk()
+
+    _set_app_sections(app, sections_list, source)
     yield
 
 
@@ -98,6 +135,8 @@ _allowed_origins_env = os.environ.get("ALLOWED_ORIGINS", "")
 _allowed_origins = [o.strip() for o in _allowed_origins_env.split(",") if o.strip()] or [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "http://localhost:3001",
+    "http://127.0.0.1:3001",
 ]
 
 app.add_middleware(
@@ -141,12 +180,31 @@ async def global_exception_handler(request: Request, exc: Exception) -> JSONResp
 @app.get("/api/health", response_model=HealthResponse)
 async def health() -> HealthResponse:
     sections: list[Section] = app.state.sections
+    provider = provider_label()
+    if provider.startswith("groq"):
+        api_status = "configured" if os.environ.get("GROQ_API_KEY") else "missing_key"
+    else:
+        api_status = "configured" if os.environ.get("ANTHROPIC_API_KEY") else "missing_key"
     return HealthResponse(
         status="ok",
         sections_loaded=len(sections),
         term="Fall 2026",
-        anthropic_api="reachable",
+        anthropic_api=api_status,
+        sections_source=getattr(app.state, "sections_source", "disk"),
+        llm_provider=provider,
     )
+
+
+@app.post("/api/refresh-sections")
+async def refresh_sections() -> dict:
+    """Re-pull section data from Bryant Banner SSB. Updates seat counts in place."""
+    try:
+        sections_list = fetch_live_sections()
+    except Exception as e:
+        logger.warning("banner_live.refresh_failed err=%s", e)
+        raise HTTPException(status_code=502, detail=f"Banner unreachable: {e}")
+    _set_app_sections(app, sections_list, "banner_live")
+    return {"sections_loaded": len(sections_list), "source": "banner_live"}
 
 
 class ParseAuditTextRequest(PydanticBaseModel):
@@ -157,6 +215,8 @@ class ParseAuditTextRequest(PydanticBaseModel):
 async def parse_audit_text(request: ParseAuditTextRequest) -> DegreeAudit:
     """Parse a pasted text description of degree requirements using Claude."""
     from .claude_client import parse_audit_text as _parse_text
+    if _upload_disabled():
+        raise HTTPException(status_code=503, detail="Audit parsing is disabled for this deployment. Use the major picker instead.")
     if not request.text.strip():
         raise HTTPException(status_code=400, detail="Text is required.")
     if len(request.text) > MAX_AUDIT_TEXT_LEN:
@@ -172,6 +232,8 @@ async def parse_audit_text(request: ParseAuditTextRequest) -> DegreeAudit:
 
 @app.post("/api/parse-audit", response_model=DegreeAudit)
 async def parse_audit(request: ParseAuditRequest) -> DegreeAudit:
+    if _upload_disabled():
+        raise HTTPException(status_code=503, detail="Audit upload is disabled for this deployment. Use the major picker instead.")
     if not request.image_base64:
         raise HTTPException(status_code=400, detail="image_base64 is required.")
     if len(request.image_base64) > MAX_IMAGE_B64_LEN:
@@ -212,12 +274,18 @@ async def generate_schedules(request: GenerateSchedulesRequest) -> dict:
 
     start_time = time.time()
 
-    # Step 1: Run the solver
-    schedules = solve(
+    # Step 1: Run the solver — return a wide candidate pool for the refiner.
+    raw_candidates = solve(
         outstanding_requirements=audit.outstanding_requirements,
         all_sections=sections,
         preferences=preferences,
+        max_candidates=30,
     )
+
+    # Step 1b: Refiner — 5 critic agents re-rank candidates by quality
+    # (professor, seat safety, time-of-day, workload, variety) before
+    # any LLM sees them. Returns the top 3.
+    schedules = refine(raw_candidates, preferences, top_n=3)
 
     solver_duration_ms = int((time.time() - start_time) * 1000)
 

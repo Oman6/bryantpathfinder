@@ -1,6 +1,8 @@
 import { create } from "zustand";
 import type {
+  CourseMetadataMap,
   DegreeAudit,
+  FacultyLookup,
   GenerateSchedulesResponse,
   GradeDistributions,
   NegotiationData,
@@ -42,6 +44,12 @@ interface PathfinderState {
 
   gradeDistributions: GradeDistributions;
   setGradeDistributions: (data: GradeDistributions) => void;
+
+  courseMetadata: CourseMetadataMap;
+  setCourseMetadata: (data: CourseMetadataMap) => void;
+
+  facultyLookup: FacultyLookup;
+  setFacultyLookup: (data: FacultyLookup) => void;
 
   pinnedCrns: string[];
   togglePinnedCrn: (crn: string) => void;
@@ -94,6 +102,12 @@ export const useStore = create<PathfinderState>((set) => ({
 
   gradeDistributions: {},
   setGradeDistributions: (gradeDistributions) => set({ gradeDistributions }),
+
+  courseMetadata: {},
+  setCourseMetadata: (courseMetadata) => set({ courseMetadata }),
+
+  facultyLookup: {},
+  setFacultyLookup: (facultyLookup) => set({ facultyLookup }),
 
   pinnedCrns: [],
   togglePinnedCrn: (crn) =>
